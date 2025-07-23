@@ -1,0 +1,617 @@
+{
+  "@context": "https://schema.org",
+  "@type": "City",
+  "@id": "https://example-city.gov",
+  "name": "Example City",
+  "alternateName": ["City of Example", "Example Municipality"],
+  "description": "A vibrant community offering excellent services, rich history, and opportunities for residents and businesses.",
+  "url": "https://example-city.gov",
+  "sameAs": [
+    "https://facebook.com/examplecity",
+    "https://twitter.com/examplecity",
+    "https://instagram.com/examplecity"
+  ],
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://example-city.gov/images/city-logo.png",
+    "width": 300,
+    "height": 200
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://example-city.gov/images/city-skyline.jpg",
+    "caption": "Example City skyline"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 City Hall Drive",
+    "addressLocality": "Example City",
+    "addressRegion": "CA",
+    "postalCode": "90210",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  },
+  "telephone": "+1-555-CITY-GOV",
+  "email": "info@example-city.gov",
+  "foundingDate": "1950-03-15",
+  "population": 75000,
+  "areaServed": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    },
+    "geoRadius": "25000"
+  },
+  "timeZone": "America/Los_Angeles",
+  "containedInPlace": {
+    "@type": "AdministrativeArea",
+    "name": "California",
+    "@id": "https://www.california.gov"
+  },
+  "containsPlace": [
+    {
+      "@type": "Neighborhood",
+      "name": "Downtown District"
+    },
+    {
+      "@type": "Neighborhood", 
+      "name": "Riverside Heights"
+    },
+    {
+      "@type": "Park",
+      "name": "Central Park"
+    }
+  ],
+  "mayor": {
+    "@type": "Person",
+    "name": "Jane Smith",
+    "jobTitle": "Mayor",
+    "email": "mayor@example-city.gov",
+    "telephone": "+1-555-MAYOR-1",
+    "worksFor": {
+      "@type": "City",
+      "name": "Example City"
+    }
+  },
+  "employee": [
+    {
+      "@type": "Person",
+      "name": "John Doe",
+      "jobTitle": "City Manager",
+      "email": "manager@example-city.gov",
+      "telephone": "+1-555-MGR-001"
+    },
+    {
+      "@type": "Person", 
+      "name": "Maria Garcia",
+      "jobTitle": "Public Works Director",
+      "email": "publicworks@example-city.gov",
+      "telephone": "+1-555-PWD-001"
+    }
+  ],
+  "department": [
+    {
+      "@type": "GovernmentOrganization",
+      "name": "Public Works Department",
+      "description": "Responsible for city infrastructure, utilities, and maintenance",
+      "telephone": "+1-555-PWD-001",
+      "email": "publicworks@example-city.gov",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "456 Service Center Blvd",
+        "addressLocality": "Example City",
+        "addressRegion": "CA",
+        "postalCode": "90210"
+      }
+    },
+    {
+      "@type": "GovernmentOrganization",
+      "name": "Parks and Recreation Department",
+      "description": "Managing city parks, recreational facilities, and community programs",
+      "telephone": "+1-555-PARK-01",
+      "email": "parks@example-city.gov"
+    },
+    {
+      "@type": "GovernmentOrganization",
+      "name": "Planning Department",
+      "description": "City planning, zoning, and development services",
+      "telephone": "+1-555-PLAN-01",
+      "email": "planning@example-city.gov"
+    }
+  ],
+  "governmentService": [
+    {
+      "@type": "GovernmentService",
+      "name": "Business License Application",
+      "description": "Apply for and renew business licenses online",
+      "url": "https://example-city.gov/services/business-license",
+      "serviceType": "Business Services",
+      "provider": {
+        "@type": "City",
+        "name": "Example City"
+      }
+    },
+    {
+      "@type": "GovernmentService",
+      "name": "Building Permits",
+      "description": "Submit applications for building and construction permits",
+      "url": "https://example-city.gov/services/building-permits",
+      "serviceType": "Development Services"
+    },
+    {
+      "@type": "GovernmentService",
+      "name": "Utility Bill Payment",
+      "description": "Pay water, sewer, and trash bills online",
+      "url": "https://example-city.gov/services/utility-billing",
+      "serviceType": "Utility Services"
+    },
+    {
+      "@type": "GovernmentService",
+      "name": "Park Facility Rental",
+      "description": "Reserve parks and community facilities for events",
+      "url": "https://example-city.gov/services/facility-rental",
+      "serviceType": "Recreation Services"
+    }
+  ],
+  "event": [
+    {
+      "@type": "Event",
+      "name": "City Council Meeting",
+      "description": "Regular monthly city council meeting open to the public",
+      "startDate": "2025-08-05T19:00:00-08:00",
+      "endDate": "2025-08-05T21:00:00-08:00",
+      "location": {
+        "@type": "Place",
+        "name": "City Hall Council Chambers",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 City Hall Drive",
+          "addressLocality": "Example City",
+          "addressRegion": "CA",
+          "postalCode": "90210"
+        }
+      },
+      "organizer": {
+        "@type": "City",
+        "name": "Example City"
+      }
+    },
+    {
+      "@type": "Event",
+      "name": "Summer Concert Series",
+      "description": "Free outdoor concerts in Central Park every Friday evening",
+      "startDate": "2025-07-25T18:00:00-08:00",
+      "endDate": "2025-07-25T21:00:00-08:00",
+      "location": {
+        "@type": "Park",
+        "name": "Central Park Amphitheater"
+      }
+    }
+  ],
+  "news": [
+    {
+      "@type": "NewsArticle",
+      "headline": "New Community Center Opens Downtown",
+      "datePublished": "2025-07-20",
+      "author": {
+        "@type": "Organization",
+        "name": "Example City Communications"
+      },
+      "publisher": {
+        "@type": "City",
+        "name": "Example City"
+      },
+      "url": "https://example-city.gov/news/community-center-opens"
+    }
+  ],
+  "publicAccess": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday", 
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "opens": "08:00",
+    "closes": "17:00"
+  },
+  "hasMap": "https://example-city.gov/city-map",
+  "smokingAllowed": false,
+  "isAccessibleForFree": true,
+  "knowsAbout": [
+    "Municipal Services",
+    "City Planning",
+    "Public Safety",
+    "Parks and Recreation",
+    "Business Development",
+    "Community Events"
+  ],
+  "parentOrganization": {
+    "@type": "AdministrativeArea",
+    "name": "State of California"
+  },
+  "subOrganization": [
+    {
+      "@type": "GovernmentOrganization",
+      "name": "Example City Police Department",
+      "telephone": "911",
+      "email": "police@example-city.gov"
+    },
+    {
+      "@type": "GovernmentOrganization", 
+      "name": "Example City Fire Department",
+      "telephone": "911",
+      "email": "fire@example-city.gov"
+    }
+  ],
+  "committee": [
+    {
+      "@type": "GovernmentOrganization",
+      "name": "Planning Commission",
+      "description": "Reviews and makes recommendations on planning and zoning matters",
+      "email": "planning-commission@example-city.gov",
+      "url": "https://example-city.gov/committees/planning-commission",
+      "member": [
+        {
+          "@type": "Person",
+          "name": "Robert Johnson",
+          "jobTitle": "Planning Commission Chair"
+        },
+        {
+          "@type": "Person",
+          "name": "Susan Williams",
+          "jobTitle": "Planning Commission Vice Chair"
+        }
+      ],
+      "meetingSchedule": "Second Wednesday of each month at 7:00 PM",
+      "parentOrganization": {
+        "@type": "City",
+        "name": "Example City"
+      }
+    },
+    {
+      "@type": "GovernmentOrganization",
+      "name": "Parks and Recreation Advisory Committee",
+      "description": "Advises the City Council on parks, recreation programs, and facilities",
+      "email": "parks-committee@example-city.gov",
+      "url": "https://example-city.gov/committees/parks-recreation",
+      "member": [
+        {
+          "@type": "Person",
+          "name": "Michael Chen",
+          "jobTitle": "Committee Chair"
+        },
+        {
+          "@type": "Person",
+          "name": "Lisa Rodriguez",
+          "jobTitle": "Committee Member"
+        }
+      ],
+      "meetingSchedule": "Third Thursday of each month at 6:30 PM"
+    },
+    {
+      "@type": "GovernmentOrganization",
+      "name": "Economic Development Committee",
+      "description": "Focuses on business attraction, retention, and economic growth strategies",
+      "email": "economic-dev@example-city.gov",
+      "url": "https://example-city.gov/committees/economic-development",
+      "member": [
+        {
+          "@type": "Person",
+          "name": "David Thompson",
+          "jobTitle": "Committee Chair"
+        }
+      ],
+      "meetingSchedule": "First Tuesday of each month at 5:00 PM"
+    },
+    {
+      "@type": "GovernmentOrganization",
+      "name": "Historic Preservation Commission",
+      "description": "Reviews proposals affecting historic properties and districts",
+      "email": "historic-preservation@example-city.gov",
+      "url": "https://example-city.gov/committees/historic-preservation",
+      "member": [
+        {
+          "@type": "Person",
+          "name": "Patricia Adams",
+          "jobTitle": "Commission Chair"
+        }
+      ],
+      "meetingSchedule": "Fourth Monday of each month at 7:00 PM"
+    },
+    {
+      "@type": "GovernmentOrganization",
+      "name": "Public Safety Committee",
+      "description": "Reviews public safety policies and community safety initiatives",
+      "email": "public-safety-committee@example-city.gov",
+      "url": "https://example-city.gov/committees/public-safety",
+      "member": [
+        {
+          "@type": "Person",
+          "name": "James Martinez",
+          "jobTitle": "Committee Chair"
+        }
+      ],
+      "meetingSchedule": "Second Monday of each month at 6:00 PM"
+    },
+    {
+      "@type": "GovernmentOrganization",
+      "name": "Budget and Finance Committee",
+      "description": "Reviews city budget proposals and financial policies",
+      "email": "budget-committee@example-city.gov",
+      "url": "https://example-city.gov/committees/budget-finance",
+      "member": [
+        {
+          "@type": "Person",
+          "name": "Jennifer Lee",
+          "jobTitle": "Committee Chair"
+        }
+      ],
+      "meetingSchedule": "First and third Wednesday of each month at 7:00 PM"
+    }
+  ],
+  "legislation": {
+    "@type": "Legislation",
+    "name": "Example City Municipal Code",
+    "description": "Complete municipal code containing all city ordinances, regulations, and local laws",
+    "url": "https://example-city.gov/municipal-code",
+    "dateModified": "2025-07-15",
+    "legislationType": "Municipal Code",
+    "jurisdiction": {
+      "@type": "City",
+      "name": "Example City"
+    },
+    "hasPart": [
+      {
+        "@type": "Legislation",
+        "name": "Title 1 - General Provisions",
+        "description": "General provisions, definitions, and administrative procedures",
+        "url": "https://example-city.gov/municipal-code/title-1",
+        "legislationIdentifier": "Title 1",
+        "hasPart": [
+          {
+            "@type": "Legislation", 
+            "name": "Chapter 1.04 - General Penalty",
+            "description": "General penalty provisions for municipal code violations",
+            "url": "https://example-city.gov/municipal-code/title-1/chapter-1-04",
+            "legislationIdentifier": "1.04"
+          },
+          {
+            "@type": "Legislation",
+            "name": "Chapter 1.08 - Administrative Citations", 
+            "description": "Administrative citation procedures and penalties",
+            "url": "https://example-city.gov/municipal-code/title-1/chapter-1-08",
+            "legislationIdentifier": "1.08"
+          }
+        ]
+      },
+      {
+        "@type": "Legislation",
+        "name": "Title 2 - Administration and Personnel",
+        "description": "City administration, personnel policies, and governmental procedures",
+        "url": "https://example-city.gov/municipal-code/title-2",
+        "legislationIdentifier": "Title 2",
+        "hasPart": [
+          {
+            "@type": "Legislation",
+            "name": "Chapter 2.04 - City Council",
+            "description": "City Council organization, meetings, and procedures",
+            "url": "https://example-city.gov/municipal-code/title-2/chapter-2-04",
+            "legislationIdentifier": "2.04"
+          },
+          {
+            "@type": "Legislation",
+            "name": "Chapter 2.12 - City Manager",
+            "description": "City Manager duties, responsibilities, and authority",
+            "url": "https://example-city.gov/municipal-code/title-2/chapter-2-12",
+            "legislationIdentifier": "2.12"
+          }
+        ]
+      },
+      {
+        "@type": "Legislation",
+        "name": "Title 5 - Business Licenses and Regulations",
+        "description": "Business licensing requirements and commercial regulations",
+        "url": "https://example-city.gov/municipal-code/title-5",
+        "legislationIdentifier": "Title 5",
+        "hasPart": [
+          {
+            "@type": "Legislation",
+            "name": "Chapter 5.04 - Business License Requirements",
+            "description": "General business license requirements and procedures",
+            "url": "https://example-city.gov/municipal-code/title-5/chapter-5-04",
+            "legislationIdentifier": "5.04"
+          },
+          {
+            "@type": "Legislation",
+            "name": "Chapter 5.20 - Massage Establishments",
+            "description": "Regulations for massage therapy businesses",
+            "url": "https://example-city.gov/municipal-code/title-5/chapter-5-20",
+            "legislationIdentifier": "5.20"
+          }
+        ]
+      },
+      {
+        "@type": "Legislation",
+        "name": "Title 8 - Health and Safety",
+        "description": "Public health, safety regulations, and nuisance abatement",
+        "url": "https://example-city.gov/municipal-code/title-8",
+        "legislationIdentifier": "Title 8",
+        "hasPart": [
+          {
+            "@type": "Legislation",
+            "name": "Chapter 8.12 - Noise Control",
+            "description": "Noise regulations and quiet hours enforcement",
+            "url": "https://example-city.gov/municipal-code/title-8/chapter-8-12",
+            "legislationIdentifier": "8.12"
+          },
+          {
+            "@type": "Legislation",
+            "name": "Chapter 8.16 - Public Nuisances",
+            "description": "Definition and abatement of public nuisances",
+            "url": "https://example-city.gov/municipal-code/title-8/chapter-8-16",
+            "legislationIdentifier": "8.16"
+          }
+        ]
+      },
+      {
+        "@type": "Legislation",
+        "name": "Title 17 - Zoning",
+        "description": "Zoning districts, land use regulations, and development standards",
+        "url": "https://example-city.gov/municipal-code/title-17",
+        "legislationIdentifier": "Title 17",
+        "hasPart": [
+          {
+            "@type": "Legislation",
+            "name": "Chapter 17.04 - Zoning Districts",
+            "description": "Establishment and regulations of zoning districts",
+            "url": "https://example-city.gov/municipal-code/title-17/chapter-17-04",
+            "legislationIdentifier": "17.04"
+          },
+          {
+            "@type": "Legislation",
+            "name": "Chapter 17.20 - Residential Zones",
+            "description": "Single-family and multi-family residential zone regulations",
+            "url": "https://example-city.gov/municipal-code/title-17/chapter-17-20",
+            "legislationIdentifier": "17.20"
+          },
+          {
+            "@type": "Legislation",
+            "name": "Chapter 17.40 - Commercial Zones",
+            "description": "Commercial and mixed-use zone regulations",
+            "url": "https://example-city.gov/municipal-code/title-17/chapter-17-40",
+            "legislationIdentifier": "17.40"
+          }
+        ]
+      }
+    ]
+  },
+  "ordinances": [
+    {
+      "@type": "Legislation",
+      "name": "Ordinance No. 2025-15",
+      "description": "An ordinance establishing water conservation measures during drought conditions",
+      "url": "https://example-city.gov/ordinances/2025-15",
+      "dateCreated": "2025-06-15",
+      "dateModified": "2025-06-15",
+      "datePublished": "2025-06-20",
+      "legislationDate": "2025-06-15",
+      "legislationStatus": "Active",
+      "legislationType": "Ordinance",
+      "legislationIdentifier": "2025-15",
+      "legislationLegalValue": "Enforceable",
+      "jurisdiction": {
+        "@type": "City",
+        "name": "Example City"
+      },
+      "legislationPassedBy": {
+        "@type": "GovernmentOrganization",
+        "name": "Example City Council"
+      },
+      "about": ["Water Conservation", "Drought Management", "Emergency Measures"]
+    },
+    {
+      "@type": "Legislation",
+      "name": "Ordinance No. 2025-12",
+      "description": "An ordinance amending parking regulations in the downtown commercial district",
+      "url": "https://example-city.gov/ordinances/2025-12",
+      "dateCreated": "2025-05-01",
+      "dateModified": "2025-05-01", 
+      "datePublished": "2025-05-05",
+      "legislationDate": "2025-05-01",
+      "legislationStatus": "Active",
+      "legislationType": "Ordinance",
+      "legislationIdentifier": "2025-12",
+      "legislationLegalValue": "Enforceable",
+      "supersedes": {
+        "@type": "Legislation",
+        "name": "Ordinance No. 2020-08",
+        "legislationIdentifier": "2020-08"
+      },
+      "about": ["Parking Regulations", "Downtown Development", "Traffic Management"]
+    },
+    {
+      "@type": "Legislation",
+      "name": "Ordinance No. 2024-45",
+      "description": "An ordinance establishing regulations for short-term rental properties",
+      "url": "https://example-city.gov/ordinances/2024-45",
+      "dateCreated": "2024-11-15",
+      "legislationDate": "2024-11-15",
+      "legislationStatus": "Active",
+      "legislationType": "Ordinance",
+      "legislationIdentifier": "2024-45",
+      "legislationLegalValue": "Enforceable",
+      "about": ["Short-term Rentals", "Housing Policy", "Business Regulations"]
+    }
+  ],
+  "resolutions": [
+    {
+      "@type": "CreativeWork",
+      "name": "Resolution No. 2025-22",
+      "description": "A resolution supporting regional transportation improvement initiatives",
+      "url": "https://example-city.gov/resolutions/2025-22",
+      "dateCreated": "2025-07-10",
+      "datePublished": "2025-07-12",
+      "author": {
+        "@type": "GovernmentOrganization",
+        "name": "Example City Council"
+      },
+      "publisher": {
+        "@type": "City",
+        "name": "Example City"
+      },
+      "about": ["Transportation", "Regional Cooperation", "Infrastructure"]
+    }
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "City Charter",
+      "value": "https://example-city.gov/documents/city-charter.pdf"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Municipal Code Search",
+      "value": "https://example-city.gov/municipal-code/search"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Code Amendment Process",
+      "value": "https://example-city.gov/government/code-amendments"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Budget Document",
+      "value": "https://example-city.gov/documents/annual-budget.pdf"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Ordinance Archive",
+      "value": "https://example-city.gov/ordinances/archive"
+    }
+  ],
+  "potentialAction": [
+    {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://example-city.gov/search?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    },
+    {
+      "@type": "ContactAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://example-city.gov/contact"
+      }
+    }
+  ]
+}
