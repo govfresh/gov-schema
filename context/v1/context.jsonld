@@ -1007,6 +1007,57 @@
     "sourceReferenceSystem": "gs:sourceReferenceSystem",
     "simplified": "gs:simplified",
     "vertexCount": "gs:vertexCount",
-    "authoritative": "gs:authoritative"
+    "authoritative": "gs:authoritative",
+    "ServiceAtLocation": "gs:ServiceAtLocation",
+    "RequiredDocument": "gs:RequiredDocument",
+    "ServiceCost": "gs:ServiceCost",
+    "PeopleAudience": "schema:PeopleAudience",
+    "serviceStatus": {
+      "@id": "gs:serviceStatus",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/svcstatus/"
+      }
+    },
+    "lifeEvent": {
+      "@id": "gs:lifeEvent",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/lifeevent/"
+      }
+    },
+    "eligibility": {
+      "@id": "gs:eligibility"
+    },
+    "eligibilityCriteria": "gs:eligibilityCriteria",
+    "applicationProcess": "gs:applicationProcess",
+    "requiredDocument": {
+      "@id": "gs:requiredDocument",
+      "@container": "@set"
+    },
+    "cost": {
+      "@id": "gs:cost"
+    },
+    "free": "gs:free",
+    "waiverAvailable": "gs:waiverAvailable",
+    "availableAtLocation": {
+      "@id": "gs:availableAtLocation",
+      "@container": "@set"
+    },
+    "appointmentRequired": "gs:appointmentRequired",
+    "interpretationAvailable": "gs:interpretationAvailable",
+    "accessibilityNote": "gs:accessibilityNote",
+    "requiredMinAge": "schema:requiredMinAge",
+    "requiredMaxAge": "schema:requiredMaxAge",
+    "geographicArea": {
+      "@id": "schema:geographicArea",
+      "@type": "@id"
+    },
+    "audienceType": "schema:audienceType",
+    "optional": "gs:optional",
+    "openingHoursSpecification": {
+      "@id": "schema:openingHoursSpecification",
+      "@container": "@set"
+    }
   }
 }

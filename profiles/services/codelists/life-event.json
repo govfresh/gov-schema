@@ -1,0 +1,148 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@id": "https://schema.govfresh.com/v1/LifeEvent",
+  "@type": "DefinedTermSet",
+  "name": "Life event",
+  "description": "The circumstances a service relates to. People look for government services by what is happening to them - having a baby, losing a job, moving home - not by the department that happens to run them, which is why the EU Single Digital Gateway organises services this way. Deliberately coarse and universal: the department that issues a birth certificate differs everywhere, the fact of a birth does not.",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:lifeevent/birth",
+      "termCode": "birth",
+      "name": "Birth",
+      "description": "Registering a birth, parental leave, child benefits."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:lifeevent/death",
+      "termCode": "death",
+      "name": "Death",
+      "description": "Registering a death, probate, bereavement support."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:lifeevent/education",
+      "termCode": "education",
+      "name": "Education",
+      "description": "School admission, further and higher education, student support."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:lifeevent/employment",
+      "termCode": "employment",
+      "name": "Employment",
+      "description": "Starting work, employment rights, workplace regulation."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:lifeevent/unemployment",
+      "termCode": "unemployment",
+      "name": "Unemployment",
+      "description": "Jobseeking, income support, retraining."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:lifeevent/housing",
+      "termCode": "housing",
+      "name": "Housing",
+      "description": "Social housing, homelessness support, tenancy."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:lifeevent/moving",
+      "termCode": "moving",
+      "name": "Moving home",
+      "description": "Changing address, local registration, utilities."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:lifeevent/marriage",
+      "termCode": "marriage",
+      "name": "Marriage or partnership",
+      "description": "Registering, dissolving, name changes."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:lifeevent/family",
+      "termCode": "family",
+      "name": "Family",
+      "description": "Childcare, adoption, care responsibilities."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:lifeevent/health",
+      "termCode": "health",
+      "name": "Health",
+      "description": "Registering with services, entitlements, records."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:lifeevent/disability",
+      "termCode": "disability",
+      "name": "Disability",
+      "description": "Assessments, adaptations, support payments."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:lifeevent/retirement",
+      "termCode": "retirement",
+      "name": "Retirement",
+      "description": "Pensions, concessions, later-life support."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:lifeevent/business",
+      "termCode": "business",
+      "name": "Business",
+      "description": "Registration, licensing, premises, trading."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:lifeevent/vehicle",
+      "termCode": "vehicle",
+      "name": "Vehicle and driving",
+      "description": "Licensing, registration, parking."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:lifeevent/tax",
+      "termCode": "tax",
+      "name": "Tax",
+      "description": "Assessment, payment, relief."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:lifeevent/benefits",
+      "termCode": "benefits",
+      "name": "Benefits and support",
+      "description": "Income and means-tested support."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:lifeevent/immigration",
+      "termCode": "immigration",
+      "name": "Immigration and residence",
+      "description": "Residence, citizenship, documentation."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:lifeevent/justice",
+      "termCode": "justice",
+      "name": "Justice",
+      "description": "Courts, legal aid, complaints and appeals."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:lifeevent/environment",
+      "termCode": "environment",
+      "name": "Environment",
+      "description": "Waste, recycling, pollution, land."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:lifeevent/other",
+      "termCode": "other",
+      "name": "Other"
+    }
+  ]
+}

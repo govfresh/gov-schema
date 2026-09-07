@@ -1,0 +1,239 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/services/service.schema.json",
+  "title": "Service",
+  "description": "A service a resident can obtain from government: a birth certificate, a business registration, housing support, a parking permit. The requests profile covers reporting a problem; this covers finding and using a service, which is the most common thing anyone asks a government website. Mirrors Open Referral / HSDS, which remains the source model. This is the fuller definition of schema:GovernmentService; requests/service.schema.json describes the same type at the depth Open311 needs, and a publisher serving both should use this one.",
+  "type": "object",
+  "properties": {
+    "@context": {},
+    "@id": {
+      "type": "string",
+      "format": "iri"
+    },
+    "@type": {
+      "const": "GovernmentService"
+    },
+    "name": {
+      "type": "string"
+    },
+    "alternateName": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "description": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "format": "iri"
+    },
+    "identifier": {
+      "type": "array",
+      "items": {
+        "$ref": "../_core/identifier.schema.json"
+      }
+    },
+    "serviceCode": {
+      "type": "string",
+      "description": "The publisher's own code. Shared with the requests profile."
+    },
+    "serviceType": {
+      "type": "string",
+      "description": "The publisher's grouping."
+    },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "provider": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The GovernmentOrganization providing it."
+    },
+    "areaServed": {
+      "$ref": "../_core/reference.schema.json"
+    },
+    "serviceStatus": {
+      "type": "string",
+      "description": "Whether the service is currently available. HSDS distinguishes defunct from temporarily closed because a resident needs to know whether to come back. Optional at Core conformance, because Open311 service catalogues carry no status field and requiring it would make them unrepresentable. Required at Standard: a service listing that cannot say whether the service still exists is of limited use.",
+      "enum": [
+        "active",
+        "temporarilyClosed",
+        "inactive",
+        "defunct"
+      ]
+    },
+    "lifeEvent": {
+      "type": "array",
+      "description": "The life events this service relates to. People look for services by circumstance - having a baby, losing a job, moving home - not by the department that happens to run them, which is why the EU Single Digital Gateway organises services this way.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "birth",
+          "death",
+          "education",
+          "employment",
+          "unemployment",
+          "housing",
+          "moving",
+          "marriage",
+          "family",
+          "health",
+          "disability",
+          "retirement",
+          "business",
+          "vehicle",
+          "tax",
+          "benefits",
+          "immigration",
+          "justice",
+          "environment",
+          "other"
+        ]
+      }
+    },
+    "eligibility": {
+      "type": "object",
+      "description": "Who may use the service. schema:PeopleAudience already carries age and geography; the free-text criterion carries what a structured audience cannot express.",
+      "properties": {
+        "@type": {
+          "const": "PeopleAudience"
+        },
+        "audienceType": {
+          "type": "string"
+        },
+        "requiredMinAge": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "requiredMaxAge": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "geographicArea": {
+          "$ref": "../_core/reference.schema.json"
+        },
+        "eligibilityCriteria": {
+          "type": "string",
+          "description": "Conditions no structured field captures - residency, income, tenure, immigration status."
+        }
+      },
+      "additionalProperties": true
+    },
+    "applicationProcess": {
+      "type": "string",
+      "description": "How to apply, in plain language. HSDS treats this as central and it is what residents actually need; a service described without it is a listing rather than a route to anything."
+    },
+    "requiredDocument": {
+      "type": "array",
+      "description": "What an applicant must bring or supply. The single most common reason an application fails at the counter.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "@type": {
+            "const": "RequiredDocument"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "optional": {
+            "type": "boolean",
+            "description": "True where an alternative is accepted."
+          }
+        },
+        "required": [
+          "@type",
+          "name"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "cost": {
+      "type": "object",
+      "description": "What it costs. A free service must say so explicitly rather than omitting the field, because absence reads as unknown.",
+      "properties": {
+        "@type": {
+          "const": "ServiceCost"
+        },
+        "free": {
+          "type": "boolean"
+        },
+        "amount": {
+          "$ref": "../budget/amount.schema.json"
+        },
+        "description": {
+          "type": "string"
+        },
+        "waiverAvailable": {
+          "type": "boolean",
+          "description": "Whether a fee waiver or reduction exists. Publishing the fee without the waiver deters exactly the people the waiver is for."
+        }
+      },
+      "additionalProperties": false
+    },
+    "processingTime": {
+      "type": "string",
+      "description": "Expected time to completion, as an ISO 8601 duration."
+    },
+    "availableChannel": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "description": "schema:ServiceChannel - online, phone, in person, post."
+    },
+    "availableAtLocation": {
+      "type": "array",
+      "items": {
+        "$ref": "service-at-location.schema.json"
+      },
+      "description": "Where the service is delivered in person, and when. HSDS keeps this as a separate join because a service and a location are independent things with a many-to-many relationship."
+    },
+    "availableLanguage": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "BCP 47 tags."
+    },
+    "interpretationAvailable": {
+      "type": "boolean",
+      "description": "Whether interpretation is offered for languages not listed."
+    },
+    "accessibilityNote": {
+      "type": "string"
+    },
+    "relatedLegislation": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The provision the service is delivered under."
+    },
+    "dateModified": {
+      "type": "string",
+      "anyOf": [
+        {
+          "format": "date"
+        },
+        {
+          "format": "date-time"
+        }
+      ]
+    },
+    "sourceDataset": {
+      "type": "string",
+      "format": "iri"
+    }
+  },
+  "required": [
+    "@id",
+    "@type",
+    "name",
+    "provider"
+  ],
+  "additionalProperties": true
+}

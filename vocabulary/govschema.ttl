@@ -928,3 +928,90 @@ gs:authoritative a rdf:Property ;
     schema:domainIncludes gs:Boundary ;
     schema:rangeIncludes schema:Boolean .
 
+
+#################  services profile  #################
+
+gs:ServiceAtLocation a rdfs:Class ;
+    rdfs:label "Service at location" ;
+    rdfs:comment "One service delivered at one place, with the hours that apply there. Modelled as a join rather than a field on either side, following HSDS: a service and a location are independent, one office delivers many services, one service runs from many offices, and opening hours belong to the pairing." ;
+    rdfs:subClassOf schema:Intangible .
+
+gs:RequiredDocument a rdfs:Class ;
+    rdfs:label "Required document" ;
+    rdfs:comment "Something an applicant must bring or supply. The most common reason an application fails at the counter." ;
+    rdfs:subClassOf schema:Intangible .
+
+gs:ServiceCost a rdfs:Class ;
+    rdfs:label "Service cost" ;
+    rdfs:comment "What a service costs. A free service says so explicitly rather than omitting the field, because absence reads as unknown." ;
+    rdfs:subClassOf schema:StructuredValue .
+
+gs:serviceStatus a rdf:Property ;
+    rdfs:label "service status" ;
+    rdfs:comment "Whether a service is currently delivered. Defunct is distinguished from temporarily closed because a resident needs to know whether coming back later is worth it." ;
+    schema:domainIncludes schema:GovernmentService ;
+    schema:rangeIncludes schema:DefinedTerm .
+
+gs:lifeEvent a rdf:Property ;
+    rdfs:label "life event" ;
+    rdfs:comment "The circumstance a service relates to. People look for services by what is happening to them rather than by the department that runs them; the department that issues a birth certificate differs everywhere, the fact of a birth does not." ;
+    schema:domainIncludes schema:GovernmentService ;
+    schema:rangeIncludes schema:DefinedTerm .
+
+gs:eligibility a rdf:Property ;
+    rdfs:label "eligibility" ;
+    rdfs:comment "Who may use a service. schema:PeopleAudience carries age and geography; eligibilityCriteria carries what a structured audience cannot express." ;
+    schema:domainIncludes schema:GovernmentService ;
+    schema:rangeIncludes schema:PeopleAudience .
+
+gs:eligibilityCriteria a rdf:Property ;
+    rdfs:label "eligibility criteria" ;
+    schema:domainIncludes schema:PeopleAudience ; schema:rangeIncludes schema:Text ;
+    rdfs:comment "Conditions no structured field captures: residency, income, tenure, immigration status." .
+
+gs:applicationProcess a rdf:Property ;
+    rdfs:label "application process" ;
+    rdfs:comment "How to apply, in plain language. A service described without it is a listing rather than a route to anything." ;
+    schema:domainIncludes schema:GovernmentService ;
+    schema:rangeIncludes schema:Text .
+
+gs:requiredDocument a rdf:Property ;
+    rdfs:label "required document" ;
+    schema:domainIncludes schema:GovernmentService ; schema:rangeIncludes gs:RequiredDocument ;
+    rdfs:label "required document" .
+
+gs:cost a rdf:Property ;
+    rdfs:label "cost" ;
+    schema:domainIncludes schema:GovernmentService ; schema:rangeIncludes gs:ServiceCost .
+
+gs:waiverAvailable a rdf:Property ;
+    rdfs:label "waiver available" ;
+    rdfs:comment "Whether a fee waiver or reduction exists. Publishing a fee without the waiver deters exactly the people the waiver is for." ;
+    schema:domainIncludes gs:ServiceCost ;
+    schema:rangeIncludes schema:Boolean .
+
+gs:availableAtLocation a rdf:Property ;
+    rdfs:label "available at location" ;
+    schema:domainIncludes schema:GovernmentService ; schema:rangeIncludes gs:ServiceAtLocation .
+
+gs:appointmentRequired a rdf:Property ;
+    rdfs:label "appointment required" ;
+    schema:domainIncludes gs:ServiceAtLocation ; schema:rangeIncludes schema:Boolean .
+
+gs:interpretationAvailable a rdf:Property ;
+    rdfs:label "interpretation available" ;
+    rdfs:comment "Whether interpretation is offered for languages not listed in availableLanguage." ;
+    schema:domainIncludes schema:GovernmentService ;
+    schema:rangeIncludes schema:Boolean .
+
+gs:accessibilityNote a rdf:Property ;
+    rdfs:label "accessibility note" ;
+    schema:domainIncludes schema:GovernmentService ; schema:rangeIncludes schema:Text .
+
+gs:ServiceStatus a schema:DefinedTermSet ; schema:name "Service status" .
+gs:LifeEvent a schema:DefinedTermSet ; schema:name "Life event" .
+
+gs:free a rdf:Property ; schema:domainIncludes gs:ServiceCost ; schema:rangeIncludes schema:Boolean ;
+    rdfs:label "free" ; rdfs:comment "Whether the service is free. Stated explicitly, because an absent cost reads as unknown rather than as nil." .
+gs:optional a rdf:Property ; schema:domainIncludes gs:RequiredDocument ; schema:rangeIncludes schema:Boolean ;
+    rdfs:label "optional" ; rdfs:comment "True where an alternative document is accepted." .

@@ -1,0 +1,213 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://example-city.gov/id/service/birth-certificate",
+      "@type": "GovernmentService",
+      "name": "Order a copy of a birth certificate",
+      "alternateName": [
+        "Birth record request"
+      ],
+      "description": "Order a certified copy of a birth registered in Example City.",
+      "url": "https://example-city.gov/services/birth-certificate",
+      "serviceCode": "VIT-001",
+      "serviceType": "Vital records",
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "birth",
+        "family"
+      ],
+      "keywords": [
+        "birth certificate",
+        "vital records",
+        "certified copy"
+      ],
+      "provider": {
+        "@id": "https://example-city.gov/id/organization/city-government",
+        "name": "Example City Government"
+      },
+      "areaServed": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city",
+        "name": "Example City"
+      },
+      "eligibility": {
+        "@type": "PeopleAudience",
+        "audienceType": "The person named on the record, a parent, a legal guardian, or a legal representative",
+        "requiredMinAge": 18,
+        "geographicArea": {
+          "@id": "https://example-city.gov/id/jurisdiction/example-city"
+        },
+        "eligibilityCriteria": "Applicants under 18 may apply with a parent or guardian co-signing. Proof of relationship is required for third-party applicants."
+      },
+      "applicationProcess": "Apply online, by post, or in person at City Hall. Online applications are processed first. Postal applications must include a photocopy of identification; do not send original documents.",
+      "requiredDocument": [
+        {
+          "@type": "RequiredDocument",
+          "name": "Photo identification",
+          "description": "Driver's licence, passport or state ID card."
+        },
+        {
+          "@type": "RequiredDocument",
+          "name": "Proof of relationship",
+          "description": "Required only where the applicant is not the person named on the record.",
+          "optional": true
+        }
+      ],
+      "cost": {
+        "@type": "ServiceCost",
+        "free": false,
+        "amount": {
+          "@type": "MonetaryAmount",
+          "value": 25,
+          "currency": "USD"
+        },
+        "description": "$25 for the first copy, $8 for each additional copy ordered at the same time.",
+        "waiverAvailable": true
+      },
+      "processingTime": "P10D",
+      "availableLanguage": [
+        "en-US",
+        "es-US"
+      ],
+      "interpretationAvailable": true,
+      "accessibilityNote": "City Hall counters are step-free. Induction loops are available at counters 1 to 4.",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://example-city.gov/services/birth-certificate/apply",
+          "servicePhone": {
+            "@type": "ContactPoint",
+            "telephone": "+1-555-0142"
+          },
+          "processingTime": "P10D",
+          "availableLanguage": [
+            "en-US",
+            "es-US"
+          ]
+        }
+      ],
+      "availableAtLocation": [
+        {
+          "@type": "ServiceAtLocation",
+          "@id": "https://example-city.gov/id/service-at-location/birth-certificate-city-hall",
+          "location": {
+            "@id": "https://example-city.gov/id/facility/city-hall",
+            "name": "Example City Hall"
+          },
+          "appointmentRequired": false,
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "opens": "09:00",
+              "closes": "16:00"
+            }
+          ],
+          "availableLanguage": [
+            "en-US",
+            "es-US"
+          ]
+        }
+      ],
+      "dateModified": "2026-08-14"
+    },
+    {
+      "@id": "https://example-city.gov/id/service/business-registration",
+      "@type": "GovernmentService",
+      "name": "Register a business",
+      "description": "Register a new business operating within the city and obtain a business licence.",
+      "serviceCode": "BUS-001",
+      "serviceType": "Business",
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "business",
+        "employment"
+      ],
+      "provider": {
+        "@id": "https://example-city.gov/id/organization/city-government"
+      },
+      "areaServed": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city"
+      },
+      "eligibility": {
+        "@type": "PeopleAudience",
+        "requiredMinAge": 18,
+        "eligibilityCriteria": "The business must have a physical or registered address within the city."
+      },
+      "applicationProcess": "Complete the online registration, then pay the licence fee. A licence is issued within five working days of payment clearing.",
+      "requiredDocument": [
+        {
+          "@type": "RequiredDocument",
+          "name": "Proof of business address"
+        },
+        {
+          "@type": "RequiredDocument",
+          "name": "Federal tax identification number"
+        }
+      ],
+      "cost": {
+        "@type": "ServiceCost",
+        "free": false,
+        "amount": {
+          "@type": "MonetaryAmount",
+          "value": 310,
+          "currency": "USD"
+        },
+        "description": "Annual licence fee, prorated for registrations after 1 July.",
+        "waiverAvailable": false
+      },
+      "processingTime": "P5D",
+      "availableLanguage": [
+        "en-US",
+        "es-US"
+      ],
+      "relatedLegislation": {
+        "@id": "https://example-city.gov/id/legislation/municipal-code/title-17",
+        "name": "Title 17 — Zoning"
+      },
+      "dateModified": "2026-07-02"
+    },
+    {
+      "@id": "https://example-city.gov/id/service/winter-shelter",
+      "@type": "GovernmentService",
+      "name": "Winter emergency shelter",
+      "description": "Overnight shelter operated during declared cold-weather periods.",
+      "serviceCode": "HSG-014",
+      "serviceType": "Housing",
+      "serviceStatus": "temporarilyClosed",
+      "lifeEvent": [
+        "housing",
+        "health"
+      ],
+      "provider": {
+        "@id": "https://example-city.gov/id/organization/city-government"
+      },
+      "areaServed": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city"
+      },
+      "eligibility": {
+        "@type": "PeopleAudience",
+        "requiredMinAge": 18,
+        "eligibilityCriteria": "No proof of address or identification is required. Nobody is turned away on the basis of immigration status."
+      },
+      "applicationProcess": "No application. Present at the shelter entrance from 19:00 on nights when the cold-weather protocol is active.",
+      "cost": {
+        "@type": "ServiceCost",
+        "free": true,
+        "description": "Free of charge."
+      },
+      "availableLanguage": [
+        "en-US",
+        "es-US"
+      ],
+      "interpretationAvailable": true,
+      "dateModified": "2026-04-30"
+    }
+  ]
+}

@@ -9,18 +9,38 @@
       "url": "https://example-city.gov/services/pothole",
       "serviceCode": "ROAD-001",
       "serviceType": "Streets",
-      "keywords": ["pothole", "road", "pavement", "street repair"],
+      "keywords": [
+        "pothole",
+        "road",
+        "pavement",
+        "street repair"
+      ],
       "isRealtime": true,
-      "provider": {"@id": "https://example-city.gov/id/organization/public-works", "name": "Public Works Department"},
-      "areaServed": {"@id": "https://example-city.gov/id/jurisdiction/example-city", "name": "Example City"},
+      "provider": {
+        "@id": "https://example-city.gov/id/organization/public-works",
+        "name": "Public Works Department"
+      },
+      "areaServed": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city",
+        "name": "Example City"
+      },
       "availableChannel": [
         {
           "@type": "ServiceChannel",
           "serviceUrl": "https://example-city.gov/report/pothole",
-          "servicePhone": {"@type": "ContactPoint", "telephone": "+1-555-0311"},
-          "serviceSmsNumber": {"@type": "ContactPoint", "telephone": "+1-555-0311"},
+          "servicePhone": {
+            "@type": "ContactPoint",
+            "telephone": "+1-555-0311"
+          },
+          "serviceSmsNumber": {
+            "@type": "ContactPoint",
+            "telephone": "+1-555-0311"
+          },
           "processingTime": "P5D",
-          "availableLanguage": ["en-US", "es-US"]
+          "availableLanguage": [
+            "en-US",
+            "es-US"
+          ]
         }
       ],
       "requestAttribute": [
@@ -31,9 +51,21 @@
           "valueRequired": true,
           "position": 1,
           "valueOption": [
-            {"@type": "DefinedTerm", "termCode": "asphalt", "name": "Asphalt road"},
-            {"@type": "DefinedTerm", "termCode": "concrete", "name": "Concrete road"},
-            {"@type": "DefinedTerm", "termCode": "sidewalk", "name": "Sidewalk"}
+            {
+              "@type": "DefinedTerm",
+              "termCode": "asphalt",
+              "name": "Asphalt road"
+            },
+            {
+              "@type": "DefinedTerm",
+              "termCode": "concrete",
+              "name": "Concrete road"
+            },
+            {
+              "@type": "DefinedTerm",
+              "termCode": "sidewalk",
+              "name": "Sidewalk"
+            }
           ]
         },
         {
@@ -45,7 +77,8 @@
           "minValue": 1,
           "maxValue": 500
         }
-      ]
+      ],
+      "serviceStatus": "active"
     },
     {
       "@id": "https://example-city.gov/id/service/streetlight",
@@ -55,16 +88,27 @@
       "url": "https://example-city.gov/services/streetlight",
       "serviceCode": "LIGHT-002",
       "serviceType": "Streets",
-      "keywords": ["streetlight", "lighting", "outage"],
+      "keywords": [
+        "streetlight",
+        "lighting",
+        "outage"
+      ],
       "isRealtime": true,
-      "provider": {"@id": "https://example-city.gov/id/organization/public-works"},
-      "areaServed": {"@id": "https://example-city.gov/id/jurisdiction/example-city"},
+      "provider": {
+        "@id": "https://example-city.gov/id/organization/public-works"
+      },
+      "areaServed": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city"
+      },
       "availableChannel": [
         {
           "@type": "ServiceChannel",
           "serviceUrl": "https://example-city.gov/report/streetlight",
           "processingTime": "P10D",
-          "availableLanguage": ["en-US", "es-US"]
+          "availableLanguage": [
+            "en-US",
+            "es-US"
+          ]
         }
       ],
       "requestAttribute": [
@@ -76,7 +120,8 @@
           "position": 1,
           "valuePattern": "^[A-Z]{2}-[0-9]{4}$"
         }
-      ]
+      ],
+      "serviceStatus": "active"
     },
     {
       "@id": "https://example-city.gov/id/service/illegal-dumping",
@@ -86,13 +131,27 @@
       "url": "https://example-city.gov/services/illegal-dumping",
       "serviceCode": "SAN-004",
       "serviceType": "Sanitation",
-      "keywords": ["dumping", "waste", "rubbish", "fly-tipping"],
+      "keywords": [
+        "dumping",
+        "waste",
+        "rubbish",
+        "fly-tipping"
+      ],
       "isRealtime": false,
-      "provider": {"@id": "https://example-city.gov/id/organization/public-works"},
-      "areaServed": {"@id": "https://example-city.gov/id/jurisdiction/example-city"},
+      "provider": {
+        "@id": "https://example-city.gov/id/organization/public-works"
+      },
+      "areaServed": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city"
+      },
       "availableChannel": [
-        {"@type": "ServiceChannel", "serviceUrl": "https://example-city.gov/report/dumping", "processingTime": "P3D"}
-      ]
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://example-city.gov/report/dumping",
+          "processingTime": "P3D"
+        }
+      ],
+      "serviceStatus": "active"
     }
   ]
 }
