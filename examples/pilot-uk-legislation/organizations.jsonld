@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://www.legislation.gov.uk/id/organization/uk-parliament",
+      "@type": "GovernmentOrganization",
+      "name": "Parliament of the United Kingdom",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legislation-gov-uk",
+          "value": "parliament"
+        }
+      ],
+      "organizationClassification": "legislature",
+      "areaServed": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      }
+    }
+  ]
+}
