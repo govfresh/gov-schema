@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/procurement/tender.schema.json",
+  "title": "Tender",
+  "description": "The solicitation: what is being bought, how bids are invited, and on what timetable. Mirrors the OCDS tender block.",
+  "type": "object",
+  "properties": {
+    "@type": {
+      "const": "Tender"
+    },
+    "@id": {
+      "type": "string",
+      "format": "iri"
+    },
+    "tenderId": {
+      "type": "string",
+      "description": "The buyer's own tender reference."
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "planning",
+        "planned",
+        "active",
+        "cancelled",
+        "unsuccessful",
+        "complete",
+        "withdrawn"
+      ]
+    },
+    "procurementMethod": {
+      "type": "string",
+      "description": "How bids were invited. Optional at Core conformance because real publishers omit it on some notices, but REQUIRED at Standard conformance: without it, the question of how much public spending was never competed is unanswerable.",
+      "enum": [
+        "open",
+        "selective",
+        "limited",
+        "direct"
+      ]
+    },
+    "procurementMethodDetails": {
+      "type": "string",
+      "description": "The publisher's own name for the procedure."
+    },
+    "procurementMethodRationale": {
+      "type": "string",
+      "description": "Why this method was chosen. Expected whenever procurementMethod is 'direct' - a sole-source award without a stated reason is the single most common audit finding in public procurement."
+    },
+    "mainProcurementCategory": {
+      "type": "string",
+      "enum": [
+        "goods",
+        "works",
+        "services",
+        "consultingServices"
+      ]
+    },
+    "classification": {
+      "type": "array",
+      "items": {
+        "$ref": "../_core/identifier.schema.json"
+      },
+      "description": "What is being bought, as scheme-qualified codes: CPV in the EU, UNSPSC globally, NIGP in much of the US. Same propertyID/value pattern as every other identifier in this profile."
+    },
+    "value": {
+      "$ref": "../budget/amount.schema.json",
+      "description": "Estimated value."
+    },
+    "procuringEntity": {
+      "$ref": "../_core/reference.schema.json"
+    },
+    "tenderPeriodStart": {
+      "type": "string",
+      "anyOf": [
+        {
+          "format": "date"
+        },
+        {
+          "format": "date-time"
+        }
+      ]
+    },
+    "tenderPeriodEnd": {
+      "type": "string",
+      "anyOf": [
+        {
+          "format": "date"
+        },
+        {
+          "format": "date-time"
+        }
+      ]
+    },
+    "enquiryPeriodEnd": {
+      "type": "string",
+      "anyOf": [
+        {
+          "format": "date"
+        },
+        {
+          "format": "date-time"
+        }
+      ]
+    },
+    "numberOfTenderers": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "submissionMethodDetails": {
+      "type": "string"
+    },
+    "document": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "iri"
+      }
+    }
+  },
+  "required": [
+    "@type",
+    "status"
+  ],
+  "additionalProperties": true
+}
