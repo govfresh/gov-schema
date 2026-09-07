@@ -310,6 +310,49 @@ add something a publisher can get wrong.
 
 See [examples/pilot-eurostat-budget/README.md](examples/pilot-eurostat-budget/README.md).
 
+## legislation.gov.uk adapter — DONE
+
+`tools/adapters/legislation-uk.py` converts the UK statute book. Taxation of Pensions Act
+2014: 11 parts, 122 sections.
+
+**Confirms the FRBR claim in the source's own words.** legislation.gov.uk's Akoma Ntoso
+carries FRBRWork, FRBRExpression and FRBRManifestation explicitly, which is precisely the
+three levels the profile encodes. The Work URI is also what the adapter had independently
+chosen as `@id`.
+
+One defect: `legislationDateVersion` was read from `dc:modified` (2017-02-07) when the FRBR
+Expression date is 2016-09-15 — eighteen months apart. `dc:modified` is when the record was
+touched; the Expression date is what the consolidated text is valid at. Getting it wrong means
+citing a consolidation as current when it is not, the exact failure the field exists to
+prevent.
+
+**Still untested: the amendment graph.** The profile's most distinctive claim is that ELI's
+six relations replace a blunt `supersedes`. This act's AKN carries no `textualMod` elements
+and `/changes/affected/` returns HTML rather than data, so those relations remain unexercised.
+The part of `code` most likely to be wrong is the part no public source has yet been able to
+test. See [examples/pilot-uk-legislation/README.md](examples/pilot-uk-legislation/README.md).
+
+## Open311 adapter — DONE
+
+`tools/adapters/open311.py` converts a live Open311 GeoReport v2 endpoint. Bloomington,
+Indiana: 60 requests, 63 services.
+
+**The privacy opinion was right and aimed slightly wrong.** The field check that fails the
+build on reporter-identifying columns never fired - Open311's GET response is clean by design,
+with no email, name, phone or device id in 1,000 live requests. The real disclosure risk sat
+where a field check cannot see: 736 of 1,000 requests carry 14 decimal places of latitude
+alongside a street address, on complaints about unmown lawns at named addresses, and 13
+descriptions contain a phone number or email written by the public.
+
+Both were warned about in the profile README and neither was checked. They are now, as
+warnings rather than errors, since neither is a schema violation and both need human
+judgement. The adapter reduces coordinates to five decimal places by default, which clears
+51 of 52; the remaining warning is free text, which cannot be fixed mechanically.
+
+Also confirmed: `statusHistory` has no source in Open311, which carries current state only -
+exactly why that gap was worth recording.
+See [examples/pilot-bloomington-311/README.md](examples/pilot-bloomington-311/README.md).
+
 ## The honest risk
 
 Seven profiles with one fictional example city is a demo, not an adopted standard. Profiles

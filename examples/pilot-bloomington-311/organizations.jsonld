@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://bloomington.in.gov/id/organization/city",
+      "@type": "GovernmentOrganization",
+      "name": "Bloomington city government",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:open311-host",
+          "value": "bloomington.in.gov"
+        }
+      ],
+      "organizationClassification": "executive",
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1074 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://bloomington.in.gov/id/service/26",
+      "@type": "GovernmentService",
+      "name": "Debris Removal (Sand, General Street Debris)",
+      "serviceCode": "26",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues involving the removal of sand and other debris off city streets.",
+      "serviceType": "Cleanup & Sanitation",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/2",
+      "@type": "GovernmentService",
+      "name": "Excessive Growth",
+      "serviceCode": "2",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report overgrown yards",
+      "serviceType": "Cleanup & Sanitation",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/37",
+      "@type": "GovernmentService",
+      "name": "Graffiti",
+      "serviceCode": "37",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report graffiti on public or private structures",
+      "serviceType": "Cleanup & Sanitation",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/36",
+      "@type": "GovernmentService",
+      "name": "Recycling",
+      "serviceCode": "36",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues related to City of Bloomington recycling collection",
+      "serviceType": "Cleanup & Sanitation",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/5",
+      "@type": "GovernmentService",
+      "name": "Trash",
+      "serviceCode": "5",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report trash being where it does not belong or issues with City of Bloomington trash collection",
+      "serviceType": "Cleanup & Sanitation",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/35",
+      "@type": "GovernmentService",
+      "name": "Yard Waste",
+      "serviceCode": "35",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues related to City of Bloomington yard waste pickup",
+      "serviceType": "Cleanup & Sanitation",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/66",
+      "@type": "GovernmentService",
+      "name": "Biking & Walking",
+      "serviceCode": "66",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues related to bicycling or walking in Bloomington",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/78",
+      "@type": "GovernmentService",
+      "name": "Blocked Sidewalk",
+      "serviceCode": "78",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report a sidewalk that has been blocked.",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/17",
+      "@type": "GovernmentService",
+      "name": "Blocked Street",
+      "serviceCode": "17",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report a street or alley that has been blocked from access.",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/65",
+      "@type": "GovernmentService",
+      "name": "Close Calls",
+      "serviceCode": "65",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report near collisions involving bicyclists or pedestrians.  This information will be used to help identify hazardous locations",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/73",
+      "@type": "GovernmentService",
+      "name": "Inaccessible Parking",
+      "serviceCode": "73",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues with public parking for people with disabilities.",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/94",
+      "@type": "GovernmentService",
+      "name": "Nuisance Lights",
+      "serviceCode": "94",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/92",
+      "@type": "GovernmentService",
+      "name": "Parking Garages",
+      "serviceCode": "92",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues with city parking garages",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/44",
+      "@type": "GovernmentService",
+      "name": "Parking Meters and Citations",
+      "serviceCode": "44",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues related to parking citations. This is not a way to appeal a citation.",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/29",
+      "@type": "GovernmentService",
+      "name": "Parking on Unimproved Surface",
+      "serviceCode": "29",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report vehicles continually parked in the grass or other surfaces not prepared for vehicle use",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/43",
+      "@type": "GovernmentService",
+      "name": "Parking Permits",
+      "serviceCode": "43",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues with City-issued parking permits",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/25",
+      "@type": "GovernmentService",
+      "name": "Potholes, Other Street Repair",
+      "serviceCode": "25",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report potholes and other issues involving streets in need of repair.",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/93",
+      "@type": "GovernmentService",
+      "name": "Request a new Street Light",
+      "serviceCode": "93",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Request a new Street Light",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/83",
+      "@type": "GovernmentService",
+      "name": "Scooters, Bike-share and Related Issues",
+      "serviceCode": "83",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report problems with scooters, bikeshare and related  transportation services.",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/34",
+      "@type": "GovernmentService",
+      "name": "Sidewalk & Curb Complaints",
+      "serviceCode": "34",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report hazardous sidewalks and curbs",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/76",
+      "@type": "GovernmentService",
+      "name": "Sidewalk Requests",
+      "serviceCode": "76",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Request a new sidewalk",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/15",
+      "@type": "GovernmentService",
+      "name": "Sidewalk Snow Removal",
+      "serviceCode": "15",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues involving snow on public sidewalks",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/86",
+      "@type": "GovernmentService",
+      "name": "Street & Traffic Signs",
+      "serviceCode": "86",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report problems related to street signs and traffic signs.",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/69",
+      "@type": "GovernmentService",
+      "name": "Street Lights",
+      "serviceCode": "69",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Duke Energy maintains street lights in Bloomington.  Please report street light outages here: www.duke-energy.com/lightrepair",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/27",
+      "@type": "GovernmentService",
+      "name": "Street Snow Removal",
+      "serviceCode": "27",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues involving snow removal of roads within the City of Bloomington.",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/89",
+      "@type": "GovernmentService",
+      "name": "Street Trees",
+      "serviceCode": "89",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Tree care requests for trees in right of way",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/67",
+      "@type": "GovernmentService",
+      "name": "Taxi Complaints",
+      "serviceCode": "67",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues with taxi cabs",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/12",
+      "@type": "GovernmentService",
+      "name": "Traffic Related Complaints",
+      "serviceCode": "12",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report concerns about dangerous traffic situations including faulty or missing equipment",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/70",
+      "@type": "GovernmentService",
+      "name": "Traffic Signals",
+      "serviceCode": "70",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report an issue or request new traffic signal",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/61",
+      "@type": "GovernmentService",
+      "name": "Traffic Suggestions",
+      "serviceCode": "61",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Make a request for the Traffic division including new traffic markings and equipment",
+      "serviceType": "Streets, Parking & Traffic",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/33",
+      "@type": "GovernmentService",
+      "name": "Parks & Playgrounds",
+      "serviceCode": "33",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues related to public spaces maintained by the City of Bloomington Parks & Recreation Department.",
+      "serviceType": "Parks & Recreation",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/45",
+      "@type": "GovernmentService",
+      "name": "Parks & Rec Buildings",
+      "serviceCode": "45",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues related to buildings maintained by the City of Bloomington Parks & Recreation Department.",
+      "serviceType": "Parks & Recreation",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/46",
+      "@type": "GovernmentService",
+      "name": "Parks & Rec Programs",
+      "serviceCode": "46",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues related to Parks and Recreation Department programs",
+      "serviceType": "Parks & Recreation",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/47",
+      "@type": "GovernmentService",
+      "name": "Trails",
+      "serviceCode": "47",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues related to trails maintained by the Parks & Recreation Department",
+      "serviceType": "Parks & Recreation",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/52",
+      "@type": "GovernmentService",
+      "name": "Abandoned Vehicle",
+      "serviceCode": "52",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report an abandoned vehicle on public or private property.",
+      "serviceType": "Hazards",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/32",
+      "@type": "GovernmentService",
+      "name": "Animal Control & Neglected Pets",
+      "serviceCode": "32",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report animal-related issues including animal abuse, stray animals or dead animal removal.",
+      "serviceType": "Hazards",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/11",
+      "@type": "GovernmentService",
+      "name": "City Construction Projects",
+      "serviceCode": "11",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues related to construction projects of the Bloomington Public Works Department",
+      "serviceType": "Hazards",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/8",
+      "@type": "GovernmentService",
+      "name": "Fire Hazards",
+      "serviceCode": "8",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report potential fire hazards",
+      "serviceType": "Hazards",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/19",
+      "@type": "GovernmentService",
+      "name": "Line of Sight",
+      "serviceCode": "19",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report sight and visibility issues along public streets",
+      "serviceType": "Hazards",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/10",
+      "@type": "GovernmentService",
+      "name": "Unsafe Buildings",
+      "serviceCode": "10",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report a building or structure in an impaired structural condition that makes it unsafe to a person or property.",
+      "serviceType": "Hazards",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/91",
+      "@type": "GovernmentService",
+      "name": "Utility Construction Projects",
+      "serviceCode": "91",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues related to construction projects of the Bloomington Utilities Department",
+      "serviceType": "Hazards",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/74",
+      "@type": "GovernmentService",
+      "name": "Drainage or Runoff",
+      "serviceCode": "74",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report a storm water drainage or runoff issue",
+      "serviceType": "Water & Sewage Utility",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/88",
+      "@type": "GovernmentService",
+      "name": "Illicit Discharge (Storm Sewers)",
+      "serviceCode": "88",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report illicit pollution into a storm drain",
+      "serviceType": "Water & Sewage Utility",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/14",
+      "@type": "GovernmentService",
+      "name": "Sewer Problems (Sanitary Sewers)",
+      "serviceCode": "14",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues involving the sewage systems of residences and businesses",
+      "serviceType": "Water & Sewage Utility",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/57",
+      "@type": "GovernmentService",
+      "name": "Sewer Problems (Storm Sewers)",
+      "serviceCode": "57",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues involving public storm sewers",
+      "serviceType": "Water & Sewage Utility",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/60",
+      "@type": "GovernmentService",
+      "name": "Utilities Construction",
+      "serviceCode": "60",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues with construction for projects of the City of Bloomington's Utilities Department",
+      "serviceType": "Water & Sewage Utility",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/58",
+      "@type": "GovernmentService",
+      "name": "Utilities Yardwork",
+      "serviceCode": "58",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues with yardwork performed by the City of Bloomington Utilities Department",
+      "serviceType": "Water & Sewage Utility",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/23",
+      "@type": "GovernmentService",
+      "name": "Water Quality",
+      "serviceCode": "23",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Submit comments on the City of Bloomington's water quality",
+      "serviceType": "Water & Sewage Utility",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/21",
+      "@type": "GovernmentService",
+      "name": "Water Utility Billing Problems",
+      "serviceCode": "21",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues with billing services for City of Bloomington Utilities Department",
+      "serviceType": "Water & Sewage Utility",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/13",
+      "@type": "GovernmentService",
+      "name": "Water Utility Problems",
+      "serviceCode": "13",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues involving Cit of Bloomington water utilities",
+      "serviceType": "Water & Sewage Utility",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/82",
+      "@type": "GovernmentService",
+      "name": "Accessibility Problem",
+      "serviceCode": "82",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report public facilities where accessibility is difficult for people with disabilities",
+      "serviceType": "Miscellaneous",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/63",
+      "@type": "GovernmentService",
+      "name": "Business",
+      "serviceCode": "63",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Provide feedback to the City on a business-related issue",
+      "serviceType": "Miscellaneous",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/39",
+      "@type": "GovernmentService",
+      "name": "City Performance",
+      "serviceCode": "39",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues, comments or concerns about the City of Bloomington's performance in serving the public.",
+      "serviceType": "Miscellaneous",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/87",
+      "@type": "GovernmentService",
+      "name": "Food Truck Issues",
+      "serviceCode": "87",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Issues related to Food Trucks, including but not limited to location violations, cleanliness, safety, noise, etc.",
+      "serviceType": "Miscellaneous",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/97",
+      "@type": "GovernmentService",
+      "name": "GIS Issue",
+      "serviceCode": "97",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "serviceType": "Miscellaneous",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/4",
+      "@type": "GovernmentService",
+      "name": "Other",
+      "serviceCode": "4",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Misc issues",
+      "serviceType": "Miscellaneous",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/99",
+      "@type": "GovernmentService",
+      "name": "Public Art Maintenance",
+      "serviceCode": "99",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report damage or wear and tear on public art.  Examples of damage: graffiti, words written on the piece, materials used in damage (if known), piece is missing, broken, bent/dented, chipping significantly, lights do not work, etc",
+      "serviceType": "Miscellaneous",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/1",
+      "@type": "GovernmentService",
+      "name": "Rental Complaint",
+      "serviceCode": "1",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "PLEASE NOTE: the uReport system indicates that you may submit your complaint anonymously. While this is true for most issues reported to the City, rental complaints are an exception. You must provide your contact information so HAND can follow up and properly investigate the reported violations. At the time of the inspection, the complainant must be available to sign a complaint form.",
+      "serviceType": "Miscellaneous",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/85",
+      "@type": "GovernmentService",
+      "name": "Report issues with BIRD scooters",
+      "serviceCode": "85",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues with BIRD scooters",
+      "serviceType": "Miscellaneous",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/81",
+      "@type": "GovernmentService",
+      "name": "Smoking Violation",
+      "serviceCode": "81",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report smoking in public places in violation of Bloomington's Smoking Ordinance",
+      "serviceType": "Miscellaneous",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/9",
+      "@type": "GovernmentService",
+      "name": "Temporary Signage w/o permit",
+      "serviceCode": "9",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Planning Violation",
+      "serviceType": "Miscellaneous",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/53",
+      "@type": "GovernmentService",
+      "name": "Website & Web Services Feedback",
+      "serviceCode": "53",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report issues and suggestions involving the bloomington.in.gov website, and other City web services and web apps.",
+      "serviceType": "Miscellaneous",
+      "isRealtime": true
+    },
+    {
+      "@id": "https://bloomington.in.gov/id/service/90",
+      "@type": "GovernmentService",
+      "name": "Wildlife Conflict",
+      "serviceCode": "90",
+      "provider": {
+        "@id": "https://bloomington.in.gov/id/organization/city",
+        "name": "Bloomington city government"
+      },
+      "areaServed": {
+        "@id": "https://bloomington.in.gov/id/jurisdiction/bloomington-in-gov",
+        "name": "Bloomington"
+      },
+      "description": "Report problematic interactions with wildlife.  For sick or aggressive animals contact the shelter directly at 812-349-3492",
+      "serviceType": "Miscellaneous",
+      "isRealtime": true
+    }
+  ]
+}

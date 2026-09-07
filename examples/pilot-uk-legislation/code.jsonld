@@ -1,0 +1,2733 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30",
+      "@type": "Legislation",
+      "name": "Taxation of Pensions Act 2014",
+      "url": "http://www.legislation.gov.uk/ukpga/2014/30",
+      "legislationType": "act",
+      "codificationLevel": "title",
+      "legislationIdentifier": "2014 c. 30",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legislation-gov-uk",
+          "value": "ukpga/2014/30"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "legislationPassedBy": {
+        "@id": "https://www.legislation.gov.uk/id/organization/uk-parliament",
+        "name": "Parliament of the United Kingdom"
+      },
+      "inLanguage": [
+        "en-GB"
+      ],
+      "hasPart": [
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+          "name": "Drawdown pensions"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/2",
+          "name": "Annuities"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/3",
+          "name": "Pension payments out of uncrystallised funds"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/4",
+          "name": "Annual allowances"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/5",
+          "name": "Miscellaneous amendments"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/6",
+          "name": "Provision of information"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/7",
+          "name": "Overseas pensions"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/1",
+          "name": "Death benefits: nominees and successors"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/2",
+          "name": "Lump sum death benefits"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/3",
+          "name": "Uncrystallised rights at member's death"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/4",
+          "name": "Income tax on beneficiaries' income withdrawal"
+        }
+      ],
+      "legislationDate": "2014-12-17",
+      "legislationDateVersion": "2016-09-15",
+      "legislationLegalForce": "InForce",
+      "encoding": [
+        {
+          "@type": "LegislationObject",
+          "contentUrl": "http://www.legislation.gov.uk/ukpga/2014/30/2016-09-15/data.akn",
+          "encodingFormat": "application/akn+xml",
+          "legislationLegalValue": "OfficialLegalValue",
+          "conformsTo": "http://docs.oasis-open.org/legaldocml/ns/akn/3.0",
+          "inLanguage": "en-GB"
+        },
+        {
+          "@type": "LegislationObject",
+          "contentUrl": "http://www.legislation.gov.uk/ukpga/2014/30/data.xml",
+          "encodingFormat": "application/xml",
+          "legislationLegalValue": "OfficialLegalValue",
+          "conformsTo": "http://www.legislation.gov.uk/namespaces/legislation",
+          "inLanguage": "en-GB"
+        },
+        {
+          "@type": "LegislationObject",
+          "contentUrl": "http://www.legislation.gov.uk/ukpga/2014/30",
+          "encodingFormat": "text/html",
+          "legislationLegalValue": "UnofficialLegalValue",
+          "inLanguage": "en-GB"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/1",
+      "@type": "Legislation",
+      "name": "In section 165(1) of FA 2004 (the pension rules) in...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "1",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 1
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/2",
+      "@type": "Legislation",
+      "name": "In paragraph 8(1A) of Schedule 28 to FA 2004 (meaning...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "2",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 2
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/3",
+      "@type": "Legislation",
+      "name": "(1) In Schedule 28 to FA 2004 after paragraph 8...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "3",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 3
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/4",
+      "@type": "Legislation",
+      "name": "(1) In Schedule 28 to FA 2004 after paragraph 22...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "4",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 4
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/5",
+      "@type": "Legislation",
+      "name": "FA 2004 is amended as follows.",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "5",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 5
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/6",
+      "@type": "Legislation",
+      "name": "In section 167(1) (the pension death benefit rules) in pension...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "6",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 6
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/7",
+      "@type": "Legislation",
+      "name": "In section 168(1), in the lump sum death benefit rule,...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "7",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 7
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/8",
+      "@type": "Legislation",
+      "name": "In section 169(1D) (regulations about transfers of drawdown funds) after...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "8",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 8
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/9",
+      "@type": "Legislation",
+      "name": "In section 172B(2) (rights of a “relevant member”)—",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "9",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 9
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/10",
+      "@type": "Legislation",
+      "name": "In section 172B(7A) (section does not apply to certain increases...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "10",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 10
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/11",
+      "@type": "Legislation",
+      "name": "In section 182(3) (value of arrangement for purposes of borrowing...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "11",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 11
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/12",
+      "@type": "Legislation",
+      "name": "In section 182(5) (determining whether rights are uncrystallised) after “the...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "12",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 12
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/13",
+      "@type": "Legislation",
+      "name": "In section 206(1) (payments which trigger special lump sum death...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "13",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 13
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/14",
+      "@type": "Legislation",
+      "name": "In section 211(1) (value of crystallised rights for purposes of...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "14",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 14
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/15",
+      "@type": "Legislation",
+      "name": "In section 212(2) (value of uncrystallised rights for purposes of...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "15",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 15
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/16",
+      "@type": "Legislation",
+      "name": "In section 216(1) (benefit crystallisation events and amounts crystallised), in...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "16",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 16
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/17",
+      "@type": "Legislation",
+      "name": "In section 273A(1) (regulations about certain payments by insurance companies)—...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "17",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 17
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/18",
+      "@type": "Legislation",
+      "name": "In section 280(2) (index of defined expressions) at the appropriate...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "18",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 18
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/19",
+      "@type": "Legislation",
+      "name": "In paragraph 7 of Schedule 28 (meaning of “income withdrawal”)...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "19",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 19
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/20",
+      "@type": "Legislation",
+      "name": "In paragraph 21 of Schedule 28 (meaning of “dependants' income...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "20",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 20
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/21",
+      "@type": "Legislation",
+      "name": "In paragraph 22(2) of Schedule 28 (meaning of “dependant's drawdown...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "21",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 21
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/22",
+      "@type": "Legislation",
+      "name": "In paragraph 3(5)(a) and (8)(a) of Schedule 29 (deductions when...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "22",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 22
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/23",
+      "@type": "Legislation",
+      "name": "In paragraph 17 of Schedule 29 (meaning of “drawdown pension...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "23",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 23
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/24",
+      "@type": "Legislation",
+      "name": "In Schedule 29 after paragraph 17 insert— Flexi-access drawdown fund...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "24",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 24
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/25",
+      "@type": "Legislation",
+      "name": "In paragraph 18 of Schedule 29 (meaning of “charity lump...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "25",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 25
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/26",
+      "@type": "Legislation",
+      "name": "In paragraph 4(1) of Schedule 32 (supplementary provision about benefit...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "26",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 26
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/27",
+      "@type": "Legislation",
+      "name": "In paragraph 17(2) of Schedule 32 (supplementary provision about benefit...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "27",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 27
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/28",
+      "@type": "Legislation",
+      "name": "(1) In paragraph 20(4) of Schedule 36 (lifetime allowance: deemed...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "28",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 28
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/29",
+      "@type": "Legislation",
+      "name": "In paragraph 29(3) of Schedule 36 (modifications of paragraph 3...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "29",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 29
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/30",
+      "@type": "Legislation",
+      "name": "(1) In regulation 2(1) of the Pension Benefits (Insurance Company...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "30",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 30
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/31",
+      "@type": "Legislation",
+      "name": "In section 636A of ITEPA 2003 (taxation of pension lump...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "31",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 31
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/32",
+      "@type": "Legislation",
+      "name": "(1) In FA 2004 omit— (a) in section 165(1), in...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "32",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 32
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/33",
+      "@type": "Legislation",
+      "name": "(1) The Pension Schemes (Application of UK Provisions to Relevant...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "33",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 33
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/34",
+      "@type": "Legislation",
+      "name": "(1) Regulation 12 of the Registered Pension Schemes (Transfer of...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "34",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 34
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/35",
+      "@type": "Legislation",
+      "name": "(1) The Registered Pension Schemes (Provision of Information) Regulations 2006...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "35",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+        "name": "Drawdown pensions"
+      },
+      "position": 35
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/1",
+      "@type": "Legislation",
+      "name": "Drawdown pensions",
+      "legislationType": "act",
+      "codificationLevel": "part",
+      "legislationIdentifier": "Part 1",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30",
+        "name": "Taxation of Pensions Act 2014"
+      },
+      "hasPart": [
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/1",
+          "name": "In section 165(1) of FA 2004 (the pension rules) in..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/2",
+          "name": "In paragraph 8(1A) of Schedule 28 to FA 2004 (meaning..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/3",
+          "name": "(1) In Schedule 28 to FA 2004 after paragraph 8..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/4",
+          "name": "(1) In Schedule 28 to FA 2004 after paragraph 22..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/5",
+          "name": "FA 2004 is amended as follows."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/6",
+          "name": "In section 167(1) (the pension death benefit rules) in pension..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/7",
+          "name": "In section 168(1), in the lump sum death benefit rule,..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/8",
+          "name": "In section 169(1D) (regulations about transfers of drawdown funds) after..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/9",
+          "name": "In section 172B(2) (rights of a “relevant member”)—"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/10",
+          "name": "In section 172B(7A) (section does not apply to certain increases..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/11",
+          "name": "In section 182(3) (value of arrangement for purposes of borrowing..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/12",
+          "name": "In section 182(5) (determining whether rights are uncrystallised) after “the..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/13",
+          "name": "In section 206(1) (payments which trigger special lump sum death..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/14",
+          "name": "In section 211(1) (value of crystallised rights for purposes of..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/15",
+          "name": "In section 212(2) (value of uncrystallised rights for purposes of..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/16",
+          "name": "In section 216(1) (benefit crystallisation events and amounts crystallised), in..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/17",
+          "name": "In section 273A(1) (regulations about certain payments by insurance companies)—..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/18",
+          "name": "In section 280(2) (index of defined expressions) at the appropriate..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/19",
+          "name": "In paragraph 7 of Schedule 28 (meaning of “income withdrawal”)..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/20",
+          "name": "In paragraph 21 of Schedule 28 (meaning of “dependants' income..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/21",
+          "name": "In paragraph 22(2) of Schedule 28 (meaning of “dependant's drawdown..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/22",
+          "name": "In paragraph 3(5)(a) and (8)(a) of Schedule 29 (deductions when..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/23",
+          "name": "In paragraph 17 of Schedule 29 (meaning of “drawdown pension..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/24",
+          "name": "In Schedule 29 after paragraph 17 insert— Flexi-access drawdown fund..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/25",
+          "name": "In paragraph 18 of Schedule 29 (meaning of “charity lump..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/26",
+          "name": "In paragraph 4(1) of Schedule 32 (supplementary provision about benefit..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/27",
+          "name": "In paragraph 17(2) of Schedule 32 (supplementary provision about benefit..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/28",
+          "name": "(1) In paragraph 20(4) of Schedule 36 (lifetime allowance: deemed..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/29",
+          "name": "In paragraph 29(3) of Schedule 36 (modifications of paragraph 3..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/30",
+          "name": "(1) In regulation 2(1) of the Pension Benefits (Insurance Company..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/31",
+          "name": "In section 636A of ITEPA 2003 (taxation of pension lump..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/32",
+          "name": "(1) In FA 2004 omit— (a) in section 165(1), in..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/33",
+          "name": "(1) The Pension Schemes (Application of UK Provisions to Relevant..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/34",
+          "name": "(1) Regulation 12 of the Registered Pension Schemes (Transfer of..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/35",
+          "name": "(1) The Registered Pension Schemes (Provision of Information) Regulations 2006..."
+        }
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/36",
+      "@type": "Legislation",
+      "name": "Schedule 28 to FA 2004 (registered pension schemes) is amended...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "36",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/2",
+        "name": "Annuities"
+      },
+      "position": 36
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/37",
+      "@type": "Legislation",
+      "name": "In paragraph 3 (definition of member's lifetime annuity) after sub-paragraph...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "37",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/2",
+        "name": "Annuities"
+      },
+      "position": 37
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/38",
+      "@type": "Legislation",
+      "name": "In paragraph 6 (definition of member's short-term annuity) after sub-paragraph...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "38",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/2",
+        "name": "Annuities"
+      },
+      "position": 38
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/39",
+      "@type": "Legislation",
+      "name": "In paragraph 17 (definition of dependants' annuity) after sub-paragraph (1)...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "39",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/2",
+        "name": "Annuities"
+      },
+      "position": 39
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/40",
+      "@type": "Legislation",
+      "name": "In paragraph 20 (definition of dependants' short-term annuity) after sub-paragraph...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "40",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/2",
+        "name": "Annuities"
+      },
+      "position": 40
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/41",
+      "@type": "Legislation",
+      "name": "In section 165(1) of FA 2004 (the pension rules) in...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "41",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/2",
+        "name": "Annuities"
+      },
+      "position": 41
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/42",
+      "@type": "Legislation",
+      "name": "Schedule 28 to FA 2004 (registered pension schemes) is further...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "42",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/2",
+        "name": "Annuities"
+      },
+      "position": 42
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/43",
+      "@type": "Legislation",
+      "name": "In paragraph 3(1) (definition of member's lifetime annuity) after paragraph...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "43",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/2",
+        "name": "Annuities"
+      },
+      "position": 43
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/44",
+      "@type": "Legislation",
+      "name": "(1) In paragraph 3(2C) (regulations for cases where lifetime annuity...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "44",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/2",
+        "name": "Annuities"
+      },
+      "position": 44
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/45",
+      "@type": "Legislation",
+      "name": "In paragraph 6(1) (definition of member's short-term annuity) after paragraph...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "45",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/2",
+        "name": "Annuities"
+      },
+      "position": 45
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/46",
+      "@type": "Legislation",
+      "name": "(1) In paragraph 6(1C) (regulations for cases where short-term annuity...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "46",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/2",
+        "name": "Annuities"
+      },
+      "position": 46
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/47",
+      "@type": "Legislation",
+      "name": "In paragraph 17(1) (definition of dependants' annuity) for paragraph (za)...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "47",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/2",
+        "name": "Annuities"
+      },
+      "position": 47
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/48",
+      "@type": "Legislation",
+      "name": "In paragraph 17(1A) for “sub-paragraph (1)(za)” substitute “ sub-paragraphs (1)(za)...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "48",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/2",
+        "name": "Annuities"
+      },
+      "position": 48
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/49",
+      "@type": "Legislation",
+      "name": "(1) In paragraph 17(4) (regulations for cases where dependants' annuity...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "49",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/2",
+        "name": "Annuities"
+      },
+      "position": 49
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/50",
+      "@type": "Legislation",
+      "name": "In paragraph 20(1) (definition of dependants' short-term annuity) after paragraph...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "50",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/2",
+        "name": "Annuities"
+      },
+      "position": 50
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/51",
+      "@type": "Legislation",
+      "name": "(1) In paragraph 20(1C) (regulations for cases where dependants' short-term...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "51",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/2",
+        "name": "Annuities"
+      },
+      "position": 51
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/52",
+      "@type": "Legislation",
+      "name": "In Schedule 16 to FA 2011 (benefits under pension schemes)...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "52",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/2",
+        "name": "Annuities"
+      },
+      "position": 52
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/2",
+      "@type": "Legislation",
+      "name": "Annuities",
+      "legislationType": "act",
+      "codificationLevel": "part",
+      "legislationIdentifier": "Part 2",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30",
+        "name": "Taxation of Pensions Act 2014"
+      },
+      "hasPart": [
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/36",
+          "name": "Schedule 28 to FA 2004 (registered pension schemes) is amended..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/37",
+          "name": "In paragraph 3 (definition of member's lifetime annuity) after sub-paragraph..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/38",
+          "name": "In paragraph 6 (definition of member's short-term annuity) after sub-paragraph..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/39",
+          "name": "In paragraph 17 (definition of dependants' annuity) after sub-paragraph (1)..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/40",
+          "name": "In paragraph 20 (definition of dependants' short-term annuity) after sub-paragraph..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/41",
+          "name": "In section 165(1) of FA 2004 (the pension rules) in..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/42",
+          "name": "Schedule 28 to FA 2004 (registered pension schemes) is further..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/43",
+          "name": "In paragraph 3(1) (definition of member's lifetime annuity) after paragraph..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/44",
+          "name": "(1) In paragraph 3(2C) (regulations for cases where lifetime annuity..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/45",
+          "name": "In paragraph 6(1) (definition of member's short-term annuity) after paragraph..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/46",
+          "name": "(1) In paragraph 6(1C) (regulations for cases where short-term annuity..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/47",
+          "name": "In paragraph 17(1) (definition of dependants' annuity) for paragraph (za)..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/48",
+          "name": "In paragraph 17(1A) for “sub-paragraph (1)(za)” substitute “ sub-paragraphs (1)(za)..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/49",
+          "name": "(1) In paragraph 17(4) (regulations for cases where dependants' annuity..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/50",
+          "name": "In paragraph 20(1) (definition of dependants' short-term annuity) after paragraph..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/51",
+          "name": "(1) In paragraph 20(1C) (regulations for cases where dependants' short-term..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/52",
+          "name": "In Schedule 16 to FA 2011 (benefits under pension schemes)..."
+        }
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/53",
+      "@type": "Legislation",
+      "name": "Part 4 of FA 2004 is amended as follows.",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "53",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/3",
+        "name": "Pension payments out of uncrystallised funds"
+      },
+      "position": 53
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/54",
+      "@type": "Legislation",
+      "name": "In section 166(1) (lump sums which may be paid by...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "54",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/3",
+        "name": "Pension payments out of uncrystallised funds"
+      },
+      "position": 54
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/55",
+      "@type": "Legislation",
+      "name": "In section 166(2) (when a person becomes entitled to a...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "55",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/3",
+        "name": "Pension payments out of uncrystallised funds"
+      },
+      "position": 55
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/56",
+      "@type": "Legislation",
+      "name": "In section 280(2) (index of defined expressions) after the entry...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "56",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/3",
+        "name": "Pension payments out of uncrystallised funds"
+      },
+      "position": 56
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/57",
+      "@type": "Legislation",
+      "name": "In Schedule 29 (supplementary provision about authorised lump sums) after...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "57",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/3",
+        "name": "Pension payments out of uncrystallised funds"
+      },
+      "position": 57
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/58",
+      "@type": "Legislation",
+      "name": "In paragraph 12(2)(b) of Schedule 29 (conditions for treating the...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "58",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/3",
+        "name": "Pension payments out of uncrystallised funds"
+      },
+      "position": 58
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/59",
+      "@type": "Legislation",
+      "name": "In paragraph 12(4) of Schedule 29 (exceptions to treating the...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "59",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/3",
+        "name": "Pension payments out of uncrystallised funds"
+      },
+      "position": 59
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/60",
+      "@type": "Legislation",
+      "name": "In paragraph 12(5) of Schedule 29 (when an excess can...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "60",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/3",
+        "name": "Pension payments out of uncrystallised funds"
+      },
+      "position": 60
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/61",
+      "@type": "Legislation",
+      "name": "In paragraph 15 of Schedule 32 (benefit crystallisation event 6:...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "61",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/3",
+        "name": "Pension payments out of uncrystallised funds"
+      },
+      "position": 61
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/62",
+      "@type": "Legislation",
+      "name": "(1) Section 636A of ITEPA 2003 (taxation of pension lump...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "62",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/3",
+        "name": "Pension payments out of uncrystallised funds"
+      },
+      "position": 62
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/3",
+      "@type": "Legislation",
+      "name": "Pension payments out of uncrystallised funds",
+      "legislationType": "act",
+      "codificationLevel": "part",
+      "legislationIdentifier": "Part 3",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30",
+        "name": "Taxation of Pensions Act 2014"
+      },
+      "hasPart": [
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/53",
+          "name": "Part 4 of FA 2004 is amended as follows."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/54",
+          "name": "In section 166(1) (lump sums which may be paid by..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/55",
+          "name": "In section 166(2) (when a person becomes entitled to a..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/56",
+          "name": "In section 280(2) (index of defined expressions) after the entry..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/57",
+          "name": "In Schedule 29 (supplementary provision about authorised lump sums) after..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/58",
+          "name": "In paragraph 12(2)(b) of Schedule 29 (conditions for treating the..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/59",
+          "name": "In paragraph 12(4) of Schedule 29 (exceptions to treating the..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/60",
+          "name": "In paragraph 12(5) of Schedule 29 (when an excess can..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/61",
+          "name": "In paragraph 15 of Schedule 32 (benefit crystallisation event 6:..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/62",
+          "name": "(1) Section 636A of ITEPA 2003 (taxation of pension lump..."
+        }
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/63",
+      "@type": "Legislation",
+      "name": "(1) Section 227 of FA 2004 (pensions under registered pension...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "63",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/4",
+        "name": "Annual allowances"
+      },
+      "position": 63
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/64",
+      "@type": "Legislation",
+      "name": "(1) In FA 2004 after section 227 insert— The chargeable...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "64",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/4",
+        "name": "Annual allowances"
+      },
+      "position": 64
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/65",
+      "@type": "Legislation",
+      "name": "(1) In FA 2004 before section 228 insert— The alternative...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "65",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/4",
+        "name": "Annual allowances"
+      },
+      "position": 65
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/66",
+      "@type": "Legislation",
+      "name": "(1) Omit section 227A of FA 2004 (annual allowance charge:...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "66",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/4",
+        "name": "Annual allowances"
+      },
+      "position": 66
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/67",
+      "@type": "Legislation",
+      "name": "(1) In section 228A of FA 2004 (carry forward of...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "67",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/4",
+        "name": "Annual allowances"
+      },
+      "position": 67
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/68",
+      "@type": "Legislation",
+      "name": "In section 237B of FA 2004 (scheme administrator's co-liability for...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "68",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/4",
+        "name": "Annual allowances"
+      },
+      "position": 68
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/69",
+      "@type": "Legislation",
+      "name": "(1) In article 25C of the Taxation of Pension Schemes...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "69",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/4",
+        "name": "Annual allowances"
+      },
+      "position": 69
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/4",
+      "@type": "Legislation",
+      "name": "Annual allowances",
+      "legislationType": "act",
+      "codificationLevel": "part",
+      "legislationIdentifier": "Part 4",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30",
+        "name": "Taxation of Pensions Act 2014"
+      },
+      "hasPart": [
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/63",
+          "name": "(1) Section 227 of FA 2004 (pensions under registered pension..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/64",
+          "name": "(1) In FA 2004 after section 227 insert— The chargeable..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/65",
+          "name": "(1) In FA 2004 before section 228 insert— The alternative..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/66",
+          "name": "(1) Omit section 227A of FA 2004 (annual allowance charge:..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/67",
+          "name": "(1) In section 228A of FA 2004 (carry forward of..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/68",
+          "name": "In section 237B of FA 2004 (scheme administrator's co-liability for..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/69",
+          "name": "(1) In article 25C of the Taxation of Pension Schemes..."
+        }
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/70",
+      "@type": "Legislation",
+      "name": "(1) In paragraph 3A(3) of Schedule 29 to FA 2004...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "70",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/5",
+        "name": "Miscellaneous amendments"
+      },
+      "position": 70
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/71",
+      "@type": "Legislation",
+      "name": "(1) In paragraph 7(1) of Schedule 29 to FA 2004...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "71",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/5",
+        "name": "Miscellaneous amendments"
+      },
+      "position": 71
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/72",
+      "@type": "Legislation",
+      "name": "(1) In article 23C(4) of the Taxation of Pension Schemes...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "72",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/5",
+        "name": "Miscellaneous amendments"
+      },
+      "position": 72
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/73",
+      "@type": "Legislation",
+      "name": "(1) The Registered Pension Schemes (Authorised Payments) Regulations 2009 (S.I....",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "73",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/5",
+        "name": "Miscellaneous amendments"
+      },
+      "position": 73
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/74",
+      "@type": "Legislation",
+      "name": "(1) Paragraph 20 of Schedule 29 to FA 2004 (trivial...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "74",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/5",
+        "name": "Miscellaneous amendments"
+      },
+      "position": 74
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/75",
+      "@type": "Legislation",
+      "name": "(1) In Schedule 29 to FA 2004 (authorised lump sums)...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "75",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/5",
+        "name": "Miscellaneous amendments"
+      },
+      "position": 75
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/76",
+      "@type": "Legislation",
+      "name": "(1) In paragraph 7 of Schedule 32 to FA 2004...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "76",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/5",
+        "name": "Miscellaneous amendments"
+      },
+      "position": 76
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/77",
+      "@type": "Legislation",
+      "name": "(1) In paragraph 20(4)(a) and (b) of Schedule 36 to...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "77",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/5",
+        "name": "Miscellaneous amendments"
+      },
+      "position": 77
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/78",
+      "@type": "Legislation",
+      "name": "(1) In Schedule 36 to FA 2004 after paragraph 23...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "78",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/5",
+        "name": "Miscellaneous amendments"
+      },
+      "position": 78
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/79",
+      "@type": "Legislation",
+      "name": "In FA 2004 after section 273A insert— Power of trustees...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "79",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/5",
+        "name": "Miscellaneous amendments"
+      },
+      "position": 79
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/80",
+      "@type": "Legislation",
+      "name": "ITEPA 2003 is amended as follows.",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "80",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/5",
+        "name": "Miscellaneous amendments"
+      },
+      "position": 80
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/81",
+      "@type": "Legislation",
+      "name": "(1) Section 579CA as substituted by paragraph 117 of Schedule...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "81",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/5",
+        "name": "Miscellaneous amendments"
+      },
+      "position": 81
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/82",
+      "@type": "Legislation",
+      "name": "(1) The version of section 579CA which has effect if...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "82",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/5",
+        "name": "Miscellaneous amendments"
+      },
+      "position": 82
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/83",
+      "@type": "Legislation",
+      "name": "(1) Section 576A as substituted by paragraph 116 of Schedule...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "83",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/5",
+        "name": "Miscellaneous amendments"
+      },
+      "position": 83
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/84",
+      "@type": "Legislation",
+      "name": "(1) The version of section 576A which has effect if...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "84",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/5",
+        "name": "Miscellaneous amendments"
+      },
+      "position": 84
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/85",
+      "@type": "Legislation",
+      "name": "In section 164 of FA 2004 (authorised payments) after subsection...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "85",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/5",
+        "name": "Miscellaneous amendments"
+      },
+      "position": 85
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/5",
+      "@type": "Legislation",
+      "name": "Miscellaneous amendments",
+      "legislationType": "act",
+      "codificationLevel": "part",
+      "legislationIdentifier": "Part 5",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30",
+        "name": "Taxation of Pensions Act 2014"
+      },
+      "hasPart": [
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/70",
+          "name": "(1) In paragraph 3A(3) of Schedule 29 to FA 2004..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/71",
+          "name": "(1) In paragraph 7(1) of Schedule 29 to FA 2004..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/72",
+          "name": "(1) In article 23C(4) of the Taxation of Pension Schemes..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/73",
+          "name": "(1) The Registered Pension Schemes (Authorised Payments) Regulations 2009 (S.I...."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/74",
+          "name": "(1) Paragraph 20 of Schedule 29 to FA 2004 (trivial..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/75",
+          "name": "(1) In Schedule 29 to FA 2004 (authorised lump sums)..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/76",
+          "name": "(1) In paragraph 7 of Schedule 32 to FA 2004..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/77",
+          "name": "(1) In paragraph 20(4)(a) and (b) of Schedule 36 to..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/78",
+          "name": "(1) In Schedule 36 to FA 2004 after paragraph 23..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/79",
+          "name": "In FA 2004 after section 273A insert— Power of trustees..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/80",
+          "name": "ITEPA 2003 is amended as follows."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/81",
+          "name": "(1) Section 579CA as substituted by paragraph 117 of Schedule..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/82",
+          "name": "(1) The version of section 579CA which has effect if..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/83",
+          "name": "(1) Section 576A as substituted by paragraph 116 of Schedule..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/84",
+          "name": "(1) The version of section 576A which has effect if..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/85",
+          "name": "In section 164 of FA 2004 (authorised payments) after subsection..."
+        }
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/86",
+      "@type": "Legislation",
+      "name": "The Registered Pension Schemes (Provision of Information) Regulations 2006 (S.I....",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "86",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/6",
+        "name": "Provision of information"
+      },
+      "position": 86
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/87",
+      "@type": "Legislation",
+      "name": "After regulation 14 insert— Information provided to member by scheme...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "87",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/6",
+        "name": "Provision of information"
+      },
+      "position": 87
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/88",
+      "@type": "Legislation",
+      "name": "(1) Regulation 14A (annual allowance: annual provision of information by...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "88",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/6",
+        "name": "Provision of information"
+      },
+      "position": 88
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/89",
+      "@type": "Legislation",
+      "name": "In regulation 14B(1) (information mentioned in regulation 14A to be...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "89",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/6",
+        "name": "Provision of information"
+      },
+      "position": 89
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/90",
+      "@type": "Legislation",
+      "name": "(1) The table in regulation 3(1) (provision of event reports...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "90",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/6",
+        "name": "Provision of information"
+      },
+      "position": 90
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/91",
+      "@type": "Legislation",
+      "name": "The amendments made by this Part of the Schedule—",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "91",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/6",
+        "name": "Provision of information"
+      },
+      "position": 91
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/6",
+      "@type": "Legislation",
+      "name": "Provision of information",
+      "legislationType": "act",
+      "codificationLevel": "part",
+      "legislationIdentifier": "Part 6",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30",
+        "name": "Taxation of Pensions Act 2014"
+      },
+      "hasPart": [
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/86",
+          "name": "The Registered Pension Schemes (Provision of Information) Regulations 2006 (S.I...."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/87",
+          "name": "After regulation 14 insert— Information provided to member by scheme..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/88",
+          "name": "(1) Regulation 14A (annual allowance: annual provision of information by..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/89",
+          "name": "In regulation 14B(1) (information mentioned in regulation 14A to be..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/90",
+          "name": "(1) The table in regulation 3(1) (provision of event reports..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/91",
+          "name": "The amendments made by this Part of the Schedule—"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/92",
+      "@type": "Legislation",
+      "name": "In section 169(4) of FA 2004 (regulations about the provision...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "92",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/7",
+        "name": "Overseas pensions"
+      },
+      "position": 92
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/93",
+      "@type": "Legislation",
+      "name": "(1) Section 251 of FA 2004 (regulations about the provision...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "93",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/7",
+        "name": "Overseas pensions"
+      },
+      "position": 93
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/94",
+      "@type": "Legislation",
+      "name": "In paragraph 5 of Schedule 33 to FA 2004 (conditions...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "94",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/7",
+        "name": "Overseas pensions"
+      },
+      "position": 94
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/95",
+      "@type": "Legislation",
+      "name": "(1) Schedule 34 to FA 2004 (application of certain tax...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "95",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/7",
+        "name": "Overseas pensions"
+      },
+      "position": 95
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/96",
+      "@type": "Legislation",
+      "name": "(1) The Pension Schemes (Application of UK Provisions to Relevant...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "96",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/7",
+        "name": "Overseas pensions"
+      },
+      "position": 96
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/97",
+      "@type": "Legislation",
+      "name": "(1) In this paragraph— “the 2013 Regulations” means the Registered...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "97",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/7",
+        "name": "Overseas pensions"
+      },
+      "position": 97
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/part/7",
+      "@type": "Legislation",
+      "name": "Overseas pensions",
+      "legislationType": "act",
+      "codificationLevel": "part",
+      "legislationIdentifier": "Part 7",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30",
+        "name": "Taxation of Pensions Act 2014"
+      },
+      "hasPart": [
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/92",
+          "name": "In section 169(4) of FA 2004 (regulations about the provision..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/93",
+          "name": "(1) Section 251 of FA 2004 (regulations about the provision..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/94",
+          "name": "In paragraph 5 of Schedule 33 to FA 2004 (conditions..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/95",
+          "name": "(1) Schedule 34 to FA 2004 (application of certain tax..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/96",
+          "name": "(1) The Pension Schemes (Application of UK Provisions to Relevant..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/1/paragraph/97",
+          "name": "(1) In this paragraph— “the 2013 Regulations” means the Registered..."
+        }
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/1",
+      "@type": "Legislation",
+      "name": "FA 2004 is amended as follows.",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "1",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/1",
+        "name": "Death benefits: nominees and successors"
+      },
+      "position": 1
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/2",
+      "@type": "Legislation",
+      "name": "(1) Section 167 (the pension death benefit rules) is amended...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "2",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/1",
+        "name": "Death benefits: nominees and successors"
+      },
+      "position": 2
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/3",
+      "@type": "Legislation",
+      "name": "(1) In Part 2 of Schedule 28 (interpretation of the...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "3",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/1",
+        "name": "Death benefits: nominees and successors"
+      },
+      "position": 3
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/4",
+      "@type": "Legislation",
+      "name": "In section 169(1D) (regulations about transfers of drawdown funds) after...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "4",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/1",
+        "name": "Death benefits: nominees and successors"
+      },
+      "position": 4
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/5",
+      "@type": "Legislation",
+      "name": "In section 172(1)(a) (assignment of rights or benefits) after “dependant”...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "5",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/1",
+        "name": "Death benefits: nominees and successors"
+      },
+      "position": 5
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/6",
+      "@type": "Legislation",
+      "name": "In section 172A(1)(a) (surrender of rights or benefits) after “dependant”...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "6",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/1",
+        "name": "Death benefits: nominees and successors"
+      },
+      "position": 6
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/7",
+      "@type": "Legislation",
+      "name": "In section 172A(5) (exceptions to provisions on surrender: entitlement to...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "7",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/1",
+        "name": "Death benefits: nominees and successors"
+      },
+      "position": 7
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/8",
+      "@type": "Legislation",
+      "name": "In section 172A(5A) (further provision on surrender exceptions)—",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "8",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/1",
+        "name": "Death benefits: nominees and successors"
+      },
+      "position": 8
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/9",
+      "@type": "Legislation",
+      "name": "In section 172A after subsection (5A) insert—",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "9",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/1",
+        "name": "Death benefits: nominees and successors"
+      },
+      "position": 9
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/10",
+      "@type": "Legislation",
+      "name": "In section 172A(7) (exceptions to provisions on surrender: prospective entitlements)—...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "10",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/1",
+        "name": "Death benefits: nominees and successors"
+      },
+      "position": 10
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/11",
+      "@type": "Legislation",
+      "name": "In section 172B(2) (rights of a “relevant member”)—",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "11",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/1",
+        "name": "Death benefits: nominees and successors"
+      },
+      "position": 11
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/12",
+      "@type": "Legislation",
+      "name": "In section 172B(7A) (section does not apply to certain increases...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "12",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/1",
+        "name": "Death benefits: nominees and successors"
+      },
+      "position": 12
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/13",
+      "@type": "Legislation",
+      "name": "In section 182(3) (value of arrangement for purposes of borrowing...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "13",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/1",
+        "name": "Death benefits: nominees and successors"
+      },
+      "position": 13
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/14",
+      "@type": "Legislation",
+      "name": "In section 280(2) (index of defined expressions) at the appropriate...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "14",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/1",
+        "name": "Death benefits: nominees and successors"
+      },
+      "position": 14
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/15",
+      "@type": "Legislation",
+      "name": "(1) Paragraph 18 of Schedule 29 (charity lump sum death...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "15",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/1",
+        "name": "Death benefits: nominees and successors"
+      },
+      "position": 15
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/16",
+      "@type": "Legislation",
+      "name": "(1) Regulation 12 of the Registered Pension Schemes (Transfer of...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "16",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/1",
+        "name": "Death benefits: nominees and successors"
+      },
+      "position": 16
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/1",
+      "@type": "Legislation",
+      "name": "Death benefits: nominees and successors",
+      "legislationType": "act",
+      "codificationLevel": "part",
+      "legislationIdentifier": "Part 1",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30",
+        "name": "Taxation of Pensions Act 2014"
+      },
+      "hasPart": [
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/1",
+          "name": "FA 2004 is amended as follows."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/2",
+          "name": "(1) Section 167 (the pension death benefit rules) is amended..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/3",
+          "name": "(1) In Part 2 of Schedule 28 (interpretation of the..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/4",
+          "name": "In section 169(1D) (regulations about transfers of drawdown funds) after..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/5",
+          "name": "In section 172(1)(a) (assignment of rights or benefits) after “dependant”..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/6",
+          "name": "In section 172A(1)(a) (surrender of rights or benefits) after “dependant”..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/7",
+          "name": "In section 172A(5) (exceptions to provisions on surrender: entitlement to..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/8",
+          "name": "In section 172A(5A) (further provision on surrender exceptions)—"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/9",
+          "name": "In section 172A after subsection (5A) insert—"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/10",
+          "name": "In section 172A(7) (exceptions to provisions on surrender: prospective entitlements)—..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/11",
+          "name": "In section 172B(2) (rights of a “relevant member”)—"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/12",
+          "name": "In section 172B(7A) (section does not apply to certain increases..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/13",
+          "name": "In section 182(3) (value of arrangement for purposes of borrowing..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/14",
+          "name": "In section 280(2) (index of defined expressions) at the appropriate..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/15",
+          "name": "(1) Paragraph 18 of Schedule 29 (charity lump sum death..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/16",
+          "name": "(1) Regulation 12 of the Registered Pension Schemes (Transfer of..."
+        }
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/17",
+      "@type": "Legislation",
+      "name": "(1) Section 206 of FA 2004 (special lump sum death...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "17",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/2",
+        "name": "Lump sum death benefits"
+      },
+      "position": 17
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/18",
+      "@type": "Legislation",
+      "name": "In section 280(2) of FA 2004 (index of defined expressions)...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "18",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/2",
+        "name": "Lump sum death benefits"
+      },
+      "position": 18
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/19",
+      "@type": "Legislation",
+      "name": "(1) In paragraph 15 of Schedule 29 to FA 2004...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "19",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/2",
+        "name": "Lump sum death benefits"
+      },
+      "position": 19
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/20",
+      "@type": "Legislation",
+      "name": "The amendments made by paragraphs 17 and 19 apply to...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "20",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/2",
+        "name": "Lump sum death benefits"
+      },
+      "position": 20
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/2",
+      "@type": "Legislation",
+      "name": "Lump sum death benefits",
+      "legislationType": "act",
+      "codificationLevel": "part",
+      "legislationIdentifier": "Part 2",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30",
+        "name": "Taxation of Pensions Act 2014"
+      },
+      "hasPart": [
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/17",
+          "name": "(1) Section 206 of FA 2004 (special lump sum death..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/18",
+          "name": "In section 280(2) of FA 2004 (index of defined expressions)..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/19",
+          "name": "(1) In paragraph 15 of Schedule 29 to FA 2004..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/20",
+          "name": "The amendments made by paragraphs 17 and 19 apply to..."
+        }
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/21",
+      "@type": "Legislation",
+      "name": "In section 216(1) of FA 2004 (benefit crystallisation events and...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "21",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/3",
+        "name": "Uncrystallised rights at member's death"
+      },
+      "position": 21
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/22",
+      "@type": "Legislation",
+      "name": "(1) Section 217 of FA 2004 (persons liable to lifetime...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "22",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/3",
+        "name": "Uncrystallised rights at member's death"
+      },
+      "position": 22
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/23",
+      "@type": "Legislation",
+      "name": "(1) Section 219 of FA 2004 (availability of individual's lifetime...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "23",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/3",
+        "name": "Uncrystallised rights at member's death"
+      },
+      "position": 23
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/24",
+      "@type": "Legislation",
+      "name": "(1) Schedule 32 to FA 2004 (supplementary provisions about benefit...",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "24",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/3",
+        "name": "Uncrystallised rights at member's death"
+      },
+      "position": 24
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/3",
+      "@type": "Legislation",
+      "name": "Uncrystallised rights at member's death",
+      "legislationType": "act",
+      "codificationLevel": "part",
+      "legislationIdentifier": "Part 3",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30",
+        "name": "Taxation of Pensions Act 2014"
+      },
+      "hasPart": [
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/21",
+          "name": "In section 216(1) of FA 2004 (benefit crystallisation events and..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/22",
+          "name": "(1) Section 217 of FA 2004 (persons liable to lifetime..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/23",
+          "name": "(1) Section 219 of FA 2004 (availability of individual's lifetime..."
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/24",
+          "name": "(1) Schedule 32 to FA 2004 (supplementary provisions about benefit..."
+        }
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/25",
+      "@type": "Legislation",
+      "name": "(1) ITEPA 2003 is amended as follows.",
+      "legislationType": "act",
+      "codificationLevel": "section",
+      "legislationIdentifier": "25",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/4",
+        "name": "Income tax on beneficiaries' income withdrawal"
+      },
+      "position": 25
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/part/4",
+      "@type": "Legislation",
+      "name": "Income tax on beneficiaries' income withdrawal",
+      "legislationType": "act",
+      "codificationLevel": "part",
+      "legislationIdentifier": "Part 4",
+      "legislationJurisdiction": {
+        "@id": "https://www.legislation.gov.uk/id/jurisdiction/gb"
+      },
+      "isPartOf": {
+        "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30",
+        "name": "Taxation of Pensions Act 2014"
+      },
+      "hasPart": [
+        {
+          "@id": "http://www.legislation.gov.uk/id/ukpga/2014/30/schedule/2/paragraph/25",
+          "name": "(1) ITEPA 2003 is amended as follows."
+        }
+      ]
+    }
+  ]
+}
