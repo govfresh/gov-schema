@@ -271,6 +271,23 @@ to go past a lawyer is one that stops adoption. CC0 also answers the vendor-name
 question directly — terms live under a GovFresh domain because it is maintained, not because
 the vocabulary is owned.
 
+## CAP adapter — DONE
+
+`tools/adapters/cap.py` converts the live NWS alerts API. Real CAP validated first time with
+zero unmapped values, which is the strongest evidence yet for modelling on the incumbent
+standard rather than inventing one.
+
+One real defect: the profile required `references` on an update or cancel, but alert feeds are
+windowed and ten of twenty-five updates superseded an alert already expired out of the active
+feed. The only conformant option was downgrading `update` to `alert`, which turns "this
+supersedes an earlier warning" into "this is a new warning". `referencesIdentifier` now
+carries the CAP identifier of a superseded alert absent from the dataset.
+
+**Sharpens the open geospatial question.** The profile references geometry by URL; NWS inlines
+the polygon in the same document. The adapter links to the alert's own endpoint, which is a
+workaround rather than a mapping. A publisher that inlines geometry currently has nowhere to
+put it. See [examples/pilot-nws-alerts/README.md](examples/pilot-nws-alerts/README.md).
+
 ## The honest risk
 
 Seven profiles with one fictional example city is a demo, not an adopted standard. Profiles

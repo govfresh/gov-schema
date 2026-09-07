@@ -1,0 +1,1878 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-8ac5e0cba3bc70d2db5bd6b1a326c5287f599c7c-001-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.8ac5e0cba3bc70d2db5bd6b1a326c5287f599c7c.001.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Great Falls MT"
+      },
+      "sent": "2026-09-06T23:28:00-06:00",
+      "alertStatus": "actual",
+      "messageType": "alert",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Severe Thunderstorm Warning",
+          "urgency": "immediate",
+          "severity": "severe",
+          "certainty": "observed",
+          "expires": "2026-09-07T00:15:00-06:00",
+          "headline": "Severe Thunderstorm Warning issued September 6 at 11:28PM MDT until September 7 at 12:15AM MDT by NWS Great Falls MT",
+          "description": "SVRTFX\n\nThe National Weather Service in Great Falls has issued a\n\n* Severe Thunderstorm Warning for...\nNortheastern Fergus County in central Montana...\n\n* Until 1215 AM MDT.\n\n* At 1128 PM MDT, a severe thunderstorm was located 19 miles\nnortheast of Roy, or 25 miles south of Zortman, moving northeast at\n35 mph.\n\nHAZARD...Half dollar size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Damage to vehicles is expected.\n\n* This severe thunderstorm will remain over mainly rural areas of\nnortheastern Fergus County.",
+          "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.\n\nTorrential rainfall is occurring with this storm, and may lead to\nflash flooding. Do not drive your vehicle through flooded roadways.",
+          "effective": "2026-09-06T23:28:00-06:00",
+          "onset": "2026-09-06T23:28:00-06:00",
+          "senderName": "NWS Great Falls MT",
+          "responseType": [
+            "shelter"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Fergus, MT",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "030027"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "MTC027"
+            }
+          ],
+          "geometry": "urn:oid:2.49.0.1.840.0.8ac5e0cba3bc70d2db5bd6b1a326c5287f599c7c.001.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-c9789a9403980588f3e224c381eddaea572433d0-002-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.c9789a9403980588f3e224c381eddaea572433d0.002.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Great Falls MT"
+      },
+      "sent": "2026-09-06T23:27:00-06:00",
+      "alertStatus": "actual",
+      "messageType": "update",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Severe Thunderstorm Watch",
+          "urgency": "future",
+          "severity": "severe",
+          "certainty": "possible",
+          "expires": "2026-09-07T01:00:00-06:00",
+          "headline": "Severe Thunderstorm Watch issued September 6 at 11:27PM MDT until September 7 at 1:00AM MDT by NWS Great Falls MT",
+          "description": "SEVERE THUNDERSTORM WATCH 662 REMAINS VALID UNTIL 1 AM MDT MONDAY\nFOR THE FOLLOWING AREAS\n\nIN MONTANA THIS WATCH INCLUDES 2 COUNTIES\n\nIN CENTRAL MONTANA\n\nFERGUS\n\nIN NORTH CENTRAL MONTANA\n\nBLAINE\n\nTHIS INCLUDES THE CITIES OF CHINOOK, GRASS RANGE, HARLEM, HAYS,\nLEWISTOWN, LEWISTOWN DIVIDE, AND WINIFRED.",
+          "effective": "2026-09-06T23:27:00-06:00",
+          "onset": "2026-09-06T23:27:00-06:00",
+          "senderName": "NWS Great Falls MT",
+          "responseType": [
+            "monitor"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Blaine, MT; Fergus, MT",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "030005"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "030027"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "MTC005"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "MTC027"
+            }
+          ],
+          "geometry": "https://api.weather.gov/zones/county/MTC005"
+        }
+      ],
+      "referencesIdentifier": [
+        "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ad945ae0df2d38770f2e437475df79a0f0515833.001.1",
+        "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6973fb8a8fbc90ffd703eeb55f9a5825c82378a1.002.1"
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-e0f885dd4a50d6b5d9f912961d2ddfceb60cd939-001-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.e0f885dd4a50d6b5d9f912961d2ddfceb60cd939.001.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Rapid City SD"
+      },
+      "sent": "2026-09-06T23:26:00-06:00",
+      "alertStatus": "actual",
+      "messageType": "update",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Severe Thunderstorm Warning",
+          "urgency": "immediate",
+          "severity": "severe",
+          "certainty": "observed",
+          "expires": "2026-09-06T23:45:00-06:00",
+          "headline": "Severe Thunderstorm Warning issued September 6 at 11:26PM MDT until September 6 at 11:45PM MDT by NWS Rapid City SD",
+          "description": "At 1126 PM MDT, a severe thunderstorm was located 6 miles northeast\nof Osage, or 15 miles northwest of Newcastle, moving northeast at 25\nmph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nLocations impacted include...\nOsage, Four Corners and Inyan Kara Mountain.",
+          "instruction": "Seek shelter inside a well-built structure and stay away from\nwindows. This storm is capable of producing damaging winds and large\nhail.",
+          "effective": "2026-09-06T23:26:00-06:00",
+          "onset": "2026-09-06T23:26:00-06:00",
+          "senderName": "NWS Rapid City SD",
+          "responseType": [
+            "shelter"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Crook, WY; Weston, WY",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "056011"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "056045"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "WYC011"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "WYC045"
+            }
+          ],
+          "geometry": "urn:oid:2.49.0.1.840.0.e0f885dd4a50d6b5d9f912961d2ddfceb60cd939.001.1"
+        }
+      ],
+      "referencesIdentifier": [
+        "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7a2902e12de313e9d0666adb1e928163259a4a20.001.1",
+        "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7929a94a72170687e0f392793ae7feb9511f82fa.001.1"
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-e9e46914bd5801fe99f805c7f76f79d560bddee7-001-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.e9e46914bd5801fe99f805c7f76f79d560bddee7.001.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Missoula MT"
+      },
+      "sent": "2026-09-06T23:26:00-06:00",
+      "alertStatus": "actual",
+      "messageType": "alert",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Special Weather Statement",
+          "urgency": "expected",
+          "severity": "moderate",
+          "certainty": "observed",
+          "expires": "2026-09-07T00:00:00-06:00",
+          "headline": "Special Weather Statement issued September 6 at 11:26PM MDT by NWS Missoula MT",
+          "description": "At 1126 PM MDT, Doppler radar was tracking a strong thunderstorm 27\nmiles west of North Fork, or 38 miles northwest of Salmon, moving\nnortheast at 45 mph.\n\nHAZARD...Wind gusts up to 30 mph and nickel size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to outdoor objects is\npossible.\n\nLocations impacted include...\nMainly rural areas of Southwestern Ravalli County.",
+          "instruction": "Monitor the weather situation closely and be alert for threatening\nweather conditions.",
+          "effective": "2026-09-06T23:26:00-06:00",
+          "onset": "2026-09-06T23:26:00-06:00",
+          "senderName": "NWS Missoula MT",
+          "responseType": [
+            "execute"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Bitterroot/Sapphire Mountains",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "030039"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "030063"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "030081"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "MTZ006"
+            }
+          ],
+          "geometry": "urn:oid:2.49.0.1.840.0.e9e46914bd5801fe99f805c7f76f79d560bddee7.001.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-35829eef06d071bca8f15847799b65a264557b8a-001-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.35829eef06d071bca8f15847799b65a264557b8a.001.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Wakefield VA"
+      },
+      "sent": "2026-09-07T01:25:00-04:00",
+      "alertStatus": "actual",
+      "messageType": "update",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Small Craft Advisory",
+          "urgency": "expected",
+          "severity": "minor",
+          "certainty": "likely",
+          "expires": "2026-09-07T09:30:00-04:00",
+          "headline": "Small Craft Advisory issued September 7 at 1:25AM EDT until September 7 at 10:00PM EDT by NWS Wakefield VA",
+          "description": "* WHAT...Northeast winds 5 to 15 kt and seas 3 to 5 ft.\n\n* WHERE...Coastal Waters from Cape Charles Light to Virginia-\nNorth Carolina border out 20 NM and Coastal waters from NC VA\nborder to Currituck Beach Light NC out 20 NM.\n\n* WHEN...Until 10 PM EDT this evening.\n\n* IMPACTS...Conditions will be hazardous to small craft.",
+          "instruction": "Inexperienced mariners, especially those operating smaller\nvessels, should avoid navigating in hazardous conditions.",
+          "effective": "2026-09-07T01:25:00-04:00",
+          "onset": "2026-09-07T01:25:00-04:00",
+          "senderName": "NWS Wakefield VA",
+          "responseType": [
+            "avoid"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Coastal Waters from Cape Charles Light to Virginia-North Carolina border out 20 NM; Coastal waters from NC VA border to Currituck Beach Light NC out 20 NM",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "073656"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "073658"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ANZ656"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ANZ658"
+            }
+          ],
+          "geometry": "https://api.weather.gov/zones/forecast/ANZ656"
+        }
+      ],
+      "referencesIdentifier": [
+        "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c3dc0f603589c170b3550e3252ae7ffe974774ff.001.1"
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-6e4d20aacd5c0543c1b063e3a2b69244a354af1d-001-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.6e4d20aacd5c0543c1b063e3a2b69244a354af1d.001.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Glasgow MT"
+      },
+      "sent": "2026-09-06T23:25:00-06:00",
+      "alertStatus": "actual",
+      "messageType": "alert",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Severe Thunderstorm Warning",
+          "urgency": "immediate",
+          "severity": "severe",
+          "certainty": "observed",
+          "expires": "2026-09-07T00:30:00-06:00",
+          "headline": "Severe Thunderstorm Warning issued September 6 at 11:25PM MDT until September 7 at 12:30AM MDT by NWS Glasgow MT",
+          "description": "SVRGGW\n\nThe National Weather Service in Glasgow has issued a\n\n* Severe Thunderstorm Warning for...\nWestern Phillips County in northeastern Montana...\n\n* Until 1230 AM MDT.\n\n* At 1125 PM MDT, a severe thunderstorm was located 11 miles\nsouthwest of Dodson, or 24 miles west of Malta, moving northeast at\n25 mph.\n\nHAZARD...Golf ball size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect\ndamage to roofs, siding, windows, and vehicles.\n\n* Locations impacted include...\nDodson and Wagner.",
+          "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.\n\nLarge hail, damaging wind, and continuous cloud to ground lightning\nare occurring with this storm. Move indoors immediately. Lightning is\none of nature's leading killers. Remember, if you can hear thunder,\nyou are close enough to be struck by lightning.\n\nTorrential rainfall is occurring with this storm, and may lead to\nflash flooding. Do not drive your vehicle through flooded roadways.",
+          "effective": "2026-09-06T23:25:00-06:00",
+          "onset": "2026-09-06T23:25:00-06:00",
+          "senderName": "NWS Glasgow MT",
+          "responseType": [
+            "shelter"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Phillips, MT",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "030071"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "MTC071"
+            }
+          ],
+          "geometry": "urn:oid:2.49.0.1.840.0.6e4d20aacd5c0543c1b063e3a2b69244a354af1d.001.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-7d194e7cb563207ea09f5119b737b0f1a61b12a9-001-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.7d194e7cb563207ea09f5119b737b0f1a61b12a9.001.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Cheyenne WY"
+      },
+      "sent": "2026-09-06T23:25:00-06:00",
+      "alertStatus": "actual",
+      "messageType": "alert",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Special Weather Statement",
+          "urgency": "expected",
+          "severity": "moderate",
+          "certainty": "observed",
+          "expires": "2026-09-07T00:00:00-06:00",
+          "headline": "Special Weather Statement issued September 6 at 11:25PM MDT by NWS Cheyenne WY",
+          "description": "At 1125 PM MDT, Doppler radar was tracking a cluster of strong\nthunderstorms 7 miles southwest of Warren AFB, or 10 miles southwest\nof Cheyenne, moving northeast at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nCheyenne, Happy Valley, Rocking Star Ranch, Silver Sage Estates, Fox\nFarm-College, Cheyenne Regional Airport, Winchester Hills, South\nGreeley Highway, Ranchettes, Warren AFB, Frontier Park, North\nCheyenne, South Cheyenne, Bison Crossing, and Cowboy Ranch South.",
+          "instruction": "If outdoors, consider seeking shelter inside a building.\n\nTorrential rainfall is also occurring with this storm and may lead to\nlocalized flooding. Do not drive your vehicle through flooded\nroadways.",
+          "effective": "2026-09-06T23:25:00-06:00",
+          "onset": "2026-09-06T23:25:00-06:00",
+          "senderName": "NWS Cheyenne WY",
+          "responseType": [
+            "execute"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "South Laramie Range Foothills; Central Laramie County",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "056001"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "056021"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "WYZ117"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "WYZ118"
+            }
+          ],
+          "geometry": "urn:oid:2.49.0.1.840.0.7d194e7cb563207ea09f5119b737b0f1a61b12a9.001.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-e73f2eaee7706d61293ad3c06b9c85da96fed03a-001-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.e73f2eaee7706d61293ad3c06b9c85da96fed03a.001.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Denver CO"
+      },
+      "sent": "2026-09-06T23:23:00-06:00",
+      "alertStatus": "actual",
+      "messageType": "alert",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Flood Advisory",
+          "urgency": "expected",
+          "severity": "minor",
+          "certainty": "likely",
+          "expires": "2026-09-07T01:30:00-06:00",
+          "headline": "Flood Advisory issued September 6 at 11:23PM MDT until September 7 at 1:30AM MDT by NWS Denver CO",
+          "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...Northeastern Larimer County in north central Colorado...\n\n* WHEN...Until 130 AM MDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n\n- At 1123 PM MDT, Doppler radar indicated heavy rain due to\nthunderstorms. Minor flooding is ongoing or expected to begin\nshortly in the advisory area. Between 1.25 and 1.75 inches of\nrain have fallen.\n\n- This includes the following streams and drainages...\nSand Creek, Spottlewood Creek, Rawhide Creek, Spring Creek,\nRabbit Creek, Park Creek, Coal Creek, Boxelder Creek, North Fork\nCache La Poudre River, Lonetree Creek, Lone Pine Creek and Dry\nCreek. Additional rainfall amounts of 0.5 to 1 inch are expected\nover the area. This additional rain will result in minor\nflooding.\n\n- Some locations that will experience flooding include...\nLivermore, Buckeye and Owl Canyon.",
+          "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.",
+          "effective": "2026-09-06T23:23:00-06:00",
+          "onset": "2026-09-06T23:23:00-06:00",
+          "senderName": "NWS Denver CO",
+          "responseType": [
+            "avoid"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Larimer, CO",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "008069"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "COC069"
+            }
+          ],
+          "geometry": "urn:oid:2.49.0.1.840.0.e73f2eaee7706d61293ad3c06b9c85da96fed03a.001.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-e00958f2cf3daa7d85a29b184b401a2288fce874-001-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.e00958f2cf3daa7d85a29b184b401a2288fce874.001.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Portland OR"
+      },
+      "sent": "2026-09-06T22:22:00-07:00",
+      "alertStatus": "actual",
+      "messageType": "alert",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Small Craft Advisory",
+          "urgency": "expected",
+          "severity": "minor",
+          "certainty": "likely",
+          "expires": "2026-09-07T14:30:00-07:00",
+          "headline": "Small Craft Advisory issued September 6 at 10:22PM PDT until September 8 at 11:00PM PDT by NWS Portland OR",
+          "description": "* WHAT...Seas 4 to 7 ft at 7 seconds and north winds 15 to 20 kt\nwith gusts up to 25 kt expected.\n\n* WHERE...Waters from Cape Foulweather to Florence OR from 10 to\n60 NM.\n\n* WHEN...From 11 AM to 11 PM PDT Tuesday.\n\n* IMPACTS...Conditions will be hazardous to small craft.",
+          "instruction": "Inexperienced mariners, especially those operating smaller\nvessels, should avoid navigating in hazardous conditions.",
+          "effective": "2026-09-06T22:22:00-07:00",
+          "onset": "2026-09-08T11:00:00-07:00",
+          "senderName": "NWS Portland OR",
+          "responseType": [
+            "avoid"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Waters from Cape Foulweather to Florence OR from 10 to 60 nm",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "057273"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "PZZ273"
+            }
+          ],
+          "geometry": "https://api.weather.gov/zones/forecast/PZZ273"
+        }
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-e00958f2cf3daa7d85a29b184b401a2288fce874-004-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.e00958f2cf3daa7d85a29b184b401a2288fce874.004.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Portland OR"
+      },
+      "sent": "2026-09-06T22:22:00-07:00",
+      "alertStatus": "actual",
+      "messageType": "alert",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Small Craft Advisory",
+          "urgency": "expected",
+          "severity": "minor",
+          "certainty": "likely",
+          "expires": "2026-09-07T14:30:00-07:00",
+          "headline": "Small Craft Advisory issued September 6 at 10:22PM PDT until September 8 at 11:00PM PDT by NWS Portland OR",
+          "description": "* WHAT...Seas 4 to 5 ft at 7 seconds and north winds around 20\nkt with gusts up to 25 kt expected.\n\n* WHERE...Waters from Cape Falcon to Cape Foulweather OR from 10\nto 60 NM.\n\n* WHEN...From 2 PM to 11 PM PDT Tuesday.\n\n* IMPACTS...Conditions will be hazardous to small craft.",
+          "instruction": "Inexperienced mariners, especially those operating smaller\nvessels, should avoid navigating in hazardous conditions.",
+          "effective": "2026-09-06T22:22:00-07:00",
+          "onset": "2026-09-08T14:00:00-07:00",
+          "senderName": "NWS Portland OR",
+          "responseType": [
+            "avoid"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Waters from Cape Falcon to Cape Foulweather OR from 10 to 60 nm",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "057272"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "PZZ272"
+            }
+          ],
+          "geometry": "https://api.weather.gov/zones/forecast/PZZ272"
+        }
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-e00958f2cf3daa7d85a29b184b401a2288fce874-005-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.e00958f2cf3daa7d85a29b184b401a2288fce874.005.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Portland OR"
+      },
+      "sent": "2026-09-06T22:22:00-07:00",
+      "alertStatus": "actual",
+      "messageType": "alert",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Small Craft Advisory",
+          "urgency": "expected",
+          "severity": "minor",
+          "certainty": "likely",
+          "expires": "2026-09-07T14:30:00-07:00",
+          "headline": "Small Craft Advisory issued September 6 at 10:22PM PDT until September 8 at 11:00PM PDT by NWS Portland OR",
+          "description": "* WHAT...Rough bar conditions expected. North winds 15 to 20 kt\nwith gusts up to 25 kt.\n\n* WHERE...In the Main Channel of the Columbia River Bar.\n\n* WHEN...From 2 PM to 11 PM PDT Tuesday.\n\n* IMPACTS...Conditions will be hazardous to small craft,\nespecially when operating near to, or attempting to cross, the\nColumbia River Bar.\n\n* ADDITIONAL DETAILS...Ebb current of 5.19 kt at 151 AM Monday.\nSeas 3 to 4 ft. Ebb current of 2.95 kt at 234 PM Monday. Seas 3\nft. Ebb current of 5.56 kt at 252 AM Tuesday. Seas 4 ft.",
+          "instruction": "A Small Craft Advisory means that wave conditions are expected to\nbe hazardous to small craft in the vicinity of the Columbia River\nBar. Mariners are advised to obtain the latest bar conditions\nfrom the United States Coast Guard before attempting to cross the\nbar.",
+          "effective": "2026-09-06T22:22:00-07:00",
+          "onset": "2026-09-08T14:00:00-07:00",
+          "senderName": "NWS Portland OR",
+          "responseType": [
+            "avoid"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Columbia River Bar",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "057210"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "PZZ210"
+            }
+          ],
+          "geometry": "https://api.weather.gov/zones/forecast/PZZ210"
+        }
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-e00958f2cf3daa7d85a29b184b401a2288fce874-002-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.e00958f2cf3daa7d85a29b184b401a2288fce874.002.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Portland OR"
+      },
+      "sent": "2026-09-06T22:22:00-07:00",
+      "alertStatus": "actual",
+      "messageType": "alert",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Small Craft Advisory",
+          "urgency": "expected",
+          "severity": "minor",
+          "certainty": "likely",
+          "expires": "2026-09-07T14:30:00-07:00",
+          "headline": "Small Craft Advisory issued September 6 at 10:22PM PDT until September 8 at 11:00PM PDT by NWS Portland OR",
+          "description": "* WHAT...Seas 2 to 5 ft at 7 seconds and north winds 10 to 20 kt\nwith gusts up to 25 kt expected.\n\n* WHERE...Coastal waters from Cape Shoalwater WA to Cape Falcon\nOR out 10 NM.\n\n* WHEN...From 2 PM to 11 PM PDT Tuesday.\n\n* IMPACTS...Conditions will be hazardous to small craft.",
+          "instruction": "Inexperienced mariners, especially those operating smaller\nvessels, should avoid navigating in hazardous conditions.",
+          "effective": "2026-09-06T22:22:00-07:00",
+          "onset": "2026-09-08T14:00:00-07:00",
+          "senderName": "NWS Portland OR",
+          "responseType": [
+            "avoid"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "057251"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "PZZ251"
+            }
+          ],
+          "geometry": "https://api.weather.gov/zones/forecast/PZZ251"
+        }
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-e00958f2cf3daa7d85a29b184b401a2288fce874-003-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.e00958f2cf3daa7d85a29b184b401a2288fce874.003.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Portland OR"
+      },
+      "sent": "2026-09-06T22:22:00-07:00",
+      "alertStatus": "actual",
+      "messageType": "alert",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Small Craft Advisory",
+          "urgency": "expected",
+          "severity": "minor",
+          "certainty": "likely",
+          "expires": "2026-09-07T14:30:00-07:00",
+          "headline": "Small Craft Advisory issued September 6 at 10:22PM PDT until September 8 at 11:00PM PDT by NWS Portland OR",
+          "description": "* WHAT...Seas 4 to 6 ft at 7 seconds and north winds 15 to 25 kt\nwith gusts up to 30 kt expected.\n\n* WHERE...Coastal waters from Cape Falcon to Cape Foulweather OR\nout 10 NM and Coastal waters from Cape Foulweather to Florence\nOR out 10 NM.\n\n* WHEN...From 2 PM to 11 PM PDT Tuesday.\n\n* IMPACTS...Conditions will be hazardous to small craft.",
+          "instruction": "Inexperienced mariners, especially those operating smaller\nvessels, should avoid navigating in hazardous conditions.",
+          "effective": "2026-09-06T22:22:00-07:00",
+          "onset": "2026-09-08T14:00:00-07:00",
+          "senderName": "NWS Portland OR",
+          "responseType": [
+            "avoid"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Coastal waters from Cape Falcon to Cape Foulweather OR out 10 nm; Coastal waters from Cape Foulweather to Florence OR out 10 nm",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "057252"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "057253"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "PZZ252"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "PZZ253"
+            }
+          ],
+          "geometry": "https://api.weather.gov/zones/forecast/PZZ252"
+        }
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-2516c6a93460511817df97e020a7e24ac9f962ed-001-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.2516c6a93460511817df97e020a7e24ac9f962ed.001.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Denver CO"
+      },
+      "sent": "2026-09-06T23:20:00-06:00",
+      "alertStatus": "actual",
+      "messageType": "update",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Severe Thunderstorm Warning",
+          "urgency": "immediate",
+          "severity": "severe",
+          "certainty": "observed",
+          "expires": "2026-09-06T23:30:00-06:00",
+          "headline": "Severe Thunderstorm Warning issued September 6 at 11:20PM MDT until September 6 at 11:30PM MDT by NWS Denver CO",
+          "description": "The storm which prompted the warning has weakened below severe\nlimits, and no longer poses an immediate threat to life or property.\nTherefore, the warning will be allowed to expire. However, small\nhail, gusty winds, and heavy rain are still possible with this\nthunderstorm.",
+          "effective": "2026-09-06T23:20:00-06:00",
+          "onset": "2026-09-06T23:20:00-06:00",
+          "senderName": "NWS Denver CO",
+          "responseType": [
+            "shelter"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Larimer, CO; Weld, CO",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "008069"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "008123"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "COC069"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "COC123"
+            }
+          ],
+          "geometry": "urn:oid:2.49.0.1.840.0.2516c6a93460511817df97e020a7e24ac9f962ed.001.1"
+        }
+      ],
+      "referencesIdentifier": [
+        "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6de099ce50c2ba2bdb3b4b24c80ee19df129417d.001.1",
+        "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f00d2e27d90d0dabf906de1b5bf64167020b78d3.001.1"
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-744a8c725c014a33fb659cddc144ae6de9b581b2-001-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.744a8c725c014a33fb659cddc144ae6de9b581b2.001.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Lake Charles LA"
+      },
+      "sent": "2026-09-07T00:19:00-05:00",
+      "alertStatus": "actual",
+      "messageType": "update",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Heat Advisory",
+          "urgency": "expected",
+          "severity": "moderate",
+          "certainty": "likely",
+          "expires": "2026-09-07T19:00:00-05:00",
+          "headline": "Heat Advisory issued September 7 at 12:19AM CDT until September 7 at 7:00PM CDT by NWS Lake Charles LA",
+          "description": "* WHAT...Heat index values 108 to 110 likely.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 11 AM this morning to 7 PM CDT this evening.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+          "instruction": "Drink plenty of fluids, stay in an air-conditioned room, stay out of\nthe sun, and check up on relatives and neighbors.\n\nTo reduce risk during outdoor work, the Occupational Safety and\nHealth Administration recommends scheduling frequent rest breaks in\nshaded or air conditioned environments. Anyone overcome by heat\nshould be moved to a cool and shaded location. Heat stroke is an\nemergency! Call 9 1 1.",
+          "effective": "2026-09-07T00:19:00-05:00",
+          "onset": "2026-09-07T11:00:00-05:00",
+          "senderName": "NWS Lake Charles LA",
+          "responseType": [
+            "execute"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Vernon; Rapides; Avoyelles; Beauregard; Allen; Evangeline; St. Landry; Lafayette; Upper St. Martin; Lower St. Martin; West Cameron; East Cameron; Northern Calcasieu; Northern Jefferson Davis; Northern Acadia; Upper Vermilion; Upper Iberia; Upper St. Mary; Southern Calcasieu; Southern Jefferson Davis; Southern Acadia; Lower Vermilion; Lower Iberia; Lower St. Mary; Tyler; Hardin; Northern Jasper; Northern Newton; Southern Jasper; Southern Newton; Upper Jefferson; Northern Orange; Lower Jefferson; ",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "022115"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "022079"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "022009"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "022011"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "022003"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "022039"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "022097"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "022055"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "022099"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "022023"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "022019"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "022053"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "LAZ027"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "LAZ028"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "LAZ029"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "LAZ030"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "LAZ031"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "LAZ032"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "LAZ033"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "LAZ044"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "LAZ045"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "LAZ055"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "LAZ073"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "LAZ074"
+            }
+          ],
+          "geometry": "https://api.weather.gov/zones/forecast/LAZ027"
+        }
+      ],
+      "referencesIdentifier": [
+        "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.21bfe47875bd8e43645c79a05c36b1800adec97e.001.1"
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-a48ab4bbce2d6ce3c2fc461102e5c4b4d9280ab5-001-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.a48ab4bbce2d6ce3c2fc461102e5c4b4d9280ab5.001.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Glasgow MT"
+      },
+      "sent": "2026-09-06T23:17:00-06:00",
+      "alertStatus": "actual",
+      "messageType": "update",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Severe Thunderstorm Warning",
+          "urgency": "immediate",
+          "severity": "severe",
+          "certainty": "observed",
+          "expires": "2026-09-06T23:45:00-06:00",
+          "headline": "Severe Thunderstorm Warning issued September 6 at 11:17PM MDT until September 6 at 11:45PM MDT by NWS Glasgow MT",
+          "description": "At 1116 PM MDT, a severe thunderstorm was located 7 miles southwest\nof Zortman, moving northeast at 30 mph.\n\nHAZARD...Golf ball size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect damage\nto roofs, siding, windows, and vehicles.\n\nLocations impacted include...\nZortman, Phillips, Landusky, and Fred Robinson Bridge.",
+          "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.\n\nTorrential rainfall is occurring with this storm, and may lead to\nflash flooding. Do not drive your vehicle through flooded roadways.",
+          "effective": "2026-09-06T23:17:00-06:00",
+          "onset": "2026-09-06T23:17:00-06:00",
+          "senderName": "NWS Glasgow MT",
+          "responseType": [
+            "shelter"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Phillips, MT",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "030071"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "MTC071"
+            }
+          ],
+          "geometry": "urn:oid:2.49.0.1.840.0.a48ab4bbce2d6ce3c2fc461102e5c4b4d9280ab5.001.1"
+        }
+      ],
+      "referencesIdentifier": [
+        "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.221ba892f76b476bb3c4daad26bfe8494bdc410d.001.1"
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-fdd1654426b5f61e898607a208e9a99da8250346-001-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.fdd1654426b5f61e898607a208e9a99da8250346.001.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Shreveport LA"
+      },
+      "sent": "2026-09-07T00:17:00-05:00",
+      "alertStatus": "actual",
+      "messageType": "update",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Heat Advisory",
+          "urgency": "expected",
+          "severity": "moderate",
+          "certainty": "likely",
+          "expires": "2026-09-07T17:00:00-05:00",
+          "headline": "Heat Advisory issued September 7 at 12:17AM CDT until September 7 at 7:00PM CDT by NWS Shreveport LA",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of south central and southwest Arkansas, north\ncentral and northwest Louisiana, southeast Oklahoma, and east and\nnortheast Texas.\n\n* WHEN...From 10 AM this morning to 7 PM CDT this evening.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+          "instruction": "Drink plenty of fluids, stay in an air-conditioned room, stay out of\nthe sun, and check up on relatives and neighbors.\n\nTake extra precautions when outside. Wear lightweight and loose\nfitting clothing. Try to limit strenuous activities to early morning\nor evening. Take action when you see symptoms of heat exhaustion and\nheat stroke.\n\nMonitor the latest forecasts and warnings for updates.",
+          "effective": "2026-09-07T00:17:00-05:00",
+          "onset": "2026-09-07T10:00:00-05:00",
+          "senderName": "NWS Shreveport LA",
+          "responseType": [
+            "execute"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Sevier; Howard; Little River; Hempstead; Nevada; Miller; Lafayette; Columbia; Union; Caddo; Bossier; Webster; Claiborne; Lincoln; Union; De Soto; Red River; Bienville; Jackson; Ouachita; Sabine; Natchitoches; Winn; Grant; Caldwell; La Salle; McCurtain; Red River; Bowie; Franklin; Titus; Camp; Morris; Cass; Wood; Upshur; Marion; Smith; Gregg; Harrison; Cherokee; Rusk; Panola; Nacogdoches; Shelby; Angelina; San Augustine; Sabine",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "005133"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "005061"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "005081"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "005057"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "005099"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "005091"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "005073"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "005027"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "005139"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "022017"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "022015"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "022119"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ARZ050"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ARZ051"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ARZ059"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ARZ060"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ARZ061"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ARZ070"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ARZ071"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ARZ072"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ARZ073"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "LAZ001"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "LAZ002"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "LAZ003"
+            }
+          ],
+          "geometry": "https://api.weather.gov/zones/forecast/ARZ050"
+        }
+      ],
+      "referencesIdentifier": [
+        "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9a7be5ea5e359d282222f56111db152608306add.001.1",
+        "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9a7be5ea5e359d282222f56111db152608306add.002.1"
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-3dbd6e7804ec3815dac9681d1f8416c874a8a5f8-001-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.3dbd6e7804ec3815dac9681d1f8416c874a8a5f8.001.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Cheyenne WY"
+      },
+      "sent": "2026-09-06T23:15:00-06:00",
+      "alertStatus": "actual",
+      "messageType": "alert",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Special Weather Statement",
+          "urgency": "expected",
+          "severity": "moderate",
+          "certainty": "observed",
+          "expires": "2026-09-07T00:00:00-06:00",
+          "headline": "Special Weather Statement issued September 6 at 11:15PM MDT by NWS Cheyenne WY",
+          "description": "At 1114 PM MDT, Doppler radar was tracking a cluster of strong\nthunderstorms over Harrison, or 30 miles east of Lusk, moving\nnortheast at 45 mph.\n\nHAZARD...Wind gusts up to 50 mph and half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nHarrison and Montrose.",
+          "instruction": "If outdoors, consider seeking shelter inside a building.\n\nTorrential rainfall is also occurring with this storm and may lead to\nlocalized flooding. Do not drive your vehicle through flooded\nroadways.",
+          "effective": "2026-09-06T23:15:00-06:00",
+          "onset": "2026-09-06T23:15:00-06:00",
+          "senderName": "NWS Cheyenne WY",
+          "responseType": [
+            "execute"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "North Sioux",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "031165"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "NEZ095"
+            }
+          ],
+          "geometry": "urn:oid:2.49.0.1.840.0.3dbd6e7804ec3815dac9681d1f8416c874a8a5f8.001.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-ccef023e56cce3cb6f65666a7f017abc1de0ea7e-001-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.ccef023e56cce3cb6f65666a7f017abc1de0ea7e.001.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Little Rock AR"
+      },
+      "sent": "2026-09-07T00:02:00-05:00",
+      "alertStatus": "actual",
+      "messageType": "update",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Heat Advisory",
+          "urgency": "expected",
+          "severity": "moderate",
+          "certainty": "likely",
+          "expires": "2026-09-07T19:00:00-05:00",
+          "headline": "Heat Advisory issued September 7 at 12:02AM CDT until September 7 at 7:00PM CDT by NWS Little Rock AR",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of central, southeast, southwest, and western\nArkansas.\n\n* WHEN...From 11 AM this morning to 7 PM CDT this evening.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+          "instruction": "Drink plenty of fluids, stay in an air-conditioned room, stay out of\nthe sun, and check up on relatives and neighbors.\n\nTake extra precautions when outside. Wear lightweight and loose\nfitting clothing. Try to limit strenuous activities to early morning\nor evening. Take action when you see symptoms of heat exhaustion and\nheat stroke.",
+          "effective": "2026-09-07T00:02:00-05:00",
+          "onset": "2026-09-07T11:00:00-05:00",
+          "senderName": "NWS Little Rock AR",
+          "responseType": [
+            "execute"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Garland; Pike; Clark; Hot Spring; Grant; Dallas; Cleveland; Lincoln; Desha; Ouachita; Calhoun; Bradley; Drew; Southern Johnson County; Southern Pope County; Western and Northern Logan County; Northern Scott County; Northwest Yell County; Polk County Lower Elevations; Central and Eastern Montgomery County; Southern and Eastern Logan County; Central and Southern Scott County; Yell Excluding Northwest; Northern Polk County Higher Elevations; Northern Montgomery County Higher Elevations; Southeast P",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "005051"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "005109"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "005019"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "005059"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "005053"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "005039"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "005025"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "005079"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "005041"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "005103"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "005013"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "005011"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ARZ042"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ARZ052"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ARZ053"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ARZ054"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ARZ055"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ARZ062"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ARZ063"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ARZ064"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ARZ065"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ARZ066"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ARZ067"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "ARZ068"
+            }
+          ],
+          "geometry": "https://api.weather.gov/zones/forecast/ARZ042"
+        }
+      ],
+      "referencesIdentifier": [
+        "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dc14904ddecdc56446d965bccc43c305d02dc2d2.001.2"
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-4241b171746386487c2e9f78fbdfda5ef4bf3673-001-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.4241b171746386487c2e9f78fbdfda5ef4bf3673.001.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Great Falls MT"
+      },
+      "sent": "2026-09-06T23:00:00-06:00",
+      "alertStatus": "actual",
+      "messageType": "update",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Severe Thunderstorm Warning",
+          "urgency": "immediate",
+          "severity": "severe",
+          "certainty": "observed",
+          "expires": "2026-09-06T23:30:00-06:00",
+          "headline": "Severe Thunderstorm Warning issued September 6 at 11:00PM MDT until September 6 at 11:30PM MDT by NWS Great Falls MT",
+          "description": "At 1100 PM MDT, a severe thunderstorm was located over Roy, or 29\nmiles northeast of Lewistown, moving northeast at 25 mph.\n\nHAZARD...Quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Damage to vehicles is expected.\n\nLocations impacted include...\nRoy.",
+          "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.\n\nTorrential rainfall is occurring with this storm, and may lead to\nflash flooding. Do not drive your vehicle through flooded roadways.",
+          "effective": "2026-09-06T23:00:00-06:00",
+          "onset": "2026-09-06T23:00:00-06:00",
+          "senderName": "NWS Great Falls MT",
+          "responseType": [
+            "shelter"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Fergus, MT",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "030027"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "MTC027"
+            }
+          ],
+          "geometry": "urn:oid:2.49.0.1.840.0.4241b171746386487c2e9f78fbdfda5ef4bf3673.001.1"
+        }
+      ],
+      "referencesIdentifier": [
+        "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fa2b100b3e6a1bfd1dbf793a8ecdfe082e3ab6d6.001.1",
+        "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d3d3abdebcf96739f053271b4f156ca1a9209878.001.1"
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-7f879e19965ccb9d76bd6bf18ca6df34b4e2bac4-001-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.7f879e19965ccb9d76bd6bf18ca6df34b4e2bac4.001.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Tallahassee FL"
+      },
+      "sent": "2026-09-07T00:59:00-04:00",
+      "alertStatus": "actual",
+      "messageType": "alert",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Special Marine Warning",
+          "urgency": "immediate",
+          "severity": "severe",
+          "certainty": "likely",
+          "expires": "2026-09-07T03:00:00-04:00",
+          "headline": "Special Marine Warning issued September 7 at 12:59AM EDT until September 7 at 3:00AM EDT by NWS Tallahassee FL",
+          "description": "SMWTAE\n\nThe National Weather Service in Tallahassee has issued a\n\n* Special Marine Warning for...\nCoastal Waters From  Ochlockonee River to Apalachicola FL out to 20\nNm...\nCoastal Waters from Mexico Beach to Apalachicola out 20 NM...\n\n* Until 300 AM EDT/200 AM CDT/.\n\n* At 1259 AM EDT/1159 PM CDT/, strong thunderstorms were located\nalong a line extending from 15 nm southwest of St. Marks to near\nBuckeye Reef, moving southwest at 30 knots.\n\nHAZARD...Wind gusts 34 knots or greater.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect wind gusts in excess of 34 knots...suddenly higher\nwaves...frequent lightning...and heavy downpours. Make\nsure all on board are wearing life jackets.\n\n* Locations impacted include...\nO Tower, Apalachicola, C Tower, St George Island, and K Tower.",
+          "instruction": "Move to safe harbor until hazardous weather passes.",
+          "effective": "2026-09-07T00:59:00-04:00",
+          "onset": "2026-09-07T00:59:00-04:00",
+          "senderName": "NWS Tallahassee FL",
+          "responseType": [
+            "avoid"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Coastal Waters from Mexico Beach to Apalachicola out 20 NM; Coastal Waters From  Ochlockonee River to Apalachicola FL out to 20 Nm",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "077752"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "077755"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "GMZ752"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "GMZ755"
+            }
+          ],
+          "geometry": "urn:oid:2.49.0.1.840.0.7f879e19965ccb9d76bd6bf18ca6df34b4e2bac4.001.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-8f8861124ac7e79bbf899cb56f8ecb23f97c9133-001-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.8f8861124ac7e79bbf899cb56f8ecb23f97c9133.001.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Great Falls MT"
+      },
+      "sent": "2026-09-06T22:58:00-06:00",
+      "alertStatus": "actual",
+      "messageType": "alert",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Severe Thunderstorm Warning",
+          "urgency": "immediate",
+          "severity": "severe",
+          "certainty": "observed",
+          "expires": "2026-09-06T23:30:00-06:00",
+          "headline": "Severe Thunderstorm Warning issued September 6 at 10:58PM MDT until September 6 at 11:30PM MDT by NWS Great Falls MT",
+          "description": "SVRTFX\n\nThe National Weather Service in Great Falls has issued a\n\n* Severe Thunderstorm Warning for...\nNortheastern Blaine County in north central Montana...\n\n* Until 1130 PM MDT.\n\n* At 1058 PM MDT, a severe thunderstorm was located 13 miles north of\nHays, or 19 miles north of Zortman, moving northeast at 35 mph.\n\nHAZARD...Ping pong ball size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect\ndamage to roofs, siding, windows, and vehicles.\n\n* Locations impacted include...\nLodge Pole.",
+          "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+          "effective": "2026-09-06T22:58:00-06:00",
+          "onset": "2026-09-06T22:58:00-06:00",
+          "senderName": "NWS Great Falls MT",
+          "responseType": [
+            "shelter"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Blaine, MT",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "030005"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "MTC005"
+            }
+          ],
+          "geometry": "urn:oid:2.49.0.1.840.0.8f8861124ac7e79bbf899cb56f8ecb23f97c9133.001.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-0852b99fdca3cc706be8ab567fb1eba0846d2f1f-001-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.0852b99fdca3cc706be8ab567fb1eba0846d2f1f.001.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Great Falls MT"
+      },
+      "sent": "2026-09-06T22:47:00-06:00",
+      "alertStatus": "actual",
+      "messageType": "update",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Flood Advisory",
+          "urgency": "expected",
+          "severity": "minor",
+          "certainty": "likely",
+          "expires": "2026-09-07T01:00:00-06:00",
+          "headline": "Flood Advisory issued September 6 at 10:47PM MDT until September 7 at 1:00AM MDT by NWS Great Falls MT",
+          "description": "* WHAT...Flooding caused by excessive rainfall continues.\n\n* WHERE...East Central Chouteau County in north central Montana...\n\n* WHEN...Until 100 AM MDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 1047 PM MDT, Doppler radar indicated heavy rain due to\nthunderstorms. Minor flooding is ongoing or expected to begin\nshortly in the advisory area. Between 0.5 and 1 inch of rain has\nfallen.\n- Flooding impacts will continue, but no additional rainfall is\nexpected.\n- Some locations that will experience flooding include...\nMainly rural areas of East Central Chouteau County.\n- http://www.weather.gov/safety/flood",
+          "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+          "effective": "2026-09-06T22:47:00-06:00",
+          "onset": "2026-09-06T22:47:00-06:00",
+          "senderName": "NWS Great Falls MT",
+          "responseType": [
+            "avoid"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Chouteau, MT",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "030015"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "MTC015"
+            }
+          ],
+          "geometry": "urn:oid:2.49.0.1.840.0.0852b99fdca3cc706be8ab567fb1eba0846d2f1f.001.1"
+        }
+      ],
+      "referencesIdentifier": [
+        "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0545b2c63edb757ef8f26fc23fa7e7faaedbbc2a.001.1"
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-c92e8edb46b1c1ea6a88f30828bee6ba40e56afc-001-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.c92e8edb46b1c1ea6a88f30828bee6ba40e56afc.001.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Great Falls MT"
+      },
+      "sent": "2026-09-06T22:44:00-06:00",
+      "alertStatus": "actual",
+      "messageType": "alert",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Special Weather Statement",
+          "urgency": "expected",
+          "severity": "moderate",
+          "certainty": "observed",
+          "expires": "2026-09-06T23:45:00-06:00",
+          "headline": "Special Weather Statement issued September 6 at 10:44PM MDT by NWS Great Falls MT",
+          "description": "At 1044 PM MDT, Doppler radar was tracking strong thunderstorms along\na line extending from 15 miles south of Chinook to near Hays.\nMovement was northeast at 30 mph.\n\nHAZARD...Penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor hail damage to vegetation is possible.\n\nLocations impacted include...\nHarlem, Fort Belknap, Cleveland, and Zurich.",
+          "instruction": "If outdoors, consider seeking shelter inside a building.\n\nThese storms may re-intensify, so be certain to monitor local radio\nstations and available television stations for additional\ninformation and possible warnings from the National Weather Service.\n\nA Severe Thunderstorm Watch remains in effect until 100 AM MDT for\nnorth central Montana.",
+          "effective": "2026-09-06T22:44:00-06:00",
+          "onset": "2026-09-06T22:44:00-06:00",
+          "senderName": "NWS Great Falls MT",
+          "responseType": [
+            "execute"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Northern Blaine County; Bears Paw Mountains and Southern Blaine",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "030005"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "030041"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "030015"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "MTZ306"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "MTZ311"
+            }
+          ],
+          "geometry": "urn:oid:2.49.0.1.840.0.c92e8edb46b1c1ea6a88f30828bee6ba40e56afc.001.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://api.weather.gov/id/alert/urn-oid-2-49-0-1-840-0-02b7241ea6bf7258a3e6d5d109afd3691ba3dd60-001-1",
+      "@type": "Alert",
+      "alertIdentifier": "urn:oid:2.49.0.1.840.0.02b7241ea6bf7258a3e6d5d109afd3691ba3dd60.001.1",
+      "sender": {
+        "@id": "https://api.weather.gov/id/organization/w-nws-webmaster-noaa-gov",
+        "name": "NWS Greenville-Spartanburg SC"
+      },
+      "sent": "2026-09-07T00:37:00-04:00",
+      "alertStatus": "actual",
+      "messageType": "alert",
+      "scope": "public",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "met"
+          ],
+          "event": "Special Weather Statement",
+          "urgency": "expected",
+          "severity": "moderate",
+          "certainty": "observed",
+          "expires": "2026-09-07T01:30:00-04:00",
+          "headline": "Special Weather Statement issued September 7 at 12:37AM EDT by NWS Greenville-Spartanburg SC",
+          "description": "At 1237 AM EDT, Doppler radar was tracking a strong thunderstorm 8\nmiles west of Morganton, or near Lake James State Park, moving\nsouthwest at 10 mph.\n\nHAZARD...Wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nMorganton, Glen Alpine, Lake James State Park, Lake James, and Nebo.",
+          "instruction": "If outdoors, consider seeking shelter inside a building.\n\nTorrential rainfall is also occurring with this storm and may lead to\nlocalized flooding. Do not drive your vehicle through flooded\nroadways.",
+          "effective": "2026-09-07T00:37:00-04:00",
+          "onset": "2026-09-07T00:37:00-04:00",
+          "senderName": "NWS Greenville-Spartanburg SC",
+          "responseType": [
+            "execute"
+          ],
+          "web": "http://www.weather.gov"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "Burke Mountains; Greater Burke; Eastern McDowell",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "037023"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:same",
+              "value": "037111"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "NCZ503"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "NCZ504"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "local:ugc",
+              "value": "NCZ506"
+            }
+          ],
+          "geometry": "urn:oid:2.49.0.1.840.0.02b7241ea6bf7258a3e6d5d109afd3691ba3dd60.001.1"
+        }
+      ]
+    }
+  ]
+}

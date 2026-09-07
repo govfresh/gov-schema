@@ -6,32 +6,77 @@
   "type": "object",
   "properties": {
     "@context": {},
-    "@id": {"type": "string", "format": "iri"},
-    "@type": {"const": "Alert"},
-    "alertIdentifier": {"type": "string", "description": "CAP identifier. Unique per sender."},
+    "@id": {
+      "type": "string",
+      "format": "iri"
+    },
+    "@type": {
+      "const": "Alert"
+    },
+    "alertIdentifier": {
+      "type": "string",
+      "description": "CAP identifier. Unique per sender."
+    },
     "sender": {
       "$ref": "../_core/reference.schema.json",
       "description": "The GovernmentOrganization issuing. Required: an unattributed warning cannot be trusted or verified."
     },
-    "sent": {"type": "string", "format": "date-time", "description": "CAP sent. Full date-time with offset."},
+    "sent": {
+      "type": "string",
+      "format": "date-time",
+      "description": "CAP sent. Full date-time with offset."
+    },
     "alertStatus": {
       "type": "string",
       "description": "CAP status. 'exercise' and 'test' must never be rendered to the public as real; publishing them without this field is dangerous.",
-      "enum": ["actual", "exercise", "system", "test", "draft"]
+      "enum": [
+        "actual",
+        "exercise",
+        "system",
+        "test",
+        "draft"
+      ]
     },
     "messageType": {
       "type": "string",
       "description": "CAP msgType. An update or cancel must carry 'references' so consumers can supersede the earlier message rather than showing both.",
-      "enum": ["alert", "update", "cancel", "ack", "error"]
+      "enum": [
+        "alert",
+        "update",
+        "cancel",
+        "ack",
+        "error"
+      ]
     },
-    "scope": {"type": "string", "enum": ["public", "restricted", "private"]},
+    "scope": {
+      "type": "string",
+      "enum": [
+        "public",
+        "restricted",
+        "private"
+      ]
+    },
     "references": {
       "type": "array",
-      "items": {"$ref": "../_core/reference.schema.json"},
-      "description": "Earlier alerts this supersedes. Required in practice for update and cancel; the validator checks it."
+      "items": {
+        "$ref": "../_core/reference.schema.json"
+      },
+      "description": "Earlier alerts this supersedes, as resolvable references. Where the superseded alert is outside the published window, use referencesIdentifier instead."
     },
-    "incident": {"type": "string", "description": "CAP incidents: groups alerts about the same event."},
-    "note": {"type": "string"},
+    "referencesIdentifier": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "CAP identifiers of superseded alerts that are not present in this dataset. Real alert feeds are windowed: an update commonly supersedes an alert that has already expired out of the active feed. Requiring a resolvable reference would force a publisher to downgrade the update to a plain alert, which turns 'this supersedes an earlier warning' into 'this is a new warning' - materially wrong for a warning system. An update or cancel must carry references OR referencesIdentifier."
+    },
+    "incident": {
+      "type": "string",
+      "description": "CAP incidents: groups alerts about the same event."
+    },
+    "note": {
+      "type": "string"
+    },
     "alertInfo": {
       "type": "array",
       "minItems": 1,
@@ -39,35 +84,136 @@
       "items": {
         "type": "object",
         "properties": {
-          "@type": {"const": "AlertInfo"},
-          "inLanguage": {"type": "string", "description": "BCP 47."},
-          "category": {
-            "type": "array", "minItems": 1,
-            "items": {"type": "string", "enum": ["geo","met","safety","security","rescue","fire","health","env","transport","infra","cbrne","other"]}
+          "@type": {
+            "const": "AlertInfo"
           },
-          "event": {"type": "string", "description": "Short event type, e.g. 'Boil water notice'."},
+          "inLanguage": {
+            "type": "string",
+            "description": "BCP 47."
+          },
+          "category": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "enum": [
+                "geo",
+                "met",
+                "safety",
+                "security",
+                "rescue",
+                "fire",
+                "health",
+                "env",
+                "transport",
+                "infra",
+                "cbrne",
+                "other"
+              ]
+            }
+          },
+          "event": {
+            "type": "string",
+            "description": "Short event type, e.g. 'Boil water notice'."
+          },
           "responseType": {
             "type": "array",
-            "items": {"type": "string", "enum": ["shelter","evacuate","prepare","execute","avoid","monitor","assess","allClear","none"]}
+            "items": {
+              "type": "string",
+              "enum": [
+                "shelter",
+                "evacuate",
+                "prepare",
+                "execute",
+                "avoid",
+                "monitor",
+                "assess",
+                "allClear",
+                "none"
+              ]
+            }
           },
-          "urgency": {"type": "string", "enum": ["immediate","expected","future","past","unknown"]},
-          "severity": {"type": "string", "enum": ["extreme","severe","moderate","minor","unknown"]},
-          "certainty": {"type": "string", "enum": ["observed","likely","possible","unlikely","unknown"]},
-          "headline": {"type": "string", "maxLength": 160, "description": "CAP recommends 160 characters or fewer."},
-          "description": {"type": "string", "description": "What is happening."},
-          "instruction": {"type": "string", "description": "What the public should do. The field that makes an alert actionable rather than merely informative."},
-          "effective": {"type": "string", "format": "date-time"},
-          "onset": {"type": "string", "format": "date-time"},
+          "urgency": {
+            "type": "string",
+            "enum": [
+              "immediate",
+              "expected",
+              "future",
+              "past",
+              "unknown"
+            ]
+          },
+          "severity": {
+            "type": "string",
+            "enum": [
+              "extreme",
+              "severe",
+              "moderate",
+              "minor",
+              "unknown"
+            ]
+          },
+          "certainty": {
+            "type": "string",
+            "enum": [
+              "observed",
+              "likely",
+              "possible",
+              "unlikely",
+              "unknown"
+            ]
+          },
+          "headline": {
+            "type": "string",
+            "maxLength": 160,
+            "description": "CAP recommends 160 characters or fewer."
+          },
+          "description": {
+            "type": "string",
+            "description": "What is happening."
+          },
+          "instruction": {
+            "type": "string",
+            "description": "What the public should do. The field that makes an alert actionable rather than merely informative."
+          },
+          "effective": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "onset": {
+            "type": "string",
+            "format": "date-time"
+          },
           "expires": {
-            "type": "string", "format": "date-time",
+            "type": "string",
+            "format": "date-time",
             "description": "When the alert ceases to apply. Required: an alert with no expiry stays on screens indefinitely and trains people to ignore alerts."
           },
-          "senderName": {"type": "string", "description": "Human-readable issuer name."},
-          "web": {"type": "string", "format": "iri"},
-          "contact": {"type": "string"},
-          "audience": {"type": "string"}
+          "senderName": {
+            "type": "string",
+            "description": "Human-readable issuer name."
+          },
+          "web": {
+            "type": "string",
+            "format": "iri"
+          },
+          "contact": {
+            "type": "string"
+          },
+          "audience": {
+            "type": "string"
+          }
         },
-        "required": ["@type", "inLanguage", "category", "event", "urgency", "severity", "certainty", "expires"],
+        "required": [
+          "@type",
+          "inLanguage",
+          "category",
+          "event",
+          "urgency",
+          "severity",
+          "certainty",
+          "expires"
+        ],
         "additionalProperties": false
       }
     },
@@ -77,24 +223,63 @@
       "items": {
         "type": "object",
         "properties": {
-          "@type": {"const": "AlertArea"},
-          "areaDescription": {"type": "string", "description": "Human-readable, e.g. 'North of the river, west of Route 9'."},
-          "jurisdiction": {"$ref": "../_core/reference.schema.json", "description": "A Jurisdiction the alert covers."},
-          "geometry": {"type": "string", "format": "iri", "description": "URL of a GeoJSON polygon (RFC 7946, WGS84)."},
-          "geocode": {"type": "array", "items": {"$ref": "../_core/identifier.schema.json"}, "description": "Scheme-qualified area codes, e.g. SAME or UGC in the US."},
-          "circle": {"type": "string", "description": "CAP circle: 'lat,lon radiusKm'."}
+          "@type": {
+            "const": "AlertArea"
+          },
+          "areaDescription": {
+            "type": "string",
+            "description": "Human-readable, e.g. 'North of the river, west of Route 9'."
+          },
+          "jurisdiction": {
+            "$ref": "../_core/reference.schema.json",
+            "description": "A Jurisdiction the alert covers."
+          },
+          "geometry": {
+            "type": "string",
+            "format": "iri",
+            "description": "URL of a GeoJSON polygon (RFC 7946, WGS84)."
+          },
+          "geocode": {
+            "type": "array",
+            "items": {
+              "$ref": "../_core/identifier.schema.json"
+            },
+            "description": "Scheme-qualified area codes, e.g. SAME or UGC in the US."
+          },
+          "circle": {
+            "type": "string",
+            "description": "CAP circle: 'lat,lon radiusKm'."
+          }
         },
-        "required": ["@type", "areaDescription"],
+        "required": [
+          "@type",
+          "areaDescription"
+        ],
         "additionalProperties": false
       }
     },
     "resource": {
       "type": "array",
-      "items": {"type": "object"},
+      "items": {
+        "type": "object"
+      },
       "description": "Supporting files: maps, audio, translations."
     },
-    "sourceDataset": {"type": "string", "format": "iri"}
+    "sourceDataset": {
+      "type": "string",
+      "format": "iri"
+    }
   },
-  "required": ["@id", "@type", "alertIdentifier", "sender", "sent", "alertStatus", "messageType", "scope", "alertInfo"],
+  "required": [
+    "@id",
+    "@type",
+    "alertIdentifier",
+    "sender",
+    "sent",
+    "alertStatus",
+    "messageType",
+    "scope",
+    "alertInfo"
+  ],
   "additionalProperties": true
 }

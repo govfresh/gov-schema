@@ -301,10 +301,13 @@ def main(argv):
         if "Alert" not in types_:
             continue
 
-        if node.get("messageType") in ("update", "cancel") and not node.get("references"):
+        if node.get("messageType") in ("update", "cancel") \
+                and not node.get("references") and not node.get("referencesIdentifier"):
             errors.append(
-                f"alert '{node.get('messageType')}' does not reference what it supersedes: {nid}\n"
-                f"    without references, consumers show the old and new alert side by side"
+                f"alert '{node.get('messageType')}' does not say what it supersedes: {nid}\n"
+                f"    set references, or referencesIdentifier where the superseded alert is\n"
+                f"    outside the published window. Without either, consumers show the old\n"
+                f"    and new alert side by side."
             )
 
         sent = parse_dt(node.get("sent"))
