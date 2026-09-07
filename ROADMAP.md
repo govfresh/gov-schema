@@ -1,0 +1,296 @@
+# Roadmap
+
+All seven domain profiles are implemented and validating. This records what comes next, and
+the open questions that need deciding before parts of it can be built.
+
+Nothing here is committed to a date. Order reflects dependency and leverage, not enthusiasm.
+
+---
+
+## 0. Finish what the spec already promises — **DONE**
+
+**SHACL shapes — done.** `shapes/gov-schema.shapes.ttl`, run by `tools/shacl.py`, wired into
+`npm run check` and CI. Measured against a deliberately broken fixture, JSON Schema caught 1
+of 5 faults and the shapes caught the other 4: a Role pointing at an Organization instead of a
+Person, `areaServed` pointing at a body instead of a territory, and a cycle in the
+jurisdiction hierarchy.
+
+**Conformance-level checking — done.** `tools/validate.py` now verifies every `conformsTo`
+claim against the level it asserts, and rejects unknown levels.
+
+---
+
+## 1. Tier one
+
+### `catalog` — discovery — **DONE**
+**Depends on:** `_core` · **Standard:** DCAT / DCAT-AP (W3C) · **schema.org:** `DataCatalog`, `Dataset`, `DataDownload`
+
+The highest-leverage gap, and not a domain at all: **nothing currently tells a consumer where
+a government's gov-schema data lives.** Seven profiles, no way to find any of them.
+
+A well-known discovery document plus a DCAT-aligned catalogue fixes that and generalises the
+`Directory` pattern already proven in `org`. Google Dataset Search consumes schema.org
+`Dataset` directly, so the projection has an immediate consumer.
+
+### `alerts` — emergency and public notices — **DONE**
+**Depends on:** `_core` · **Standard:** Common Alerting Protocol (OASIS) · **schema.org:** `SpecialAnnouncement`
+
+Model on **CAP**, not on `SpecialAnnouncement`. The schema.org type exists but every property
+is COVID-shaped — `quarantineGuidelines`, `gettingTestedInfo`, `travelBans`,
+`schoolClosuresInfo` — and it has no severity, urgency, certainty, or expiry.
+`announcementLocation` cannot even target an `AdministrativeArea`, only a `CivicStructure` or
+`LocalBusiness`, so a jurisdiction-wide alert is inexpressible.
+
+CAP has all of it and is the international standard (IPAWS in the US, EU-Alert, and national
+systems worldwide). Project into `SpecialAnnouncement` for discovery only.
+
+### `permits` — permits and licences
+**Depends on:** `_core`, `code` · **schema.org:** `GovernmentPermit` (a real skeleton)
+
+Building permits and business licences are the highest-volume records most governments hold.
+`GovernmentPermit` already supplies `issuedBy`, `issuedThrough`, `validFor`, `validFrom`,
+`validIn`, `validUntil`. Minting needed for applicant, status, application and decision dates,
+the property concerned, fees, and conditions.
+
+BLDS is US-only, so this profile needs an international identifier approach of the kind
+`_core` established.
+
+### `elections`
+**Depends on:** `org` · **Standard:** NIST SP 1500-100, VIP
+
+Closes a loop already open in the built data: `org` records `roleClassification: "elected"`
+and `Post.termDuration`, but nothing records *the election that produced the officeholder*.
+Contests, candidates, results, polling places.
+
+---
+
+## 2. Tier two — after a real pilot
+
+| Profile | Standard | Note |
+|---|---|---|
+| `services` | Open Referral / HSDS | The service catalogue beyond 311 reporting: *how do I get a birth certificate*. `GovernmentService` already in use by `requests`. |
+| `grants` | IATI, 360Giving | Money **out** to third parties, distinct from procurement. `MonetaryGrant` exists. |
+| `consultations` | — | Comment periods, petitions, participatory budgeting. Couples to `meetings` and `code`. |
+| `indicators` | SDMX | Performance and SDG reporting. `Observation` and `StatisticalVariable` exist. |
+
+## Extend, don't add
+
+- **Payroll and salaries** → extend `org`. `Role` already has `baseSalary` and `salaryCurrency`.
+- **Transaction-level spending (open checkbook)** → extend `budget`. The Fiscal Data Package
+  already defines transactional granularity.
+- **Zoning applied to parcels** → extend `code`, not a new property profile.
+
+## Probably not
+
+Property and cadastre (LADM is enormous), courts and dockets (Akoma Ntoso already covers
+judgments), inspections (narrow, no international standard). Low reuse, high cost.
+
+---
+
+## Open question — geospatial data
+
+**What GIS/geo data should be included?** Not yet decided. What is known:
+
+**Today** every geo-bearing entity carries at most a point: `geo` → `GeoCoordinates` on
+Jurisdiction, Facility, and ServiceRequest. There are no boundaries anywhere.
+
+**`schema:GeoShape` is not sufficient.** Its `polygon` is a whitespace-delimited text string —
+no GeoJSON, no coordinate reference system, no multipolygon, no holes. Adequate for a bounding
+box, useless for a real jurisdiction boundary.
+
+**Three location models are distinct and should not be conflated:**
+
+| Model | Example | Carrier |
+|---|---|---|
+| Address | where to post a letter | `PostalAddress` |
+| Point | a pothole, a facility entrance | `GeoCoordinates` |
+| Boundary / parcel | a ward, a zoning district, a building plot | external geometry + identifier |
+
+**Leading recommendation: reference geometry, never embed it.** A city boundary is thousands
+of coordinate pairs; inlining it makes every document carrying it unusable. Publish GeoJSON
+(RFC 7946) separately and link to it, the same way `code` links to Akoma Ntoso rather than
+absorbing it — consistent with SPEC §1.4.
+
+**Coordinate reference system must be explicit.** GeoJSON mandates WGS84, but national grids
+are in daily use everywhere (OSGB36, RD/Amersfoort, GDA2020). An international profile cannot
+assume WGS84 silently.
+
+**Where geometry is actually needed in what is already built:**
+
+- `_core` Jurisdiction — boundary (the big one; districts and wards are already jurisdictions)
+- `_core` Facility — footprint, and accessible entrance points
+- `code` — zoning district geometry, which is what makes a zoning code queryable
+- `requests` — points already handled, including the privacy rounding rule
+- `procurement` — work site or delivery area
+
+**Likely shape:** a small cross-cutting geo module in `_core` rather than a profile — a
+`boundary` reference carrying the geometry URL, its CRS, a validity date, and resolution.
+Standards to align with: GeoJSON RFC 7946, OGC API — Features, INSPIRE (EU). Spatial
+identifiers are already handled in `_core` via GeoNames, ISO 3166-2, OCD-IDs, and Wikidata.
+
+---
+
+## Open question — scope of `requests`, and where emergency belongs
+
+**Is `requests` just 311?** The profile is deliberately named `requests`, not `311`, because
+the concept is not called 311 outside North America — FixMyStreet, Melde-Portal, and national
+equivalents are the same thing. That naming should hold.
+
+**Update history — done.** `statusHistory[]` records each timestamped transition; the
+validator checks it is chronological and agrees with the current status.
+
+**Duplicate references — done.** `duplicateOf` is now a resolvable reference, and a request
+marked `duplicate` without one is an error.
+
+**Alert cross-reference — done.** `ServiceRequest.relatedAlert` links a report to the
+disruption it concerns.
+
+~~**Missing: update history.** The profile currently carries only *current state*
+(`requestStatus`, `statusNote`, `dateModified`). There is no record of when a request moved
+open → inProgress → closed, which is exactly what a resident wants to see and what any
+service-level measurement needs.~~ Resolved as above.
+
+**Emergency is a different direction, and should stay separate.**
+
+| | Direction | Profile |
+|---|---|---|
+| Service request | inbound: resident → government | `requests` |
+| Emergency alert | outbound: government → public | `alerts` (CAP) |
+
+311 is non-emergency by definition — that is the whole point of the 311/911 split. Extending
+`requests` to cover emergencies would merge two flows with different urgency, different
+authority, and different audiences.
+
+**The genuinely ambiguous middle is service disruption** — a water main break, a road closure.
+The answer is that it is both: the disruption is an `alert`, reports about it are `requests`,
+and the two should link. Worth an explicit cross-reference in both directions when `alerts` is
+built.
+
+---
+
+## Publication path — **partly done**
+
+**Verified.** `tools/check-context.py` serves the built site over local HTTP, rewrites the
+`@context` to that origin, and parses fixtures **by fetching the context** rather than
+inlining it - then asserts the result is isomorphic to the inlined parse. It is in
+`npm run check` and CI. Two failure modes are covered and tested: a context missing from the
+published site, and a *stale deploy* where the served context has drifted from the source
+file. Before this, no test had ever exercised the path a real consumer takes.
+
+**Still outstanding, and it needs you:**
+
+- `schema.govfresh.com` does not resolve. Every fixture and both pilots declare
+  `https://schema.govfresh.com/v1/context.jsonld` as their `@context`, so today a standard
+  JSON-LD processor fails on all of them. DNS plus a deploy.
+- The `Content-Type` GitHub Pages serves for `.jsonld` is still unverified. The local test
+  server sends `application/ld+json` deliberately, so it isolates the document/context path
+  rather than masking a MIME problem. If Pages serves `application/octet-stream`, strict
+  processors will reject the context and it will look like a data fault. Test this
+  immediately after the first deploy.
+
+## JSON-LD audit — findings open
+
+`tools/audit-jsonld.py` (`npm run audit:jsonld`) uses PyLD, the reference JSON-LD processor,
+to check the class of fault that passes both validation tiers. It is wired into `npm run check` and CI now that its failures are resolved; the remaining
+findings are warnings.
+
+**Fixed while building it:**
+
+- *A `@vocab` fix from the previous session was actively destroying data.* Nulling
+  colliding term names inside a scoped context does **not** fall through to `@vocab` -
+  JSON-LD treats an explicitly-null term as undefined and the value expands to `null`.
+  rdflib tolerated it silently; PyLD raised `"@id" value must be a string`. Nine values
+  (`department`, `title`, `code`, `budget`, `supplier`, `geo`, `buyer`, `catalog`, `org`)
+  were being discarded. Each colliding token is now mapped explicitly to its full term IRI.
+- *`amount` and `totalAmount` both expanded to `schema:amount`*, so a budget's total and a
+  line's amount were indistinguishable in RDF. `totalAmount` is now `gs:totalAmount`,
+  declared as a subproperty of `schema:amount`.
+
+**Round-trip instability — RESOLVED.** Root cause was self-inflicted and one line wide: the
+hardening step wrote a blanket list of colliding token names into *every* scoped context,
+**including the property's own name**. A scoped context that redefines the term it is scoped
+to replaces that term's `@type: @vocab` with a plain IRI, so inside its own scope the property
+stopped expanding values as IRIs and they silently became literals. `role`, `result` and
+`status` were affected - precisely the code-list properties whose names also appear as terms.
+
+Scoped contexts are now generated from each property's **permitted values**, read from the
+schemas and code lists, and explicitly never redefine their own term. `role`'s scoped context
+went from 28 blanket entries to two real ones (`buyer`, `supplier`).
+
+Bisecting this also showed the mechanism itself was never at fault: a property-scoped
+`@vocab` expands correctly in both PyLD and rdflib. The isolated test passed while the real
+context failed, which is what localised the bug.
+
+**A second fault surfaced in the same pass and is also fixed:** `code.jsonld` used
+`schema:about` for free-text subject keywords. `about` is typed `@id` because it normally
+references entities, so the strings expanded as relative IRIs against the document base -
+`file:///Users/.../gov-schema`, the same failure as the original `conformsTo` bug. Subject
+keywords moved to `schema:keywords`.
+
+**Open — 21 code-list values resolve to IRIs declared nowhere.** `direction`, `result`,
+`scope`, `accessRights`, `alertStatus`, `messageType`, `urgency`, `severity`, `certainty`,
+`conformanceLevel` and the three `status` variants are inline enums in their schemas with no
+code-list file behind them, so their values expand to term IRIs that do not exist. Either
+write the missing code lists or stop typing those properties `@vocab`. (COFOG subcodes such
+as `cofog/04.5` are reported too and are expected - the profile explicitly permits subcodes
+beyond the enumerated divisions.)
+
+**Note on check E's design.** rdflib's graph canonicalisation reports non-isomorphic for
+graphs differing only in blank-node labelling when a document has many similar blank nodes.
+The check compares a label-independent signature instead: ground triples exactly, blank nodes
+by shape. The first implementation produced six false positives before this was corrected.
+
+## Licence
+
+Settled: **CC0 1.0** for the specification, vocabulary, schemas, code lists and examples;
+**MIT** for the tooling. See [LICENSING.md](LICENSING.md).
+
+The reasoning matters for adoption: an attribution licence on a vocabulary means every public
+body publishing gov-schema data inherits an obligation, and a data-licensing question that has
+to go past a lawyer is one that stops adoption. CC0 also answers the vendor-namespace
+question directly — terms live under a GovFresh domain because it is maintained, not because
+the vocabulary is owned.
+
+## The honest risk
+
+Seven profiles with one fictional example city is a demo, not an adopted standard. Profiles
+eight through fifteen without a single real publisher would be building breadth on an untested
+foundation.
+
+What drives adoption is not more domains:
+
+- **Adapters** from systems governments already run — Legistar/Granicus → `meetings`,
+  Socrata/CKAN → `catalog`, existing Open311 endpoints → `requests`, OCDS publishers →
+  `procurement`
+- **A real pilot publisher, ideally non-US** — the fastest way to find where the international
+  assumptions break
+- **Validation as a service** — paste a URL, get a conformance report
+- **The SHACL and conformance work in section 0**
+
+If one thing: `catalog` plus one adapter, because together they make the existing seven
+profiles usable by someone other than their author.
+
+---
+
+## Suggested order
+
+```
+0. SHACL shapes + conformance-level checking     DONE
+1. catalog                                        DONE
+2. alerts                                         DONE
+3. one adapter + one real pilot publisher         DONE (OCDS -> UK Contracts Finder)
+4. permits                                        highest-volume records
+5. elections                                      closes the org loop
+6. tier two, reprioritised by what the pilot taught
+```
+
+Steps 0-3 are complete. The UK Contracts Finder pilot found two schema errors in minutes that
+nine profiles of self-authored fixtures never surfaced - see
+[examples/pilot-uk-contracts/README.md](examples/pilot-uk-contracts/README.md). More adapters
+(CKAN, Open311, Legistar) would find more, and are worth more than new profiles.
+
+**Confirmed by the pilot, not yet fixed:** real portals carry per-language titles
+(`title_translated: {"en": ..., "ga": ...}` on data.gov.ie), an EU High Value Dataset category,
+a spatial reference system (`srs`), and `applicable_legislation` linking a dataset to an ELI
+URI - a `catalog` to `code` join this profile does not model. gov-schema currently carries a
+single `name` plus `inLanguage`, which cannot represent a bilingual publisher.

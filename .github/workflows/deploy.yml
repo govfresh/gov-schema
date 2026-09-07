@@ -1,0 +1,75 @@
+name: Build and deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm ci
+      - run: pip install jsonschema referencing pyshacl rdflib PyLD certifi
+
+      - name: Build site
+        run: npm run build
+
+      # Every URL below is pinned by documents other people have published.
+      # A failure here means previously valid data would stop resolving.
+      - name: Check namespace URLs resolve
+        run: node tools/check-namespace.js
+
+      # Proves a published document parses by FETCHING its @context over HTTP, the path
+      # a real consumer takes - our other tools inline the local file and would not
+      # notice a missing or stale published context.
+      - name: Check published context is consumable
+        run: python3 tools/check-context.py
+
+      # Catches the class of fault invisible to both validation tiers: terms that expand
+      # to nothing, collide, or resolve into a namespace where they are not defined.
+      - name: Audit JSON-LD context
+        run: python3 tools/audit-jsonld.py
+
+      - name: Validate examples (shape, references, conformance)
+        run: python3 tools/validate.py examples/example-city
+
+      # Tier two of SPEC section 4: checks what a reference resolves TO,
+      # which JSON Schema structurally cannot see.
+      - name: Validate examples (SHACL semantics)
+        run: python3 tools/shacl.py examples/example-city
+
+      - uses: actions/upload-pages-artifact@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          path: _site
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
