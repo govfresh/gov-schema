@@ -1,0 +1,49 @@
+---
+layout: layouts/base.njk
+title: Profiles
+description: The six domain profiles and their build order.
+---
+<div class="container py-5">
+  <h1 class="mb-3">Profiles</h1>
+  <p class="lead">Each profile carries the same five artifacts, so the pattern is learned once: a README, JSON Schemas, a context fragment, a crosswalk, and examples.</p>
+
+  {% for b in profiles.built %}
+  <div class="card mb-3">
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-start flex-wrap gap-2">
+        <div>
+          <h2 class="h5 mb-1">{{ b.name }} <span class="badge text-bg-success align-middle">implemented</span></h2>
+          <p class="mb-1 small">{{ b.schemas | length }} schemas, {{ b.codelists | length }} code lists.</p>
+          <p class="mb-0 small text-body-secondary">Source standard: {{ b.source }}</p>
+        </div>
+        <a href="/profiles/{{ b.slug }}/" class="btn btn-sm btn-outline-primary">Browse</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+  {% if profiles.planned | length %}
+  <h2 class="h5 mb-3">Planned, in dependency order</h2>
+  <p class="small text-body-secondary">Build order follows dependency, not interest.</p>
+  <div class="list-group mb-4">
+    {% for p in profiles.planned %}
+    <div class="list-group-item">
+      <div class="d-flex justify-content-between align-items-start flex-wrap gap-2">
+        <div>
+          <h3 class="h6 mb-1"><code>{{ p.slug }}</code> — {{ p.title }}</h3>
+          <p class="mb-0 small text-body-secondary">Source standard: {{ p.source }}<br>Depends on: <code>{{ p.depends }}</code></p>
+        </div>
+        <span class="badge text-bg-secondary">planned</span>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="alert alert-secondary small mb-4">
+    <strong>All seven domain profiles are implemented.</strong> What comes next — discovery,
+    alerts, permits, elections — is tracked in
+    <a href="{{ site.repo }}/blob/main/ROADMAP.md">ROADMAP.md</a>, along with the open
+    questions on geospatial data and the scope of service requests.
+  </div>
+  {% endif %}
+</div>

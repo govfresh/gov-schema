@@ -1,0 +1,20 @@
+{
+  "docs": [
+    {
+      "title": "Specification",
+      "url": "/spec/"
+    },
+    {
+      "title": "Profiles",
+      "url": "/profiles/"
+    },
+    {
+      "title": "Vocabulary",
+      "url": "/vocabulary/"
+    },
+    {
+      "title": "Examples",
+      "url": "/examples/"
+    }
+  ]
+}

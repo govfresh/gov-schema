@@ -1,0 +1,83 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: profiles.built
+  size: 1
+  alias: profile
+  addAllPagesToCollections: true
+permalink: "/profiles/{{ profile.slug }}/"
+eleventyComputed:
+  title: "{{ profile.name }} profile"
+  description: "{{ profile.name }} profile reference, generated from the JSON Schemas."
+---
+<div class="container py-5">
+  <div class="row">
+    <div class="col-lg-3">
+      <nav class="gs-sidebar d-none d-lg-block" aria-label="Schemas">
+        <p class="text-uppercase small fw-semibold text-body-secondary">Schemas</p>
+        <ul class="nav flex-column small mb-4">
+          {% for s in profile.schemas %}
+          <li class="nav-item"><a class="nav-link px-0 py-1" href="#{{ s.slug }}">{{ s.title }}</a></li>
+          {% endfor %}
+        </ul>
+        <p class="text-uppercase small fw-semibold text-body-secondary">Profiles</p>
+        <ul class="nav flex-column small">
+          {% for b in profiles.built %}
+          <li class="nav-item"><a class="nav-link px-0 py-1{% if b.slug == profile.slug %} fw-semibold{% endif %}" href="/profiles/{{ b.slug }}/">{{ b.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+    <div class="col-lg-9">
+      <nav aria-label="Breadcrumb" class="small mb-3">
+        <a href="/profiles/">Profiles</a> <span class="text-body-secondary">/</span> {{ profile.name }}
+      </nav>
+      <h1 class="mb-3">{{ profile.name }} profile</h1>
+
+      <div class="alert alert-secondary small">
+        <strong>Generated from the schemas.</strong> Every field below is read from
+        <code>profiles/{{ profile.dir }}/schema/*.schema.json</code> at build time, so this page
+        cannot drift from what the validator enforces.
+      </div>
+
+      <div class="row g-3 mb-5">
+        <div class="col-6 col-md-3"><div class="border rounded p-3 text-center">
+          <div class="h3 mb-0">{{ profile.schemas | length }}</div><div class="small text-body-secondary">schemas</div>
+        </div></div>
+        <div class="col-6 col-md-3"><div class="border rounded p-3 text-center">
+          <div class="h3 mb-0">{{ profile.codelists | length }}</div><div class="small text-body-secondary">code lists</div>
+        </div></div>
+        <div class="col-6 col-md-3"><div class="border rounded p-3 text-center">
+          <div class="h3 mb-0">{{ examples.entities | length }}</div><div class="small text-body-secondary">example entities</div>
+        </div></div>
+        <div class="col-6 col-md-3"><div class="border rounded p-3 text-center">
+          <div class="h3 mb-0">{{ examples.refCount }}</div><div class="small text-body-secondary">cross-references</div>
+        </div></div>
+      </div>
+
+      {% for s in profile.schemas %}
+      <section id="{{ s.slug }}" class="mb-5">
+        <h2 class="h4 border-bottom pb-2">{{ s.title }}</h2>
+        <p>{{ s.description }}</p>
+        <p class="small gs-mono text-body-secondary"><a href="{{ profile.urlBase }}{{ s.file }}">{{ s.id }}</a></p>
+        <div class="table-responsive">
+          <table class="table table-sm gs-field-table align-middle">
+            <thead><tr>
+              <th style="width:22%">Field</th><th style="width:24%">Type</th><th>Notes</th>
+            </tr></thead>
+            <tbody>
+              {% for f in s.fields %}
+              <tr>
+                <td><code>{{ f.name }}</code>{% if f.required %}<br><span class="gs-req text-danger fw-semibold">required</span>{% endif %}</td>
+                <td><code class="text-body-secondary">{{ f.def | fieldType }}</code></td>
+                <td class="small">{{ f.description }}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </section>
+      {% endfor %}
+    </div>
+  </div>
+</div>

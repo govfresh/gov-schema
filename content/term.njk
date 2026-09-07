@@ -1,0 +1,48 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: profiles.codelists
+  size: 1
+  alias: codelist
+  addAllPagesToCollections: true
+permalink: "/v1/{{ codelist.termSegment }}/"
+eleventyComputed:
+  title: "{{ codelist.name }}"
+  description: "{{ codelist.description }}"
+---
+<div class="container py-5">
+  <nav aria-label="Breadcrumb" class="small mb-3">
+    <a href="/vocabulary/">Vocabulary</a> <span class="text-body-secondary">/</span> {{ codelist.name }}
+  </nav>
+  <p class="text-uppercase small fw-semibold text-body-secondary mb-1">DefinedTermSet</p>
+  <h1 class="mb-3">{{ codelist.name }}</h1>
+  <p class="lead">{{ codelist.description }}</p>
+
+  <dl class="row small border-top border-bottom py-3 mb-4">
+    <dt class="col-sm-3">Term IRI</dt>
+    <dd class="col-sm-9 gs-mono gs-ns mb-2">{{ codelist.id }}</dd>
+    <dt class="col-sm-3">Machine-readable</dt>
+    <dd class="col-sm-9 mb-0"><a href="/v1/codelists/{{ codelist.file }}" class="gs-mono">/v1/codelists/{{ codelist.file }}</a></dd>
+  </dl>
+
+  <h2 class="h5 mb-3">Terms</h2>
+  <div class="table-responsive">
+    <table class="table table-sm align-middle">
+      <thead><tr><th style="width:18%">Code</th><th style="width:22%">Name</th><th>Description</th></tr></thead>
+      <tbody>
+        {% for t in codelist.terms %}
+        <tr>
+          <td><code>{{ t.code }}</code></td>
+          <td>{{ t.name }}</td>
+          <td class="small">{{ t.description }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <p class="small text-body-secondary mt-4 mb-0">
+    This set is extensible. Publishers should map a local tier onto the closest term and carry
+    the local name in <code>alternateName</code>, rather than requesting a new term.
+  </p>
+</div>
