@@ -1,0 +1,181 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/requests/service-request.schema.json",
+  "title": "ServiceRequest",
+  "description": "One report of a problem or request for service - a pothole, a broken streetlight, an abandoned vehicle. Mirrors Open311 GeoReport v2, which is the established standard and remains the source model; this is a schema.org projection of it, not a replacement. schema.org has no service request concept of any kind, so gs:ServiceRequest is minted outright. NOTE: this schema deliberately has no fields for the reporter's name, email, phone, device id, or account id. See the privacy section in the profile README - those fields exist in the Open311 POST payload and must not survive into published data.",
+  "type": "object",
+  "properties": {
+    "@context": {},
+    "@id": {
+      "type": "string",
+      "format": "iri"
+    },
+    "@type": {
+      "const": "ServiceRequest"
+    },
+    "identifier": {
+      "type": "array",
+      "items": {
+        "$ref": "../_core/identifier.schema.json"
+      }
+    },
+    "serviceRequestId": {
+      "type": "string",
+      "description": "The publisher's own request number, as shown to the public. Open311 service_request_id."
+    },
+    "serviceCode": {
+      "type": "string",
+      "description": "The code of the service requested. Open311 service_code. Must match a Service in the catalogue."
+    },
+    "service": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The GovernmentService this request is against."
+    },
+    "description": {
+      "type": "string",
+      "description": "The reporter's account of the problem. Free text submitted by a member of the public: treat as untrusted, and review before publishing, since people put their own names and phone numbers in here."
+    },
+    "requestStatus": {
+      "type": "string",
+      "description": "termCode from the ServiceRequestStatus code list. Open311 defines only open and closed; anything other than closed maps to open for Open311 compatibility.",
+      "enum": [
+        "open",
+        "inProgress",
+        "onHold",
+        "closed",
+        "rejected",
+        "duplicate"
+      ]
+    },
+    "statusNote": {
+      "type": "string",
+      "description": "Public explanation of the current status. Open311 status_notes."
+    },
+    "agencyResponsible": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The GovernmentOrganization handling it."
+    },
+    "dateCreated": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Open311 requested_datetime."
+    },
+    "dateModified": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Open311 updated_datetime."
+    },
+    "expectedResolutionDate": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Open311 expected_datetime."
+    },
+    "geo": {
+      "type": "object",
+      "description": "schema.org GeoCoordinates. Round coordinates for requests at residential addresses - see the privacy section of the profile README.",
+      "properties": {
+        "@type": {
+          "const": "GeoCoordinates"
+        },
+        "latitude": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "longitude": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        }
+      },
+      "required": [
+        "@type",
+        "latitude",
+        "longitude"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "description": "schema.org PostalAddress."
+    },
+    "location": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "A named Facility or Place, where the request concerns one."
+    },
+    "jurisdiction": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The Jurisdiction the request falls in."
+    },
+    "image": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "description": "schema.org ImageObject. Open311 media_url. Photos submitted by the public routinely contain bystanders, licence plates, and house numbers; review before publishing."
+    },
+    "additionalProperty": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "description": "Answers to the service's own questions, as schema.org PropertyValue with propertyID matching the attribute's valueName. Open311 attribute[]."
+    },
+    "sourceDataset": {
+      "type": "string",
+      "format": "iri"
+    },
+    "duplicateOf": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The request this duplicates, when requestStatus is 'duplicate'. A reference, not prose: 'Duplicate of 2025-104882' in a status note cannot be followed by anything."
+    },
+    "relatedAlert": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "An Alert this request concerns. A service disruption is both: the disruption is an alert, reports about it are requests."
+    },
+    "statusHistory": {
+      "type": "array",
+      "description": "Timestamped record of how the request progressed. Without it only current state is visible, so nobody can see how long a request sat unassigned - which is exactly what residents and service-level measurement need.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "@type": {
+            "const": "StatusChange"
+          },
+          "requestStatus": {
+            "type": "string",
+            "enum": [
+              "open",
+              "inProgress",
+              "onHold",
+              "closed",
+              "rejected",
+              "duplicate"
+            ]
+          },
+          "date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "statusNote": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "@type",
+          "requestStatus",
+          "date"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "@id",
+    "@type",
+    "serviceRequestId",
+    "serviceCode",
+    "requestStatus",
+    "dateCreated"
+  ],
+  "additionalProperties": true
+}
