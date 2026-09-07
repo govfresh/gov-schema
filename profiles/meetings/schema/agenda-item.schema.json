@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/meetings/agenda-item.schema.json",
+  "title": "AgendaItem",
+  "description": "One numbered piece of business at a meeting. Minted as a subclass of schema:ListItem, which already supplies ordering. An agenda item is the hinge between the meetings profile and the code profile: 'about' points at the Legislation under consideration, so a law's passage can be traced to the sitting that passed it and the vote that carried it.",
+  "type": "object",
+  "properties": {
+    "@id": {"type": "string", "format": "iri"},
+    "@type": {"const": "AgendaItem"},
+    "name": {"type": "string"},
+    "description": {"type": "string"},
+    "position": {"type": "integer", "description": "Order on the agenda. Real schema.org ListItem property."},
+    "identifier": {"type": "array", "items": {"$ref": "../_core/identifier.schema.json"}},
+    "about": {
+      "type": "array",
+      "items": {"$ref": "../_core/reference.schema.json"},
+      "description": "The Legislation under consideration, where the item concerns one. The join to the code profile."
+    },
+    "result": {
+      "type": "string",
+      "description": "What the body decided. Absent means not yet decided.",
+      "enum": ["adopted", "rejected", "deferred", "withdrawn", "referred", "amended", "noAction", "received"]
+    },
+    "voteEvent": {
+      "type": "array",
+      "items": {"$ref": "vote-event.schema.json"},
+      "description": "Votes taken on this item. More than one is normal: an amendment, then the main motion."
+    },
+    "attachment": {"type": "array", "items": {"type": "string", "format": "iri"}},
+    "isPartOf": {"$ref": "../_core/reference.schema.json", "description": "The Meeting, when the item is published standalone."}
+  },
+  "required": ["@type", "name", "position"],
+  "additionalProperties": true
+}
