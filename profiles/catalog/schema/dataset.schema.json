@@ -1,0 +1,216 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/catalog/dataset.schema.json",
+  "title": "Dataset",
+  "description": "One published dataset, aligned with DCAT and expressed as a schema.org Dataset. Every gov-schema profile a publisher serves should also appear here as a dataset, so that a consumer arriving through an open-data portal finds the structured data rather than only a CSV of it.",
+  "type": "object",
+  "properties": {
+    "@context": {},
+    "@id": {
+      "type": "string",
+      "format": "iri"
+    },
+    "@type": {
+      "const": "Dataset"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "format": "iri"
+    },
+    "identifier": {
+      "type": "array",
+      "items": {
+        "$ref": "../_core/identifier.schema.json"
+      }
+    },
+    "publisher": {
+      "$ref": "../_core/reference.schema.json"
+    },
+    "creator": {
+      "$ref": "../_core/reference.schema.json"
+    },
+    "includedInDataCatalog": {
+      "$ref": "../_core/reference.schema.json"
+    },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dataTheme": {
+      "type": "array",
+      "description": "termCode(s) from the DataTheme code list, aligned with the EU data-theme vocabulary that DCAT-AP uses.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "AGRI",
+          "ECON",
+          "EDUC",
+          "ENER",
+          "ENVI",
+          "GOVE",
+          "HEAL",
+          "INTR",
+          "JUST",
+          "OP_DATPRO",
+          "REGI",
+          "SOCI",
+          "TECH",
+          "TRAN"
+        ]
+      }
+    },
+    "updateFrequency": {
+      "type": "string",
+      "description": "How often this is refreshed, as an ISO 8601 duration (P1D, P1M) or 'continuous' or 'irregular'. DCAT dct:accrualPeriodicity. A dataset with no stated cadence cannot be told apart from an abandoned one."
+    },
+    "accessRights": {
+      "type": "string",
+      "enum": [
+        "public",
+        "restricted",
+        "nonPublic"
+      ],
+      "description": "DCAT dct:accessRights. 'restricted' means the metadata is public but the data is not."
+    },
+    "spatialCoverage": {
+      "$ref": "../_core/reference.schema.json"
+    },
+    "temporalCoverage": {
+      "type": "string",
+      "description": "ISO 8601 interval, e.g. 2020-01-01/2025-12-31."
+    },
+    "datePublished": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateModified": {
+      "type": "string",
+      "anyOf": [
+        {
+          "format": "date"
+        },
+        {
+          "format": "date-time"
+        }
+      ]
+    },
+    "license": {
+      "type": "string",
+      "format": "iri"
+    },
+    "inLanguage": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "conformsToProfile": {
+      "type": "string",
+      "description": "The gov-schema profile this dataset serves, where it serves one. This is what links an open-data catalogue entry to structured gov-schema data.",
+      "enum": [
+        "core",
+        "org",
+        "code",
+        "meetings",
+        "requests",
+        "budget",
+        "procurement",
+        "catalog",
+        "alerts"
+      ]
+    },
+    "distribution": {
+      "type": "array",
+      "minItems": 1,
+      "description": "The actual files or endpoints. A dataset with no distribution is an announcement, not data.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "@type": {
+            "const": "DataDownload"
+          },
+          "name": {
+            "type": "string"
+          },
+          "contentUrl": {
+            "type": "string",
+            "format": "iri",
+            "description": "DCAT dcat:downloadURL."
+          },
+          "accessUrl": {
+            "type": "string",
+            "format": "iri",
+            "description": "DCAT dcat:accessURL: a landing page or API root, where there is no direct download."
+          },
+          "encodingFormat": {
+            "type": "string"
+          },
+          "contentSize": {
+            "type": "string"
+          },
+          "dateModified": {
+            "type": "string",
+            "anyOf": [
+              {
+                "format": "date"
+              },
+              {
+                "format": "date-time"
+              }
+            ]
+          }
+        },
+        "required": [
+          "@type"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "conformsTo": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "External standards this dataset follows, e.g. an Akoma Ntoso or OpenAPI version. DCAT dct:conformsTo. Distinct from conformanceLevel."
+    },
+    "applicableLegislation": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "iri"
+      },
+      "description": "Legislation mandating or governing this dataset, typically an ELI URI. Observed on EU portals under the Open Data Directive; a direct join from catalog to the code profile."
+    },
+    "hvdCategory": {
+      "type": "string",
+      "format": "iri",
+      "description": "EU High Value Dataset category URI. A legal classification under the Open Data Directive, not a subject theme."
+    },
+    "highValueDataset": {
+      "type": "boolean"
+    },
+    "spatialReferenceSystem": {
+      "type": "string",
+      "description": "EPSG code of the dataset's coordinate reference system, e.g. 'epsg:2157'. GeoJSON mandates WGS84 but national grids are in daily use, so an international profile cannot assume it."
+    },
+    "provenanceStatement": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "@id",
+    "@type",
+    "name",
+    "publisher",
+    "distribution"
+  ],
+  "additionalProperties": true
+}

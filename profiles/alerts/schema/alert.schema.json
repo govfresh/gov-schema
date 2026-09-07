@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/alerts/alert.schema.json",
+  "title": "Alert",
+  "description": "A public warning or notice issued by a government: an emergency, an evacuation, a boil-water notice, a road closure. Modelled on the Common Alerting Protocol (OASIS CAP 1.2), the international standard behind IPAWS in the US, EU-Alert, and national warning systems worldwide. schema.org has SpecialAnnouncement, but every one of its properties is COVID-shaped - quarantineGuidelines, gettingTestedInfo, travelBans - and it carries no severity, urgency, certainty, or expiry, so it is used only as a discovery projection, never as the model. Alerts are outbound (government to public); service requests are inbound. The two are deliberately separate profiles.",
+  "type": "object",
+  "properties": {
+    "@context": {},
+    "@id": {"type": "string", "format": "iri"},
+    "@type": {"const": "Alert"},
+    "alertIdentifier": {"type": "string", "description": "CAP identifier. Unique per sender."},
+    "sender": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The GovernmentOrganization issuing. Required: an unattributed warning cannot be trusted or verified."
+    },
+    "sent": {"type": "string", "format": "date-time", "description": "CAP sent. Full date-time with offset."},
+    "alertStatus": {
+      "type": "string",
+      "description": "CAP status. 'exercise' and 'test' must never be rendered to the public as real; publishing them without this field is dangerous.",
+      "enum": ["actual", "exercise", "system", "test", "draft"]
+    },
+    "messageType": {
+      "type": "string",
+      "description": "CAP msgType. An update or cancel must carry 'references' so consumers can supersede the earlier message rather than showing both.",
+      "enum": ["alert", "update", "cancel", "ack", "error"]
+    },
+    "scope": {"type": "string", "enum": ["public", "restricted", "private"]},
+    "references": {
+      "type": "array",
+      "items": {"$ref": "../_core/reference.schema.json"},
+      "description": "Earlier alerts this supersedes. Required in practice for update and cancel; the validator checks it."
+    },
+    "incident": {"type": "string", "description": "CAP incidents: groups alerts about the same event."},
+    "note": {"type": "string"},
+    "alertInfo": {
+      "type": "array",
+      "minItems": 1,
+      "description": "CAP info blocks. One per language: CAP's alert/info split exists precisely so a warning can be issued in several languages at once, which matters wherever government operates multilingually.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "@type": {"const": "AlertInfo"},
+          "inLanguage": {"type": "string", "description": "BCP 47."},
+          "category": {
+            "type": "array", "minItems": 1,
+            "items": {"type": "string", "enum": ["geo","met","safety","security","rescue","fire","health","env","transport","infra","cbrne","other"]}
+          },
+          "event": {"type": "string", "description": "Short event type, e.g. 'Boil water notice'."},
+          "responseType": {
+            "type": "array",
+            "items": {"type": "string", "enum": ["shelter","evacuate","prepare","execute","avoid","monitor","assess","allClear","none"]}
+          },
+          "urgency": {"type": "string", "enum": ["immediate","expected","future","past","unknown"]},
+          "severity": {"type": "string", "enum": ["extreme","severe","moderate","minor","unknown"]},
+          "certainty": {"type": "string", "enum": ["observed","likely","possible","unlikely","unknown"]},
+          "headline": {"type": "string", "maxLength": 160, "description": "CAP recommends 160 characters or fewer."},
+          "description": {"type": "string", "description": "What is happening."},
+          "instruction": {"type": "string", "description": "What the public should do. The field that makes an alert actionable rather than merely informative."},
+          "effective": {"type": "string", "format": "date-time"},
+          "onset": {"type": "string", "format": "date-time"},
+          "expires": {
+            "type": "string", "format": "date-time",
+            "description": "When the alert ceases to apply. Required: an alert with no expiry stays on screens indefinitely and trains people to ignore alerts."
+          },
+          "senderName": {"type": "string", "description": "Human-readable issuer name."},
+          "web": {"type": "string", "format": "iri"},
+          "contact": {"type": "string"},
+          "audience": {"type": "string"}
+        },
+        "required": ["@type", "inLanguage", "category", "event", "urgency", "severity", "certainty", "expires"],
+        "additionalProperties": false
+      }
+    },
+    "area": {
+      "type": "array",
+      "description": "Where the alert applies. Geometry is referenced, never embedded: a warning polygon is thousands of coordinate pairs and inlining it makes the alert unusable on the constrained channels alerts actually travel over.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "@type": {"const": "AlertArea"},
+          "areaDescription": {"type": "string", "description": "Human-readable, e.g. 'North of the river, west of Route 9'."},
+          "jurisdiction": {"$ref": "../_core/reference.schema.json", "description": "A Jurisdiction the alert covers."},
+          "geometry": {"type": "string", "format": "iri", "description": "URL of a GeoJSON polygon (RFC 7946, WGS84)."},
+          "geocode": {"type": "array", "items": {"$ref": "../_core/identifier.schema.json"}, "description": "Scheme-qualified area codes, e.g. SAME or UGC in the US."},
+          "circle": {"type": "string", "description": "CAP circle: 'lat,lon radiusKm'."}
+        },
+        "required": ["@type", "areaDescription"],
+        "additionalProperties": false
+      }
+    },
+    "resource": {
+      "type": "array",
+      "items": {"type": "object"},
+      "description": "Supporting files: maps, audio, translations."
+    },
+    "sourceDataset": {"type": "string", "format": "iri"}
+  },
+  "required": ["@id", "@type", "alertIdentifier", "sender", "sent", "alertStatus", "messageType", "scope", "alertInfo"],
+  "additionalProperties": true
+}

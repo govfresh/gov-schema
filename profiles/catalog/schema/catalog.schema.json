@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/catalog/catalog.schema.json",
+  "title": "Catalog",
+  "description": "A catalogue of a government's published datasets, aligned with DCAT and expressed as a schema.org DataCatalog. DCAT is the international standard here (DCAT-AP in the EU, DCAT-US in the States, and the basis of most national open-data portals), and schema.org DataCatalog is what Google Dataset Search consumes - so this projection has an immediate real consumer rather than a hypothetical one.",
+  "type": "object",
+  "properties": {
+    "@context": {},
+    "@id": {"type": "string", "format": "iri"},
+    "@type": {"const": "DataCatalog"},
+    "name": {"type": "string"},
+    "description": {"type": "string"},
+    "url": {"type": "string", "format": "iri"},
+    "identifier": {"type": "array", "items": {"$ref": "../_core/identifier.schema.json"}},
+    "publisher": {"$ref": "../_core/reference.schema.json"},
+    "about": {"$ref": "../_core/reference.schema.json", "description": "The Jurisdiction covered."},
+    "dataset": {"type": "array", "items": {"$ref": "../_core/reference.schema.json"}},
+    "license": {"type": "string", "format": "iri"},
+    "inLanguage": {"type": "array", "items": {"type": "string"}},
+    "dateModified": {"type": "string", "anyOf": [{"format": "date"}, {"format": "date-time"}]},
+    "contactPoint": {"type": "object"}
+  },
+  "required": ["@id", "@type", "name", "publisher"],
+  "additionalProperties": true
+}
