@@ -14,6 +14,7 @@ Usage:  python3 tools/validate.py [examples/example-city ...]
 """
 import json
 import pathlib
+import re
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -353,6 +354,45 @@ def main(argv):
                     f"    sent {node.get('sent')}, expires {info.get('expires')} "
                     f"({info.get('inLanguage')})"
                 )
+
+    # --- service request disclosure risk ---------------------------------------
+    # The field check above catches reporter-identifying COLUMNS. Real 311 data shows
+    # the residual risk is not in fields at all: of 1,000 live Bloomington requests,
+    # 736 carried 14 decimal places of latitude alongside a street address, and 13
+    # descriptions contained a phone number or an email address written by the public.
+    # Neither is a schema violation, so both warn rather than fail.
+    COORD_PRECISION_LIMIT = 5          # about a metre; finer locates a household
+    CONTACT_IN_TEXT = re.compile(
+        r"[\w.+-]+@[\w-]+\.[\w.]+"                    # email
+        r"|\b(?:\+?\d[\d ().-]{7,}\d)\b"             # phone-like run of digits
+    )
+
+    def _decimals(v):
+        s = str(v)
+        return len(s.split(".")[1]) if "." in s else 0
+
+    for nid, node in entities.items():
+        types_ = node.get("@type")
+        types_ = types_ if isinstance(types_, list) else [types_]
+        if "ServiceRequest" not in types_:
+            continue
+
+        geo = node.get("geo") or {}
+        street = (node.get("address") or {}).get("streetAddress")
+        if geo.get("latitude") is not None and street:
+            dp = max(_decimals(geo.get("latitude")), _decimals(geo.get("longitude")))
+            if dp > COORD_PRECISION_LIMIT:
+                warnings.append(
+                    f"{nid}: {dp} decimal places of coordinate alongside a street address\n"
+                    f"    that locates a household rather than an incident; "
+                    f"{COORD_PRECISION_LIMIT} places is about a metre")
+
+        desc = node.get("description") or ""
+        if CONTACT_IN_TEXT.search(desc):
+            warnings.append(
+                f"{nid}: description appears to contain a phone number or email address\n"
+                f"    free text is written by the public and is not covered by the field\n"
+                f"    check; review before publishing")
 
     # --- service request status history ---------------------------------------
     for nid, node in entities.items():
