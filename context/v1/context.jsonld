@@ -753,8 +753,7 @@
     "event": "gs:event",
     "areaDescription": "gs:areaDescription",
     "geometry": {
-      "@id": "gs:geometry",
-      "@type": "@id"
+      "@id": "gs:geometry"
     },
     "geocode": {
       "@id": "gs:geocode",
@@ -988,6 +987,26 @@
     "referencesIdentifier": {
       "@id": "gs:referencesIdentifier",
       "@container": "@set"
-    }
+    },
+    "Boundary": "gs:Boundary",
+    "Geometry": "gs:Geometry",
+    "boundary": {
+      "@id": "gs:boundary",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "boundaryOf": {
+      "@id": "gs:boundaryOf",
+      "@type": "@id"
+    },
+    "geometryType": "gs:geometryType",
+    "coordinates": {
+      "@id": "gs:coordinates",
+      "@container": "@list"
+    },
+    "sourceReferenceSystem": "gs:sourceReferenceSystem",
+    "simplified": "gs:simplified",
+    "vertexCount": "gs:vertexCount",
+    "authoritative": "gs:authoritative"
   }
 }

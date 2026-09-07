@@ -55,12 +55,12 @@
           "urgency": "immediate",
           "severity": "severe",
           "certainty": "observed",
-          "headline": "Aviso de hervir el agua para el Distrito 2 tras rotura de tuber\u00eda",
-          "description": "Una tuber\u00eda principal de agua de 12 pulgadas fall\u00f3 durante la noche en la calle 4.",
+          "headline": "Aviso de hervir el agua para el Distrito 2 tras rotura de tubería",
+          "description": "Una tubería principal de agua de 12 pulgadas falló durante la noche en la calle 4.",
           "instruction": "Hierva toda el agua para beber, cocinar o cepillarse los dientes durante al menos un minuto antes de usarla.",
           "effective": "2025-08-14T06:12:00-07:00",
           "expires": "2025-08-17T12:00:00-07:00",
-          "senderName": "Obras P\u00fablicas de Example City"
+          "senderName": "Obras Públicas de Example City"
         }
       ],
       "area": [
@@ -71,7 +71,36 @@
             "@id": "https://example-city.gov/id/jurisdiction/example-city/district-2",
             "name": "District 2"
           },
-          "geometry": "https://example-city.gov/alerts/2025-water-011/area.geojson",
+          "geometry": {
+            "@type": "Geometry",
+            "geometryType": "Polygon",
+            "encodingFormat": "application/geo+json",
+            "vertexCount": 5,
+            "coordinates": [
+              [
+                [
+                  -118.245,
+                  34.056
+                ],
+                [
+                  -118.238,
+                  34.056
+                ],
+                [
+                  -118.238,
+                  34.05
+                ],
+                [
+                  -118.245,
+                  34.05
+                ],
+                [
+                  -118.245,
+                  34.056
+                ]
+              ]
+            ]
+          },
           "geocode": [
             {
               "@type": "PropertyValue",

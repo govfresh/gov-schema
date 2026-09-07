@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/_core/geometry.schema.json",
+  "title": "Geometry",
+  "description": "A shape on the earth, held either by reference or inline. A value type rather than an entity, like Identifier and Amount. schema:GeoShape cannot do this job: its polygon is a space-delimited text string with no coordinate reference system, no multipolygon and no interior rings, and schema.org's own GeospatialGeometry is a declared placeholder that was never filled in. Exactly one of contentUrl or coordinates must be present.",
+  "type": "object",
+  "properties": {
+    "@type": {"const": "Geometry"},
+    "geometryType": {
+      "type": "string",
+      "description": "GeoJSON geometry type. MultiPolygon is the common case for real administrative areas, which have islands and exclaves.",
+      "enum": ["Point", "LineString", "Polygon", "MultiPoint", "MultiLineString", "MultiPolygon", "GeometryCollection"]
+    },
+    "contentUrl": {
+      "type": "string", "format": "iri",
+      "description": "URL of a GeoJSON resource. The default for anything shared, authoritative or large: a jurisdiction boundary is referenced by every record in that jurisdiction, and duplicating it into each is the drift SPEC section 1.2 exists to prevent."
+    },
+    "coordinates": {
+      "description": "Inline GeoJSON coordinates. Permitted for geometry that is specific to one record and small - an alert polygon, a parcel outline - because real standards inline it and a profile that forbade it could not describe CAP. The validator warns above a vertex threshold rather than failing, since that is a publishing judgement rather than a correctness error.",
+      "type": "array"
+    },
+    "encodingFormat": {"type": "string", "description": "Usually application/geo+json."},
+    "sourceReferenceSystem": {
+      "type": "string",
+      "description": "The CRS the publisher's authoritative source is held in, as an OGC CRS URI or 'epsg:NNNN' shorthand. This is PROVENANCE, not a claim about the coordinates here: GeoJSON mandates WGS84 longitude/latitude and forbids alternatives, so referenced and inline GeoJSON are always CRS84. Recording it matters because national-grid coordinates read as WGS84 land in the wrong hemisphere."
+    },
+    "simplified": {
+      "type": "boolean",
+      "description": "Whether this is a generalised rendering for display. A simplified boundary is NOT the legal boundary, and using one to decide whether an address falls inside a district gives wrong answers at the edges. A consumer needs to know which it has."
+    },
+    "vertexCount": {"type": "integer", "minimum": 0, "description": "Approximate vertex count, where the publisher knows it."}
+  },
+  "required": ["@type", "geometryType"],
+  "oneOf": [
+    {"required": ["contentUrl"], "not": {"required": ["coordinates"]}},
+    {"required": ["coordinates"], "not": {"required": ["contentUrl"]}}
+  ],
+  "additionalProperties": false
+}

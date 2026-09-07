@@ -862,3 +862,68 @@ gs:referencesIdentifier a rdf:Property ;
     schema:domainIncludes gs:Alert ;
     schema:rangeIncludes schema:Text ;
     rdfs:subPropertyOf schema:identifier .
+
+#################  geospatial  #################
+
+gs:Boundary a rdfs:Class ;
+    rdfs:label "Boundary" ;
+    rdfs:comment "The extent of a governed area over a period of time. A separate citable entity rather than a field, because boundaries change and the change matters: a 2022 contest was fought on the 2022 boundary, and a record attributed to an area is anchored to the boundary in force at the time. Attaching one current geometry to a jurisdiction silently rewrites history." ;
+    rdfs:subClassOf schema:Intangible .
+
+gs:Geometry a rdfs:Class ;
+    rdfs:label "Geometry" ;
+    rdfs:comment "A shape on the earth, held by reference or inline. schema:GeoShape cannot do this: its polygon is a space-delimited text string with no CRS, no multipolygon and no interior rings, and schema.org's own GeospatialGeometry is a declared placeholder that was never filled in." ;
+    rdfs:subClassOf schema:StructuredValue .
+
+gs:boundary a rdf:Property ;
+    rdfs:label "boundary" ;
+    rdfs:comment "A Boundary of this area, including superseded ones." ;
+    schema:domainIncludes schema:AdministrativeArea ;
+    schema:rangeIncludes gs:Boundary .
+
+gs:boundaryOf a rdf:Property ;
+    rdfs:label "boundary of" ;
+    rdfs:comment "The jurisdiction a Boundary is the extent of." ;
+    schema:domainIncludes gs:Boundary ;
+    schema:rangeIncludes schema:AdministrativeArea .
+
+gs:geometry a rdf:Property ;
+    rdfs:label "geometry" ;
+    rdfs:comment "The shape itself." ;
+    schema:domainIncludes gs:Boundary, gs:AlertArea ;
+    schema:rangeIncludes gs:Geometry, schema:URL .
+
+gs:geometryType a rdf:Property ;
+    rdfs:label "geometry type" ;
+    rdfs:comment "GeoJSON geometry type. MultiPolygon is the common case for real administrative areas, which have islands and exclaves." ;
+    schema:domainIncludes gs:Geometry ;
+    schema:rangeIncludes schema:Text .
+
+gs:coordinates a rdf:Property ;
+    rdfs:label "coordinates" ;
+    rdfs:comment "Inline GeoJSON coordinates, for geometry specific to one record and small. Permitted because real CAP publishers embed the polygon in the alert itself, and a profile that only allowed references could not describe them." ;
+    schema:domainIncludes gs:Geometry ;
+    schema:rangeIncludes schema:Text .
+
+gs:sourceReferenceSystem a rdf:Property ;
+    rdfs:label "source reference system" ;
+    rdfs:comment "The CRS a publisher's authoritative source is held in. Provenance, not a claim about the coordinates present: GeoJSON mandates WGS84 and forbids alternatives. Recording it matters because national-grid coordinates read as WGS84 land in the wrong hemisphere." ;
+    schema:domainIncludes gs:Geometry ;
+    schema:rangeIncludes schema:Text .
+
+gs:simplified a rdf:Property ;
+    rdfs:label "simplified" ;
+    rdfs:comment "Whether a geometry is a generalised rendering for display. A simplified boundary is not the legal boundary, and using one to decide whether an address falls inside a district gives wrong answers at the edges." ;
+    schema:domainIncludes gs:Geometry ;
+    schema:rangeIncludes schema:Boolean .
+
+gs:vertexCount a rdf:Property ;
+    rdfs:label "vertex count" ;
+    schema:domainIncludes gs:Geometry ; schema:rangeIncludes schema:Integer ;
+    rdfs:comment "Approximate vertex count, where the publisher knows it." .
+
+gs:authoritative a rdf:Property ;
+    rdfs:label "authoritative" ;
+    rdfs:comment "Whether a Boundary is the legally definitive extent rather than a published rendering of it." ;
+    schema:domainIncludes gs:Boundary ;
+    schema:rangeIncludes schema:Boolean .
