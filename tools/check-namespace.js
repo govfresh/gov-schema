@@ -20,8 +20,16 @@ for (const profile of fs.readdirSync(profilesDir)) {
     const dir = path.join(profilesDir, profile, sub)
     if (!fs.existsSync(dir)) continue
     for (const f of fs.readdirSync(dir).filter((f) => f.endsWith('.json'))) {
-      const id = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'))[key]
+      const doc = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'))
+      const id = doc[key]
       if (id) expected.add(id)
+
+      // Every individual term too. Published documents expand code-list values into
+      // these IRIs, so one that does not resolve is a document pointing at nothing.
+      for (const term of doc.hasDefinedTerm || []) {
+        const tid = term['@id']
+        if (tid && tid.startsWith('gs:')) expected.add(`${BASE}/v1/${tid.slice(3)}`)
+      }
     }
   }
 }

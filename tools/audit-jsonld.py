@@ -175,9 +175,22 @@ def main():
                 + "".join(f"\n      gained: {x[1].rsplit('/',1)[-1]} -> {x[2][:50]}" for x in gained))
 
     # --- D: code-list values must be declared --------------------------------
+    # COFOG and GFSM are hierarchical: only the top level is enumerated, and the profiles
+    # explicitly permit fuller subcodes such as 04.5 or 07.3.1 as values. A subcode whose
+    # parent division IS declared is correct, not a gap.
+    HIERARCHICAL = ("cofog/", "gfsm/")
+
+    def parent_declared(iri):
+        seg = iri[len(NS):]
+        if not seg.startswith(HIERARCHICAL) or "." not in seg:
+            return False
+        prefix, code = seg.split("/", 1)
+        return f"{NS}{prefix}/{code.split('.')[0]}" in declared
+
     for prop, iri in sorted(seen_values):
-        if iri not in declared:
-            warnings.append(f"D  {prop}: <{iri}> is not declared in any code list")
+        if iri in declared or parent_declared(iri):
+            continue
+        warnings.append(f"D  {prop}: <{iri}> is not declared in any code list")
 
     print(f"gov-schema audit-jsonld: {len(fixtures)} fixture(s), {len(mapping)} term(s), "
           f"{len(declared)} declared code-list term(s)")

@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@id": "https://schema.govfresh.com/v1/DecisionResult",
+  "@type": "DefinedTermSet",
+  "name": "Decision result",
+  "description": "What a body decided. Agenda items and votes share this predicate, so both sets of outcomes are declared here; an absent result means not yet decided, which is distinct from a decision to take no action.",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:result/adopted",
+      "termCode": "adopted",
+      "name": "Adopted",
+      "description": "Agreed as proposed. Agenda item."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:result/rejected",
+      "termCode": "rejected",
+      "name": "Rejected",
+      "description": "Not agreed. Agenda item."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:result/amended",
+      "termCode": "amended",
+      "name": "Amended",
+      "description": "Agreed in modified form. Agenda item."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:result/deferred",
+      "termCode": "deferred",
+      "name": "Deferred",
+      "description": "Postponed to a later sitting. Agenda item."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:result/referred",
+      "termCode": "referred",
+      "name": "Referred",
+      "description": "Sent to another body for consideration. Agenda item."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:result/withdrawn",
+      "termCode": "withdrawn",
+      "name": "Withdrawn",
+      "description": "Removed before a decision was taken. Agenda item or vote."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:result/noAction",
+      "termCode": "noAction",
+      "name": "No action",
+      "description": "Considered, with a deliberate decision to do nothing. Agenda item."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:result/received",
+      "termCode": "received",
+      "name": "Received",
+      "description": "Noted without a decision, e.g. a report. Agenda item."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:result/passed",
+      "termCode": "passed",
+      "name": "Passed",
+      "description": "The motion carried. Vote."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:result/failed",
+      "termCode": "failed",
+      "name": "Failed",
+      "description": "The motion did not carry. Vote."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:result/tied",
+      "termCode": "tied",
+      "name": "Tied",
+      "description": "Equal votes; the outcome turns on the body's tie-breaking rule. Vote."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@id": "https://schema.govfresh.com/v1/Urgency",
+  "@type": "DefinedTermSet",
+  "name": "Urgency",
+  "description": "How soon responsive action should be taken, from OASIS CAP 1.2. One of three axes - with severity and certainty - that together let a receiving system decide whether to interrupt someone.",
+  "url": "http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.html",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:urgency/immediate",
+      "termCode": "immediate",
+      "name": "Immediate",
+      "description": "Responsive action should be taken immediately."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:urgency/expected",
+      "termCode": "expected",
+      "name": "Expected",
+      "description": "Responsive action should be taken soon, within the next hour."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:urgency/future",
+      "termCode": "future",
+      "name": "Future",
+      "description": "Responsive action should be taken in the near future."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:urgency/past",
+      "termCode": "past",
+      "name": "Past",
+      "description": "Responsive action is no longer required."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:urgency/unknown",
+      "termCode": "unknown",
+      "name": "Unknown",
+      "description": "Urgency not known."
+    }
+  ]
+}

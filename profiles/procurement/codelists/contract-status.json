@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@id": "https://schema.govfresh.com/v1/ContractStatus",
+  "@type": "DefinedTermSet",
+  "name": "Contract status",
+  "description": "The state of a signed agreement, from OCDS. 'Terminated' is distinguished from 'cancelled': one ended early, the other never started.",
+  "url": "https://standard.open-contracting.org",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:contractstatus/pending",
+      "termCode": "pending",
+      "name": "Pending",
+      "description": "Agreed but not yet in force."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:contractstatus/active",
+      "termCode": "active",
+      "name": "Active",
+      "description": "In force."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:contractstatus/cancelled",
+      "termCode": "cancelled",
+      "name": "Cancelled",
+      "description": "Never came into force."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:contractstatus/terminated",
+      "termCode": "terminated",
+      "name": "Terminated",
+      "description": "Came into force and ended early."
+    }
+  ]
+}

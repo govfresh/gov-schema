@@ -227,13 +227,21 @@ references entities, so the strings expanded as relative IRIs against the docume
 `file:///Users/.../gov-schema`, the same failure as the original `conformsTo` bug. Subject
 keywords moved to `schema:keywords`.
 
-**Open — 21 code-list values resolve to IRIs declared nowhere.** `direction`, `result`,
-`scope`, `accessRights`, `alertStatus`, `messageType`, `urgency`, `severity`, `certainty`,
-`conformanceLevel` and the three `status` variants are inline enums in their schemas with no
-code-list file behind them, so their values expand to term IRIs that do not exist. Either
-write the missing code lists or stop typing those properties `@vocab`. (COFOG subcodes such
-as `cofog/04.5` are reported too and are expected - the profile explicitly permits subcodes
-beyond the enumerated divisions.)
+**Code-list values — RESOLVED.** The thirteen missing code lists are written
+(`AlertStatus`, `MessageType`, `Urgency`, `Severity`, `Certainty`, `AlertScope`,
+`AccessRights`, `BudgetDirection`, `DecisionResult`, `ConformanceLevel`, `TenderStatus`,
+`AwardStatus`, `ContractStatus`), taking the declared term count from 137 to 200. Every
+value now resolves to a declared term, and the audit reports zero warnings.
+
+The audit also learned that COFOG and GFSM are hierarchical: a subcode such as `04.5` whose
+parent division is declared is correct rather than a gap. A subcode with no declared parent
+still warns.
+
+**Term dereferencing — RESOLVED.** Individual term IRIs used to 404. Published documents
+expand `governmentLevel: "municipal"` into `.../v1/level/municipal`, and that pointed at
+nothing on the live site. 229 term pages are now generated, one per declared term, and
+`check-namespace.js` covers every one - 259 URLs checked, up from 46. A term that stops
+resolving now fails the build.
 
 **Note on check E's design.** rdflib's graph canonicalisation reports non-isomorphic for
 graphs differing only in blank-node labelling when a document has many similar blank nodes.

@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@id": "https://schema.govfresh.com/v1/AlertStatus",
+  "@type": "DefinedTermSet",
+  "name": "Alert status",
+  "description": "The handling code for an alert, from OASIS CAP 1.2. Anything other than 'actual' must never be rendered to the public as a real warning; publishing a test without this field is dangerous, which is why it is required.",
+  "url": "http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.html",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:alertstatus/actual",
+      "termCode": "actual",
+      "name": "Actual",
+      "description": "A real, actionable alert."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:alertstatus/exercise",
+      "termCode": "exercise",
+      "name": "Exercise",
+      "description": "A drill. Addressees must treat it as an exercise, never as real."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:alertstatus/system",
+      "termCode": "system",
+      "name": "System",
+      "description": "A message for system or network operators, not the public."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:alertstatus/test",
+      "termCode": "test",
+      "name": "Test",
+      "description": "A technical test. Recipients should disregard it."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:alertstatus/draft",
+      "termCode": "draft",
+      "name": "Draft",
+      "description": "Not yet issued; a preliminary template."
+    }
+  ]
+}

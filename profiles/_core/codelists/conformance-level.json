@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@id": "https://schema.govfresh.com/v1/ConformanceLevel",
+  "@type": "DefinedTermSet",
+  "name": "Conformance level",
+  "description": "The gov-schema conformance level a publisher claims, per SPEC section 4. The ladder exists so a small authority can publish something genuinely useful on day one instead of bouncing off a forty-field requirement. Claims are verified, not taken on trust.",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:conformance/core",
+      "termCode": "core",
+      "name": "Core",
+      "description": "Jurisdiction and Organization present and correctly separated, each with an @id and at least one identifier."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:conformance/standard",
+      "termCode": "standard",
+      "name": "Standard",
+      "description": "Core, plus every required field of each profile in use, all references resolving, and every organization placed in the territorial hierarchy."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:conformance/extended",
+      "termCode": "extended",
+      "name": "Extended",
+      "description": "Standard, plus recommended optional fields and a machine-readable link to the source standard the data is derived from."
+    }
+  ]
+}

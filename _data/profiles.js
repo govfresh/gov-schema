@@ -65,6 +65,11 @@ function toCodelist(c) {
     description: c.description,
     id: c['@id'],
     termSegment: (c['@id'] || '').split('/').pop(),
+    rawTermIds: Object.fromEntries(
+      (c.hasDefinedTerm || [])
+        .filter((t) => (t['@id'] || '').startsWith('gs:'))
+        .map((t) => [t.termCode, t['@id'].slice(3)]),
+    ),
     terms: (c.hasDefinedTerm || []).map((t) => ({
       code: t.termCode,
       name: t.name,
@@ -103,9 +108,33 @@ export default async function () {
     } catch {}
   }
 
+  // Every individual term, so each code-list value gets a dereferenceable page.
+  // Published documents expand values into these IRIs, so a 404 here means a document
+  // points at nothing.
+  const terms = []
+  for (const b of built) {
+    for (const c of b.codelists) {
+      for (const t of c.terms) {
+        const raw = (c.rawTermIds || {})[t.code]
+        if (!raw) continue
+        terms.push({
+          path: raw,                       // e.g. "level/municipal"
+          code: t.code,
+          name: t.name,
+          description: t.description,
+          setName: c.name,
+          setSegment: c.termSegment,
+          setUrl: c.id,
+          profile: b.slug,
+          file: c.file,
+        })
+      }
+    }
+  }
+
   // Flat views, so existing templates keep working.
   const schemas = built.flatMap((b) => b.schemas.map((s) => ({ ...s, profile: b.slug })))
   const codelists = built.flatMap((b) => b.codelists.map((c) => ({ ...c, profile: b.slug })))
 
-  return { built, planned, schemas, codelists }
+  return { built, planned, schemas, codelists, terms }
 }
