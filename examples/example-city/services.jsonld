@@ -1,0 +1,98 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://example-city.gov/id/service/pothole",
+      "@type": "GovernmentService",
+      "name": "Pothole repair",
+      "description": "Report a pothole or damaged road surface on a city-maintained street.",
+      "url": "https://example-city.gov/services/pothole",
+      "serviceCode": "ROAD-001",
+      "serviceType": "Streets",
+      "keywords": ["pothole", "road", "pavement", "street repair"],
+      "isRealtime": true,
+      "provider": {"@id": "https://example-city.gov/id/organization/public-works", "name": "Public Works Department"},
+      "areaServed": {"@id": "https://example-city.gov/id/jurisdiction/example-city", "name": "Example City"},
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://example-city.gov/report/pothole",
+          "servicePhone": {"@type": "ContactPoint", "telephone": "+1-555-0311"},
+          "serviceSmsNumber": {"@type": "ContactPoint", "telephone": "+1-555-0311"},
+          "processingTime": "P5D",
+          "availableLanguage": ["en-US", "es-US"]
+        }
+      ],
+      "requestAttribute": [
+        {
+          "@type": "PropertyValueSpecification",
+          "valueName": "surface_type",
+          "name": "What kind of surface is affected?",
+          "valueRequired": true,
+          "position": 1,
+          "valueOption": [
+            {"@type": "DefinedTerm", "termCode": "asphalt", "name": "Asphalt road"},
+            {"@type": "DefinedTerm", "termCode": "concrete", "name": "Concrete road"},
+            {"@type": "DefinedTerm", "termCode": "sidewalk", "name": "Sidewalk"}
+          ]
+        },
+        {
+          "@type": "PropertyValueSpecification",
+          "valueName": "approx_size_cm",
+          "name": "Roughly how wide is it, in centimetres?",
+          "valueRequired": false,
+          "position": 2,
+          "minValue": 1,
+          "maxValue": 500
+        }
+      ]
+    },
+    {
+      "@id": "https://example-city.gov/id/service/streetlight",
+      "@type": "GovernmentService",
+      "name": "Streetlight outage",
+      "description": "Report a streetlight that is out, flickering, or damaged.",
+      "url": "https://example-city.gov/services/streetlight",
+      "serviceCode": "LIGHT-002",
+      "serviceType": "Streets",
+      "keywords": ["streetlight", "lighting", "outage"],
+      "isRealtime": true,
+      "provider": {"@id": "https://example-city.gov/id/organization/public-works"},
+      "areaServed": {"@id": "https://example-city.gov/id/jurisdiction/example-city"},
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://example-city.gov/report/streetlight",
+          "processingTime": "P10D",
+          "availableLanguage": ["en-US", "es-US"]
+        }
+      ],
+      "requestAttribute": [
+        {
+          "@type": "PropertyValueSpecification",
+          "valueName": "pole_id",
+          "name": "Pole number, if visible",
+          "valueRequired": false,
+          "position": 1,
+          "valuePattern": "^[A-Z]{2}-[0-9]{4}$"
+        }
+      ]
+    },
+    {
+      "@id": "https://example-city.gov/id/service/illegal-dumping",
+      "@type": "GovernmentService",
+      "name": "Illegal dumping",
+      "description": "Report waste dumped on public land.",
+      "url": "https://example-city.gov/services/illegal-dumping",
+      "serviceCode": "SAN-004",
+      "serviceType": "Sanitation",
+      "keywords": ["dumping", "waste", "rubbish", "fly-tipping"],
+      "isRealtime": false,
+      "provider": {"@id": "https://example-city.gov/id/organization/public-works"},
+      "areaServed": {"@id": "https://example-city.gov/id/jurisdiction/example-city"},
+      "availableChannel": [
+        {"@type": "ServiceChannel", "serviceUrl": "https://example-city.gov/report/dumping", "processingTime": "P3D"}
+      ]
+    }
+  ]
+}

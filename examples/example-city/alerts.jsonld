@@ -1,0 +1,139 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://example-city.gov/id/alert/2025-water-011",
+      "@type": "Alert",
+      "alertIdentifier": "EXC-2025-WATER-011",
+      "sender": {
+        "@id": "https://example-city.gov/id/organization/public-works",
+        "name": "Public Works Department"
+      },
+      "sent": "2025-08-14T06:12:00-07:00",
+      "alertStatus": "actual",
+      "messageType": "alert",
+      "scope": "public",
+      "incident": "EXC-2025-MAIN-BREAK-4TH",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "infra",
+            "env"
+          ],
+          "event": "Boil water notice",
+          "responseType": [
+            "prepare",
+            "monitor"
+          ],
+          "urgency": "immediate",
+          "severity": "severe",
+          "certainty": "observed",
+          "headline": "Boil water notice for District 2 following main break",
+          "description": "A 12-inch water main failed overnight on 4th Street. Water pressure loss may have allowed contamination to enter the distribution system in District 2.",
+          "instruction": "Boil all water used for drinking, cooking, or brushing teeth for at least one minute before use. Continue until this notice is lifted.",
+          "effective": "2025-08-14T06:12:00-07:00",
+          "onset": "2025-08-14T02:40:00-07:00",
+          "expires": "2025-08-17T12:00:00-07:00",
+          "senderName": "Example City Public Works",
+          "web": "https://example-city.gov/alerts/2025-water-011",
+          "contact": "+1-555-0311"
+        },
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "es-US",
+          "category": [
+            "infra",
+            "env"
+          ],
+          "event": "Aviso de hervir el agua",
+          "responseType": [
+            "prepare",
+            "monitor"
+          ],
+          "urgency": "immediate",
+          "severity": "severe",
+          "certainty": "observed",
+          "headline": "Aviso de hervir el agua para el Distrito 2 tras rotura de tuber\u00eda",
+          "description": "Una tuber\u00eda principal de agua de 12 pulgadas fall\u00f3 durante la noche en la calle 4.",
+          "instruction": "Hierva toda el agua para beber, cocinar o cepillarse los dientes durante al menos un minuto antes de usarla.",
+          "effective": "2025-08-14T06:12:00-07:00",
+          "expires": "2025-08-17T12:00:00-07:00",
+          "senderName": "Obras P\u00fablicas de Example City"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "District 2, north of 4th Street",
+          "jurisdiction": {
+            "@id": "https://example-city.gov/id/jurisdiction/example-city/district-2",
+            "name": "District 2"
+          },
+          "geometry": "https://example-city.gov/alerts/2025-water-011/area.geojson",
+          "geocode": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "gs:local",
+              "value": "district-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://example-city.gov/id/alert/2025-water-012",
+      "@type": "Alert",
+      "alertIdentifier": "EXC-2025-WATER-012",
+      "sender": {
+        "@id": "https://example-city.gov/id/organization/public-works"
+      },
+      "sent": "2025-08-16T15:30:00-07:00",
+      "alertStatus": "actual",
+      "messageType": "cancel",
+      "scope": "public",
+      "incident": "EXC-2025-MAIN-BREAK-4TH",
+      "references": [
+        {
+          "@id": "https://example-city.gov/id/alert/2025-water-011",
+          "name": "Boil water notice, District 2"
+        }
+      ],
+      "note": "Two consecutive clear samples returned; notice lifted early.",
+      "alertInfo": [
+        {
+          "@type": "AlertInfo",
+          "inLanguage": "en-US",
+          "category": [
+            "infra",
+            "env"
+          ],
+          "event": "Boil water notice lifted",
+          "responseType": [
+            "allClear"
+          ],
+          "urgency": "past",
+          "severity": "minor",
+          "certainty": "observed",
+          "headline": "Boil water notice lifted for District 2",
+          "description": "Laboratory testing has confirmed the water supply is safe. The notice issued on 14 August is cancelled.",
+          "instruction": "No further action is required. Run taps for two minutes before first use.",
+          "effective": "2025-08-16T15:30:00-07:00",
+          "expires": "2025-08-23T00:00:00-07:00",
+          "senderName": "Example City Public Works"
+        }
+      ],
+      "area": [
+        {
+          "@type": "AlertArea",
+          "areaDescription": "District 2, north of 4th Street",
+          "jurisdiction": {
+            "@id": "https://example-city.gov/id/jurisdiction/example-city/district-2",
+            "name": "District 2"
+          }
+        }
+      ]
+    }
+  ]
+}

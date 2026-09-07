@@ -1,0 +1,307 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://example-city.gov/.well-known/gov-schema.json",
+      "@type": "PublisherManifest",
+      "name": "Example City gov-schema publication",
+      "description": "Structured government data published by Example City.",
+      "publisher": {
+        "@id": "https://example-city.gov/id/organization/city-government",
+        "name": "Example City Government"
+      },
+      "about": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city",
+        "name": "Example City"
+      },
+      "specVersion": "1.0.0",
+      "conformanceLevel": [
+        "standard"
+      ],
+      "inLanguage": [
+        "en-US",
+        "es-US"
+      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "dateModified": "2025-09-06",
+      "catalog": {
+        "@id": "https://example-city.gov/id/catalog/open-data",
+        "name": "Example City open data catalogue"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "open data",
+        "email": "data@example-city.gov",
+        "availableLanguage": [
+          "en-US",
+          "es-US"
+        ]
+      },
+      "profileEndpoint": [
+        {
+          "@type": "ProfileEndpoint",
+          "profile": "core",
+          "url": "https://example-city.gov/data/core.jsonld",
+          "encodingFormat": "application/ld+json",
+          "dateModified": "2025-09-06",
+          "description": "Jurisdictions, organizations, people, roles and facilities."
+        },
+        {
+          "@type": "ProfileEndpoint",
+          "profile": "org",
+          "url": "https://example-city.gov/data/org.jsonld",
+          "encodingFormat": "application/ld+json",
+          "dateModified": "2025-09-06"
+        },
+        {
+          "@type": "ProfileEndpoint",
+          "profile": "code",
+          "url": "https://example-city.gov/data/code.jsonld",
+          "encodingFormat": "application/ld+json",
+          "dateModified": "2025-07-15"
+        },
+        {
+          "@type": "ProfileEndpoint",
+          "profile": "meetings",
+          "url": "https://example-city.gov/data/meetings.jsonld",
+          "encodingFormat": "application/ld+json",
+          "dateModified": "2025-09-05"
+        },
+        {
+          "@type": "ProfileEndpoint",
+          "profile": "requests",
+          "url": "https://example-city.gov/data/requests.jsonld",
+          "encodingFormat": "application/ld+json",
+          "dateModified": "2025-09-06",
+          "description": "Rolling 90 days. The full Open311 endpoint is at /api/open311/v2."
+        },
+        {
+          "@type": "ProfileEndpoint",
+          "profile": "budget",
+          "url": "https://example-city.gov/data/budget.jsonld",
+          "encodingFormat": "application/ld+json",
+          "dateModified": "2025-06-16"
+        },
+        {
+          "@type": "ProfileEndpoint",
+          "profile": "procurement",
+          "url": "https://example-city.gov/data/procurement.jsonld",
+          "encodingFormat": "application/ld+json",
+          "dateModified": "2025-09-01"
+        },
+        {
+          "@type": "ProfileEndpoint",
+          "profile": "catalog",
+          "url": "https://example-city.gov/data/catalog.jsonld",
+          "encodingFormat": "application/ld+json",
+          "dateModified": "2025-09-06"
+        }
+      ]
+    },
+    {
+      "@id": "https://example-city.gov/id/catalog/open-data",
+      "@type": "DataCatalog",
+      "name": "Example City open data catalogue",
+      "description": "Datasets published by Example City, including its gov-schema profiles.",
+      "url": "https://example-city.gov/data",
+      "publisher": {
+        "@id": "https://example-city.gov/id/organization/city-government",
+        "name": "Example City Government"
+      },
+      "about": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city",
+        "name": "Example City"
+      },
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "inLanguage": [
+        "en-US"
+      ],
+      "dateModified": "2025-09-06",
+      "dataset": [
+        {
+          "@id": "https://example-city.gov/id/dataset/budget-fy2026"
+        },
+        {
+          "@id": "https://example-city.gov/id/dataset/service-requests"
+        },
+        {
+          "@id": "https://example-city.gov/id/dataset/council-meetings"
+        },
+        {
+          "@id": "https://example-city.gov/id/dataset/tree-inventory"
+        }
+      ]
+    },
+    {
+      "@id": "https://example-city.gov/id/dataset/budget-fy2026",
+      "@type": "Dataset",
+      "name": "FY2026 approved budget",
+      "description": "Adopted operating budget for fiscal year 2026, classified by COFOG and GFSM.",
+      "publisher": {
+        "@id": "https://example-city.gov/id/organization/city-government",
+        "name": "Example City Government"
+      },
+      "includedInDataCatalog": {
+        "@id": "https://example-city.gov/id/catalog/open-data",
+        "name": "Example City open data catalogue"
+      },
+      "dataTheme": [
+        "ECON",
+        "GOVE"
+      ],
+      "updateFrequency": "P1Y",
+      "accessRights": "public",
+      "spatialCoverage": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city",
+        "name": "Example City"
+      },
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "inLanguage": [
+        "en-US"
+      ],
+      "conformsToProfile": "budget",
+      "temporalCoverage": "2025-07-01/2026-06-30",
+      "datePublished": "2025-06-20",
+      "dateModified": "2025-06-16",
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "gov-schema budget profile",
+          "contentUrl": "https://example-city.gov/data/budget.jsonld",
+          "encodingFormat": "application/ld+json"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Fiscal Data Package",
+          "contentUrl": "https://example-city.gov/budget/fy2026/datapackage.json",
+          "encodingFormat": "application/json"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "CSV extract",
+          "contentUrl": "https://example-city.gov/budget/fy2026/lines.csv",
+          "encodingFormat": "text/csv"
+        }
+      ]
+    },
+    {
+      "@id": "https://example-city.gov/id/dataset/service-requests",
+      "@type": "Dataset",
+      "name": "311 service requests",
+      "description": "Resident-reported service requests. Reporter details are removed before publication.",
+      "publisher": {
+        "@id": "https://example-city.gov/id/organization/city-government",
+        "name": "Example City Government"
+      },
+      "includedInDataCatalog": {
+        "@id": "https://example-city.gov/id/catalog/open-data",
+        "name": "Example City open data catalogue"
+      },
+      "dataTheme": [
+        "GOVE",
+        "REGI"
+      ],
+      "updateFrequency": "P1D",
+      "accessRights": "public",
+      "spatialCoverage": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city",
+        "name": "Example City"
+      },
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "inLanguage": [
+        "en-US"
+      ],
+      "conformsToProfile": "requests",
+      "dateModified": "2025-09-06",
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "gov-schema requests profile",
+          "contentUrl": "https://example-city.gov/data/requests.jsonld",
+          "encodingFormat": "application/ld+json"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Open311 GeoReport v2 endpoint",
+          "accessUrl": "https://example-city.gov/api/open311/v2",
+          "encodingFormat": "application/json"
+        }
+      ]
+    },
+    {
+      "@id": "https://example-city.gov/id/dataset/council-meetings",
+      "@type": "Dataset",
+      "name": "City Council meetings, agendas and votes",
+      "description": "Council and commission sittings with agendas, decisions and recorded votes.",
+      "publisher": {
+        "@id": "https://example-city.gov/id/organization/city-government",
+        "name": "Example City Government"
+      },
+      "includedInDataCatalog": {
+        "@id": "https://example-city.gov/id/catalog/open-data",
+        "name": "Example City open data catalogue"
+      },
+      "dataTheme": [
+        "GOVE",
+        "JUST"
+      ],
+      "updateFrequency": "P1M",
+      "accessRights": "public",
+      "spatialCoverage": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city",
+        "name": "Example City"
+      },
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "inLanguage": [
+        "en-US"
+      ],
+      "conformsToProfile": "meetings",
+      "dateModified": "2025-09-05",
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "gov-schema meetings profile",
+          "contentUrl": "https://example-city.gov/data/meetings.jsonld",
+          "encodingFormat": "application/ld+json"
+        }
+      ]
+    },
+    {
+      "@id": "https://example-city.gov/id/dataset/tree-inventory",
+      "@type": "Dataset",
+      "name": "Street tree inventory",
+      "description": "Species, condition and planting date for trees on city-maintained land.",
+      "publisher": {
+        "@id": "https://example-city.gov/id/organization/city-government",
+        "name": "Example City Government"
+      },
+      "includedInDataCatalog": {
+        "@id": "https://example-city.gov/id/catalog/open-data",
+        "name": "Example City open data catalogue"
+      },
+      "dataTheme": [
+        "ENVI",
+        "REGI"
+      ],
+      "updateFrequency": "P3M",
+      "accessRights": "public",
+      "spatialCoverage": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city",
+        "name": "Example City"
+      },
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "inLanguage": [
+        "en-US"
+      ],
+      "dateModified": "2025-08-11",
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "GeoJSON",
+          "contentUrl": "https://example-city.gov/data/trees.geojson",
+          "encodingFormat": "application/geo+json"
+        }
+      ]
+    }
+  ]
+}

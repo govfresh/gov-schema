@@ -1,0 +1,72 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://example-city.gov/id/person/jane-smith",
+      "@type": "Person",
+      "name": "Jane Smith",
+      "givenName": "Jane",
+      "familyName": "Smith",
+      "email": "mayor@example-city.gov",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "jane-smith"
+        }
+      ]
+    },
+    {
+      "@id": "https://example-city.gov/id/person/john-doe",
+      "@type": "Person",
+      "name": "John Doe",
+      "givenName": "John",
+      "familyName": "Doe",
+      "email": "manager@example-city.gov"
+    },
+    {
+      "@id": "https://example-city.gov/id/person/maria-garcia",
+      "@type": "Person",
+      "name": "Maria Garcia",
+      "givenName": "Maria",
+      "familyName": "Garcia",
+      "knowsLanguage": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    {
+      "@id": "https://example-city.gov/id/person/robert-johnson",
+      "@type": "Person",
+      "name": "Robert Johnson"
+    },
+    {
+      "@id": "https://example-city.gov/id/person/alan-reyes",
+      "@type": "Person",
+      "name": "Alan Reyes",
+      "givenName": "Alan",
+      "familyName": "Reyes"
+    },
+    {
+      "@id": "https://example-city.gov/id/person/priya-nair",
+      "@type": "Person",
+      "name": "Priya Nair",
+      "givenName": "Priya",
+      "familyName": "Nair"
+    },
+    {
+      "@id": "https://example-city.gov/id/person/tomas-oliveira",
+      "@type": "Person",
+      "name": "Tom\u00e1s Oliveira",
+      "givenName": "Tom\u00e1s",
+      "familyName": "Oliveira"
+    },
+    {
+      "@id": "https://example-city.gov/id/person/aisha-bello",
+      "@type": "Person",
+      "name": "Aisha Bello",
+      "givenName": "Aisha",
+      "familyName": "Bello"
+    }
+  ]
+}
