@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/_core/reference.schema.json",
+  "title": "Reference",
+  "description": "A pointer to another entity. Cross-domain links MUST be references, never inlined copies of the target entity. The optional @type and name are display hints for consumers that will not dereference; they are not authoritative and MUST NOT be relied on.",
+  "type": "object",
+  "properties": {
+    "@id":  {"type": "string", "format": "iri", "description": "Absolute IRI of the referenced entity."},
+    "@type": {"type": "string"},
+    "name": {"type": "string"}
+  },
+  "required": ["@id"],
+  "additionalProperties": false
+}

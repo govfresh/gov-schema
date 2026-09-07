@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@id": "https://schema.govfresh.com/v1/GovernmentLevel",
+  "@type": "DefinedTermSet",
+  "name": "Government level",
+  "description": "Tiers of government, named so they hold across countries. National naming varies enormously (commune, municipio, kommun, ward, prefecture); publishers SHOULD pick the closest term here and carry the local name in an additional identifier or alternateName rather than requesting a new term.",
+  "hasDefinedTerm": [
+    {"@type":"DefinedTerm","@id":"gs:level/supranational","termCode":"supranational","name":"Supranational","description":"A body above the national level, e.g. the European Union."},
+    {"@type":"DefinedTerm","@id":"gs:level/national","termCode":"national","name":"National","description":"The sovereign state. Corresponds to ISO 3166-1."},
+    {"@type":"DefinedTerm","@id":"gs:level/regional","termCode":"regional","name":"Regional","description":"A first-level subdivision: state, province, region, land, canton. Corresponds to ISO 3166-2."},
+    {"@type":"DefinedTerm","@id":"gs:level/subregional","termCode":"subregional","name":"Subregional","description":"A second-level subdivision: county, district, department, prefecture."},
+    {"@type":"DefinedTerm","@id":"gs:level/municipal","termCode":"municipal","name":"Municipal","description":"A local authority: city, municipality, commune, town, borough."},
+    {"@type":"DefinedTerm","@id":"gs:level/submunicipal","termCode":"submunicipal","name":"Submunicipal","description":"A subdivision of a municipality: ward, parish, neighbourhood council, arrondissement."},
+    {"@type":"DefinedTerm","@id":"gs:level/specialpurpose","termCode":"specialPurpose","name":"Special purpose","description":"A body with a defined remit rather than a general territorial mandate: school district, transit authority, water board."},
+    {"@type":"DefinedTerm","@id":"gs:level/indigenous","termCode":"indigenous","name":"Indigenous","description":"An Indigenous, tribal, or First Nations government. Deliberately not nested under another level, because its authority is not always territorially derived."}
+  ]
+}
