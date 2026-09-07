@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://data.gov.ie/id/organization/tailte-eireann",
+      "@type": "GovernmentOrganization",
+      "name": "Tailte Éireann",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-org",
+          "value": "tailte-eireann"
+        }
+      ],
+      "organizationClassification": "agency",
+      "description": "To provide trusted land registration, valuation and surveying services that benefit Irish society and the economy. We are an independent Government agency under the aegis of the Department of Housing, Local Government and Heritage. Tailte Éireann was formally established under the Tailte Éireann Act in December 2022. "
+    },
+    {
+      "@id": "https://data.gov.ie/id/organization/meteireann",
+      "@type": "GovernmentOrganization",
+      "name": "Met Éireann",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-org",
+          "value": "meteireann"
+        }
+      ],
+      "organizationClassification": "agency",
+      "description": "Met Éireann is Ireland's National Meteorological Service and a line division of the Department of Housing, Local Government and Heritage. Our mission is to monitor, analyse and predict Ireland’s weather and climate, and to provide a range of high quality meteorological and related information to our customers."
+    },
+    {
+      "@id": "https://data.gov.ie/id/organization/oireachtas",
+      "@type": "GovernmentOrganization",
+      "name": "Houses of the Oireachtas",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-org",
+          "value": "oireachtas"
+        }
+      ],
+      "organizationClassification": "agency",
+      "description": "The National Parliament (Oireachtas) consists of the President and two Houses: Dáil Éireann (House of Representatives) and Seanad Éireann (the Senate) whose functions and powers derive from the Constitution of Ireland enacted by the people on 1 July 1937."
+    },
+    {
+      "@id": "https://data.gov.ie/id/organization/department-of-housing-local-government-and-heritage",
+      "@type": "GovernmentOrganization",
+      "name": "Department of Housing, Local Government and Heritage",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-org",
+          "value": "department-of-housing-local-government-and-heritage"
+        }
+      ],
+      "organizationClassification": "agency",
+      "description": "The Department's mission is to support the sustainable and efficient delivery of well-planned homes and effective local government.\r\n"
+    },
+    {
+      "@id": "https://data.gov.ie/id/organization/health-research-board",
+      "@type": "GovernmentOrganization",
+      "name": "Health Research Board",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-org",
+          "value": "health-research-board"
+        }
+      ],
+      "organizationClassification": "agency",
+      "description": "The Health Research Board funds research and delivers evidence to advance health and social care with the aim of making a real difference to people’s lives."
+    },
+    {
+      "@id": "https://data.gov.ie/id/organization/central-statistics-office",
+      "@type": "GovernmentOrganization",
+      "name": "Central Statistics Office",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-org",
+          "value": "central-statistics-office"
+        }
+      ],
+      "organizationClassification": "agency",
+      "description": "The Central Statistics Office (CSO) is Ireland's national statistical office and our purpose is to impartially collect, analyse and make available statistics about Ireland’s people, society and economy.\r\n\r\nSpecifically, our mandate under the Statistics Act 1993 is \"The collection, compilation, extraction and dissemination for statistical purposes of information relating to economic, social and general activities and conditions in the State\".\r\n\r\nAt national level, CSO official statistics inform d"
+    },
+    {
+      "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+      "@type": "GovernmentOrganization",
+      "name": "Department of Social Protection",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-org",
+          "value": "department-of-social-protection"
+        }
+      ],
+      "organizationClassification": "agency",
+      "description": "The Department of Social Protection's mission is to promote active participation and inclusion in society through the provision of income supports, employment services and other services."
+    },
+    {
+      "@id": "https://data.gov.ie/id/organization/https-www-chg-gov-ie",
+      "@type": "GovernmentOrganization",
+      "name": "Department of Culture, Communications and Sport",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-org",
+          "value": "https-www-chg-gov-ie"
+        }
+      ],
+      "organizationClassification": "agency",
+      "description": "The department oversees the protection and presentation of Ireland’s cultural assets."
+    }
+  ]
+}

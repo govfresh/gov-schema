@@ -1,0 +1,15 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@id": "https://schema.govfresh.com/v1/RoleClassification",
+  "@type": "DefinedTermSet",
+  "name": "Role classification",
+  "description": "How an office is filled. Kept deliberately small and mechanism-based rather than title-based, because job titles do not translate across countries but the mechanism of appointment does.",
+  "hasDefinedTerm": [
+    {"@type":"DefinedTerm","@id":"gs:roleclass/elected","termCode":"elected","name":"Elected","description":"Filled by public vote."},
+    {"@type":"DefinedTerm","@id":"gs:roleclass/appointed","termCode":"appointed","name":"Appointed","description":"Filled by decision of another officeholder or body."},
+    {"@type":"DefinedTerm","@id":"gs:roleclass/employed","termCode":"employed","name":"Employed","description":"Filled through an employment process; a staff position rather than an office of state."},
+    {"@type":"DefinedTerm","@id":"gs:roleclass/exOfficio","termCode":"exOfficio","name":"Ex officio","description":"Held automatically by virtue of holding another office. The holder is determined by the other Post, not by a separate process."},
+    {"@type":"DefinedTerm","@id":"gs:roleclass/volunteer","termCode":"volunteer","name":"Volunteer","description":"Unpaid, typically on an advisory board or commission."},
+    {"@type":"DefinedTerm","@id":"gs:roleclass/hereditary","termCode":"hereditary","name":"Hereditary","description":"Held by inheritance. Rare, but real in several countries; included so those systems need not misreport as 'appointed'."}
+  ]
+}

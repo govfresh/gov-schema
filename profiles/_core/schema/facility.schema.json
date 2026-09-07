@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/_core/facility.schema.json",
+  "title": "Facility",
+  "description": "A physical place operated by government: a city hall, chamber, courthouse, depot, library. A Facility is a Place and nothing else - it is neither the territory (Jurisdiction) nor the body (GovernmentOrganization). The occupying organization points here with schema:location. Meetings point here with schema:location too, which is why this belongs in _core rather than in the meetings profile.",
+  "type": "object",
+  "properties": {
+    "@context": {},
+    "@id": {"type": "string", "format": "iri"},
+    "@type": {
+      "description": "Types listed here are cleanly Place-only. Avoid GovernmentOffice, PoliceStation, FireStation, and Library: each is dual-typed as Organization AND Place through LocalBusiness, which collapses the distinction this profile depends on. Use GovernmentBuilding for those buildings instead.",
+      "enum": [
+        "GovernmentBuilding",
+        "CityHall",
+        "LegislativeBuilding",
+        "Courthouse",
+        "Embassy",
+        "DefenceEstablishment",
+        "CivicStructure",
+        "EventVenue",
+        "Place"
+      ]
+    },
+    "name": {"type": "string"},
+    "alternateName": {"type": "array", "items": {"type": "string"}},
+    "description": {"type": "string"},
+    "url": {"type": "string", "format": "iri"},
+    "identifier": {"type": "array", "items": {"$ref": "identifier.schema.json"}},
+    "address": {"type": "object", "description": "schema.org PostalAddress."},
+    "geo": {"type": "object", "description": "schema.org GeoCoordinates or GeoShape."},
+    "containedInPlace": {
+      "$ref": "reference.schema.json",
+      "description": "The Jurisdiction this facility sits in. Lets a facility be located without duplicating the territorial hierarchy."
+    },
+    "openingHoursSpecification": {
+      "type": "array",
+      "items": {"type": "object"},
+      "description": "schema.org OpeningHoursSpecification. Note that schema:publicAccess is a Boolean on Place, not an hours structure - a common mistake."
+    },
+    "publicAccess": {"type": "boolean", "description": "Whether the public may enter. Boolean, per schema.org."},
+    "isAccessibleForFree": {"type": "boolean"},
+    "maximumAttendeeCapacity": {"type": "integer", "description": "Useful for chambers hosting public meetings."},
+    "hasMap": {"type": "string", "format": "iri"},
+    "photo": {"type": "string", "format": "iri"},
+    "branchCode": {"type": "string"},
+    "sourceDataset": {"type": "string", "format": "iri"}
+  },
+  "required": ["@id", "@type", "name"],
+  "additionalProperties": true
+}

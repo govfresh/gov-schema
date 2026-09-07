@@ -1,0 +1,21 @@
+<footer class="border-top mt-5 py-4">
+  <div class="container">
+    <div class="row gy-3 small">
+      <div class="col-md-6">
+        <p class="mb-1"><strong>{{ site.title }}</strong> · version {{ site.version }}</p>
+        <p class="text-body-secondary mb-0">
+          Namespace <code class="gs-ns">{{ site.namespace }}</code>
+        </p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <p class="mb-1">
+          <a href="{{ site.repo }}">Source</a> ·
+          <a href="/v1/context.jsonld">Context</a> ·
+          <a href="/v1/govschema.ttl">Vocabulary</a> ·
+          <a href="{{ site.repo }}/blob/main/LICENSING.md">CC0</a>
+        </p>
+        <p class="text-body-secondary mb-0">Maintained by <a href="{{ site['org-url'] }}">{{ site.org }}</a>.</p>
+      </div>
+    </div>
+  </div>
+</footer>

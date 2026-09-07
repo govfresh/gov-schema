@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/procurement/contracting-process.schema.json",
+  "title": "ContractingProcess",
+  "description": "One complete procurement, from planning through tender, award, and contract - the spine that OCDS calls a contracting process, identified by an ocid. Everything that happens hangs off this one identifier, which is what makes it possible to follow a single purchase from the budget line that funded it to the supplier that was paid. schema.org has no tender, procurement, bid, or solicitation concept; Demand and Offer are retail constructs carrying GTIN, SKU and warranty semantics that do not apply, so nothing is gained by forcing a tender into them.",
+  "type": "object",
+  "properties": {
+    "@context": {},
+    "@id": {
+      "type": "string",
+      "format": "iri"
+    },
+    "@type": {
+      "const": "ContractingProcess"
+    },
+    "ocid": {
+      "type": "string",
+      "description": "Open Contracting ID: a globally unique identifier for this process, prefixed with a registered publisher prefix. The join key across publishers and the reason OCDS data is aggregatable at all."
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "format": "iri"
+    },
+    "identifier": {
+      "type": "array",
+      "items": {
+        "$ref": "../_core/identifier.schema.json"
+      }
+    },
+    "buyer": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The GovernmentOrganization paying. Required: a procurement with no accountable buyer cannot be audited."
+    },
+    "jurisdiction": {
+      "$ref": "../_core/reference.schema.json"
+    },
+    "budgetLine": {
+      "type": "array",
+      "items": {
+        "$ref": "../_core/reference.schema.json"
+      },
+      "description": "The BudgetLine(s) funding this process. The join to the budget profile, and the link that answers 'what did we actually buy with that appropriation'."
+    },
+    "tender": {
+      "$ref": "tender.schema.json"
+    },
+    "award": {
+      "type": "array",
+      "items": {
+        "$ref": "award.schema.json"
+      }
+    },
+    "contract": {
+      "type": "array",
+      "items": {
+        "$ref": "contract.schema.json"
+      }
+    },
+    "party": {
+      "type": "array",
+      "items": {
+        "$ref": "../_core/reference.schema.json"
+      },
+      "description": "References to the non-government Party entities involved. Government participants are reached through buyer and tender.procuringEntity instead, so a body is never duplicated as both an organization and a party."
+    },
+    "dateModified": {
+      "type": "string",
+      "anyOf": [
+        {
+          "format": "date"
+        },
+        {
+          "format": "date-time"
+        }
+      ]
+    },
+    "language": {
+      "type": "string"
+    },
+    "sourceDataset": {
+      "type": "string",
+      "format": "iri"
+    }
+  },
+  "required": [
+    "@id",
+    "@type",
+    "ocid",
+    "buyer"
+  ],
+  "additionalProperties": true
+}

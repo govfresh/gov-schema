@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/budget/amount.schema.json",
+  "title": "Amount",
+  "description": "A sum of money, as a schema:MonetaryAmount. Currency is required on every amount rather than inherited from the budget, because amounts get copied out of their document and a figure that silently assumes a currency is how conversion errors happen.",
+  "type": "object",
+  "properties": {
+    "@type": {"const": "MonetaryAmount"},
+    "value": {"type": "number"},
+    "currency": {"type": "string", "pattern": "^[A-Z]{3}$", "description": "ISO 4217."},
+    "validFrom": {"type": "string", "format": "date"},
+    "validThrough": {"type": "string", "format": "date"}
+  },
+  "required": ["@type", "value", "currency"],
+  "additionalProperties": false
+}

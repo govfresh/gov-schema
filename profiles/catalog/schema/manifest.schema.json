@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/catalog/manifest.schema.json",
+  "title": "PublisherManifest",
+  "description": "The document that makes a government's gov-schema data findable at all. Served at /.well-known/gov-schema.json (RFC 8615), it declares who is publishing, which jurisdiction they cover, which profiles they publish, and where each one lives. Without it a consumer has no entry point: seven profiles of well-modelled data are useless if nobody can discover the URLs. This is the only document in gov-schema with a fixed, conventional location.",
+  "type": "object",
+  "properties": {
+    "@context": {},
+    "@id": {
+      "type": "string",
+      "format": "iri"
+    },
+    "@type": {
+      "const": "PublisherManifest"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "publisher": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The GovernmentOrganization responsible. Required: unattributed data cannot be trusted or corrected."
+    },
+    "about": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The Jurisdiction covered."
+    },
+    "specVersion": {
+      "type": "string",
+      "description": "The gov-schema version this publisher targets, e.g. '1.0.0'. Lets a consumer detect a publisher pinned to an older profile."
+    },
+    "conformanceLevel": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "core",
+          "standard",
+          "extended"
+        ]
+      },
+      "description": "gov-schema conformance level claimed, per SPEC section 4. Distinct from conformsTo, which names an external standard the data follows."
+    },
+    "profileEndpoint": {
+      "type": "array",
+      "minItems": 1,
+      "description": "One entry per published profile. This is the routing table.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "@type": {
+            "const": "ProfileEndpoint"
+          },
+          "profile": {
+            "type": "string",
+            "description": "Which gov-schema profile this endpoint serves.",
+            "enum": [
+              "core",
+              "org",
+              "code",
+              "meetings",
+              "requests",
+              "budget",
+              "procurement",
+              "catalog",
+              "alerts"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "iri",
+            "description": "Where the data is."
+          },
+          "encodingFormat": {
+            "type": "string",
+            "description": "Usually application/ld+json."
+          },
+          "dateModified": {
+            "type": "string",
+            "description": "Lets a consumer poll cheaply instead of refetching.",
+            "anyOf": [
+              {
+                "format": "date"
+              },
+              {
+                "format": "date-time"
+              }
+            ]
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "@type",
+          "profile",
+          "url"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "catalog": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The publisher's DataCatalog, where one exists."
+    },
+    "contactPoint": {
+      "type": "object"
+    },
+    "inLanguage": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "license": {
+      "type": "string",
+      "format": "iri"
+    },
+    "dateModified": {
+      "type": "string",
+      "anyOf": [
+        {
+          "format": "date"
+        },
+        {
+          "format": "date-time"
+        }
+      ]
+    }
+  },
+  "required": [
+    "@id",
+    "@type",
+    "publisher",
+    "about",
+    "profileEndpoint"
+  ],
+  "additionalProperties": true
+}

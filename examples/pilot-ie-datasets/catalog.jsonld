@@ -1,0 +1,4528 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://data.gov.ie/id/catalog/portal",
+      "@type": "DataCatalog",
+      "name": "data.gov.ie open data catalogue",
+      "url": "https://data.gov.ie",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/tailte-eireann",
+        "name": "Tailte Éireann"
+      },
+      "dataset": [
+        {
+          "@id": "https://data.gov.ie/id/dataset/valuation-office-api"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/met-eireann-live-text-forecast-data"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/houses-of-the-oireachtas-open-data-apis"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/national-planning-applications"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/hrd34-number-of-service-users-registered-on-nass"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/hrd50-level-of-intellectual-disability-id-of-adults-registered-on-nass"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/hrd49-number-of-adults-with-an-intellectual-disability-id-on-nass"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/hrd48-number-of-adults-in-disability-services-in-hse-health-regions-on-nass"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/hrd47-number-of-adults-in-disability-services-in-hse-health-regions-on-nass"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/hrd41-current-supports-for-daily-living-services-recorded-on-nass"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/hrd40-current-overnight-respite-services-recorded-on-nass"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/hrd39-current-day-respite-services-recorded-on-nass"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/hrd38-current-residential-services-recorded-on-nass"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/hrd51-specialist-supports-identified-as-required-on-nass"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/hrd46-supports-for-daily-living-services-identified-as-required-on-nass"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/hrd45-overnight-respite-services-identified-as-required-on-nass"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/hrd44-day-respite-services-identified-as-required-on-nass"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/hrd43-residential-services-identified-as-required-on-nass"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/hrd42-current-supports-for-daily-living-services-recorded-on-nass"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/hrd37-number-of-service-users-registered-on-nass"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/hrd36-g-disability-services-per-1000-of-the-general-population-aged-18-years-and-over-on-n"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/hrd35-g-disability-services-per-1000-of-the-general-population-aged-18-years-and-over-on-n"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/local-authority-and-regional-assembly-annual-budgets"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/pciev02-public-electric-vehicle-charging-points-evses-and-fast-charging-points"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/pciev03-public-electric-vehicle-charging-points-and-fast-charging-points"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/pciev01-public-electric-vehicle-charging-points-evses-and-fast-charging-points"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/homelessness-report-july-2026"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp30-total-count-of-recipient-programmes"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp29-total-count-of-recipient-programmes"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp28-total-count-of-recipient-programmes"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp27-total-count-of-recipient-programmes"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp26-total-count-of-recipient-programmes"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp25-total-count-of-recipient-programmes"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp24-quarterly-count-of-recipient-programmes"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp23-quarterly-count-of-recipient-programmes"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp22-quarterly-count-of-recipient-programmes"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp21-quarterly-count-of-recipient-programmes"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp20-quarterly-count-of-recipient-programmes"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp19-quarterly-count-of-recipient-programmes"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp18-quarterly-count-of-recipient-programmes"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp17-quarterly-count-of-recipient-programmes"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp16-quarterly-count-of-recipient-programmes"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp15-quarterly-count-of-recipient-programmes"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp14-quarterly-count-of-recipient-programmes"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp13-quarterly-count-of-recipient-programmes"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp12-quarterly-count-of-recipients"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp11-quarterly-count-of-recipients"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp10-quarterly-count-of-recipients"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp09-quarterly-count-of-recipients"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp08-quarterly-count-of-recipients"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp07-quarterly-count-of-recipients"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp06-quarterly-count-of-recipients"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp05-quarterly-count-of-recipients"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp04-quarterly-count-of-recipients"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp03-quarterly-count-of-recipients"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp02-quarterly-count-of-recipients"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/dsp01-quarterly-count-of-recipients"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/2026-q2-foi-disclosure-log"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/ihsc37-hours-of-screen-time-for-children-aged-3-to-14-years"
+        },
+        {
+          "@id": "https://data.gov.ie/id/dataset/ihsc36-hours-of-screen-time-for-children-aged-3-to-14-years"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/valuation-office-api",
+      "@type": "Dataset",
+      "name": "Valuation Office API",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/tailte-eireann",
+        "name": "Tailte Éireann"
+      },
+      "url": "https://data.gov.ie/dataset/valuation-office-api",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "6b230946-7f9f-4369-996d-a0b09094dd02"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "api",
+        "data",
+        "valuation",
+        "valuation office",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "updateFrequency": "continuous",
+      "accessRights": "public",
+      "dateModified": "2025-10-20T12:58:58",
+      "datePublished": "2025-10-20",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Valuation Office API ",
+          "contentUrl": "https://tailte.ie/home/api/",
+          "encodingFormat": "api",
+          "dateModified": "2025-10-20T12:58:58"
+        }
+      ],
+      "description": "The REST Web Services API provides a REST interface to retrieve Valuation Division data in real-time in relation to post-Revaluation Rating Authority areas. The post-Revaluation Rating Authority areas are Carlow, Cavan, Dun Laoghaire-Rathdown, Fingal, Kildare, Kilkenny, Laois, Leitrim, Longford, Louth, Meath, Monaghan, Offaly, Roscommon, Sligo, South Dublin, Tipperary, Westmeath, Wexford and Wicklow County Councils and Dublin City Council, Waterford City and County Council and Limerick City and County Council.\r\n",
+      "applicableLegislation": [
+        "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      ],
+      "hvdCategory": "http://data.europa.eu/bna/c_e1da4e07",
+      "highValueDataset": true,
+      "provenanceStatement": "Valuation Office"
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/met-eireann-live-text-forecast-data",
+      "@type": "Dataset",
+      "name": "Met Éireann Live Text Forecast Data",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/meteireann",
+        "name": "Met Éireann"
+      },
+      "url": "https://data.gov.ie/dataset/met-eireann-live-text-forecast-data",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "0a8b1aa8-f49b-411e-a120-b0cd0297c2a1"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "forecast",
+        "text",
+        "xml",
+        "Environment"
+      ],
+      "dataTheme": [
+        "ENVI"
+      ],
+      "updateFrequency": "continuous",
+      "accessRights": "public",
+      "dateModified": "2026-03-26T10:02:01",
+      "datePublished": "2019-03-12",
+      "license": "https://www.met.ie/cms/assets/uploads/2018/05/Met-%C3%89ireann-Open-Data-Custom-Licence_Final.odt",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "National Forecast",
+          "contentUrl": "https://www.met.ie/Open_Data/xml/xNational.xml",
+          "encodingFormat": "application/xml",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "National Forecast",
+          "contentUrl": "https://www.met.ie/Open_Data/json/National.json",
+          "encodingFormat": "application/json",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "National Outlook",
+          "contentUrl": "https://www.met.ie/Open_Data/xml/xOutlook.xml",
+          "encodingFormat": "application/xml",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "National Outlook",
+          "contentUrl": "https://www.met.ie/Open_Data/json/Outlook.json",
+          "encodingFormat": "application/json",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Sea Area Forecast",
+          "contentUrl": "https://www.met.ie/Open_Data/xml/Met-Sea-area.xml",
+          "encodingFormat": "application/xml",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Coastal Reports",
+          "contentUrl": "https://www.met.ie/Open_Data/xml/xcoastal.xml",
+          "encodingFormat": "application/xml",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Sea Crossings Forecast",
+          "contentUrl": "https://www.met.ie/Open_Data/xml/xsea_crossings.xml",
+          "encodingFormat": "application/xml",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Farming Commentary",
+          "contentUrl": "https://www.met.ie/Open_Data/xml/fcom.xml",
+          "encodingFormat": "application/xml",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "County Forecast",
+          "contentUrl": "https://www.met.ie/Open_Data/xml/county_forecast.xml",
+          "encodingFormat": "application/xml",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Three-day Forecast",
+          "contentUrl": "https://www.met.ie/Open_Data/xml/web-3Dayforecast.xml",
+          "encodingFormat": "application/xml",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Inland Lakes Forecast",
+          "contentUrl": "https://www.met.ie/Open_Data/xml/xInland_Lake_Forecast.xml",
+          "encodingFormat": "application/xml",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Web Forecast",
+          "contentUrl": "https://www.met.ie/Open_Data/xml/web-forecast.xml",
+          "encodingFormat": "application/xml",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Connacht Forecast",
+          "contentUrl": "https://www.met.ie/Open_Data/xml/xConnacht.xml",
+          "encodingFormat": "application/xml",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Connacht Forecast",
+          "contentUrl": "https://www.met.ie/Open_Data/json/Connacht.json",
+          "encodingFormat": "application/json",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Leinster Forecast",
+          "contentUrl": "https://www.met.ie/Open_Data/xml/xLeinster.xml",
+          "encodingFormat": "application/xml",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Leinster forecast",
+          "contentUrl": "https://www.met.ie/Open_Data/json/Leinster.json",
+          "encodingFormat": "application/json",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Munster Forecast",
+          "contentUrl": "https://www.met.ie/Open_Data/xml/xMunster.xml",
+          "encodingFormat": "application/xml",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Munster forecast",
+          "contentUrl": "https://www.met.ie/Open_Data/json/Munster.json",
+          "encodingFormat": "application/json",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Ulster Forecast",
+          "contentUrl": "https://www.met.ie/Open_Data/xml/xUlster.xml",
+          "encodingFormat": "application/xml",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Ulster forecast",
+          "contentUrl": "https://www.met.ie/Open_Data/json/Ulster.json",
+          "encodingFormat": "application/json",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Dublin Forecast",
+          "contentUrl": "https://www.met.ie/Open_Data/xml/xDublin.xml",
+          "encodingFormat": "application/xml",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Dublin Forecast",
+          "contentUrl": "https://www.met.ie/Open_Data/json/Dublin.json",
+          "encodingFormat": "application/json",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Latest Observations",
+          "contentUrl": "https://www.met.ie/Open_Data/xml/obs_present.xml",
+          "encodingFormat": "application/xml",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Met Éireann XML Data feed - description of dataset",
+          "contentUrl": "https://www.met.ie/Open_Data/xml/readme_XML-Data-feed.odt",
+          "encodingFormat": "application/vnd.oasis.opendocument.text",
+          "dateModified": "2026-03-26T10:01:08"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Inland lakes forecast.",
+          "contentUrl": "https://www.met.ie/Open_Data/json/Inland_Lake_Forecast.json",
+          "encodingFormat": "application/json",
+          "dateModified": "2026-03-26T10:01:34"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Sea area forecast",
+          "contentUrl": "https://www.met.ie/Open_Data/json/Met-Sea-area.json",
+          "encodingFormat": "application/json",
+          "dateModified": "2026-03-26T10:02:01"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Coastal reports",
+          "contentUrl": "https://www.met.ie/Open_Data/json/coastal.json",
+          "encodingFormat": "application/json",
+          "dateModified": "2026-03-26T10:02:01"
+        }
+      ],
+      "description": "This data consists of live text forecasts including, National, regional, sea area, inland lakes and county forecasts.",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/houses-of-the-oireachtas-open-data-apis",
+      "@type": "Dataset",
+      "name": "Houses of the Oireachtas Open Data APIs",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/oireachtas",
+        "name": "Houses of the Oireachtas"
+      },
+      "url": "https://data.gov.ie/dataset/houses-of-the-oireachtas-open-data-apis",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "d9ddc7ee-d497-41bb-924f-3557cfa12037"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "acts",
+        "bills",
+        "constituencies",
+        "debates",
+        "legislation",
+        "parliament",
+        "parliamentary questions",
+        "political parties",
+        "votes",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "updateFrequency": "continuous",
+      "accessRights": "public",
+      "dateModified": "2026-03-02T10:28:55",
+      "datePublished": "2017-10-23",
+      "license": "https://beta.oireachtas.ie/en/open-data/license/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Debates",
+          "contentUrl": "https://api.oireachtas.ie/v1/debates",
+          "encodingFormat": "JSON",
+          "dateModified": "2017-10-23T09:31:05"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Legislation",
+          "contentUrl": "https://api.oireachtas.ie/v1/legislation",
+          "encodingFormat": "JSON",
+          "dateModified": "2017-10-23T09:31:05"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Questions",
+          "contentUrl": "https://api.oireachtas.ie/v1/questions",
+          "encodingFormat": "JSON",
+          "dateModified": "2017-10-23T09:31:05"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Votes",
+          "contentUrl": "https://api.oireachtas.ie/v1/divisions",
+          "encodingFormat": "JSON",
+          "dateModified": "2017-10-23T09:31:05"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Constituencies",
+          "contentUrl": "https://api.oireachtas.ie/v1/constituencies",
+          "encodingFormat": "JSON",
+          "dateModified": "2017-10-23T09:31:05"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Parties",
+          "contentUrl": "https://api.oireachtas.ie/v1/parties",
+          "encodingFormat": "JSON",
+          "dateModified": "2017-10-23T09:31:05"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Houses",
+          "contentUrl": "https://api.oireachtas.ie/v1/houses",
+          "encodingFormat": "JSON",
+          "dateModified": "2017-10-23T09:31:05"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Members",
+          "contentUrl": "https://api.oireachtas.ie/v1/members",
+          "encodingFormat": "JSON",
+          "dateModified": "2018-06-20T16:07:00"
+        }
+      ],
+      "description": "The Houses of the Oireachtas are providing these APIs to allow our datasets to be retrieved and reused as widely as possible. They are intended to be used in conjunction with https://data.oireachtas.ie, from where our datasets can be accessed directly. By using the APIs, users can make metadata queries to identify the specific data they require. New data are available through the API as soon as they are published.\r\n\r\nCurrently, https://data.oireachtas.ie contains data in XML format from the Official Report of the Houses of the Oireachtas (the “debates”) and replies to Parliamentary Questions in XML files complying with the Akoma Ntoso schema, as well data in PDF format for Bills, Acts and other documents published by the Houses of the Oireachtas.\r\n\r\nFiles can be retrieved from https://data.oireachtas.ie by adding the URI fragment contained in the “formats” fields of the JSON documents returned by these APIs. At the moment only PDF and XML files are available directly from https://data.oireachtas.ie, but this will become the endpoint for direct access of all “uri” fields in the data queried through https://api.oireachtas.ie. We will also be making bulk downloads available through ht",
+      "temporalCoverage": "1919-01-22/",
+      "highValueDataset": false,
+      "conformsTo": [
+        "swagger 2.0, Akoma Ntoso"
+      ]
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/national-planning-applications",
+      "@type": "Dataset",
+      "name": "National Planning Applications",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-housing-local-government-and-heritage",
+        "name": "Department of Housing, Local Government and Heritage"
+      },
+      "url": "https://data.gov.ie/dataset/national-planning-applications",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "18020dbe-8565-47d0-8632-a8fc4dc540a0"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "Ireland",
+        "NPAD",
+        "National Planning Application Database",
+        "Planning Applications",
+        "housing",
+        "Housing"
+      ],
+      "dataTheme": [
+        "SOCI"
+      ],
+      "updateFrequency": "P1W",
+      "accessRights": "public",
+      "dateModified": "2021-02-16T12:00:57",
+      "datePublished": "2017-10-06",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "National Planning Applications",
+          "contentUrl": "https://services.arcgis.com/NzlPQPKn5QF9v2US/arcgis/rest/services/IrishPlanningApplications/FeatureServer",
+          "encodingFormat": "Esri REST",
+          "dateModified": "2017-10-06T12:07:10"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "National Planning Application Points",
+          "contentUrl": "https://services.arcgis.com/NzlPQPKn5QF9v2US/arcgis/rest/services/IrishPlanningApplications/FeatureServer/0/query?outFields=*&where=1%3D1",
+          "encodingFormat": "restservice",
+          "dateModified": "2017-10-06T14:37:45"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "National Planning Application Points",
+          "contentUrl": "https://opendata.arcgis.com/datasets/8f69dffe26324ba3acc653cf6cb5cf8b_0.geojson",
+          "encodingFormat": "GeoJSON",
+          "dateModified": "2017-10-06T14:37:45"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "National Planning Application Polygons",
+          "contentUrl": "https://services.arcgis.com/NzlPQPKn5QF9v2US/arcgis/rest/services/IrishPlanningApplications/FeatureServer/1/query?outFields=*&where=1%3D1",
+          "encodingFormat": "restservice",
+          "dateModified": "2017-10-06T15:00:27"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "National Planning Application Polygons",
+          "contentUrl": "https://opendata.arcgis.com/datasets/8f69dffe26324ba3acc653cf6cb5cf8b_1.geojson",
+          "encodingFormat": "GeoJSON",
+          "dateModified": "2017-10-06T15:00:27"
+        }
+      ],
+      "description": "The National Planning Application Database provides spatial and tabular data on planning applications in Ireland.\r\n\r\nThis data can also be viewed at\r\nhttps://data-housinggovie.opendata.arcgis.com/\r\n",
+      "temporalCoverage": "2010-01-01/",
+      "spatialReferenceSystem": "epsg:2157"
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/hrd34-number-of-service-users-registered-on-nass",
+      "@type": "Dataset",
+      "name": "HRD34 - Number of service users registered on NASS",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/health-research-board",
+        "name": "Health Research Board"
+      },
+      "url": "https://data.gov.ie/dataset/hrd34-number-of-service-users-registered-on-nass",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "e96da513-43d4-4350-8145-5fff13077e62"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "HRD34",
+        "cso",
+        "health-research-board",
+        "Health"
+      ],
+      "dataTheme": [
+        "HEAL"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:18:55",
+      "datePublished": "2026-09-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Number of service users registered on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD34/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:18:55"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Number of service users registered on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD34/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:18:55"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Number of service users registered on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD34/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:18:55"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Number of service users registered on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD34/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:18:55"
+        }
+      ],
+      "description": "Number of service users registered on NASS",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/hrd50-level-of-intellectual-disability-id-of-adults-registered-on-nass",
+      "@type": "Dataset",
+      "name": "HRD50 - Level of intellectual disability (ID) of adults registered on NASS",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/health-research-board",
+        "name": "Health Research Board"
+      },
+      "url": "https://data.gov.ie/dataset/hrd50-level-of-intellectual-disability-id-of-adults-registered-on-nass",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "9d8bd1ca-61b0-4538-87cf-9f88b9ea4b93"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "HRD50",
+        "cso",
+        "health-research-board",
+        "Health"
+      ],
+      "dataTheme": [
+        "HEAL"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:18:53",
+      "datePublished": "2026-09-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Level of intellectual disability (ID) of adults registered on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD50/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:18:53"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Level of intellectual disability (ID) of adults registered on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD50/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:18:53"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Level of intellectual disability (ID) of adults registered on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD50/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:18:53"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Level of intellectual disability (ID) of adults registered on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD50/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:18:53"
+        }
+      ],
+      "description": "Level of intellectual disability (ID) of adults registered on NASS",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/hrd49-number-of-adults-with-an-intellectual-disability-id-on-nass",
+      "@type": "Dataset",
+      "name": "HRD49 - Number of adults with an intellectual disability (ID) on NASS",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/health-research-board",
+        "name": "Health Research Board"
+      },
+      "url": "https://data.gov.ie/dataset/hrd49-number-of-adults-with-an-intellectual-disability-id-on-nass",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "dd23a886-47a1-442b-b0b0-8a0c7285a8e8"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "HRD49",
+        "cso",
+        "health-research-board",
+        "Health"
+      ],
+      "dataTheme": [
+        "HEAL"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:18:52",
+      "datePublished": "2026-09-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Number of adults with an intellectual disability (ID) on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD49/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:18:52"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Number of adults with an intellectual disability (ID) on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD49/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:18:52"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Number of adults with an intellectual disability (ID) on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD49/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:18:52"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Number of adults with an intellectual disability (ID) on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD49/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:18:52"
+        }
+      ],
+      "description": "Number of adults with an intellectual disability (ID) on NASS",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/hrd48-number-of-adults-in-disability-services-in-hse-health-regions-on-nass",
+      "@type": "Dataset",
+      "name": "HRD48 - Number of adults in disability services in HSE Health Regions on NASS",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/health-research-board",
+        "name": "Health Research Board"
+      },
+      "url": "https://data.gov.ie/dataset/hrd48-number-of-adults-in-disability-services-in-hse-health-regions-on-nass",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "c1e7d20d-9774-4177-8ce7-e8007228f509"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "HRD48",
+        "cso",
+        "health-research-board",
+        "Health"
+      ],
+      "dataTheme": [
+        "HEAL"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:18:52",
+      "datePublished": "2026-09-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Number of adults in disability services in HSE Health Regions on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD48/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:18:52"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Number of adults in disability services in HSE Health Regions on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD48/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:18:52"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Number of adults in disability services in HSE Health Regions on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD48/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:18:52"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Number of adults in disability services in HSE Health Regions on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD48/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:18:52"
+        }
+      ],
+      "description": "Number of adults in disability services in HSE Health Regions on NASS",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/hrd47-number-of-adults-in-disability-services-in-hse-health-regions-on-nass",
+      "@type": "Dataset",
+      "name": "HRD47 - Number of adults in disability services in HSE Health Regions on NASS",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/health-research-board",
+        "name": "Health Research Board"
+      },
+      "url": "https://data.gov.ie/dataset/hrd47-number-of-adults-in-disability-services-in-hse-health-regions-on-nass",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "371c262f-63c1-4fd4-abfc-cf4449ba5c9a"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "HRD47",
+        "cso",
+        "health-research-board",
+        "Health"
+      ],
+      "dataTheme": [
+        "HEAL"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:18:52",
+      "datePublished": "2026-09-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Number of adults in disability services in HSE Health Regions on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD47/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:18:52"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Number of adults in disability services in HSE Health Regions on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD47/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:18:52"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Number of adults in disability services in HSE Health Regions on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD47/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:18:52"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Number of adults in disability services in HSE Health Regions on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD47/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:18:52"
+        }
+      ],
+      "description": "Number of adults in disability services in HSE Health Regions on NASS",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/hrd41-current-supports-for-daily-living-services-recorded-on-nass",
+      "@type": "Dataset",
+      "name": "HRD41 - Current supports for daily living services recorded on NASS",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/health-research-board",
+        "name": "Health Research Board"
+      },
+      "url": "https://data.gov.ie/dataset/hrd41-current-supports-for-daily-living-services-recorded-on-nass",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "99671a6d-b0ef-44fb-9e33-ad28d2b0d09c"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "HRD41",
+        "cso",
+        "health-research-board",
+        "Health"
+      ],
+      "dataTheme": [
+        "HEAL"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:18:51",
+      "datePublished": "2026-09-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Current supports for daily living services recorded on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD41/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:18:51"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Current supports for daily living services recorded on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD41/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:18:51"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Current supports for daily living services recorded on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD41/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:18:51"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Current supports for daily living services recorded on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD41/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:18:51"
+        }
+      ],
+      "description": "Current supports for daily living services recorded on NASS",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/hrd40-current-overnight-respite-services-recorded-on-nass",
+      "@type": "Dataset",
+      "name": "HRD40 - Current overnight respite services recorded on NASS",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/health-research-board",
+        "name": "Health Research Board"
+      },
+      "url": "https://data.gov.ie/dataset/hrd40-current-overnight-respite-services-recorded-on-nass",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "78013f1c-aa47-4c30-98ff-c0c8f4c4aca5"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "HRD40",
+        "cso",
+        "health-research-board",
+        "Health"
+      ],
+      "dataTheme": [
+        "HEAL"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:18:51",
+      "datePublished": "2026-09-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Current overnight respite services recorded on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD40/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:18:51"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Current overnight respite services recorded on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD40/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:18:51"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Current overnight respite services recorded on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD40/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:18:51"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Current overnight respite services recorded on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD40/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:18:51"
+        }
+      ],
+      "description": "Current overnight respite services recorded on NASS",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/hrd39-current-day-respite-services-recorded-on-nass",
+      "@type": "Dataset",
+      "name": "HRD39 - Current day respite services recorded on NASS",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/health-research-board",
+        "name": "Health Research Board"
+      },
+      "url": "https://data.gov.ie/dataset/hrd39-current-day-respite-services-recorded-on-nass",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "12400d70-1b8b-4173-b07d-ddc300882783"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "HRD39",
+        "cso",
+        "health-research-board",
+        "Health"
+      ],
+      "dataTheme": [
+        "HEAL"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:18:50",
+      "datePublished": "2026-09-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Current day respite services recorded on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD39/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:18:50"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Current day respite services recorded on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD39/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:18:50"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Current day respite services recorded on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD39/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:18:50"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Current day respite services recorded on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD39/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:18:50"
+        }
+      ],
+      "description": "Current day respite services recorded on NASS",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/hrd38-current-residential-services-recorded-on-nass",
+      "@type": "Dataset",
+      "name": "HRD38 - Current residential services recorded on NASS",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/health-research-board",
+        "name": "Health Research Board"
+      },
+      "url": "https://data.gov.ie/dataset/hrd38-current-residential-services-recorded-on-nass",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "9de3ea58-e84e-42f9-b0f2-340a25601542"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "HRD38",
+        "cso",
+        "health-research-board",
+        "Health"
+      ],
+      "dataTheme": [
+        "HEAL"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:18:50",
+      "datePublished": "2026-09-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Current residential services recorded on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD38/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:18:50"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Current residential services recorded on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD38/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:18:50"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Current residential services recorded on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD38/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:18:50"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Current residential services recorded on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD38/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:18:50"
+        }
+      ],
+      "description": "Current residential services recorded on NASS",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/hrd51-specialist-supports-identified-as-required-on-nass",
+      "@type": "Dataset",
+      "name": "HRD51 - Specialist supports identified as required on NASS",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/health-research-board",
+        "name": "Health Research Board"
+      },
+      "url": "https://data.gov.ie/dataset/hrd51-specialist-supports-identified-as-required-on-nass",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "85d3a9da-8800-47f1-9723-9894e7326340"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "HRD51",
+        "cso",
+        "health-research-board",
+        "Health"
+      ],
+      "dataTheme": [
+        "HEAL"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:18:48",
+      "datePublished": "2026-09-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Specialist supports identified as required on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD51/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:18:48"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Specialist supports identified as required on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD51/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:18:48"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Specialist supports identified as required on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD51/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:18:48"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Specialist supports identified as required on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD51/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:18:48"
+        }
+      ],
+      "description": "Specialist supports identified as required on NASS",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/hrd46-supports-for-daily-living-services-identified-as-required-on-nass",
+      "@type": "Dataset",
+      "name": "HRD46 - Supports for daily living services identified as required on NASS",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/health-research-board",
+        "name": "Health Research Board"
+      },
+      "url": "https://data.gov.ie/dataset/hrd46-supports-for-daily-living-services-identified-as-required-on-nass",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "41bde154-b9c1-4a95-8701-9643a8c7a47f"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "HRD46",
+        "cso",
+        "health-research-board",
+        "Health"
+      ],
+      "dataTheme": [
+        "HEAL"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:18:48",
+      "datePublished": "2026-09-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Supports for daily living services identified as required on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD46/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:18:48"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Supports for daily living services identified as required on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD46/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:18:48"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Supports for daily living services identified as required on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD46/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:18:48"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Supports for daily living services identified as required on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD46/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:18:48"
+        }
+      ],
+      "description": "Supports for daily living services identified as required on NASS",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/hrd45-overnight-respite-services-identified-as-required-on-nass",
+      "@type": "Dataset",
+      "name": "HRD45 - Overnight respite services identified as required on NASS",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/health-research-board",
+        "name": "Health Research Board"
+      },
+      "url": "https://data.gov.ie/dataset/hrd45-overnight-respite-services-identified-as-required-on-nass",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "fcc3822b-2901-41da-9538-55e1b3a56adf"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "HRD45",
+        "cso",
+        "health-research-board",
+        "Health"
+      ],
+      "dataTheme": [
+        "HEAL"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:18:47",
+      "datePublished": "2026-09-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Overnight respite services identified as required on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD45/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:18:47"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Overnight respite services identified as required on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD45/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:18:47"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Overnight respite services identified as required on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD45/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:18:47"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Overnight respite services identified as required on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD45/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:18:47"
+        }
+      ],
+      "description": "Overnight respite services identified as required on NASS",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/hrd44-day-respite-services-identified-as-required-on-nass",
+      "@type": "Dataset",
+      "name": "HRD44 - Day respite services identified as required on NASS",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/health-research-board",
+        "name": "Health Research Board"
+      },
+      "url": "https://data.gov.ie/dataset/hrd44-day-respite-services-identified-as-required-on-nass",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "02e9aa5f-f456-49fc-9737-dc3068ee1ee5"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "HRD44",
+        "cso",
+        "health-research-board",
+        "Health"
+      ],
+      "dataTheme": [
+        "HEAL"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:18:46",
+      "datePublished": "2026-09-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Day respite services identified as required on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD44/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:18:46"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Day respite services identified as required on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD44/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:18:46"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Day respite services identified as required on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD44/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:18:46"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Day respite services identified as required on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD44/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:18:46"
+        }
+      ],
+      "description": "Day respite services identified as required on NASS",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/hrd43-residential-services-identified-as-required-on-nass",
+      "@type": "Dataset",
+      "name": "HRD43 - Residential services identified as required on NASS",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/health-research-board",
+        "name": "Health Research Board"
+      },
+      "url": "https://data.gov.ie/dataset/hrd43-residential-services-identified-as-required-on-nass",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "5b46659d-62c6-4a26-b534-786ec963a185"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "HRD43",
+        "cso",
+        "health-research-board",
+        "Health"
+      ],
+      "dataTheme": [
+        "HEAL"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:18:46",
+      "datePublished": "2026-09-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Residential services identified as required on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD43/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:18:46"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Residential services identified as required on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD43/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:18:46"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Residential services identified as required on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD43/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:18:46"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Residential services identified as required on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD43/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:18:46"
+        }
+      ],
+      "description": "Residential services identified as required on NASS",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/hrd42-current-supports-for-daily-living-services-recorded-on-nass",
+      "@type": "Dataset",
+      "name": "HRD42 - Current supports for daily living services recorded on NASS",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/health-research-board",
+        "name": "Health Research Board"
+      },
+      "url": "https://data.gov.ie/dataset/hrd42-current-supports-for-daily-living-services-recorded-on-nass",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "fd326eb8-8258-4e40-a987-94c351c5b335"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "HRD42",
+        "cso",
+        "health-research-board",
+        "Health"
+      ],
+      "dataTheme": [
+        "HEAL"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:18:45",
+      "datePublished": "2026-09-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Current supports for daily living services recorded on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD42/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:18:45"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Current supports for daily living services recorded on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD42/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:18:45"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Current supports for daily living services recorded on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD42/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:18:45"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Current supports for daily living services recorded on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD42/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:18:45"
+        }
+      ],
+      "description": "Current supports for daily living services recorded on NASS",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/hrd37-number-of-service-users-registered-on-nass",
+      "@type": "Dataset",
+      "name": "HRD37 - Number of service users registered on NASS",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/health-research-board",
+        "name": "Health Research Board"
+      },
+      "url": "https://data.gov.ie/dataset/hrd37-number-of-service-users-registered-on-nass",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "ab9ba498-28d5-45b1-a71f-bec99aee74c9"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "HRD37",
+        "cso",
+        "health-research-board",
+        "Health"
+      ],
+      "dataTheme": [
+        "HEAL"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:18:10",
+      "datePublished": "2026-09-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Number of service users registered on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD37/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:18:10"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Number of service users registered on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD37/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:18:10"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Number of service users registered on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD37/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:18:10"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Number of service users registered on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD37/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:18:10"
+        }
+      ],
+      "description": "Number of service users registered on NASS",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/hrd36-g-disability-services-per-1000-of-the-general-population-aged-18-years-and-over-on-n",
+      "@type": "Dataset",
+      "name": "HRD36 - Proportion of adults accessing disability services per 1,000 of the general population aged 18 years and over on NASS ",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/health-research-board",
+        "name": "Health Research Board"
+      },
+      "url": "https://data.gov.ie/dataset/hrd36-g-disability-services-per-1000-of-the-general-population-aged-18-years-and-over-on-nass-c9b6",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "0c7600f2-a5c7-48f1-bdf7-0b6a6e9b4ed8"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "HRD36",
+        "cso",
+        "health-research-board",
+        "Health"
+      ],
+      "dataTheme": [
+        "HEAL"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:18:09",
+      "datePublished": "2026-09-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Proportion of adults accessing disability services per 1,000 of the general population aged 18 years and over on NASS ",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD36/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:18:09"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Proportion of adults accessing disability services per 1,000 of the general population aged 18 years and over on NASS ",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD36/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:18:09"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Proportion of adults accessing disability services per 1,000 of the general population aged 18 years and over on NASS ",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD36/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:18:09"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Proportion of adults accessing disability services per 1,000 of the general population aged 18 years and over on NASS ",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD36/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:18:09"
+        }
+      ],
+      "description": "Proportion of adults accessing disability services per 1,000 of the general population aged 18 years and over on NASS ",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/hrd35-g-disability-services-per-1000-of-the-general-population-aged-18-years-and-over-on-n",
+      "@type": "Dataset",
+      "name": "HRD35 - Proportion of adults accessing disability services per 1,000 of the general population aged 18 years and over on NASS",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/health-research-board",
+        "name": "Health Research Board"
+      },
+      "url": "https://data.gov.ie/dataset/hrd35-g-disability-services-per-1000-of-the-general-population-aged-18-years-and-over-on-nass-c9b6",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "c0051ce6-79b6-4a91-b1e6-640a9624ec80"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "HRD35",
+        "cso",
+        "health-research-board",
+        "Health"
+      ],
+      "dataTheme": [
+        "HEAL"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:18:09",
+      "datePublished": "2026-09-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Proportion of adults accessing disability services per 1,000 of the general population aged 18 years and over on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD35/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:18:09"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Proportion of adults accessing disability services per 1,000 of the general population aged 18 years and over on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD35/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:18:09"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Proportion of adults accessing disability services per 1,000 of the general population aged 18 years and over on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD35/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:18:09"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Proportion of adults accessing disability services per 1,000 of the general population aged 18 years and over on NASS",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/HRD35/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:18:09"
+        }
+      ],
+      "description": "Proportion of adults accessing disability services per 1,000 of the general population aged 18 years and over on NASS",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/local-authority-and-regional-assembly-annual-budgets",
+      "@type": "Dataset",
+      "name": "Local Authority and Regional Assembly Annual Budgets",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-housing-local-government-and-heritage",
+        "name": "Department of Housing, Local Government and Heritage"
+      },
+      "url": "https://data.gov.ie/dataset/local-authority-and-regional-assembly-annual-budgets",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "e55a1d32-c225-48e0-bb6f-43c86071841b"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "annual budgets",
+        "budget",
+        "finance",
+        "local government",
+        "regional assemblies",
+        "regional assembly",
+        "Housing"
+      ],
+      "dataTheme": [
+        "SOCI"
+      ],
+      "updateFrequency": "P1Y",
+      "accessRights": "public",
+      "dateModified": "2026-09-01T15:42:47",
+      "datePublished": "2026-09-01",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "2015 Budget publication - Final",
+          "contentUrl": "https://opendata.housing.gov.ie/dataset/e55a1d32-c225-48e0-bb6f-43c86071841b/resource/0a5f2ed2-de66-4222-b684-7c368faa845f/download/2015-budget-publication-final.xls",
+          "encodingFormat": "application/vnd.ms-excel",
+          "contentSize": "500224",
+          "dateModified": "2026-09-01T15:26:28"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Budget 2014 Final Budget Publication v1.1",
+          "contentUrl": "https://opendata.housing.gov.ie/dataset/e55a1d32-c225-48e0-bb6f-43c86071841b/resource/a11d851b-9653-4d27-a1c6-e2268126976f/download/budget-2014-final-budget-publication-v1.1.xls",
+          "encodingFormat": "application/vnd.ms-excel",
+          "contentSize": "842752",
+          "dateModified": "2026-09-01T15:26:44"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Budget 2017 Final Budget Publication",
+          "contentUrl": "https://opendata.housing.gov.ie/dataset/e55a1d32-c225-48e0-bb6f-43c86071841b/resource/d560ff07-976e-4b1c-a7c3-dfef41551c21/download/budget-2017-final-budget-publication.xls",
+          "encodingFormat": "application/vnd.ms-excel",
+          "contentSize": "410624",
+          "dateModified": "2026-09-01T15:27:00"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Budget 2018 Budget Publication v1.4",
+          "contentUrl": "https://opendata.housing.gov.ie/dataset/e55a1d32-c225-48e0-bb6f-43c86071841b/resource/dd0c194a-8435-48b9-83fe-7da5cf80ad48/download/budget-2018-budget-publication-v1.4.xlsx",
+          "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "contentSize": "257944",
+          "dateModified": "2026-09-01T15:27:23"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Budget 2020 Budget Publication v1.2",
+          "contentUrl": "https://opendata.housing.gov.ie/dataset/e55a1d32-c225-48e0-bb6f-43c86071841b/resource/2ffc25f5-31ea-46e1-a8b7-4345f2027391/download/budget-2020-budget-publication-v1.2.xlsx",
+          "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "contentSize": "236510",
+          "dateModified": "2026-09-01T15:27:38"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Budget 2021 Budget Publication v1.0",
+          "contentUrl": "https://opendata.housing.gov.ie/dataset/e55a1d32-c225-48e0-bb6f-43c86071841b/resource/9f884823-f2bc-4c73-a43d-440a2ed6cead/download/budget-2021-budget-publication-v1.0.xlsx",
+          "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "contentSize": "233341",
+          "dateModified": "2026-09-01T15:28:00"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Budget 2022 Budget Publication v1.0",
+          "contentUrl": "https://opendata.housing.gov.ie/dataset/e55a1d32-c225-48e0-bb6f-43c86071841b/resource/d05dabee-9f83-4af1-b4dd-346d61a91d2d/download/budget-2022-budget-publication-v1.0.xlsx",
+          "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "contentSize": "231591",
+          "dateModified": "2026-09-01T15:28:17"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Budget 2023 Budget Publication v1.0",
+          "contentUrl": "https://opendata.housing.gov.ie/dataset/e55a1d32-c225-48e0-bb6f-43c86071841b/resource/0f46b08b-888f-47a9-9b8e-6e1303d502cd/download/budget-2023-budget-publication-v1.0.xlsx",
+          "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "contentSize": "232701",
+          "dateModified": "2026-09-01T15:28:30"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Budget 2024 Budget Publication v1.0",
+          "contentUrl": "https://opendata.housing.gov.ie/dataset/e55a1d32-c225-48e0-bb6f-43c86071841b/resource/ebb5c52e-3504-48f7-929a-ec917f381ef9/download/budget-2024-budget-publication-v1.0.xlsx",
+          "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "contentSize": "226236",
+          "dateModified": "2026-09-01T15:28:55"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Budget 2026 Budget Publication v1.2",
+          "contentUrl": "https://opendata.housing.gov.ie/dataset/e55a1d32-c225-48e0-bb6f-43c86071841b/resource/18d03f3e-43ab-40c9-ad89-bc64a014bc93/download/budget-2026-budget-publication-v1.2.xlsx",
+          "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "contentSize": "228729",
+          "dateModified": "2026-09-01T15:29:11"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Budget Publication 2016",
+          "contentUrl": "https://opendata.housing.gov.ie/dataset/e55a1d32-c225-48e0-bb6f-43c86071841b/resource/72e0a82d-5a60-4ee8-9e26-bcb4c9d2f043/download/budget-publication-2016.xls",
+          "encodingFormat": "application/vnd.ms-excel",
+          "contentSize": "498176",
+          "dateModified": "2026-09-01T15:29:27"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Budget Publication Doc 2019 v1.1",
+          "contentUrl": "https://opendata.housing.gov.ie/dataset/e55a1d32-c225-48e0-bb6f-43c86071841b/resource/f41a22a6-69b4-4886-8515-3224416a4117/download/budget-publication-doc-2019-v1.1.xlsx",
+          "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "contentSize": "247706",
+          "dateModified": "2026-09-01T15:29:41"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Budget Publication Document 2025",
+          "contentUrl": "https://opendata.housing.gov.ie/dataset/e55a1d32-c225-48e0-bb6f-43c86071841b/resource/69cb7558-f0d8-45f7-a08f-f1ab3b564d80/download/budget-publication-document-2025.xlsx",
+          "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "contentSize": "227169",
+          "dateModified": "2026-09-01T15:29:54"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Final 2013 Budget Publication",
+          "contentUrl": "https://opendata.housing.gov.ie/dataset/e55a1d32-c225-48e0-bb6f-43c86071841b/resource/ef302385-8927-42bd-abd9-a8fc654d3354/download/final-2013-budget-publication.xls",
+          "encodingFormat": "application/vnd.ms-excel",
+          "contentSize": "847872",
+          "dateModified": "2026-09-01T15:30:09"
+        }
+      ],
+      "description": "Local authorities are multi-purpose bodies responsible for delivering a broad range of services in relation to roads; traffic; planning; housing; economic and community development; environment, recreation and amenity services; fire services and maintaining the register of electors. There are 31 local authorities in Ireland and 3 regional assemblies representing the Northern & Western, Eastern & Midlands, and the Southern regions. Statutory revenue budgets are adopted annually by each local authority and regional assembly and returned to the Department of Housing, Local Government and Heritage.\r\n\r\nEach local authority is divided into local electoral areas and members of local authorities are elected in these. Policy decisions are made by majority resolutions passed by the elected councillors during council meetings. These are reserved for the elected council and are ‘reserved functions’. The passing or adoption of the annual budget is a reserved function of a local authority. The membership of a regional assembly consists of members of the local authorities within the region. The aim of these assemblies is to co-ordinate, promote or support strategic planning and sustainable develo",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/pciev02-public-electric-vehicle-charging-points-evses-and-fast-charging-points",
+      "@type": "Dataset",
+      "name": "PCIEV02 - Public electric vehicle charging points (EVSEs) and fast charging points",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/central-statistics-office",
+        "name": "Central Statistics Office"
+      },
+      "url": "https://data.gov.ie/dataset/pciev02-public-electric-vehicle-charging-points-evses-and-fast-charging-points",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "c9891530-5868-46d0-8603-6e1e36ee3572"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "PCIEV02",
+        "cso",
+        "transport",
+        "Transport"
+      ],
+      "dataTheme": [
+        "TRAN"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:17:39",
+      "datePublished": "2026-08-29",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Public electric vehicle charging points (EVSEs) and fast charging points",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PCIEV02/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:17:39"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Public electric vehicle charging points (EVSEs) and fast charging points",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PCIEV02/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:17:39"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Public electric vehicle charging points (EVSEs) and fast charging points",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PCIEV02/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:17:39"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Public electric vehicle charging points (EVSEs) and fast charging points",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PCIEV02/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:17:39"
+        }
+      ],
+      "description": "Public electric vehicle charging points (EVSEs) and fast charging points",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/pciev03-public-electric-vehicle-charging-points-and-fast-charging-points",
+      "@type": "Dataset",
+      "name": "PCIEV03 - Public electric vehicle charging points and fast charging points",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/central-statistics-office",
+        "name": "Central Statistics Office"
+      },
+      "url": "https://data.gov.ie/dataset/pciev03-public-electric-vehicle-charging-points-and-fast-charging-points",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "4e22b356-bc8c-4ebb-94e1-2a66026bfc23"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "PCIEV03",
+        "cso",
+        "transport",
+        "Transport"
+      ],
+      "dataTheme": [
+        "TRAN"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:17:39",
+      "datePublished": "2026-08-29",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Public electric vehicle charging points and fast charging points",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PCIEV03/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:17:39"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Public electric vehicle charging points and fast charging points",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PCIEV03/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:17:39"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Public electric vehicle charging points and fast charging points",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PCIEV03/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:17:39"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Public electric vehicle charging points and fast charging points",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PCIEV03/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:17:39"
+        }
+      ],
+      "description": "Public electric vehicle charging points and fast charging points",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/pciev01-public-electric-vehicle-charging-points-evses-and-fast-charging-points",
+      "@type": "Dataset",
+      "name": "PCIEV01 - Public electric vehicle charging points (EVSEs) and fast charging points",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/central-statistics-office",
+        "name": "Central Statistics Office"
+      },
+      "url": "https://data.gov.ie/dataset/pciev01-public-electric-vehicle-charging-points-evses-and-fast-charging-points",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "9c93043a-d99c-49f3-9cf4-03c2597460a4"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "PCIEV01",
+        "cso",
+        "transport",
+        "Transport"
+      ],
+      "dataTheme": [
+        "TRAN"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:18:15",
+      "datePublished": "2026-08-29",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Public electric vehicle charging points (EVSEs) and fast charging points",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PCIEV01/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:18:15"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Public electric vehicle charging points (EVSEs) and fast charging points",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PCIEV01/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:18:15"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Public electric vehicle charging points (EVSEs) and fast charging points",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PCIEV01/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:18:15"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Public electric vehicle charging points (EVSEs) and fast charging points",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PCIEV01/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:18:15"
+        }
+      ],
+      "description": "Public electric vehicle charging points (EVSEs) and fast charging points",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/homelessness-report-july-2026",
+      "@type": "Dataset",
+      "name": "Homelessness Report July 2026",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-housing-local-government-and-heritage",
+        "name": "Department of Housing, Local Government and Heritage"
+      },
+      "url": "https://data.gov.ie/dataset/homelessness-report-july-2026",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "96612b1e-3db5-4393-a428-87aa4d41f6cf"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "homeless",
+        "homelessness",
+        "Housing"
+      ],
+      "dataTheme": [
+        "SOCI"
+      ],
+      "updateFrequency": "P1M",
+      "accessRights": "public",
+      "dateModified": "2026-08-28T13:21:43",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Homelessness Report July 2026",
+          "contentUrl": "https://opendata.housing.gov.ie/dataset/96612b1e-3db5-4393-a428-87aa4d41f6cf/resource/e9ee82af-fa6b-4e62-864f-3459a6b83521/download/homelessness-report-july-2026.csv",
+          "encodingFormat": "text/csv",
+          "contentSize": "1263",
+          "dateModified": "2026-08-28T13:15:49"
+        }
+      ],
+      "description": "Homelessness data Official homelessness data is produced by local authorities through the Pathway Accommodation and Support System (PASS). PASS was rolled-out nationally during the course of 2013. The Department’s official homelessness statistics are published on a monthly basis and refer to the number of homeless persons accommodated in emergency accommodation funded and overseen by housing authorities during a specific count week, typically the last full week of the month. The reports are produced through the Pathway Accommodation & Support System (PASS), collated on a regional basis and compiled and published by the Department. Homelessness reporting commenced in this format in 2014. The format of the data may change or vary over time due to administrative and/or technology changes and improvements. The administration of homeless services is organised across nine administrative regions, with one local authority in each of the regions, “the lead authority”, having overall responsibility for the disbursement of Exchequer funding. In each region a Joint Homelessness Consultative Forum exists which includes representation from the relevant State and non-governmental organisations in",
+      "temporalCoverage": "2026-07-20/2026-07-26",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp30-total-count-of-recipient-programmes",
+      "@type": "Dataset",
+      "name": "DSP30 - Total count of recipient programmes",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp30-total-count-of-recipient-programmes",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "551434e5-f02f-4b54-a3c8-d1b0be40f91f"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP30",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:17:51",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP30/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:17:51"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP30/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:17:51"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP30/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:17:51"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP30/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:17:51"
+        }
+      ],
+      "description": "Total count of recipient programmes",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp29-total-count-of-recipient-programmes",
+      "@type": "Dataset",
+      "name": "DSP29 - Total count of recipient programmes",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp29-total-count-of-recipient-programmes",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "bae32a71-8ab2-4c7c-8b4c-93bdada8bb90"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP29",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:17:51",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP29/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:17:51"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP29/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:17:51"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP29/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:17:51"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP29/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:17:51"
+        }
+      ],
+      "description": "Total count of recipient programmes",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp28-total-count-of-recipient-programmes",
+      "@type": "Dataset",
+      "name": "DSP28 - Total count of recipient programmes",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp28-total-count-of-recipient-programmes",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "3c5d8961-c770-4ec4-bd16-47d8f19e395c"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP28",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:17:51",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP28/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:17:51"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP28/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:17:51"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP28/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:17:51"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP28/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:17:51"
+        }
+      ],
+      "description": "Total count of recipient programmes",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp27-total-count-of-recipient-programmes",
+      "@type": "Dataset",
+      "name": "DSP27 - Total count of recipient programmes",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp27-total-count-of-recipient-programmes",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "a890ed99-f016-43c0-b6c2-30f6a039baf4"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP27",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:17:36",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP27/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:17:36"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP27/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:17:36"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP27/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:17:36"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP27/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:17:36"
+        }
+      ],
+      "description": "Total count of recipient programmes",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp26-total-count-of-recipient-programmes",
+      "@type": "Dataset",
+      "name": "DSP26 - Total count of recipient programmes",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp26-total-count-of-recipient-programmes",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "b531de34-4e44-4ad7-9057-20b2fd1784f2"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP26",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:17:36",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP26/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:17:36"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP26/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:17:36"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP26/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:17:36"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP26/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:17:36"
+        }
+      ],
+      "description": "Total count of recipient programmes",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp25-total-count-of-recipient-programmes",
+      "@type": "Dataset",
+      "name": "DSP25 - Total count of recipient programmes",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp25-total-count-of-recipient-programmes",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "8ce7a989-c8bc-4056-87b3-0989e765db55"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP25",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:17:27",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP25/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:17:27"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP25/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:17:27"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP25/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:17:27"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Total count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP25/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:17:27"
+        }
+      ],
+      "description": "Total count of recipient programmes",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp24-quarterly-count-of-recipient-programmes",
+      "@type": "Dataset",
+      "name": "DSP24 - Quarterly count of recipient programmes",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp24-quarterly-count-of-recipient-programmes",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "e05c95b5-7bfd-432b-b1e6-8a443352870d"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP24",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:17:24",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP24/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:17:24"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP24/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:17:24"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP24/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:17:24"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP24/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:17:24"
+        }
+      ],
+      "description": "Quarterly count of recipient programmes",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp23-quarterly-count-of-recipient-programmes",
+      "@type": "Dataset",
+      "name": "DSP23 - Quarterly count of recipient programmes",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp23-quarterly-count-of-recipient-programmes",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "607c5eee-0c9c-472e-aed8-c0d63bd34d2a"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP23",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:17:23",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP23/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:17:23"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP23/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:17:23"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP23/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:17:23"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP23/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:17:23"
+        }
+      ],
+      "description": "Quarterly count of recipient programmes",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp22-quarterly-count-of-recipient-programmes",
+      "@type": "Dataset",
+      "name": "DSP22 - Quarterly count of recipient programmes",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp22-quarterly-count-of-recipient-programmes",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "f1078f18-16eb-4232-89b1-d860341212b2"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP22",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:17:23",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP22/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:17:23"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP22/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:17:23"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP22/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:17:23"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP22/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:17:23"
+        }
+      ],
+      "description": "Quarterly count of recipient programmes",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp21-quarterly-count-of-recipient-programmes",
+      "@type": "Dataset",
+      "name": "DSP21 - Quarterly count of recipient programmes",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp21-quarterly-count-of-recipient-programmes",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "0ac59fcd-fa91-4348-ac20-e13d8c2545ce"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP21",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:17:22",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP21/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:17:22"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP21/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:17:22"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP21/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:17:22"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP21/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:17:22"
+        }
+      ],
+      "description": "Quarterly count of recipient programmes",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp20-quarterly-count-of-recipient-programmes",
+      "@type": "Dataset",
+      "name": "DSP20 - Quarterly count of recipient programmes",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp20-quarterly-count-of-recipient-programmes",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "101f677a-687f-4f67-b167-c5e4b10391a3"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP20",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:17:21",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP20/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:17:21"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP20/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:17:21"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP20/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:17:21"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP20/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:17:21"
+        }
+      ],
+      "description": "Quarterly count of recipient programmes",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp19-quarterly-count-of-recipient-programmes",
+      "@type": "Dataset",
+      "name": "DSP19 - Quarterly count of recipient programmes",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp19-quarterly-count-of-recipient-programmes",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "6018aab6-8079-43cf-afab-2a8d4b702c56"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP19",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:17:21",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP19/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:17:21"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP19/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:17:21"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP19/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:17:21"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP19/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:17:21"
+        }
+      ],
+      "description": "Quarterly count of recipient programmes",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp18-quarterly-count-of-recipient-programmes",
+      "@type": "Dataset",
+      "name": "DSP18 - Quarterly count of recipient programmes",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp18-quarterly-count-of-recipient-programmes",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "aa4c2bad-3a02-44e0-8937-5064d8a0838d"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP18",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:17:21",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP18/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:17:21"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP18/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:17:21"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP18/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:17:21"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP18/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:17:21"
+        }
+      ],
+      "description": "Quarterly count of recipient programmes",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp17-quarterly-count-of-recipient-programmes",
+      "@type": "Dataset",
+      "name": "DSP17 - Quarterly count of recipient programmes",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp17-quarterly-count-of-recipient-programmes",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "7bc9d1d6-733a-4895-a5cd-28cc223c236a"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP17",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:17:20",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP17/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:17:20"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP17/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:17:20"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP17/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:17:20"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP17/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:17:20"
+        }
+      ],
+      "description": "Quarterly count of recipient programmes",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp16-quarterly-count-of-recipient-programmes",
+      "@type": "Dataset",
+      "name": "DSP16 - Quarterly count of recipient programmes",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp16-quarterly-count-of-recipient-programmes",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "8cdbc871-8b7a-4064-9f83-f50e00e91a43"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP16",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:17:20",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP16/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:17:20"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP16/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:17:20"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP16/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:17:20"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP16/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:17:20"
+        }
+      ],
+      "description": "Quarterly count of recipient programmes",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp15-quarterly-count-of-recipient-programmes",
+      "@type": "Dataset",
+      "name": "DSP15 - Quarterly count of recipient programmes",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp15-quarterly-count-of-recipient-programmes",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "55574755-b09e-4a2e-abd8-db5585fc132b"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP15",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:17:17",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP15/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:17:17"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP15/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:17:17"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP15/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:17:17"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP15/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:17:17"
+        }
+      ],
+      "description": "Quarterly count of recipient programmes",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp14-quarterly-count-of-recipient-programmes",
+      "@type": "Dataset",
+      "name": "DSP14 - Quarterly count of recipient programmes",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp14-quarterly-count-of-recipient-programmes",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "2a60d724-b4ef-496f-ba4f-4439b6a44673"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP14",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:17:17",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP14/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:17:17"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP14/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:17:17"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP14/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:17:17"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP14/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:17:17"
+        }
+      ],
+      "description": "Quarterly count of recipient programmes",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp13-quarterly-count-of-recipient-programmes",
+      "@type": "Dataset",
+      "name": "DSP13 - Quarterly count of recipient programmes",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp13-quarterly-count-of-recipient-programmes",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "46a5c51b-39c9-4361-8807-90d02f42eb2a"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP13",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:17:16",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP13/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:17:16"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP13/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:17:16"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP13/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:17:16"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipient programmes",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP13/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:17:16"
+        }
+      ],
+      "description": "Quarterly count of recipient programmes",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp12-quarterly-count-of-recipients",
+      "@type": "Dataset",
+      "name": "DSP12 - Quarterly count of recipients",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp12-quarterly-count-of-recipients",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "e1896b5b-466c-4b05-b142-04b820ccd84c"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP12",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:16:59",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP12/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:16:59"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP12/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:16:59"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP12/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:16:59"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP12/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:16:59"
+        }
+      ],
+      "description": "Quarterly count of recipients",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp11-quarterly-count-of-recipients",
+      "@type": "Dataset",
+      "name": "DSP11 - Quarterly count of recipients",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp11-quarterly-count-of-recipients",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "1eaaf4d5-798a-43d5-ae01-535f438f3f87"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP11",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:16:56",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP11/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:16:56"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP11/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:16:56"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP11/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:16:56"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP11/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:16:56"
+        }
+      ],
+      "description": "Quarterly count of recipients",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp10-quarterly-count-of-recipients",
+      "@type": "Dataset",
+      "name": "DSP10 - Quarterly count of recipients",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp10-quarterly-count-of-recipients",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "97ea35e1-9204-45a9-9ed1-35929485083e"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP10",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:16:55",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP10/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:16:55"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP10/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:16:55"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP10/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:16:55"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP10/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:16:55"
+        }
+      ],
+      "description": "Quarterly count of recipients",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp09-quarterly-count-of-recipients",
+      "@type": "Dataset",
+      "name": "DSP09 - Quarterly count of recipients",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp09-quarterly-count-of-recipients",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "fdf7d394-ba7b-411d-bfa8-0a03bcba3ed7"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP09",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:16:52",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP09/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:16:52"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP09/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:16:52"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP09/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:16:52"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP09/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:16:52"
+        }
+      ],
+      "description": "Quarterly count of recipients",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp08-quarterly-count-of-recipients",
+      "@type": "Dataset",
+      "name": "DSP08 - Quarterly count of recipients",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp08-quarterly-count-of-recipients",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "25ec7c30-3475-4fb0-9d5e-0184b0f6c269"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP08",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:16:51",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP08/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:16:51"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP08/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:16:51"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP08/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:16:51"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP08/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:16:51"
+        }
+      ],
+      "description": "Quarterly count of recipients",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp07-quarterly-count-of-recipients",
+      "@type": "Dataset",
+      "name": "DSP07 - Quarterly count of recipients",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp07-quarterly-count-of-recipients",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "8ae1071a-06b8-44d9-9503-70a178b7ef41"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP07",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:16:50",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP07/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:16:50"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP07/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:16:50"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP07/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:16:50"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP07/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:16:50"
+        }
+      ],
+      "description": "Quarterly count of recipients",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp06-quarterly-count-of-recipients",
+      "@type": "Dataset",
+      "name": "DSP06 - Quarterly count of recipients",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp06-quarterly-count-of-recipients",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "fdd8855e-f80a-4289-8028-7ed0cc3bbf5a"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP06",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:15:40",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP06/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:15:40"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP06/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:15:40"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP06/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:15:40"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP06/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:15:40"
+        }
+      ],
+      "description": "Quarterly count of recipients",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp05-quarterly-count-of-recipients",
+      "@type": "Dataset",
+      "name": "DSP05 - Quarterly count of recipients",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp05-quarterly-count-of-recipients",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "c760c6fe-a2a0-43b6-9aad-9e56d39a0767"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP05",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:12:43",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP05/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:12:43"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP05/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:12:43"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP05/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:12:43"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP05/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:12:43"
+        }
+      ],
+      "description": "Quarterly count of recipients",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp04-quarterly-count-of-recipients",
+      "@type": "Dataset",
+      "name": "DSP04 - Quarterly count of recipients",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp04-quarterly-count-of-recipients",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "18e310c3-0069-4dc3-90ba-a0fd48ffc8c6"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP04",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:18:38",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP04/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:18:38"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP04/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:18:38"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP04/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:18:38"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP04/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:18:38"
+        }
+      ],
+      "description": "Quarterly count of recipients",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp03-quarterly-count-of-recipients",
+      "@type": "Dataset",
+      "name": "DSP03 - Quarterly count of recipients",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp03-quarterly-count-of-recipients",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "6327a105-1a36-4d40-89c2-e98d0e0a5516"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP03",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:12:43",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP03/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:12:43"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP03/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:12:43"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP03/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:12:43"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP03/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:12:43"
+        }
+      ],
+      "description": "Quarterly count of recipients",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp02-quarterly-count-of-recipients",
+      "@type": "Dataset",
+      "name": "DSP02 - Quarterly count of recipients",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp02-quarterly-count-of-recipients",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "8332c682-5d9f-4a9e-a25c-d0260dda8241"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP02",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:12:42",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP02/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:12:42"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP02/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:12:42"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP02/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:12:42"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP02/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:12:42"
+        }
+      ],
+      "description": "Quarterly count of recipients",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/dsp01-quarterly-count-of-recipients",
+      "@type": "Dataset",
+      "name": "DSP01 - Quarterly count of recipients",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/department-of-social-protection",
+        "name": "Department of Social Protection"
+      },
+      "url": "https://data.gov.ie/dataset/dsp01-quarterly-count-of-recipients",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "d298d5cf-7317-46c7-b49a-661a4403e366"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "DSP01",
+        "cso",
+        "department-of-social-protection",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:12:42",
+      "datePublished": "2026-08-28",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP01/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:12:42"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP01/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:12:42"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP01/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:12:42"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Quarterly count of recipients",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/DSP01/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:12:42"
+        }
+      ],
+      "description": "Quarterly count of recipients",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/2026-q2-foi-disclosure-log",
+      "@type": "Dataset",
+      "name": "2026 Q2 FOI Disclosure Log - Department of Culture, Communications and Sport ",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/https-www-chg-gov-ie",
+        "name": "Department of Culture, Communications and Sport"
+      },
+      "url": "https://data.gov.ie/dataset/2026-q2-foi-disclosure-log",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "d724457d-a78a-4a08-9ec0-526a666fa6a4"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "2026",
+        "Disclosure Log",
+        "freedom of information",
+        "Government"
+      ],
+      "dataTheme": [
+        "GOVE"
+      ],
+      "updateFrequency": "never",
+      "accessRights": "public",
+      "dateModified": "2026-08-27T15:00:16",
+      "datePublished": "2026-08-27",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "2026 Q2 FOI Disclosure Log - Department of Culture, Communications and Sport ",
+          "contentUrl": "https://assets.gov.ie/static/documents/a4e85f97/20260818-FOI-Disclosure-Log-Q2-2026-CSV_1.csv",
+          "encodingFormat": "text/csv",
+          "dateModified": "2026-08-27T08:27:53"
+        }
+      ],
+      "description": "Freedom of Information cases from April 2026 to June 2026. These logs provide the following information in relation to each request received: the reference Number assigned to the request by the department the date on which the request was received in the Freedom of Information Unit of the department the category of the person making the request, for example: whether they are a journalist, interest group or company or an individual. This includes non-personal FOI requests only a summary of the information or records requested the date on which the department’s decision was issued to the applicant a summary of that decision, for example; whether the request was granted in full, part granted or refused. All records released in relation to requests as set out in the FOI logs are deemed by the Department to be in the public domain and are available to anyone on request. For access to these records, please contact the Department’s FOI Unit at foi@ccs.gov.ie with the Request Number and details of the specific records being sought. Records will be provided outside of the FOI process for such requests.",
+      "temporalCoverage": "2026-04-01/2026-06-30",
+      "applicableLegislation": [
+        "https://www.irishstatutebook.ie/eli/2014/act/30/enacted/en/html"
+      ],
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/ihsc37-hours-of-screen-time-for-children-aged-3-to-14-years",
+      "@type": "Dataset",
+      "name": "IHSC37 - Hours of screen time for children aged 3 to 14 years",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/central-statistics-office",
+        "name": "Central Statistics Office"
+      },
+      "url": "https://data.gov.ie/dataset/ihsc37-hours-of-screen-time-for-children-aged-3-to-14-years",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "eb77b6c5-577a-4841-84ca-373c72a7a456"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "IHSC37",
+        "cso",
+        "health",
+        "Health"
+      ],
+      "dataTheme": [
+        "HEAL"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:16:47",
+      "datePublished": "2026-08-26",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Hours of screen time for children aged 3 to 14 years",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/IHSC37/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:16:47"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Hours of screen time for children aged 3 to 14 years",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/IHSC37/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:16:47"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Hours of screen time for children aged 3 to 14 years",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/IHSC37/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:16:47"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Hours of screen time for children aged 3 to 14 years",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/IHSC37/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:16:47"
+        }
+      ],
+      "description": "Hours of screen time for children aged 3 to 14 years",
+      "highValueDataset": false
+    },
+    {
+      "@id": "https://data.gov.ie/id/dataset/ihsc36-hours-of-screen-time-for-children-aged-3-to-14-years",
+      "@type": "Dataset",
+      "name": "IHSC36 - Hours of screen time for children aged 3 to 14 years",
+      "publisher": {
+        "@id": "https://data.gov.ie/id/organization/central-statistics-office",
+        "name": "Central Statistics Office"
+      },
+      "url": "https://data.gov.ie/dataset/ihsc36-hours-of-screen-time-for-children-aged-3-to-14-years",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:ckan-id",
+          "value": "48714804-d581-48a4-b029-7687153a6137"
+        }
+      ],
+      "includedInDataCatalog": {
+        "@id": "https://data.gov.ie/id/catalog/portal"
+      },
+      "keywords": [
+        "IHSC36",
+        "cso",
+        "health",
+        "Health"
+      ],
+      "dataTheme": [
+        "HEAL"
+      ],
+      "accessRights": "public",
+      "dateModified": "2026-09-06T01:16:47",
+      "datePublished": "2026-08-26",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": [
+        "en"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Hours of screen time for children aged 3 to 14 years",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/IHSC36/CSV/1.0/en",
+          "encodingFormat": "CSV",
+          "dateModified": "2026-09-06T01:16:47"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Hours of screen time for children aged 3 to 14 years",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/IHSC36/JSON-stat/1.0/en",
+          "encodingFormat": "json-stat",
+          "dateModified": "2026-09-06T01:16:47"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Hours of screen time for children aged 3 to 14 years",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/IHSC36/PX/2013/en",
+          "encodingFormat": "px",
+          "dateModified": "2026-09-06T01:16:47"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Hours of screen time for children aged 3 to 14 years",
+          "contentUrl": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/IHSC36/XLSX/2007/en",
+          "encodingFormat": "XLSX",
+          "dateModified": "2026-09-06T01:16:47"
+        }
+      ],
+      "description": "Hours of screen time for children aged 3 to 14 years",
+      "highValueDataset": false
+    }
+  ]
+}

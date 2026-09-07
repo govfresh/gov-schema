@@ -1,0 +1,187 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://example-city.gov/id/request/2025-104882",
+      "@type": "ServiceRequest",
+      "serviceRequestId": "2025-104882",
+      "serviceCode": "ROAD-001",
+      "service": {
+        "@id": "https://example-city.gov/id/service/pothole",
+        "name": "Pothole repair"
+      },
+      "description": "Large pothole in the eastbound lane just past the junction.",
+      "requestStatus": "closed",
+      "statusNote": "Repaired and resurfaced.",
+      "agencyResponsible": {
+        "@id": "https://example-city.gov/id/organization/public-works",
+        "name": "Public Works Department"
+      },
+      "jurisdiction": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city",
+        "name": "Example City"
+      },
+      "dateCreated": "2025-05-02T08:14:00-07:00",
+      "dateModified": "2025-05-09T16:02:00-07:00",
+      "expectedResolutionDate": "2025-05-09T00:00:00-07:00",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 34.0521,
+        "longitude": -118.2436
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Junction of 4th and Alder",
+        "addressLocality": "Example City",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "surface_type",
+          "value": "asphalt"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "approx_size_cm",
+          "value": "60"
+        }
+      ],
+      "statusHistory": [
+        {
+          "@type": "StatusChange",
+          "requestStatus": "open",
+          "date": "2025-05-02T08:14:00-07:00"
+        },
+        {
+          "@type": "StatusChange",
+          "requestStatus": "inProgress",
+          "date": "2025-05-05T09:02:00-07:00",
+          "statusNote": "Assigned to street maintenance crew."
+        },
+        {
+          "@type": "StatusChange",
+          "requestStatus": "closed",
+          "date": "2025-05-09T16:02:00-07:00",
+          "statusNote": "Repaired and resurfaced."
+        }
+      ]
+    },
+    {
+      "@id": "https://example-city.gov/id/request/2025-105331",
+      "@type": "ServiceRequest",
+      "serviceRequestId": "2025-105331",
+      "serviceCode": "LIGHT-002",
+      "service": {
+        "@id": "https://example-city.gov/id/service/streetlight",
+        "name": "Streetlight outage"
+      },
+      "description": "Three lights out along the park path.",
+      "requestStatus": "inProgress",
+      "statusNote": "Parts ordered; crew scheduled for week commencing 16 June.",
+      "agencyResponsible": {
+        "@id": "https://example-city.gov/id/organization/public-works"
+      },
+      "jurisdiction": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city"
+      },
+      "dateCreated": "2025-06-01T21:40:00-07:00",
+      "dateModified": "2025-06-06T10:11:00-07:00",
+      "expectedResolutionDate": "2025-06-20T00:00:00-07:00",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 34.0559,
+        "longitude": -118.2401
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "pole_id",
+          "value": "AB-4417"
+        }
+      ],
+      "statusHistory": [
+        {
+          "@type": "StatusChange",
+          "requestStatus": "open",
+          "date": "2025-06-01T21:40:00-07:00"
+        },
+        {
+          "@type": "StatusChange",
+          "requestStatus": "inProgress",
+          "date": "2025-06-06T10:11:00-07:00",
+          "statusNote": "Parts ordered."
+        }
+      ]
+    },
+    {
+      "@id": "https://example-city.gov/id/request/2025-105902",
+      "@type": "ServiceRequest",
+      "serviceRequestId": "2025-105902",
+      "serviceCode": "SAN-004",
+      "service": {
+        "@id": "https://example-city.gov/id/service/illegal-dumping",
+        "name": "Illegal dumping"
+      },
+      "description": "Household waste dumped behind the shops.",
+      "requestStatus": "rejected",
+      "statusNote": "Location is private land. Referred to the property owner; the city has no remit here.",
+      "agencyResponsible": {
+        "@id": "https://example-city.gov/id/organization/public-works"
+      },
+      "jurisdiction": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city"
+      },
+      "dateCreated": "2025-06-18T07:55:00-07:00",
+      "dateModified": "2025-06-19T09:30:00-07:00",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 34.05,
+        "longitude": -118.24
+      }
+    },
+    {
+      "@id": "https://example-city.gov/id/request/2025-106014",
+      "@type": "ServiceRequest",
+      "serviceRequestId": "2025-106014",
+      "serviceCode": "ROAD-001",
+      "service": {
+        "@id": "https://example-city.gov/id/service/pothole"
+      },
+      "description": "Same pothole as previously reported on 4th.",
+      "requestStatus": "duplicate",
+      "statusNote": "Closed as already reported.",
+      "agencyResponsible": {
+        "@id": "https://example-city.gov/id/organization/public-works"
+      },
+      "jurisdiction": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city"
+      },
+      "dateCreated": "2025-05-04T12:20:00-07:00",
+      "dateModified": "2025-05-04T14:05:00-07:00",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 34.05,
+        "longitude": -118.24
+      },
+      "duplicateOf": {
+        "@id": "https://example-city.gov/id/request/2025-104882",
+        "name": "Pothole, 4th and Alder"
+      },
+      "statusHistory": [
+        {
+          "@type": "StatusChange",
+          "requestStatus": "open",
+          "date": "2025-05-04T12:20:00-07:00"
+        },
+        {
+          "@type": "StatusChange",
+          "requestStatus": "duplicate",
+          "date": "2025-05-04T14:05:00-07:00",
+          "statusNote": "Matched to an existing report at the same location."
+        }
+      ]
+    }
+  ]
+}

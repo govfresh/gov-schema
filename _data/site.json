@@ -1,0 +1,16 @@
+{
+  "title": "gov-schema",
+  "titleShort": "gov-schema",
+  "description": "A shared vocabulary for describing government, built as a profile of schema.org and the open standards already established in each domain.",
+  "url": "https://schema.govfresh.com",
+  "namespace": "https://schema.govfresh.com/v1/",
+  "version": "1.0.0-draft",
+  "org": "GovFresh",
+  "org-url": "https://govfresh.com",
+  "repo": "https://github.com/govfresh/gov-schema",
+  "date": "%B %-d, %Y",
+  "timezone": "America/Los_Angeles",
+  "securityExpires": "2027-01-01T00:00:00.000Z",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseName": "CC0 1.0"
+}

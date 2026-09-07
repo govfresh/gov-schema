@@ -1,0 +1,271 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://example-city.gov/id/contracting-process/2025-pw-014",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-example-2025-pw-014",
+      "name": "Street resurfacing programme, FY2026",
+      "buyer": {
+        "@id": "https://example-city.gov/id/organization/city-government",
+        "name": "Example City Government"
+      },
+      "jurisdiction": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city",
+        "name": "Example City"
+      },
+      "budgetLine": [
+        {
+          "@id": "https://example-city.gov/id/budget-line/fy2026/exp-street-maintenance",
+          "name": "Street maintenance programme"
+        }
+      ],
+      "dateModified": "2025-09-01",
+      "party": [
+        {
+          "@id": "https://example-city.gov/id/party/northgate-paving",
+          "name": "Northgate Paving LLC"
+        },
+        {
+          "@id": "https://example-city.gov/id/party/valley-surfacing",
+          "name": "Valley Surfacing Co."
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "PW-2025-014",
+        "title": "Street resurfacing, District 2 and District 4",
+        "description": "Mill and overlay of approximately 11 km of residential streets.",
+        "status": "complete",
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Invitation for bids, sealed",
+        "mainProcurementCategory": "works",
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "45233220",
+            "name": "Surface work for roads"
+          },
+          {
+            "@type": "PropertyValue",
+            "propertyID": "unspsc",
+            "value": "72141101",
+            "name": "Road paving"
+          }
+        ],
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 3200000,
+          "currency": "USD"
+        },
+        "procuringEntity": {
+          "@id": "https://example-city.gov/id/organization/public-works",
+          "name": "Public Works Department"
+        },
+        "tenderPeriodStart": "2025-07-07",
+        "tenderPeriodEnd": "2025-08-04",
+        "enquiryPeriodEnd": "2025-07-21",
+        "numberOfTenderers": 2,
+        "submissionMethodDetails": "Sealed bids delivered to the City Clerk, opened publicly.",
+        "document": [
+          "https://example-city.gov/procurement/PW-2025-014/ifb.pdf"
+        ]
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "PW-2025-014-A1",
+          "title": "Award to Northgate Paving LLC",
+          "status": "active",
+          "date": "2025-08-18",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 3065000,
+            "currency": "USD"
+          },
+          "supplier": [
+            {
+              "@id": "https://example-city.gov/id/party/northgate-paving",
+              "name": "Northgate Paving LLC"
+            }
+          ],
+          "contractPeriodStart": "2025-09-15",
+          "contractPeriodEnd": "2026-04-30",
+          "document": [
+            "https://example-city.gov/procurement/PW-2025-014/award.pdf"
+          ]
+        }
+      ],
+      "contract": [
+        {
+          "@type": "Contract",
+          "contractId": "PW-2025-014-C1",
+          "awardId": "PW-2025-014-A1",
+          "title": "Street resurfacing contract",
+          "status": "active",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 3065000,
+            "currency": "USD"
+          },
+          "dateSigned": "2025-09-02",
+          "periodStart": "2025-09-15",
+          "periodEnd": "2026-04-30",
+          "amountPaid": {
+            "@type": "MonetaryAmount",
+            "value": 1150000,
+            "currency": "USD"
+          },
+          "document": [
+            "https://example-city.gov/procurement/PW-2025-014/contract.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://example-city.gov/id/contracting-process/2025-gg-003",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-example-2025-gg-003",
+      "name": "Emergency structural assessment, City Hall",
+      "buyer": {
+        "@id": "https://example-city.gov/id/organization/city-government"
+      },
+      "jurisdiction": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city"
+      },
+      "budgetLine": [
+        {
+          "@id": "https://example-city.gov/id/budget-line/fy2026/exp-general-government",
+          "name": "General government"
+        }
+      ],
+      "dateModified": "2025-08-20",
+      "party": [
+        {
+          "@id": "https://example-city.gov/id/party/meridian-consulting",
+          "name": "Meridian Consulting Group"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "GG-2025-003",
+        "title": "Structural assessment following seismic event",
+        "status": "complete",
+        "procurementMethod": "direct",
+        "procurementMethodRationale": "Emergency assessment required within 72 hours of the 4 August seismic event; the supplier holds the original structural drawings for the building. Authorised under ECMC 3.24.060.",
+        "mainProcurementCategory": "consultingServices",
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "71311000",
+            "name": "Civil engineering consultancy services"
+          }
+        ],
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 84000,
+          "currency": "USD"
+        },
+        "procuringEntity": {
+          "@id": "https://example-city.gov/id/organization/city-government"
+        },
+        "numberOfTenderers": 1
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "GG-2025-003-A1",
+          "status": "active",
+          "date": "2025-08-06",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 84000,
+            "currency": "USD"
+          },
+          "supplier": [
+            {
+              "@id": "https://example-city.gov/id/party/meridian-consulting",
+              "name": "Meridian Consulting Group"
+            }
+          ]
+        }
+      ],
+      "contract": [
+        {
+          "@type": "Contract",
+          "contractId": "GG-2025-003-C1",
+          "awardId": "GG-2025-003-A1",
+          "status": "active",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 84000,
+            "currency": "USD"
+          },
+          "dateSigned": "2025-08-07",
+          "amountPaid": {
+            "@type": "MonetaryAmount",
+            "value": 84000,
+            "currency": "USD"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://example-city.gov/id/party/northgate-paving",
+      "@type": "Organization",
+      "name": "Northgate Paving LLC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "org-id:US-EIN",
+          "value": "84-3921776"
+        }
+      ],
+      "role": [
+        "tenderer",
+        "supplier",
+        "payee"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Example City",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+      }
+    },
+    {
+      "@id": "https://example-city.gov/id/party/valley-surfacing",
+      "@type": "Organization",
+      "name": "Valley Surfacing Co.",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "org-id:US-EIN",
+          "value": "91-2210548"
+        }
+      ],
+      "role": [
+        "tenderer"
+      ]
+    },
+    {
+      "@id": "https://example-city.gov/id/party/meridian-consulting",
+      "@type": "Organization",
+      "name": "Meridian Consulting Group",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "org-id:US-EIN",
+          "value": "77-4410932"
+        }
+      ],
+      "role": [
+        "tenderer",
+        "supplier",
+        "payee"
+      ]
+    }
+  ]
+}

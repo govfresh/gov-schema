@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg border-bottom" aria-label="Primary navigation">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="/">{{ site.title }}</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#siteNav" aria-controls="siteNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="siteNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        {% for item in nav.docs %}
+        <li class="nav-item">
+          <a class="nav-link{% if page.url == item.url %} active{% endif %}"
+             href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+        </li>
+        {% endfor %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.repo }}">GitHub</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

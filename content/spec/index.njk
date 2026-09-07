@@ -1,0 +1,25 @@
+---
+layout: layouts/base.njk
+title: Specification
+description: The normative gov-schema profile specification.
+---
+<div class="container py-5">
+  <div class="row">
+    <div class="col-lg-3">
+      <nav class="gs-sidebar d-none d-lg-block" aria-label="Sections">
+        <p class="text-uppercase small fw-semibold text-body-secondary">Sections</p>
+        <ul class="nav flex-column small">
+          {% for h in docs.specHeadings %}
+          <li class="nav-item"><a class="nav-link px-0 py-1" href="#{{ h.slug }}">{{ h.text }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+    <div class="col-lg-9">
+      <h1 class="mb-4">Specification</h1>
+      <div class="gs-spec">
+        {{ docs.spec | safe }}
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,839 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "gs": "https://schema.govfresh.com/v1/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "org": "http://www.w3.org/ns/org#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "identifier": {
+      "@id": "schema:identifier",
+      "@container": "@set"
+    },
+    "propertyID": "schema:propertyID",
+    "value": "schema:value",
+    "containedInPlace": {
+      "@id": "schema:containedInPlace",
+      "@type": "@id"
+    },
+    "containsPlace": {
+      "@id": "schema:containsPlace",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "areaServed": {
+      "@id": "schema:areaServed",
+      "@type": "@id"
+    },
+    "location": {
+      "@id": "schema:location",
+      "@type": "@id"
+    },
+    "parentOrganization": {
+      "@id": "schema:parentOrganization",
+      "@type": "@id"
+    },
+    "subOrganization": {
+      "@id": "schema:subOrganization",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "department": {
+      "@id": "schema:department",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "member": {
+      "@id": "schema:member",
+      "@container": "@set"
+    },
+    "memberOf": {
+      "@id": "schema:memberOf",
+      "@type": "@id"
+    },
+    "employee": {
+      "@id": "schema:employee",
+      "@container": "@set"
+    },
+    "roleName": "schema:roleName",
+    "startDate": {
+      "@id": "schema:startDate",
+      "@type": "schema:Date"
+    },
+    "endDate": {
+      "@id": "schema:endDate",
+      "@type": "schema:Date"
+    },
+    "foundingDate": {
+      "@id": "schema:foundingDate",
+      "@type": "schema:Date"
+    },
+    "dissolutionDate": {
+      "@id": "schema:dissolutionDate",
+      "@type": "schema:Date"
+    },
+    "governmentLevel": {
+      "@id": "gs:governmentLevel",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/level/"
+      }
+    },
+    "organizationClassification": {
+      "@id": "gs:organizationClassification",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/orgclass/",
+        "department": "https://schema.govfresh.com/v1/orgclass/department"
+      }
+    },
+    "jurisdictionOf": {
+      "@id": "gs:jurisdictionOf",
+      "@type": "@id"
+    },
+    "population": {
+      "@id": "gs:population"
+    },
+    "timeZone": {
+      "@id": "gs:timeZone"
+    },
+    "sourceDataset": {
+      "@id": "gs:sourceDataset",
+      "@type": "@id"
+    },
+    "conformsTo": {
+      "@id": "dcterms:conformsTo",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "inDefinedTermSet": {
+      "@id": "schema:inDefinedTermSet",
+      "@type": "@id"
+    },
+    "termCode": "schema:termCode",
+    "Post": "gs:Post",
+    "post": {
+      "@id": "gs:post",
+      "@type": "@id"
+    },
+    "roleClassification": {
+      "@id": "gs:roleClassification",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/roleclass/"
+      }
+    },
+    "vacantSince": {
+      "@id": "gs:vacantSince",
+      "@type": "schema:Date"
+    },
+    "termDuration": {
+      "@id": "gs:termDuration"
+    },
+    "maximumTermCount": {
+      "@id": "gs:maximumTermCount"
+    },
+    "namedPosition": "schema:namedPosition",
+    "numberedPosition": "schema:numberedPosition",
+    "dataFeedElement": {
+      "@id": "schema:dataFeedElement",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "numberOfItems": "schema:numberOfItems",
+    "dateModified": "schema:dateModified",
+    "publisher": {
+      "@id": "schema:publisher",
+      "@type": "@id"
+    },
+    "about": {
+      "@id": "schema:about",
+      "@type": "@id"
+    },
+    "representsJurisdiction": {
+      "@id": "gs:representsJurisdiction",
+      "@type": "@id"
+    },
+    "codificationLevel": {
+      "@id": "gs:codificationLevel",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/codlevel/",
+        "title": "https://schema.govfresh.com/v1/codlevel/title"
+      }
+    },
+    "enactedAt": {
+      "@id": "gs:enactedAt",
+      "@type": "@id"
+    },
+    "legislationIdentifier": "schema:legislationIdentifier",
+    "legislationType": "schema:legislationType",
+    "legislationJurisdiction": {
+      "@id": "schema:legislationJurisdiction",
+      "@type": "@id"
+    },
+    "legislationPassedBy": {
+      "@id": "schema:legislationPassedBy",
+      "@type": "@id"
+    },
+    "legislationResponsible": {
+      "@id": "schema:legislationResponsible",
+      "@type": "@id"
+    },
+    "legislationDate": {
+      "@id": "schema:legislationDate",
+      "@type": "schema:Date"
+    },
+    "legislationDateOfApplicability": {
+      "@id": "schema:legislationDateOfApplicability",
+      "@type": "schema:Date"
+    },
+    "legislationDateVersion": {
+      "@id": "schema:legislationDateVersion",
+      "@type": "schema:Date"
+    },
+    "legislationLegalForce": {
+      "@id": "schema:legislationLegalForce",
+      "@type": "@vocab"
+    },
+    "legislationLegalValue": {
+      "@id": "schema:legislationLegalValue",
+      "@type": "@vocab"
+    },
+    "legislationAmends": {
+      "@id": "schema:legislationAmends",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "legislationRepeals": {
+      "@id": "schema:legislationRepeals",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "legislationChanges": {
+      "@id": "schema:legislationChanges",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "legislationConsolidates": {
+      "@id": "schema:legislationConsolidates",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "legislationCorrects": {
+      "@id": "schema:legislationCorrects",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "legislationCommences": {
+      "@id": "schema:legislationCommences",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "schema:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isPartOf": {
+      "@id": "schema:isPartOf",
+      "@type": "@id"
+    },
+    "encoding": {
+      "@id": "schema:encoding",
+      "@container": "@set"
+    },
+    "contentUrl": {
+      "@id": "schema:contentUrl",
+      "@type": "@id"
+    },
+    "encodingFormat": "schema:encodingFormat",
+    "position": "schema:position",
+    "datePublished": {
+      "@id": "schema:datePublished",
+      "@type": "schema:Date"
+    },
+    "temporalCoverage": "schema:temporalCoverage",
+    "inLanguage": {
+      "@id": "schema:inLanguage",
+      "@container": "@set"
+    },
+    "Meeting": "gs:Meeting",
+    "AgendaItem": "gs:AgendaItem",
+    "VoteEvent": "gs:VoteEvent",
+    "Vote": "gs:Vote",
+    "agendaItem": {
+      "@id": "gs:agendaItem",
+      "@container": "@set"
+    },
+    "voteEvent": {
+      "@id": "gs:voteEvent",
+      "@container": "@set"
+    },
+    "result": {
+      "@id": "gs:result",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/result/"
+      }
+    },
+    "count": {
+      "@id": "gs:count",
+      "@container": "@set"
+    },
+    "vote": {
+      "@id": "gs:vote",
+      "@container": "@set"
+    },
+    "voter": {
+      "@id": "gs:voter",
+      "@type": "@id"
+    },
+    "option": {
+      "@id": "gs:option",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/vote/"
+      }
+    },
+    "requiredMajority": "gs:requiredMajority",
+    "minutes": {
+      "@id": "gs:minutes",
+      "@type": "@id"
+    },
+    "agendaDocument": {
+      "@id": "gs:agendaDocument",
+      "@type": "@id"
+    },
+    "recording": {
+      "@id": "gs:recording",
+      "@container": "@set"
+    },
+    "organizer": {
+      "@id": "schema:organizer",
+      "@type": "@id"
+    },
+    "eventSchedule": "schema:eventSchedule",
+    "eventStatus": {
+      "@id": "schema:eventStatus",
+      "@type": "@vocab"
+    },
+    "eventAttendanceMode": {
+      "@id": "schema:eventAttendanceMode",
+      "@type": "@vocab"
+    },
+    "previousStartDate": "schema:previousStartDate",
+    "superEvent": {
+      "@id": "schema:superEvent",
+      "@type": "@id"
+    },
+    "subEvent": {
+      "@id": "schema:subEvent",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "attendee": {
+      "@id": "schema:attendee",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isAccessibleForFree": "schema:isAccessibleForFree",
+    "maximumAttendeeCapacity": "schema:maximumAttendeeCapacity",
+    "ServiceRequest": "gs:ServiceRequest",
+    "serviceRequestId": "gs:serviceRequestId",
+    "serviceCode": "gs:serviceCode",
+    "requestStatus": {
+      "@id": "gs:requestStatus",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/reqstatus/"
+      }
+    },
+    "statusNote": "gs:statusNote",
+    "agencyResponsible": {
+      "@id": "gs:agencyResponsible",
+      "@type": "@id"
+    },
+    "expectedResolutionDate": {
+      "@id": "gs:expectedResolutionDate",
+      "@type": "schema:DateTime"
+    },
+    "requestAttribute": {
+      "@id": "gs:requestAttribute",
+      "@container": "@set"
+    },
+    "valueOption": {
+      "@id": "gs:valueOption",
+      "@container": "@set"
+    },
+    "isRealtime": "gs:isRealtime",
+    "service": {
+      "@id": "schema:isRelatedTo",
+      "@type": "@id"
+    },
+    "provider": {
+      "@id": "schema:provider",
+      "@type": "@id"
+    },
+    "availableChannel": {
+      "@id": "schema:availableChannel",
+      "@container": "@set"
+    },
+    "serviceType": "schema:serviceType",
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "serviceUrl": {
+      "@id": "schema:serviceUrl",
+      "@type": "@id"
+    },
+    "servicePhone": "schema:servicePhone",
+    "serviceSmsNumber": "schema:serviceSmsNumber",
+    "serviceLocation": {
+      "@id": "schema:serviceLocation",
+      "@type": "@id"
+    },
+    "processingTime": "schema:processingTime",
+    "availableLanguage": {
+      "@id": "schema:availableLanguage",
+      "@container": "@set"
+    },
+    "valueName": "schema:valueName",
+    "valueRequired": "schema:valueRequired",
+    "multipleValues": "schema:multipleValues",
+    "defaultValue": "schema:defaultValue",
+    "valueMinLength": "schema:valueMinLength",
+    "valueMaxLength": "schema:valueMaxLength",
+    "valuePattern": "schema:valuePattern",
+    "minValue": "schema:minValue",
+    "maxValue": "schema:maxValue",
+    "geo": "schema:geo",
+    "image": {
+      "@id": "schema:image",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "schema:DateTime"
+    },
+    "additionalProperty": {
+      "@id": "schema:additionalProperty",
+      "@container": "@set"
+    },
+    "jurisdiction": {
+      "@id": "schema:jurisdiction",
+      "@type": "@id"
+    },
+    "Budget": "gs:Budget",
+    "BudgetLine": "gs:BudgetLine",
+    "budgetPhase": {
+      "@id": "gs:budgetPhase",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/phase/"
+      }
+    },
+    "budgetLine": {
+      "@id": "gs:budgetLine",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "budget": {
+      "@id": "gs:budget",
+      "@type": "@id"
+    },
+    "direction": {
+      "@id": "gs:direction",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/direction/"
+      }
+    },
+    "functionalClassification": {
+      "@id": "gs:functionalClassification",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/cofog/"
+      }
+    },
+    "economicClassification": {
+      "@id": "gs:economicClassification",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/gfsm/"
+      }
+    },
+    "administrativeClassification": {
+      "@id": "gs:administrativeClassification",
+      "@type": "@id"
+    },
+    "programClassification": "gs:programClassification",
+    "fundSource": "gs:fundSource",
+    "fiscalYear": "gs:fiscalYear",
+    "adoptedBy": {
+      "@id": "gs:adoptedBy",
+      "@type": "@id"
+    },
+    "amount": "schema:amount",
+    "totalAmount": "gs:totalAmount",
+    "currency": "schema:currency",
+    "validFrom": {
+      "@id": "schema:validFrom",
+      "@type": "schema:Date"
+    },
+    "validThrough": {
+      "@id": "schema:validThrough",
+      "@type": "schema:Date"
+    },
+    "distribution": {
+      "@id": "schema:distribution",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id"
+    },
+    "supersedes": {
+      "@id": "gs:supersedes",
+      "@type": "@id"
+    },
+    "legislation": {
+      "@id": "gs:legislation",
+      "@type": "@id"
+    },
+    "ContractingProcess": "gs:ContractingProcess",
+    "Tender": {
+      "@id": "gs:Tender",
+      "@context": {
+        "status": {
+          "@id": "gs:status",
+          "@type": "@vocab",
+          "@context": {
+            "@vocab": "https://schema.govfresh.com/v1/tenderstatus/"
+          }
+        }
+      }
+    },
+    "Award": {
+      "@id": "gs:Award",
+      "@context": {
+        "status": {
+          "@id": "gs:status",
+          "@type": "@vocab",
+          "@context": {
+            "@vocab": "https://schema.govfresh.com/v1/awardstatus/"
+          }
+        }
+      }
+    },
+    "Contract": {
+      "@id": "gs:Contract",
+      "@context": {
+        "status": {
+          "@id": "gs:status",
+          "@type": "@vocab",
+          "@context": {
+            "@vocab": "https://schema.govfresh.com/v1/contractstatus/"
+          }
+        }
+      }
+    },
+    "Party": "gs:Party",
+    "ocid": "gs:ocid",
+    "tender": "gs:tender",
+    "award": {
+      "@id": "gs:award",
+      "@container": "@set"
+    },
+    "contract": {
+      "@id": "gs:contract",
+      "@container": "@set"
+    },
+    "party": {
+      "@id": "gs:party",
+      "@container": "@set"
+    },
+    "supplier": {
+      "@id": "gs:supplier",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "buyer": {
+      "@id": "schema:buyer",
+      "@type": "@id"
+    },
+    "procurementMethod": {
+      "@id": "gs:procurementMethod",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/procmethod/"
+      }
+    },
+    "procurementMethodDetails": "gs:procurementMethodDetails",
+    "procurementMethodRationale": "gs:procurementMethodRationale",
+    "mainProcurementCategory": {
+      "@id": "gs:mainProcurementCategory",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/proccat/"
+      }
+    },
+    "classification": {
+      "@id": "gs:classification",
+      "@container": "@set"
+    },
+    "amountPaid": "gs:amountPaid",
+    "tenderId": "gs:tenderId",
+    "awardId": "gs:awardId",
+    "contractId": "gs:contractId",
+    "role": {
+      "@id": "gs:role",
+      "@type": "@vocab",
+      "@container": "@set",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/partyrole/",
+        "buyer": "https://schema.govfresh.com/v1/partyrole/buyer",
+        "supplier": "https://schema.govfresh.com/v1/partyrole/supplier"
+      }
+    },
+    "dateSigned": {
+      "@id": "gs:dateSigned",
+      "@type": "schema:Date"
+    },
+    "numberOfTenderers": "gs:numberOfTenderers",
+    "document": {
+      "@id": "gs:document",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "title": "schema:name",
+    "PublisherManifest": "gs:PublisherManifest",
+    "ProfileEndpoint": "gs:ProfileEndpoint",
+    "profileEndpoint": {
+      "@id": "gs:profileEndpoint",
+      "@container": "@set"
+    },
+    "profile": "gs:profile",
+    "conformsToProfile": "gs:profile",
+    "specVersion": "gs:specVersion",
+    "dataTheme": {
+      "@id": "gs:dataTheme",
+      "@type": "@vocab",
+      "@container": "@set",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/theme/"
+      }
+    },
+    "updateFrequency": "gs:updateFrequency",
+    "accessRights": {
+      "@id": "gs:accessRights",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/accessrights/"
+      }
+    },
+    "accessUrl": {
+      "@id": "gs:accessUrl",
+      "@type": "@id"
+    },
+    "dataset": {
+      "@id": "schema:dataset",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "catalog": {
+      "@id": "schema:catalog",
+      "@type": "@id"
+    },
+    "includedInDataCatalog": {
+      "@id": "schema:includedInDataCatalog",
+      "@type": "@id"
+    },
+    "creator": {
+      "@id": "schema:creator",
+      "@type": "@id"
+    },
+    "spatialCoverage": {
+      "@id": "schema:spatialCoverage",
+      "@type": "@id"
+    },
+    "contentSize": "schema:contentSize",
+    "contactPoint": "schema:contactPoint",
+    "Alert": "gs:Alert",
+    "AlertInfo": "gs:AlertInfo",
+    "AlertArea": "gs:AlertArea",
+    "alertIdentifier": "gs:alertIdentifier",
+    "alertStatus": {
+      "@id": "gs:alertStatus",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/alertstatus/"
+      }
+    },
+    "messageType": {
+      "@id": "gs:messageType",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/msgtype/"
+      }
+    },
+    "scope": {
+      "@id": "gs:scope",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/scope/"
+      }
+    },
+    "alertInfo": {
+      "@id": "gs:alertInfo",
+      "@container": "@set"
+    },
+    "area": {
+      "@id": "gs:area",
+      "@container": "@set"
+    },
+    "urgency": {
+      "@id": "gs:urgency",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/urgency/"
+      }
+    },
+    "severity": {
+      "@id": "gs:severity",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/severity/"
+      }
+    },
+    "certainty": {
+      "@id": "gs:certainty",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/certainty/"
+      }
+    },
+    "responseType": {
+      "@id": "gs:responseType",
+      "@type": "@vocab",
+      "@container": "@set",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/resptype/"
+      }
+    },
+    "instruction": "gs:instruction",
+    "expires": {
+      "@id": "gs:expires",
+      "@type": "schema:DateTime"
+    },
+    "onset": {
+      "@id": "gs:onset",
+      "@type": "schema:DateTime"
+    },
+    "effective": {
+      "@id": "gs:effective",
+      "@type": "schema:DateTime"
+    },
+    "headline": "gs:headline",
+    "event": "gs:event",
+    "areaDescription": "gs:areaDescription",
+    "geometry": {
+      "@id": "gs:geometry",
+      "@type": "@id"
+    },
+    "geocode": {
+      "@id": "gs:geocode",
+      "@container": "@set"
+    },
+    "circle": "gs:circle",
+    "sender": {
+      "@id": "gs:sender",
+      "@type": "@id"
+    },
+    "sent": {
+      "@id": "gs:sent",
+      "@type": "schema:DateTime"
+    },
+    "references": {
+      "@id": "gs:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "incident": "gs:incident",
+    "senderName": "gs:senderName",
+    "audience": "schema:audience",
+    "relatedAlert": {
+      "@id": "gs:relatedAlert",
+      "@type": "@id"
+    },
+    "duplicateOf": {
+      "@id": "gs:duplicateOf",
+      "@type": "@id"
+    },
+    "statusHistory": {
+      "@id": "gs:statusHistory",
+      "@container": "@set"
+    },
+    "resource": {
+      "@id": "gs:resource",
+      "@container": "@set"
+    },
+    "category": {
+      "@id": "gs:category",
+      "@type": "@vocab",
+      "@container": "@set",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/alertcat/",
+        "geo": "https://schema.govfresh.com/v1/alertcat/geo"
+      }
+    },
+    "conformanceLevel": {
+      "@id": "gs:conformanceLevel",
+      "@type": "@vocab",
+      "@container": "@set",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/conformance/"
+      }
+    },
+    "applicableLegislation": {
+      "@id": "gs:applicableLegislation",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hvdCategory": {
+      "@id": "gs:hvdCategory",
+      "@type": "@id"
+    },
+    "highValueDataset": {
+      "@id": "gs:highValueDataset"
+    },
+    "spatialReferenceSystem": {
+      "@id": "gs:spatialReferenceSystem"
+    },
+    "provenanceStatement": {
+      "@id": "gs:provenanceStatement"
+    },
+    "status": {
+      "@id": "gs:status",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/status/"
+      }
+    }
+  }
+}

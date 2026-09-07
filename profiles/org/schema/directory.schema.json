@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/org/directory.schema.json",
+  "title": "Directory",
+  "description": "A dated, retrievable package of a publisher's whole organizational structure, expressed as a schema.org DataFeed. Without this an org chart is only a pile of files with no statement of what the set contains, when it was current, or who stands behind it. A consumer polls one URL and can tell whether anything changed.",
+  "type": "object",
+  "properties": {
+    "@context": {},
+    "@id": {
+      "type": "string",
+      "format": "iri"
+    },
+    "@type": {
+      "const": "DataFeed"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "format": "iri"
+    },
+    "publisher": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The GovernmentOrganization asserting this directory. Required: an unattributed directory cannot be trusted or corrected."
+    },
+    "about": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The Jurisdiction this directory covers."
+    },
+    "dateModified": {
+      "type": "string",
+      "description": "When the directory last changed. Required, and the field a polling consumer reads first.",
+      "anyOf": [
+        {
+          "format": "date"
+        },
+        {
+          "format": "date-time"
+        }
+      ]
+    },
+    "conformanceLevel": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "core",
+          "standard",
+          "extended"
+        ]
+      },
+      "description": "gov-schema conformance level claimed, per SPEC section 4. Distinct from conformsTo, which names an external standard the data follows."
+    },
+    "numberOfItems": {
+      "type": "integer"
+    },
+    "dataFeedElement": {
+      "type": "array",
+      "items": {
+        "$ref": "../_core/reference.schema.json"
+      },
+      "description": "References to every entity in the directory. References, never inlined copies - see SPEC section 1.2."
+    },
+    "license": {
+      "type": "string",
+      "format": "iri"
+    },
+    "inLanguage": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "@id",
+    "@type",
+    "name",
+    "publisher",
+    "dateModified"
+  ],
+  "additionalProperties": true
+}

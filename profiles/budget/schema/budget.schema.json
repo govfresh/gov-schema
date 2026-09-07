@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/budget/budget.schema.json",
+  "title": "Budget",
+  "description": "A government's fiscal plan for one period, at one phase of the budget cycle. Mirrors the Fiscal Data Package, which remains the source model; this is a schema.org projection for discovery and for joining budgets to the organization, meeting, and legislation that produced them. schema.org has no budget, fiscal, expenditure, or appropriation concept of any kind - MonetaryAmount is a value type, not a model - so gs:Budget is minted outright.",
+  "type": "object",
+  "properties": {
+    "@context": {},
+    "@id": {
+      "type": "string",
+      "format": "iri"
+    },
+    "@type": {
+      "const": "Budget"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "format": "iri"
+    },
+    "identifier": {
+      "type": "array",
+      "items": {
+        "$ref": "../_core/identifier.schema.json"
+      }
+    },
+    "publisher": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The GovernmentOrganization publishing this budget."
+    },
+    "about": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The Jurisdiction it covers."
+    },
+    "budgetPhase": {
+      "type": "string",
+      "description": "Which point in the budget cycle this document represents. Required, and the single most important field here: a budget figure without its phase is not comparable to any other figure.",
+      "enum": [
+        "proposed",
+        "approved",
+        "adjusted",
+        "executed"
+      ]
+    },
+    "fiscalYear": {
+      "type": "string",
+      "description": "The publisher's own label for the period, e.g. 'FY2026' or '2026-27'. A label only - startDate and endDate carry the actual period, because fiscal years begin in different months in different countries."
+    },
+    "startDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "endDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "currency": {
+      "type": "string",
+      "description": "ISO 4217 code. Required: an amount without a currency is unusable outside its own country, and this profile is used across countries.",
+      "pattern": "^[A-Z]{3}$"
+    },
+    "totalAmount": {
+      "$ref": "amount.schema.json",
+      "description": "Sum across the budget, for validation against the lines."
+    },
+    "adoptedBy": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The body that adopted it, usually the legislature."
+    },
+    "enactedAt": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The Meeting at which it was adopted. Joins to the meetings profile."
+    },
+    "legislation": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The appropriation ordinance or act giving it legal force. Joins to the code profile."
+    },
+    "budgetLine": {
+      "type": "array",
+      "items": {
+        "$ref": "../_core/reference.schema.json"
+      }
+    },
+    "supersedes": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The earlier phase this revises, e.g. an approved budget superseding the proposed one. Retain both: comparing phases is most of what budget transparency is for."
+    },
+    "conformanceLevel": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "core",
+          "standard",
+          "extended"
+        ]
+      },
+      "description": "gov-schema conformance level claimed, per SPEC section 4. Distinct from conformsTo, which names an external standard the data follows."
+    },
+    "distribution": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "description": "schema:DataDownload. Publish the Fiscal Data Package itself here; this projection is for discovery, not a replacement for it."
+    },
+    "dateModified": {
+      "type": "string",
+      "anyOf": [
+        {
+          "format": "date"
+        },
+        {
+          "format": "date-time"
+        }
+      ]
+    },
+    "inLanguage": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "license": {
+      "type": "string",
+      "format": "iri"
+    },
+    "sourceDataset": {
+      "type": "string",
+      "format": "iri"
+    }
+  },
+  "required": [
+    "@id",
+    "@type",
+    "name",
+    "publisher",
+    "budgetPhase",
+    "startDate",
+    "endDate",
+    "currency"
+  ],
+  "additionalProperties": true
+}

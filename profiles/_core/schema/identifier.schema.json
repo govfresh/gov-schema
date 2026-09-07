@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/_core/identifier.schema.json",
+  "title": "Identifier",
+  "description": "A scheme-qualified identifier, expressed as a schema.org PropertyValue where propertyID names the scheme and value carries the code. This is the mechanism that makes the model work internationally: no national identifier system is privileged, and an entity may carry as many as it has. The same pattern is used by OCDS for organization identifiers.",
+  "type": "object",
+  "properties": {
+    "@type": {
+      "const": "PropertyValue"
+    },
+    "propertyID": {
+      "type": "string",
+      "description": "The identifier scheme. Use a registered token below, an 'org-id:<prefix>' token from the org-id.guide register, 'local:<scheme>' for a publisher's own internal register (distinct from org-id: so that provenance is never overstated), or an absolute IRI.",
+      "anyOf": [
+        {
+          "enum": [
+            "wikidata",
+            "iso3166-1-alpha2",
+            "iso3166-1-alpha3",
+            "iso3166-2",
+            "geonames",
+            "lei",
+            "ocd-division",
+            "gs:local"
+          ]
+        },
+        {
+          "pattern": "^local:[A-Za-z0-9._-]+$"
+        },
+        {
+          "pattern": "^org-id:[A-Z]{2}-[A-Z0-9]+$"
+        },
+        {
+          "format": "iri"
+        }
+      ]
+    },
+    "value": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name of the scheme."
+    }
+  },
+  "required": [
+    "@type",
+    "propertyID",
+    "value"
+  ],
+  "additionalProperties": false
+}

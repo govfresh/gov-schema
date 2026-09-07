@@ -1,0 +1,161 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://example-city.gov/id/jurisdiction/us",
+      "@type": "Country",
+      "name": "United States of America",
+      "governmentLevel": "national",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "iso3166-1-alpha2",
+          "value": "US"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "iso3166-1-alpha3",
+          "value": "USA"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q30"
+        }
+      ]
+    },
+    {
+      "@id": "https://example-city.gov/id/jurisdiction/us-ca",
+      "@type": "State",
+      "name": "California",
+      "governmentLevel": "regional",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "iso3166-2",
+          "value": "US-CA"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q99"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://example-city.gov/id/jurisdiction/us",
+        "name": "United States of America"
+      }
+    },
+    {
+      "@id": "https://example-city.gov/id/jurisdiction/example-city",
+      "@type": "City",
+      "name": "Example City",
+      "alternateName": [
+        "City of Example"
+      ],
+      "governmentLevel": "municipal",
+      "url": "https://example-city.gov",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ocd-division",
+          "value": "ocd-division/country:us/state:ca/place:example_city"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "example-city"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://example-city.gov/id/jurisdiction/us-ca",
+        "name": "California"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "population": {
+        "@type": "QuantitativeValue",
+        "value": 75000,
+        "observationDate": "2020-04-01"
+      },
+      "timeZone": "America/Los_Angeles",
+      "jurisdictionOf": [
+        {
+          "@id": "https://example-city.gov/id/organization/city-government",
+          "name": "Example City Government"
+        }
+      ]
+    },
+    {
+      "@id": "https://example-city.gov/id/jurisdiction/example-city/district-2",
+      "@type": "AdministrativeArea",
+      "name": "District 2",
+      "governmentLevel": "submunicipal",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "district-2"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city",
+        "name": "Example City"
+      }
+    },
+    {
+      "@id": "https://example-city.gov/id/jurisdiction/example-city/district-1",
+      "@type": "AdministrativeArea",
+      "name": "District 1",
+      "governmentLevel": "submunicipal",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "district-1"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city",
+        "name": "Example City"
+      }
+    },
+    {
+      "@id": "https://example-city.gov/id/jurisdiction/example-city/district-3",
+      "@type": "AdministrativeArea",
+      "name": "District 3",
+      "governmentLevel": "submunicipal",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "district-3"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city",
+        "name": "Example City"
+      }
+    },
+    {
+      "@id": "https://example-city.gov/id/jurisdiction/example-city/district-4",
+      "@type": "AdministrativeArea",
+      "name": "District 4",
+      "governmentLevel": "submunicipal",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "district-4"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city",
+        "name": "Example City"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "gov-schema",
+  "version": "1.0.0",
+  "description": "A shared vocabulary for describing government, built as a profile of schema.org and established open standards.",
+  "type": "module",
+  "scripts": {
+    "build": "npx @11ty/eleventy --quiet",
+    "start": "npx @11ty/eleventy --serve --quiet",
+    "validate": "python3 tools/validate.py examples/example-city",
+    "check:namespace": "node tools/check-namespace.js",
+    "check": "npm run build && npm run check:namespace && npm run check:context && npm run audit:jsonld && npm run validate && npm run validate:shacl && npm run validate:pilot",
+    "validate:shacl": "python3 tools/shacl.py examples/example-city",
+    "validate:pilot": "python3 tools/validate.py examples/pilot-uk-contracts && python3 tools/shacl.py examples/pilot-uk-contracts && python3 tools/validate.py examples/pilot-ie-datasets && python3 tools/shacl.py examples/pilot-ie-datasets",
+    "check:context": "python3 tools/check-context.py",
+    "audit:jsonld": "python3 tools/audit-jsonld.py"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-navigation": "^1.0.5",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "markdown-it": "^14.1.0"
+  },
+  "license": "CC0-1.0 AND MIT"
+}

@@ -1,0 +1,685 @@
+@prefix gs:      <https://schema.govfresh.com/v1/> .
+@prefix schema:  <https://schema.org/> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+
+gs: a owl:Ontology ;
+    dcterms:title "gov-schema core vocabulary" ;
+    dcterms:description "Terms required to describe government entities that schema.org does not provide. Every term here is a subclass or subproperty of a schema.org term, so a consumer that understands only schema.org still reads a valid document." ;
+    dcterms:publisher <https://govfresh.com> ;
+    owl:versionInfo "1.0.0-draft" .
+
+##  Design rule: mint nothing schema.org already covers.
+##  Deliberately NOT minted, because schema.org has them:
+##    org -> jurisdiction        use schema:areaServed  (range includes AdministrativeArea)
+##    entity identity            use schema:identifier -> schema:PropertyValue (propertyID + value)
+##    org hierarchy              use schema:parentOrganization / subOrganization / department
+##    officeholding & terms      use schema:OrganizationRole + roleName/startDate/endDate
+##    legislation status         use schema:legislationLegalForce
+##    legislation amendments     use schema:legislationAmends / Repeals / Consolidates / Changes
+##    meeting recurrence         use schema:eventSchedule -> schema:Schedule
+
+#################  Properties  #################
+
+gs:governmentLevel a rdf:Property ;
+    rdfs:label "government level" ;
+    rdfs:comment "Tier of government this entity belongs to, as a gs:GovernmentLevel term. Levels differ by country, so the value is a DefinedTerm from an extensible set rather than a fixed enumeration." ;
+    schema:domainIncludes schema:AdministrativeArea, schema:GovernmentOrganization ;
+    schema:rangeIncludes schema:DefinedTerm ;
+    rdfs:subPropertyOf schema:additionalType .
+
+gs:organizationClassification a rdf:Property ;
+    rdfs:label "organization classification" ;
+    rdfs:comment "Kind of government body: legislature, executive, department, committee, agency, court, and so on. Corresponds to Popolo Organization.classification." ;
+    schema:domainIncludes schema:GovernmentOrganization ;
+    schema:rangeIncludes schema:DefinedTerm ;
+    rdfs:subPropertyOf schema:additionalType .
+
+gs:jurisdictionOf a rdf:Property ;
+    rdfs:label "jurisdiction of" ;
+    rdfs:comment "Inverse of schema:areaServed: the government organization that governs this area. Convenience only; schema:areaServed is normative." ;
+    schema:domainIncludes schema:AdministrativeArea ;
+    schema:rangeIncludes schema:GovernmentOrganization ;
+    owl:inverseOf schema:areaServed .
+
+gs:population a rdf:Property ;
+    rdfs:label "population" ;
+    rdfs:comment "Resident population of an area. schema.org has no population property. Carry the count as a schema:QuantitativeValue so the census date and source stay attached to the number." ;
+    schema:domainIncludes schema:AdministrativeArea ;
+    schema:rangeIncludes schema:QuantitativeValue .
+
+gs:timeZone a rdf:Property ;
+    rdfs:label "time zone" ;
+    rdfs:comment "IANA time zone identifier for the area, e.g. 'Europe/Lisbon'. Used to resolve local meeting times." ;
+    schema:domainIncludes schema:AdministrativeArea, schema:GovernmentOrganization ;
+    schema:rangeIncludes schema:Text .
+
+gs:sourceDataset a rdf:Property ;
+    rdfs:label "source dataset" ;
+    rdfs:comment "The dataset or API this record was derived from, for provenance and refresh." ;
+    schema:domainIncludes schema:Thing ;
+    schema:rangeIncludes schema:Dataset, schema:URL .
+
+#################  Code lists  #################
+
+gs:GovernmentLevel a schema:DefinedTermSet ;
+    schema:name "Government level" ;
+    rdfs:comment "Extensible. Publishers MAY add national terms via skos:broader onto a term here." .
+
+gs:OrganizationClassification a schema:DefinedTermSet ;
+    schema:name "Government organization classification" ;
+    rdfs:comment "Aligned with Popolo Organization.classification and W3C ORG." .
+
+#################  org profile  #################
+
+gs:Post a rdfs:Class ;
+    rdfs:label "Post" ;
+    rdfs:comment "An office that exists independently of whoever holds it. A schema:Role binds a person to an organization for a time span, but when nobody holds the office there is no Role and the office still exists. Equivalent to Popolo Post. schema.org has no such concept." ;
+    rdfs:subClassOf schema:Role .
+
+gs:post a rdf:Property ;
+    rdfs:label "post" ;
+    rdfs:comment "The Post that this Role is a tenure in. Grouping Roles by Post yields a succession." ;
+    schema:domainIncludes schema:Role ;
+    schema:rangeIncludes gs:Post .
+
+gs:roleClassification a rdf:Property ;
+    rdfs:label "role classification" ;
+    rdfs:comment "How an office is filled: elected, appointed, employed, ex officio, volunteer, hereditary. Mechanism-based rather than title-based, because titles do not translate across countries but mechanisms do." ;
+    schema:domainIncludes gs:Post, schema:Role ;
+    schema:rangeIncludes schema:DefinedTerm ;
+    rdfs:subPropertyOf schema:additionalType .
+
+gs:vacantSince a rdf:Property ;
+    rdfs:label "vacant since" ;
+    rdfs:comment "Date from which a Post has been unfilled. A vacancy is publishable information: omitting it is indistinguishable from never having collected it." ;
+    schema:domainIncludes gs:Post ;
+    schema:rangeIncludes schema:Date .
+
+gs:termDuration a rdf:Property ;
+    rdfs:label "term duration" ;
+    rdfs:comment "Nominal length of one term of an office, as an ISO 8601 duration. Nominal, not actual: a specific tenure's real dates live on the Role." ;
+    schema:domainIncludes gs:Post ;
+    schema:rangeIncludes schema:Duration .
+
+gs:maximumTermCount a rdf:Property ;
+    rdfs:label "maximum term count" ;
+    rdfs:comment "Term limit on an office, where one applies." ;
+    schema:domainIncludes gs:Post ;
+    schema:rangeIncludes schema:Integer .
+
+gs:representsJurisdiction a rdf:Property ;
+    rdfs:label "represents jurisdiction" ;
+    rdfs:comment "For a seat tied to a ward or district rather than the whole governed area: the Jurisdiction the holder represents. Distinct from the organization's own schema:areaServed, which is the territory the body governs as a whole." ;
+    schema:domainIncludes schema:Role, gs:Post ;
+    schema:rangeIncludes schema:AdministrativeArea .
+
+gs:RoleClassification a schema:DefinedTermSet ;
+    schema:name "Role classification" .
+
+#################  code profile  #################
+
+gs:codificationLevel a rdf:Property ;
+    rdfs:label "codification level" ;
+    rdfs:comment "The structural tier a piece of legislation occupies within a code. schema:hasPart nests parts but never says what kind of part; this is the one substantive gap in schema.org's ELI-derived legislation vocabulary." ;
+    schema:domainIncludes schema:Legislation ;
+    schema:rangeIncludes schema:DefinedTerm ;
+    rdfs:subPropertyOf schema:additionalType .
+
+gs:enactedAt a rdf:Property ;
+    rdfs:label "enacted at" ;
+    rdfs:comment "The Meeting at which legislation was adopted. schema:legislationPassedBy records which body passed it, but not the sitting; without this the vote record cannot be reached from the law." ;
+    schema:domainIncludes schema:Legislation ;
+    schema:rangeIncludes gs:Meeting .
+
+gs:CodificationLevel a schema:DefinedTermSet ;
+    schema:name "Codification level" .
+
+gs:LegislationType a schema:DefinedTermSet ;
+    schema:name "Legislation type" .
+
+#################  meetings profile  #################
+
+gs:Meeting a rdfs:Class ;
+    rdfs:label "Meeting" ;
+    rdfs:comment "A sitting of a government body. Minted because schema:Event cannot distinguish a council meeting from a concert, and discovery depends on that distinction. All scheduling, status, location and media properties are inherited from Event unchanged." ;
+    rdfs:subClassOf schema:Event .
+
+gs:AgendaItem a rdfs:Class ;
+    rdfs:label "Agenda item" ;
+    rdfs:comment "One numbered piece of business at a meeting. schema:ListItem supplies the ordering; this adds the decision and the link to the legislation considered." ;
+    rdfs:subClassOf schema:ListItem .
+
+gs:VoteEvent a rdfs:Class ;
+    rdfs:label "Vote event" ;
+    rdfs:comment "A single vote taken by a body, with its tally. Modelled on Popolo VoteEvent rather than schema:VoteAction, which is built around choosing a candidate and cannot express aye, nay or abstain on a motion." ;
+    rdfs:subClassOf schema:Event .
+
+gs:Vote a rdfs:Class ;
+    rdfs:label "Vote" ;
+    rdfs:comment "One member's cast vote within a VoteEvent. Equivalent to Popolo Vote." ;
+    rdfs:subClassOf schema:Intangible .
+
+gs:agendaItem a rdf:Property ;
+    rdfs:label "agenda item" ;
+    rdfs:comment "The ordered business of a meeting." ;
+    schema:domainIncludes gs:Meeting ;
+    schema:rangeIncludes gs:AgendaItem .
+
+gs:voteEvent a rdf:Property ;
+    rdfs:label "vote event" ;
+    rdfs:comment "A vote taken on an agenda item. More than one is normal: an amendment, then the main motion." ;
+    schema:domainIncludes gs:AgendaItem ;
+    schema:rangeIncludes gs:VoteEvent .
+
+gs:result a rdf:Property ;
+    rdfs:label "result" ;
+    rdfs:comment "The decision reached on an agenda item, or the outcome of a vote. Absent means not yet decided, which is distinct from a decision of no action." ;
+    schema:domainIncludes gs:AgendaItem, gs:VoteEvent ;
+    schema:rangeIncludes schema:DefinedTerm .
+
+gs:count a rdf:Property ;
+    rdfs:label "count" ;
+    rdfs:comment "The tally of a vote, one entry per option. Equivalent to Popolo Count." ;
+    schema:domainIncludes gs:VoteEvent ;
+    schema:rangeIncludes schema:StructuredValue .
+
+gs:vote a rdf:Property ;
+    rdfs:label "vote" ;
+    rdfs:comment "An individual cast vote. Publishing counts alone is valid; publishing individual votes is what makes a record auditable." ;
+    schema:domainIncludes gs:VoteEvent ;
+    schema:rangeIncludes gs:Vote .
+
+gs:voter a rdf:Property ;
+    rdfs:label "voter" ;
+    rdfs:comment "The person who cast a vote." ;
+    schema:domainIncludes gs:Vote ;
+    schema:rangeIncludes schema:Person .
+
+gs:option a rdf:Property ;
+    rdfs:label "option" ;
+    rdfs:comment "How a vote was cast or counted: yes, no, abstain, absent, excused, not voting." ;
+    schema:domainIncludes gs:Vote ;
+    schema:rangeIncludes schema:DefinedTerm .
+
+gs:requiredMajority a rdf:Property ;
+    rdfs:label "required majority" ;
+    rdfs:comment "The threshold that applied to a vote. Without it a reader cannot tell whether a 4-3 vote carried." ;
+    schema:domainIncludes gs:VoteEvent ;
+    schema:rangeIncludes schema:Text .
+
+gs:minutes a rdf:Property ;
+    rdfs:label "minutes" ;
+    rdfs:comment "The adopted minutes of a meeting, once approved. Distinct from the agenda, which is published beforehand." ;
+    schema:domainIncludes gs:Meeting ;
+    schema:rangeIncludes schema:CreativeWork, schema:URL .
+
+gs:agendaDocument a rdf:Property ;
+    rdfs:label "agenda document" ;
+    rdfs:comment "The published agenda for a meeting." ;
+    schema:domainIncludes gs:Meeting ;
+    schema:rangeIncludes schema:CreativeWork, schema:URL .
+
+gs:recording a rdf:Property ;
+    rdfs:label "recording" ;
+    rdfs:comment "Audio or video of the proceedings." ;
+    schema:domainIncludes gs:Meeting ;
+    schema:rangeIncludes schema:MediaObject .
+
+gs:VoteOption a schema:DefinedTermSet ;
+    schema:name "Vote option" .
+
+#################  requests profile  #################
+
+gs:ServiceRequest a rdfs:Class ;
+    rdfs:label "Service request" ;
+    rdfs:comment "One report of a problem or request for service. schema.org has no service request, complaint, case, or incident concept of any kind, so this is minted outright rather than derived. Mirrors Open311 GeoReport v2, which remains the source model." ;
+    rdfs:subClassOf schema:Intangible .
+
+gs:serviceRequestId a rdf:Property ;
+    rdfs:label "service request id" ;
+    rdfs:comment "The publisher's own request number as shown to the public. Open311 service_request_id." ;
+    schema:domainIncludes gs:ServiceRequest ;
+    schema:rangeIncludes schema:Text ;
+    rdfs:subPropertyOf schema:identifier .
+
+gs:serviceCode a rdf:Property ;
+    rdfs:label "service code" ;
+    rdfs:comment "Stable code identifying a requestable service. Open311 service_code." ;
+    schema:domainIncludes schema:GovernmentService, gs:ServiceRequest ;
+    schema:rangeIncludes schema:Text .
+
+gs:requestStatus a rdf:Property ;
+    rdfs:label "request status" ;
+    rdfs:comment "Progress of a service request. schema:ActionStatusType has only four values, none of which distinguish rejected from completed, so a dedicated code list is used." ;
+    schema:domainIncludes gs:ServiceRequest ;
+    schema:rangeIncludes schema:DefinedTerm .
+
+gs:statusNote a rdf:Property ;
+    rdfs:label "status note" ;
+    rdfs:comment "Public explanation of a request's current status. Open311 status_notes." ;
+    schema:domainIncludes gs:ServiceRequest ;
+    schema:rangeIncludes schema:Text .
+
+gs:agencyResponsible a rdf:Property ;
+    rdfs:label "agency responsible" ;
+    rdfs:comment "The government organization handling a service request. Open311 agency_responsible." ;
+    schema:domainIncludes gs:ServiceRequest ;
+    schema:rangeIncludes schema:GovernmentOrganization ;
+    rdfs:subPropertyOf schema:provider .
+
+gs:expectedResolutionDate a rdf:Property ;
+    rdfs:label "expected resolution date" ;
+    rdfs:comment "When the authority expects to resolve the request. Open311 expected_datetime." ;
+    schema:domainIncludes gs:ServiceRequest ;
+    schema:rangeIncludes schema:DateTime .
+
+gs:requestAttribute a rdf:Property ;
+    rdfs:label "request attribute" ;
+    rdfs:comment "A question asked when submitting a request for this service. Open311 Service Definition attribute, expressed as a schema:PropertyValueSpecification so no form-field vocabulary needed minting." ;
+    schema:domainIncludes schema:GovernmentService ;
+    schema:rangeIncludes schema:PropertyValueSpecification .
+
+gs:valueOption a rdf:Property ;
+    rdfs:label "value option" ;
+    rdfs:comment "A permitted value for a list-type request attribute. Open311 values[]." ;
+    schema:domainIncludes schema:PropertyValueSpecification ;
+    schema:rangeIncludes schema:DefinedTerm .
+
+gs:isRealtime a rdf:Property ;
+    rdfs:label "is realtime" ;
+    rdfs:comment "Whether submitting a request returns an identifier immediately. Open311 type: realtime versus batch or blackbox." ;
+    schema:domainIncludes schema:GovernmentService ;
+    schema:rangeIncludes schema:Boolean .
+
+gs:ServiceRequestStatus a schema:DefinedTermSet ;
+    schema:name "Service request status" .
+
+#################  budget profile  #################
+
+gs:Budget a rdfs:Class ;
+    rdfs:label "Budget" ;
+    rdfs:comment "A government's fiscal plan for one period, at one phase of the budget cycle. schema.org has no budget, fiscal, expenditure or appropriation concept; schema:MonetaryAmount is a value type, not a model. Mirrors the Fiscal Data Package, which remains the source model." ;
+    rdfs:subClassOf schema:Dataset .
+
+gs:BudgetLine a rdfs:Class ;
+    rdfs:label "Budget line" ;
+    rdfs:comment "One allocated amount within a budget, classified along the Fiscal Data Package dimensions." ;
+    rdfs:subClassOf schema:Intangible .
+
+gs:budgetPhase a rdf:Property ;
+    rdfs:label "budget phase" ;
+    rdfs:comment "Where in the budget cycle a figure comes from: proposed, approved, adjusted or executed. The field publishers most often omit and the one that matters most, since a figure without its phase is not comparable to any other figure." ;
+    schema:domainIncludes gs:Budget, gs:BudgetLine ;
+    schema:rangeIncludes schema:DefinedTerm .
+
+gs:budgetLine a rdf:Property ;
+    rdfs:label "budget line" ;
+    rdfs:comment "A line within a budget." ;
+    schema:domainIncludes gs:Budget ;
+    schema:rangeIncludes gs:BudgetLine .
+
+gs:budget a rdf:Property ;
+    rdfs:label "budget" ;
+    rdfs:comment "The budget a line belongs to." ;
+    schema:domainIncludes gs:BudgetLine ;
+    schema:rangeIncludes gs:Budget .
+
+gs:direction a rdf:Property ;
+    rdfs:label "direction" ;
+    rdfs:comment "Whether a budget line is revenue, expenditure or a financing movement. Required, because a bare amount cannot be interpreted without it." ;
+    schema:domainIncludes gs:BudgetLine ;
+    schema:rangeIncludes schema:DefinedTerm .
+
+gs:functionalClassification a rdf:Property ;
+    rdfs:label "functional classification" ;
+    rdfs:comment "What the money is for, as a COFOG code. Administrative structures differ in every country, so this is the dimension that makes budgets internationally comparable." ;
+    schema:domainIncludes gs:BudgetLine ;
+    schema:rangeIncludes schema:DefinedTerm .
+
+gs:economicClassification a rdf:Property ;
+    rdfs:label "economic classification" ;
+    rdfs:comment "What kind of transaction a line is, as a GFSM 2014 code: salaries, goods, interest, capital." ;
+    schema:domainIncludes gs:BudgetLine ;
+    schema:rangeIncludes schema:DefinedTerm .
+
+gs:administrativeClassification a rdf:Property ;
+    rdfs:label "administrative classification" ;
+    rdfs:comment "Which body spends a line, as a reference to a GovernmentOrganization rather than a free-text department name." ;
+    schema:domainIncludes gs:BudgetLine ;
+    schema:rangeIncludes schema:GovernmentOrganization .
+
+gs:programClassification a rdf:Property ;
+    rdfs:label "program classification" ;
+    rdfs:comment "The publisher's own programme or activity code." ;
+    schema:domainIncludes gs:BudgetLine ;
+    schema:rangeIncludes schema:Text .
+
+gs:fundSource a rdf:Property ;
+    rdfs:label "fund source" ;
+    rdfs:comment "The fund or financing source a line draws on." ;
+    schema:domainIncludes gs:BudgetLine ;
+    schema:rangeIncludes schema:Text .
+
+gs:fiscalYear a rdf:Property ;
+    rdfs:label "fiscal year" ;
+    rdfs:comment "The publisher's label for the budget period. A label only: fiscal years begin in different months in different countries, so startDate and endDate carry the actual period." ;
+    schema:domainIncludes gs:Budget ;
+    schema:rangeIncludes schema:Text .
+
+gs:adoptedBy a rdf:Property ;
+    rdfs:label "adopted by" ;
+    rdfs:comment "The body that adopted a budget, usually the legislature." ;
+    schema:domainIncludes gs:Budget ;
+    schema:rangeIncludes schema:GovernmentOrganization .
+
+gs:BudgetPhase a schema:DefinedTermSet ;
+    schema:name "Budget phase" .
+
+gs:COFOG a schema:DefinedTermSet ;
+    schema:name "COFOG functional classification" .
+
+gs:EconomicClassification a schema:DefinedTermSet ;
+    schema:name "GFSM economic classification" .
+
+gs:supersedes a rdf:Property ;
+    rdfs:label "supersedes" ;
+    rdfs:comment "An earlier version this one revises, such as an approved budget superseding the proposed one. Both are retained: comparing phases is most of what budget transparency is for. For legislation use the precise ELI properties (legislationAmends, legislationRepeals) instead." ;
+    schema:domainIncludes gs:Budget ;
+    schema:rangeIncludes schema:Thing .
+
+gs:legislation a rdf:Property ;
+    rdfs:label "legislation" ;
+    rdfs:comment "The appropriation ordinance or act giving a budget legal force. Joins the budget profile to the code profile." ;
+    schema:domainIncludes gs:Budget ;
+    schema:rangeIncludes schema:Legislation .
+
+#################  procurement profile  #################
+
+gs:ContractingProcess a rdfs:Class ;
+    rdfs:label "Contracting process" ;
+    rdfs:comment "One complete procurement, from planning through tender, award and contract, identified by an ocid. schema.org has no tender, procurement, bid or solicitation concept; schema:Demand and schema:Offer are retail constructs carrying GTIN, SKU and warranty semantics that do not apply to public procurement. Mirrors the Open Contracting Data Standard, which remains the source model." ;
+    rdfs:subClassOf schema:Intangible .
+
+gs:Tender a rdfs:Class ;
+    rdfs:label "Tender" ;
+    rdfs:comment "The solicitation: what is being bought, how bids are invited, on what timetable." ;
+    rdfs:subClassOf schema:Intangible .
+
+gs:Award a rdfs:Class ;
+    rdfs:label "Award" ;
+    rdfs:comment "The decision to give a contract to a supplier. Distinct from schema:award, which is a prize or honour." ;
+    rdfs:subClassOf schema:Intangible .
+
+gs:Contract a rdfs:Class ;
+    rdfs:label "Contract" ;
+    rdfs:comment "The signed agreement resulting from an award, and what was actually paid under it." ;
+    rdfs:subClassOf schema:Intangible .
+
+gs:Party a rdfs:Class ;
+    rdfs:label "Party" ;
+    rdfs:comment "An organization taking part in a contracting process, with the roles it plays. Usually a private company, so a plain schema:Organization rather than a GovernmentOrganization." ;
+    rdfs:subClassOf schema:Organization .
+
+gs:ocid a rdf:Property ;
+    rdfs:label "ocid" ;
+    rdfs:comment "Open Contracting ID: a globally unique identifier for a contracting process, carrying a registered publisher prefix. The join key that makes OCDS data aggregatable across publishers." ;
+    schema:domainIncludes gs:ContractingProcess ;
+    schema:rangeIncludes schema:Text ;
+    rdfs:subPropertyOf schema:identifier .
+
+gs:procurementMethod a rdf:Property ;
+    rdfs:label "procurement method" ;
+    rdfs:comment "How bids were invited: open, selective, limited or direct. The field that makes non-competitive awards visible." ;
+    schema:domainIncludes gs:Tender ;
+    schema:rangeIncludes schema:DefinedTerm .
+
+gs:procurementMethodRationale a rdf:Property ;
+    rdfs:label "procurement method rationale" ;
+    rdfs:comment "Why a procurement method was chosen. Expected whenever the method is direct: a sole-source award without a stated reason is the most common audit finding in public procurement." ;
+    schema:domainIncludes gs:Tender ;
+    schema:rangeIncludes schema:Text .
+
+gs:mainProcurementCategory a rdf:Property ;
+    rdfs:label "main procurement category" ;
+    rdfs:comment "Goods, works, services or consulting services." ;
+    schema:domainIncludes gs:Tender ;
+    schema:rangeIncludes schema:DefinedTerm .
+
+gs:classification a rdf:Property ;
+    rdfs:label "classification" ;
+    rdfs:comment "What is being bought, as a scheme-qualified code: CPV in the EU, UNSPSC globally, NIGP in much of the US." ;
+    schema:domainIncludes gs:Tender ;
+    schema:rangeIncludes schema:PropertyValue .
+
+gs:tender a rdf:Property ;
+    schema:domainIncludes gs:ContractingProcess ; schema:rangeIncludes gs:Tender ;
+    rdfs:label "tender" ; rdfs:comment "The solicitation stage of a contracting process." .
+
+gs:award a rdf:Property ;
+    schema:domainIncludes gs:ContractingProcess ; schema:rangeIncludes gs:Award ;
+    rdfs:label "award" ; rdfs:comment "An award made in a contracting process. Distinct from schema:award, a prize." .
+
+gs:contract a rdf:Property ;
+    schema:domainIncludes gs:ContractingProcess ; schema:rangeIncludes gs:Contract ;
+    rdfs:label "contract" ; rdfs:comment "A contract signed in a contracting process." .
+
+gs:party a rdf:Property ;
+    schema:domainIncludes gs:ContractingProcess ; schema:rangeIncludes gs:Party ;
+    rdfs:label "party" ; rdfs:comment "An organization involved in a contracting process." .
+
+gs:supplier a rdf:Property ;
+    schema:domainIncludes gs:Award ; schema:rangeIncludes gs:Party ;
+    rdfs:label "supplier" ; rdfs:comment "A party awarded a contract. Always a reference: a supplier name as free text cannot be joined across contracts, which is how repeat awards to connected parties stay invisible." .
+
+gs:amountPaid a rdf:Property ;
+    schema:domainIncludes gs:Contract ; schema:rangeIncludes schema:MonetaryAmount ;
+    rdfs:label "amount paid" ; rdfs:comment "Total transacted to date under a contract. Kept distinct from the contract value so that overruns are visible." .
+
+gs:ProcurementMethod a schema:DefinedTermSet ; schema:name "Procurement method" .
+gs:ProcurementCategory a schema:DefinedTermSet ; schema:name "Procurement category" .
+gs:PartyRole a schema:DefinedTermSet ; schema:name "Party role" .
+
+gs:status a rdf:Property ;
+    rdfs:label "status" ;
+    rdfs:comment "Stage-specific status of a tender, award or contract. The permitted values differ by stage and are defined in each schema rather than in one shared list, because 'active' means something different for a tender than for a contract." ;
+    schema:domainIncludes gs:Tender, gs:Award, gs:Contract ;
+    schema:rangeIncludes schema:DefinedTerm .
+
+gs:role a rdf:Property ;
+    rdfs:label "role" ;
+    rdfs:comment "What an organization does in a contracting process. One organization may hold several roles in the same process." ;
+    schema:domainIncludes gs:Party ;
+    schema:rangeIncludes schema:DefinedTerm .
+
+gs:dateSigned a rdf:Property ;
+    schema:domainIncludes gs:Contract ; schema:rangeIncludes schema:Date ;
+    rdfs:label "date signed" ; rdfs:comment "When a contract was signed." .
+
+gs:numberOfTenderers a rdf:Property ;
+    schema:domainIncludes gs:Tender ; schema:rangeIncludes schema:Integer ;
+    rdfs:label "number of tenderers" ; rdfs:comment "How many bids were received. A competitive method that attracted one bid is not a competition, and only this field reveals that." .
+
+gs:document a rdf:Property ;
+    schema:domainIncludes gs:Tender, gs:Award, gs:Contract ; schema:rangeIncludes schema:URL ;
+    rdfs:label "document" ; rdfs:comment "A published document relating to this stage." .
+
+gs:tenderId a rdf:Property ; schema:domainIncludes gs:Tender ; schema:rangeIncludes schema:Text ;
+    rdfs:label "tender id" ; rdfs:subPropertyOf schema:identifier .
+gs:awardId a rdf:Property ; schema:domainIncludes gs:Award, gs:Contract ; schema:rangeIncludes schema:Text ;
+    rdfs:label "award id" ; rdfs:subPropertyOf schema:identifier .
+gs:contractId a rdf:Property ; schema:domainIncludes gs:Contract ; schema:rangeIncludes schema:Text ;
+    rdfs:label "contract id" ; rdfs:subPropertyOf schema:identifier .
+gs:procurementMethodDetails a rdf:Property ; schema:domainIncludes gs:Tender ; schema:rangeIncludes schema:Text ;
+    rdfs:label "procurement method details" ; rdfs:comment "The publisher's own name for the procedure used." .
+
+#################  catalog profile  #################
+
+gs:PublisherManifest a rdfs:Class ;
+    rdfs:label "Publisher manifest" ;
+    rdfs:comment "The discovery document that makes a publisher's gov-schema data findable, served at /.well-known/gov-schema.json per RFC 8615. The only document in gov-schema with a fixed, conventional location: everything else is discovered through it." ;
+    rdfs:subClassOf schema:CreativeWork .
+
+gs:ProfileEndpoint a rdfs:Class ;
+    rdfs:label "Profile endpoint" ;
+    rdfs:comment "One published profile and the URL serving it. Entries in a manifest form the routing table for a publisher." ;
+    rdfs:subClassOf schema:EntryPoint .
+
+gs:profileEndpoint a rdf:Property ;
+    rdfs:label "profile endpoint" ;
+    rdfs:comment "A profile this publisher serves, and where." ;
+    schema:domainIncludes gs:PublisherManifest ;
+    schema:rangeIncludes gs:ProfileEndpoint .
+
+gs:profile a rdf:Property ;
+    rdfs:label "profile" ;
+    rdfs:comment "Which gov-schema profile an endpoint or dataset serves." ;
+    schema:domainIncludes gs:ProfileEndpoint, schema:Dataset ;
+    schema:rangeIncludes schema:Text .
+
+gs:specVersion a rdf:Property ;
+    rdfs:label "spec version" ;
+    rdfs:comment "The gov-schema version a publisher targets, so a consumer can detect one pinned to an older profile." ;
+    schema:domainIncludes gs:PublisherManifest ;
+    schema:rangeIncludes schema:Text .
+
+gs:dataTheme a rdf:Property ;
+    rdfs:label "data theme" ;
+    rdfs:comment "Subject category of a dataset, from the EU data-theme vocabulary used by DCAT-AP." ;
+    schema:domainIncludes schema:Dataset ;
+    schema:rangeIncludes schema:DefinedTerm .
+
+gs:updateFrequency a rdf:Property ;
+    rdfs:label "update frequency" ;
+    rdfs:comment "How often a dataset is refreshed. DCAT dct:accrualPeriodicity. A dataset with no stated cadence cannot be told apart from an abandoned one." ;
+    schema:domainIncludes schema:Dataset ;
+    schema:rangeIncludes schema:Duration, schema:Text .
+
+gs:accessRights a rdf:Property ;
+    rdfs:label "access rights" ;
+    rdfs:comment "Whether the data itself is public, restricted, or non-public. DCAT dct:accessRights. Publishing restricted metadata is legitimate and useful; publishing it without saying so is not." ;
+    schema:domainIncludes schema:Dataset ;
+    schema:rangeIncludes schema:Text .
+
+gs:accessUrl a rdf:Property ;
+    rdfs:label "access url" ;
+    rdfs:comment "A landing page or API root where there is no direct download. DCAT dcat:accessURL, as distinct from dcat:downloadURL." ;
+    schema:domainIncludes schema:DataDownload ;
+    schema:rangeIncludes schema:URL .
+
+gs:DataTheme a schema:DefinedTermSet ;
+    schema:name "Data theme" .
+
+#################  alerts profile  #################
+
+gs:Alert a rdfs:Class ;
+    rdfs:label "Alert" ;
+    rdfs:comment "A public warning or notice issued by a government. Modelled on OASIS CAP 1.2. schema:SpecialAnnouncement exists but every property on it is pandemic-specific and it carries no severity, urgency, certainty or expiry, so it serves only as a discovery projection." ;
+    rdfs:subClassOf schema:CreativeWork .
+
+gs:AlertInfo a rdfs:Class ;
+    rdfs:label "Alert info" ;
+    rdfs:comment "One language variant of an alert's content. CAP separates alert from info precisely so a warning can be issued in several languages at once." ;
+    rdfs:subClassOf schema:Intangible .
+
+gs:AlertArea a rdfs:Class ;
+    rdfs:label "Alert area" ;
+    rdfs:comment "Where an alert applies. Geometry is referenced by URL rather than embedded: a warning polygon is thousands of coordinate pairs, and alerts travel over constrained channels." ;
+    rdfs:subClassOf schema:Intangible .
+
+gs:alertIdentifier a rdf:Property ; schema:domainIncludes gs:Alert ; schema:rangeIncludes schema:Text ;
+    rdfs:label "alert identifier" ; rdfs:subPropertyOf schema:identifier .
+gs:alertStatus a rdf:Property ; schema:domainIncludes gs:Alert ; schema:rangeIncludes schema:DefinedTerm ;
+    rdfs:label "alert status" ;
+    rdfs:comment "CAP status. Exercise and test messages must never render as real; publishing them without this field is dangerous." .
+gs:messageType a rdf:Property ; schema:domainIncludes gs:Alert ; schema:rangeIncludes schema:DefinedTerm ;
+    rdfs:label "message type" ;
+    rdfs:comment "CAP msgType. An update or cancel must reference the alert it supersedes." .
+gs:scope a rdf:Property ; schema:domainIncludes gs:Alert ; schema:rangeIncludes schema:DefinedTerm ;
+    rdfs:label "scope" .
+gs:alertInfo a rdf:Property ; schema:domainIncludes gs:Alert ; schema:rangeIncludes gs:AlertInfo ;
+    rdfs:label "alert info" .
+gs:area a rdf:Property ; schema:domainIncludes gs:Alert ; schema:rangeIncludes gs:AlertArea ;
+    rdfs:label "area" .
+gs:urgency a rdf:Property ; schema:domainIncludes gs:AlertInfo ; schema:rangeIncludes schema:DefinedTerm ;
+    rdfs:label "urgency" ; rdfs:comment "How soon responsive action should be taken. CAP urgency." .
+gs:severity a rdf:Property ; schema:domainIncludes gs:AlertInfo ; schema:rangeIncludes schema:DefinedTerm ;
+    rdfs:label "severity" ; rdfs:comment "Intensity of the threat to life or property. CAP severity." .
+gs:certainty a rdf:Property ; schema:domainIncludes gs:AlertInfo ; schema:rangeIncludes schema:DefinedTerm ;
+    rdfs:label "certainty" ; rdfs:comment "Confidence that the event will occur. CAP certainty. Together with urgency and severity this is what lets a system decide whether to interrupt someone." .
+gs:responseType a rdf:Property ; schema:domainIncludes gs:AlertInfo ; schema:rangeIncludes schema:DefinedTerm ;
+    rdfs:label "response type" ; rdfs:comment "What the public should do, machine-readable and separate from the free-text instruction." .
+gs:instruction a rdf:Property ; schema:domainIncludes gs:AlertInfo ; schema:rangeIncludes schema:Text ;
+    rdfs:label "instruction" ; rdfs:comment "What the public should do. The field that makes an alert actionable rather than merely informative." .
+gs:expires a rdf:Property ; schema:domainIncludes gs:AlertInfo ; schema:rangeIncludes schema:DateTime ;
+    rdfs:label "expires" ; rdfs:comment "When the alert ceases to apply. An alert with no expiry stays on screens indefinitely and trains people to ignore alerts." .
+gs:onset a rdf:Property ; schema:domainIncludes gs:AlertInfo ; schema:rangeIncludes schema:DateTime ; rdfs:label "onset" .
+gs:effective a rdf:Property ; schema:domainIncludes gs:AlertInfo ; schema:rangeIncludes schema:DateTime ; rdfs:label "effective" .
+gs:headline a rdf:Property ; schema:domainIncludes gs:AlertInfo ; schema:rangeIncludes schema:Text ; rdfs:label "headline" .
+gs:areaDescription a rdf:Property ; schema:domainIncludes gs:AlertArea ; schema:rangeIncludes schema:Text ; rdfs:label "area description" .
+gs:geometry a rdf:Property ; schema:domainIncludes gs:AlertArea ; schema:rangeIncludes schema:URL ;
+    rdfs:label "geometry" ; rdfs:comment "URL of a GeoJSON polygon (RFC 7946, WGS84). Referenced, never embedded." .
+gs:relatedAlert a rdf:Property ; schema:domainIncludes gs:ServiceRequest ; schema:rangeIncludes gs:Alert ;
+    rdfs:label "related alert" ;
+    rdfs:comment "An alert this service request relates to. A service disruption is both: the disruption is an alert, reports about it are requests." .
+
+gs:AlertCategory a schema:DefinedTermSet ; schema:name "Alert category" .
+gs:ResponseType a schema:DefinedTermSet ; schema:name "Response type" .
+
+gs:duplicateOf a rdf:Property ; schema:domainIncludes gs:ServiceRequest ; schema:rangeIncludes gs:ServiceRequest ;
+    rdfs:label "duplicate of" ;
+    rdfs:comment "The request this one duplicates. A reference rather than prose: a status note saying 'duplicate of 2025-104882' cannot be followed by a machine." .
+
+gs:StatusChange a rdfs:Class ; rdfs:subClassOf schema:Intangible ;
+    rdfs:label "Status change" ;
+    rdfs:comment "One timestamped step in a service request's progress." .
+
+gs:statusHistory a rdf:Property ; schema:domainIncludes gs:ServiceRequest ; schema:rangeIncludes gs:StatusChange ;
+    rdfs:label "status history" ;
+    rdfs:comment "How a request progressed over time. Current state alone hides how long a request sat unassigned, which is the number residents and service-level measurement actually need." .
+
+gs:conformanceLevel a rdf:Property ;
+    rdfs:label "conformance level" ;
+    rdfs:comment "The gov-schema conformance level a document claims: core, standard or extended. Deliberately NOT dcterms:conformsTo, which means an external standard the resource follows and is typed as an IRI - a bare level name expanded there becomes a broken relative IRI, which is exactly what happened before this term existed." ;
+    schema:domainIncludes schema:Thing ;
+    schema:rangeIncludes schema:DefinedTerm .
+
+gs:applicableLegislation a rdf:Property ;
+    rdfs:label "applicable legislation" ;
+    rdfs:comment "Legislation that mandates or governs a dataset, typically as an ELI URI. Observed on real EU portals, where the Open Data Directive requires certain datasets to be published; this is a direct join from the catalog profile to the code profile." ;
+    schema:domainIncludes schema:Dataset ;
+    schema:rangeIncludes schema:Legislation, schema:URL .
+
+gs:hvdCategory a rdf:Property ;
+    rdfs:label "high value dataset category" ;
+    rdfs:comment "EU High Value Dataset category URI, from the Open Data Directive implementing regulation. A legal classification, not a subject theme." ;
+    schema:domainIncludes schema:Dataset ;
+    schema:rangeIncludes schema:URL .
+
+gs:highValueDataset a rdf:Property ;
+    rdfs:label "high value dataset" ;
+    rdfs:comment "Whether this dataset is designated a High Value Dataset under the EU Open Data Directive." ;
+    schema:domainIncludes schema:Dataset ;
+    schema:rangeIncludes schema:Boolean .
+
+gs:spatialReferenceSystem a rdf:Property ;
+    rdfs:label "spatial reference system" ;
+    rdfs:comment "The coordinate reference system of a dataset's geometry, as an EPSG code such as 'epsg:2157'. GeoJSON mandates WGS84, but national grids are in daily use everywhere, so an international profile cannot assume it." ;
+    schema:domainIncludes schema:Dataset ;
+    schema:rangeIncludes schema:Text .
+
+gs:provenanceStatement a rdf:Property ;
+    rdfs:label "provenance statement" ;
+    rdfs:comment "Free-text statement of where a dataset came from." ;
+    schema:domainIncludes schema:Dataset ;
+    schema:rangeIncludes schema:Text .
+
+gs:totalAmount a rdf:Property ;
+    rdfs:label "total amount" ;
+    rdfs:comment "The total of a budget, as distinct from the amount of a single line. Deliberately not schema:amount: sharing one predicate with BudgetLine.amount makes a budget total and a line indistinguishable in RDF." ;
+    schema:domainIncludes gs:Budget ;
+    schema:rangeIncludes schema:MonetaryAmount ;
+    rdfs:subPropertyOf schema:amount .
