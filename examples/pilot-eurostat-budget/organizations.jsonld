@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/organization/general-government",
+      "@type": "GovernmentOrganization",
+      "name": "Ireland general government",
+      "description": "ESA 2010 sector S13, general government. A statistical sector rather than a named body: Eurostat reports the sector, not the ministries within it.",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:esa-sector",
+          "value": "S13"
+        }
+      ],
+      "organizationClassification": "executive",
+      "areaServed": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/jurisdiction/ie",
+        "name": "Ireland"
+      }
+    }
+  ]
+}

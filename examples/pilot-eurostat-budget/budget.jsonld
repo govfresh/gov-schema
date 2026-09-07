@@ -1,0 +1,2037 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog",
+      "@type": "Budget",
+      "name": "Ireland general government expenditure by function, 2022",
+      "description": "Outturn statistics published by Eurostat, classified by COFOG.",
+      "publisher": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/organization/general-government",
+        "name": "Ireland general government"
+      },
+      "about": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/jurisdiction/ie",
+        "name": "Ireland"
+      },
+      "budgetPhase": "executed",
+      "fiscalYear": "2022",
+      "startDate": "2022-01-01",
+      "endDate": "2022-12-31",
+      "currency": "EUR",
+      "dateModified": "2026-07-21",
+      "sourceDataset": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10a_exp?format=JSON&lang=en&sector=S13&na_item=TE&time=2022&unit=MIO_EUR&geo=IE",
+      "budgetLine": [
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-1"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-2"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-3"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-4"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-5"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-6"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-7"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-8"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/02"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/02-1"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/02-2"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/02-3"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/02-4"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/02-5"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03-1"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03-2"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03-3"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03-4"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03-5"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03-6"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-1"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-2"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-3"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-4"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-5"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-6"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-7"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-8"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-9"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05-1"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05-2"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05-3"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05-4"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05-5"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05-6"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06-1"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06-2"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06-3"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06-4"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06-5"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06-6"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07-1"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07-2"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07-3"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07-4"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07-5"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07-6"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08-1"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08-2"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08-3"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08-4"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08-5"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08-6"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-1"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-2"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-3"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-4"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-5"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-6"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-7"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-8"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-1"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-2"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-3"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-4"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-5"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-6"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-7"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-8"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-9"
+        }
+      ],
+      "totalAmount": {
+        "@type": "MonetaryAmount",
+        "value": 107664900000.0,
+        "currency": "EUR"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01",
+      "@type": "BudgetLine",
+      "name": "General public services",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 10372900000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "01",
+      "budgetPhase": "executed",
+      "hasPart": [
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-1"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-2"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-3"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-4"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-5"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-6"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-7"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-8"
+        }
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-1",
+      "@type": "BudgetLine",
+      "name": "Executive and legislative organs, financial and fiscal affairs, external affairs",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 4752500000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "01.1",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01",
+        "name": "General public services"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-2",
+      "@type": "BudgetLine",
+      "name": "Foreign economic aid",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 514900000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "01.2",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01",
+        "name": "General public services"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-3",
+      "@type": "BudgetLine",
+      "name": "General services",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 1355900000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "01.3",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01",
+        "name": "General public services"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-4",
+      "@type": "BudgetLine",
+      "name": "Basic research",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 360300000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "01.4",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01",
+        "name": "General public services"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-5",
+      "@type": "BudgetLine",
+      "name": "R&D General public services",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 200000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "01.5",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01",
+        "name": "General public services"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-6",
+      "@type": "BudgetLine",
+      "name": "General public services n.e.c.",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 10800000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "01.6",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01",
+        "name": "General public services"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-7",
+      "@type": "BudgetLine",
+      "name": "Public debt transactions",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 3378500000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "01.7",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01",
+        "name": "General public services"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01-8",
+      "@type": "BudgetLine",
+      "name": "Transfers of a general character between different levels of government",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 0.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "01.8",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/01",
+        "name": "General public services"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/02",
+      "@type": "BudgetLine",
+      "name": "Defence",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 825300000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "02",
+      "budgetPhase": "executed",
+      "hasPart": [
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/02-1"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/02-2"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/02-3"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/02-4"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/02-5"
+        }
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/02-1",
+      "@type": "BudgetLine",
+      "name": "Military defence",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 695000000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "02.1",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/02",
+        "name": "Defence"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/02-2",
+      "@type": "BudgetLine",
+      "name": "Civil defence",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 27400000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "02.2",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/02",
+        "name": "Defence"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/02-3",
+      "@type": "BudgetLine",
+      "name": "Foreign military aid",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 63400000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "02.3",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/02",
+        "name": "Defence"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/02-4",
+      "@type": "BudgetLine",
+      "name": "R&D Defence",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 0.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "02.4",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/02",
+        "name": "Defence"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/02-5",
+      "@type": "BudgetLine",
+      "name": "Defence n.e.c.",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 39500000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "02.5",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/02",
+        "name": "Defence"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03",
+      "@type": "BudgetLine",
+      "name": "Public order and safety",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 3679000000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "03",
+      "budgetPhase": "executed",
+      "hasPart": [
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03-1"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03-2"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03-3"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03-4"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03-5"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03-6"
+        }
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03-1",
+      "@type": "BudgetLine",
+      "name": "Police services",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 2166900000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "03.1",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03",
+        "name": "Public order and safety"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03-2",
+      "@type": "BudgetLine",
+      "name": "Fire-protection services",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 392000000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "03.2",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03",
+        "name": "Public order and safety"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03-3",
+      "@type": "BudgetLine",
+      "name": "Law courts",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 670600000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "03.3",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03",
+        "name": "Public order and safety"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03-4",
+      "@type": "BudgetLine",
+      "name": "Prisons",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 205300000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "03.4",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03",
+        "name": "Public order and safety"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03-5",
+      "@type": "BudgetLine",
+      "name": "R&D Public order and safety",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 100000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "03.5",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03",
+        "name": "Public order and safety"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03-6",
+      "@type": "BudgetLine",
+      "name": "Public order and safety n.e.c.",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 244100000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "03.6",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/03",
+        "name": "Public order and safety"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04",
+      "@type": "BudgetLine",
+      "name": "Economic affairs",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 10801300000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "04",
+      "budgetPhase": "executed",
+      "hasPart": [
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-1"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-2"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-3"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-4"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-5"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-6"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-7"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-8"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-9"
+        }
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-1",
+      "@type": "BudgetLine",
+      "name": "General economic, commercial and labour affairs",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 2138700000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "04.1",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04",
+        "name": "Economic affairs"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-2",
+      "@type": "BudgetLine",
+      "name": "Agriculture, forestry, fishing and hunting",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 1351000000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "04.2",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04",
+        "name": "Economic affairs"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-3",
+      "@type": "BudgetLine",
+      "name": "Fuel and energy",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 266300000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "04.3",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04",
+        "name": "Economic affairs"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-4",
+      "@type": "BudgetLine",
+      "name": "Mining, manufacturing and construction",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 162800000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "04.4",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04",
+        "name": "Economic affairs"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-5",
+      "@type": "BudgetLine",
+      "name": "Transport",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 5678500000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "04.5",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04",
+        "name": "Economic affairs"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-6",
+      "@type": "BudgetLine",
+      "name": "Communication",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 86800000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "04.6",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04",
+        "name": "Economic affairs"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-7",
+      "@type": "BudgetLine",
+      "name": "Other industries",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 430700000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "04.7",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04",
+        "name": "Economic affairs"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-8",
+      "@type": "BudgetLine",
+      "name": "R&D Economic affairs",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 544000000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "04.8",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04",
+        "name": "Economic affairs"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04-9",
+      "@type": "BudgetLine",
+      "name": "Economic affairs n.e.c.",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 142500000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "04.9",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/04",
+        "name": "Economic affairs"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05",
+      "@type": "BudgetLine",
+      "name": "Environmental protection",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 1469000000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "05",
+      "budgetPhase": "executed",
+      "hasPart": [
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05-1"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05-2"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05-3"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05-4"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05-5"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05-6"
+        }
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05-1",
+      "@type": "BudgetLine",
+      "name": "Waste management",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 68300000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "05.1",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05",
+        "name": "Environmental protection"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05-2",
+      "@type": "BudgetLine",
+      "name": "Waste water management",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 813800000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "05.2",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05",
+        "name": "Environmental protection"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05-3",
+      "@type": "BudgetLine",
+      "name": "Pollution abatement",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 337800000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "05.3",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05",
+        "name": "Environmental protection"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05-4",
+      "@type": "BudgetLine",
+      "name": "Protection of biodiversity and landscape",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 126200000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "05.4",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05",
+        "name": "Environmental protection"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05-5",
+      "@type": "BudgetLine",
+      "name": "R&D Environmental protection",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 26400000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "05.5",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05",
+        "name": "Environmental protection"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05-6",
+      "@type": "BudgetLine",
+      "name": "Environmental protection n.e.c.",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 96400000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "05.6",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/05",
+        "name": "Environmental protection"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06",
+      "@type": "BudgetLine",
+      "name": "Housing and community amenities",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 2651400000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "06",
+      "budgetPhase": "executed",
+      "hasPart": [
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06-1"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06-2"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06-3"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06-4"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06-5"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06-6"
+        }
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06-1",
+      "@type": "BudgetLine",
+      "name": "Housing development",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 901400000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "06.1",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06",
+        "name": "Housing and community amenities"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06-2",
+      "@type": "BudgetLine",
+      "name": "Community development",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 501100000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "06.2",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06",
+        "name": "Housing and community amenities"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06-3",
+      "@type": "BudgetLine",
+      "name": "Water supply",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 1244700000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "06.3",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06",
+        "name": "Housing and community amenities"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06-4",
+      "@type": "BudgetLine",
+      "name": "Street lighting",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 0.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "06.4",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06",
+        "name": "Housing and community amenities"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06-5",
+      "@type": "BudgetLine",
+      "name": "R&D Housing and community amenities",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 0.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "06.5",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06",
+        "name": "Housing and community amenities"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06-6",
+      "@type": "BudgetLine",
+      "name": "Housing and community amenities n.e.c.",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 4100000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "06.6",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/06",
+        "name": "Housing and community amenities"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07",
+      "@type": "BudgetLine",
+      "name": "Health",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 24684600000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "07",
+      "budgetPhase": "executed",
+      "hasPart": [
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07-1"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07-2"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07-3"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07-4"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07-5"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07-6"
+        }
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07-1",
+      "@type": "BudgetLine",
+      "name": "Medical products, appliances and equipment",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 2738500000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "07.1",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07",
+        "name": "Health"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07-2",
+      "@type": "BudgetLine",
+      "name": "Outpatient services",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 8887300000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "07.2",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07",
+        "name": "Health"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07-3",
+      "@type": "BudgetLine",
+      "name": "Hospital services",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 11129300000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "07.3",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07",
+        "name": "Health"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07-4",
+      "@type": "BudgetLine",
+      "name": "Public health services",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 1345600000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "07.4",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07",
+        "name": "Health"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07-5",
+      "@type": "BudgetLine",
+      "name": "R&D Health",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 32600000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "07.5",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07",
+        "name": "Health"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07-6",
+      "@type": "BudgetLine",
+      "name": "Health n.e.c.",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 551300000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "07.6",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/07",
+        "name": "Health"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08",
+      "@type": "BudgetLine",
+      "name": "Recreation, culture and religion",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 2066400000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "08",
+      "budgetPhase": "executed",
+      "hasPart": [
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08-1"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08-2"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08-3"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08-4"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08-5"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08-6"
+        }
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08-1",
+      "@type": "BudgetLine",
+      "name": "Recreational and sporting services",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 407000000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "08.1",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08",
+        "name": "Recreation, culture and religion"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08-2",
+      "@type": "BudgetLine",
+      "name": "Cultural services",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 976400000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "08.2",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08",
+        "name": "Recreation, culture and religion"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08-3",
+      "@type": "BudgetLine",
+      "name": "Broadcasting and publishing services",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 634100000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "08.3",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08",
+        "name": "Recreation, culture and religion"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08-4",
+      "@type": "BudgetLine",
+      "name": "Religious and other community services",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 41700000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "08.4",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08",
+        "name": "Recreation, culture and religion"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08-5",
+      "@type": "BudgetLine",
+      "name": "R&D Recreation, culture and religion",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 4500000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "08.5",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08",
+        "name": "Recreation, culture and religion"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08-6",
+      "@type": "BudgetLine",
+      "name": "Recreation, culture and religion n.e.c.",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 2700000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "08.6",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/08",
+        "name": "Recreation, culture and religion"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09",
+      "@type": "BudgetLine",
+      "name": "Education",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 12932900000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "09",
+      "budgetPhase": "executed",
+      "hasPart": [
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-1"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-2"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-3"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-4"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-5"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-6"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-7"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-8"
+        }
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-1",
+      "@type": "BudgetLine",
+      "name": "Pre-primary and primary education",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 9092200000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "09.1",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09",
+        "name": "Education"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-2",
+      "@type": "BudgetLine",
+      "name": "Secondary education",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 1377100000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "09.2",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09",
+        "name": "Education"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-3",
+      "@type": "BudgetLine",
+      "name": "Post-secondary non-tertiary education",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 112900000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "09.3",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09",
+        "name": "Education"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-4",
+      "@type": "BudgetLine",
+      "name": "Tertiary education",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 1326000000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "09.4",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09",
+        "name": "Education"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-5",
+      "@type": "BudgetLine",
+      "name": "Education not definable by level",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 313900000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "09.5",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09",
+        "name": "Education"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-6",
+      "@type": "BudgetLine",
+      "name": "Subsidiary services to education",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 341400000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "09.6",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09",
+        "name": "Education"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-7",
+      "@type": "BudgetLine",
+      "name": "R&D Education",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 23000000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "09.7",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09",
+        "name": "Education"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09-8",
+      "@type": "BudgetLine",
+      "name": "Education n.e.c.",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 346400000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "09.8",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/09",
+        "name": "Education"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10",
+      "@type": "BudgetLine",
+      "name": "Social protection",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 38182100000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "10",
+      "budgetPhase": "executed",
+      "hasPart": [
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-1"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-2"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-3"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-4"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-5"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-6"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-7"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-8"
+        },
+        {
+          "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-9"
+        }
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-1",
+      "@type": "BudgetLine",
+      "name": "Sickness and disability",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 4957700000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "10.1",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10",
+        "name": "Social protection"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-2",
+      "@type": "BudgetLine",
+      "name": "Old age",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 14013100000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "10.2",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10",
+        "name": "Social protection"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-3",
+      "@type": "BudgetLine",
+      "name": "Survivors",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 1646200000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "10.3",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10",
+        "name": "Social protection"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-4",
+      "@type": "BudgetLine",
+      "name": "Family and children",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 6954700000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "10.4",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10",
+        "name": "Social protection"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-5",
+      "@type": "BudgetLine",
+      "name": "Unemployment",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 3173200000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "10.5",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10",
+        "name": "Social protection"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-6",
+      "@type": "BudgetLine",
+      "name": "Housing",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 4858800000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "10.6",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10",
+        "name": "Social protection"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-7",
+      "@type": "BudgetLine",
+      "name": "Social exclusion n.e.c.",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 1881800000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "10.7",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10",
+        "name": "Social protection"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-8",
+      "@type": "BudgetLine",
+      "name": "R&D Social protection",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 18800000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "10.8",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10",
+        "name": "Social protection"
+      }
+    },
+    {
+      "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10-9",
+      "@type": "BudgetLine",
+      "name": "Social protection n.e.c.",
+      "budget": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget/2022-cofog"
+      },
+      "amount": {
+        "@type": "MonetaryAmount",
+        "value": 677900000.0,
+        "currency": "EUR"
+      },
+      "direction": "expenditure",
+      "functionalClassification": "10.9",
+      "budgetPhase": "executed",
+      "isPartOf": {
+        "@id": "https://ec.europa.eu/eurostat/id/ie/budget-line/2022/10",
+        "name": "Social protection"
+      }
+    }
+  ]
+}

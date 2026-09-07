@@ -158,6 +158,31 @@ def main(argv):
         a = node.get("amount") or {}
         return a.get("value"), a.get("currency")
 
+    def reporting_granularity(nodes):
+        """Infer the unit a publisher rounds to, from the amounts themselves.
+
+        Statistical fiscal data is published at a stated precision - Eurostat reports
+        COFOG in millions to one decimal place - so independently rounded children
+        cannot sum exactly to an independently rounded parent. Demanding exact equality
+        rejects every such publisher; four of Ireland's ten COFOG divisions failed by
+        0.002%. The greatest common divisor of the amounts recovers the rounding unit
+        without the publisher having to declare it.
+        """
+        from math import gcd
+        vals = []
+        for n in nodes:
+            v, _ = amount_of(n)
+            if isinstance(v, (int, float)) and v:
+                scaled = round(abs(v) * 100)
+                if scaled:
+                    vals.append(scaled)
+        if len(vals) < 2:
+            return 1
+        g = 0
+        for v in vals:
+            g = gcd(g, v)
+        return max(g, 1) / 100
+
     for nid, node in entities.items():
         types_ = node.get("@type")
         types_ = types_ if isinstance(types_, list) else [types_]
@@ -176,12 +201,20 @@ def main(argv):
                     missing = True
                     break
                 child_total += cv
-            if not missing and parent_val is not None and child_total != parent_val:
-                errors.append(
-                    f"budget line does not equal the sum of its parts: {nid}\n"
-                    f"    parent {parent_val:,} but children total {child_total:,} "
-                    f"(difference {parent_val - child_total:,})"
-                )
+            if not missing and parent_val is not None:
+                # Tolerance is half the rounding unit per figure, across the children
+                # and the parent. Anything larger is a real discrepancy.
+                unit = reporting_granularity(
+                    [node] + [entities[c["@id"]] for c in node["hasPart"]
+                              if c.get("@id") in entities])
+                tolerance = unit * (len(node["hasPart"]) + 1) / 2
+                if abs(child_total - parent_val) > tolerance:
+                    errors.append(
+                        f"budget line does not equal the sum of its parts: {nid}\n"
+                        f"    parent {parent_val:,} but children total {child_total:,} "
+                        f"(difference {parent_val - child_total:,}; "
+                        f"rounding tolerance {tolerance:,.0f})"
+                    )
 
         # 2. every line must use its budget's currency
         if "BudgetLine" in types_:

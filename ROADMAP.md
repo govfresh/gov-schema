@@ -288,6 +288,24 @@ the polygon in the same document. The adapter links to the alert's own endpoint,
 workaround rather than a mapping. A publisher that inlines geometry currently has nowhere to
 put it. See [examples/pilot-nws-alerts/README.md](examples/pilot-nws-alerts/README.md).
 
+## Eurostat COFOG adapter — DONE
+
+`tools/adapters/eurostat-cofog.py` converts Eurostat general government expenditure by
+function. Ireland 2022: 79 lines across 10 COFOG divisions.
+
+One defect, the same shape as the UK Contracts Finder finding: the budget arithmetic check
+demanded exact equality between a parent line and the sum of its parts, which **no statistical
+publisher can satisfy**. Four of ten Irish divisions failed by 0.002% - rounding, because
+Eurostat reports in millions to one decimal place. The check now infers the rounding unit from
+the greatest common divisor of the amounts and allows half a unit per figure; real
+discrepancies are still caught.
+
+Deliberately not added: a precision or unit-multiplier field on `amount`. The granularity is
+already recoverable from the data, so a declared field would restate what the numbers say and
+add something a publisher can get wrong.
+
+See [examples/pilot-eurostat-budget/README.md](examples/pilot-eurostat-budget/README.md).
+
 ## The honest risk
 
 Seven profiles with one fictional example city is a demo, not an adopted standard. Profiles
