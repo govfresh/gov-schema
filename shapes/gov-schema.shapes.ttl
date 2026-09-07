@@ -364,3 +364,33 @@ gs:BoundaryShape a sh:NodeShape ;
         sh:path gs:supersedes ;
         sh:class gs:Boundary ;
         sh:message "A boundary supersedes another Boundary." ] .
+
+#############################  Services  #############################
+
+gs:GovernmentServiceShape a sh:NodeShape ;
+    sh:targetClass schema:GovernmentService ;
+    sh:property [
+        sh:path schema:provider ;
+        sh:minCount 1 ;
+        sh:class schema:GovernmentOrganization ;
+        sh:message "A service must name the government organization providing it." ] ;
+    sh:property [
+        sh:path schema:areaServed ;
+        sh:or ( [ sh:class schema:AdministrativeArea ] [ sh:class schema:Country ]
+                [ sh:class schema:State ] [ sh:class schema:City ] ) ;
+        sh:message "areaServed must point at a Jurisdiction." ] ;
+    sh:property [
+        sh:path gs:relatedLegislation ;
+        sh:class schema:Legislation ;
+        sh:message "relatedLegislation must point at the provision the service is delivered under." ] .
+
+gs:ServiceAtLocationShape a sh:NodeShape ;
+    sh:targetClass gs:ServiceAtLocation ;
+    sh:property [
+        sh:path schema:location ;
+        sh:minCount 1 ;
+        sh:or ( [ sh:class schema:CityHall ] [ sh:class schema:GovernmentBuilding ]
+                [ sh:class schema:LegislativeBuilding ] [ sh:class schema:Courthouse ]
+                [ sh:class schema:CivicStructure ] [ sh:class schema:EventVenue ]
+                [ sh:class schema:Place ] ) ;
+        sh:message "A service-at-location must point at a Facility." ] .

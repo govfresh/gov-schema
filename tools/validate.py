@@ -19,7 +19,7 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CORE = ROOT / "profiles" / "_core" / "schema"
-PROFILE_DIRS = [ROOT / "profiles" / d / "schema" for d in ("_core", "org", "code", "meetings", "requests", "budget", "procurement", "catalog", "alerts", "permits", "elections")]
+PROFILE_DIRS = [ROOT / "profiles" / d / "schema" for d in ("_core", "org", "code", "meetings", "requests", "budget", "procurement", "catalog", "alerts", "permits", "elections", "services")]
 
 # @type -> schema file. Roles are validated where they are nested, not standalone.
 SCHEMA_FOR = {
@@ -44,6 +44,8 @@ SCHEMA_FOR = {
     "Meeting": "meeting.schema.json",
     "EventSeries": "meeting.schema.json",
     "ServiceRequest": "service-request.schema.json",
+    # services/ carries the canonical GovernmentService; both files define the
+    # same type and services/ is the superset.
     "GovernmentService": "service.schema.json",
     "Budget": "budget.schema.json",
     "BudgetLine": "budget-line.schema.json",
@@ -303,7 +305,10 @@ def main(argv):
             if not name:
                 notes.append(f"no schema mapped for @type {types} ({nid})")
                 continue
-            base = next(d for d in PROFILE_DIRS if (d / name).exists())
+            # Two profiles define service.schema.json for the same type; the
+            # services/ definition is canonical because it is the superset.
+            candidates = [d for d in PROFILE_DIRS if (d / name).exists()]
+            base = next((d for d in candidates if d.parent.name == "services"), candidates[0])
             schema = json.loads((base / name).read_text())
             # format is annotation-only by default; dates and IRIs matter here.
             v = Draft202012Validator(
@@ -652,6 +657,12 @@ def main(argv):
                             f"conformance: {nid} claims '{lvl}' but {oid}\n"
                             f"    has no areaServed. Standard requires every organization to be "
                             f"placed in the territorial hierarchy."
+                        )
+                    if "GovernmentService" in ot and not o.get("serviceStatus"):
+                        errors.append(
+                            f"conformance: {nid} claims '{lvl}' but {oid}\n"
+                            f"    has no serviceStatus. Standard requires it: a service listing "
+                            f"that cannot say whether the service still exists is of limited use."
                         )
                     if "ContractingProcess" in ot:
                         tn = o.get("tender") or {}

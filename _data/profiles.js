@@ -16,6 +16,7 @@ const IMPLEMENTED = [
   { dir: 'alerts', slug: 'alerts', name: 'Public warnings and notices', source: 'Common Alerting Protocol (OASIS)' },
   { dir: 'permits', slug: 'permits', name: 'Permits and licences', source: 'BLDS, national equivalents' },
   { dir: 'elections', slug: 'elections', name: 'Elections and results', source: 'NIST SP 1500-100, VIP' },
+  { dir: 'services', slug: 'services', name: 'Service catalogue', source: 'Open Referral / HSDS' },
 ]
 const PLANNED = []
 

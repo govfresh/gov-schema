@@ -393,6 +393,29 @@ real figure.
 
 See [examples/pilot-uk-elections/README.md](examples/pilot-uk-elections/README.md).
 
+## GOV.UK services adapter — DONE
+
+`tools/adapters/services-govuk.py` converts GOV.UK services. 40 services from 15 departments.
+GOV.UK does not use HSDS, which makes it a harder test than an Open Referral publisher: it
+asks whether the profile can represent a catalogue built on entirely different assumptions.
+
+**12 of 18 fields fill at 40/40; six fill at 0/40.** The six are not missing information -
+they are information GOV.UK publishes as prose rather than as data. Processing time appears in
+prose on 12 of 40 services, eligibility on 8, cost on 3, and none of them as a field. The
+profile assumed publishers hold this structured; the best-organised government service
+catalogue in the world does not. The adapter does not parse prose into structure, on the same
+grounds the elections pilot declined to store a derived turnout figure.
+
+`applicationProcess` being free text by design is what saved the conversion - it fills 40 of
+40 while the structured fields sit empty.
+
+One defect: every service was attributed to the Government Digital Service, because the
+adapter preferred `primary_publishing_organisation` (who publishes the page) over
+`organisations` (the department that owns the service). Corrected, the same 40 services
+resolve to 15 real departments.
+
+See [examples/pilot-govuk-services/README.md](examples/pilot-govuk-services/README.md).
+
 ## The honest risk
 
 Seven profiles with one fictional example city is a demo, not an adopted standard. Profiles
