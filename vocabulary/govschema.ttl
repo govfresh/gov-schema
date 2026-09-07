@@ -855,3 +855,10 @@ gs:CandidacyResult a schema:DefinedTermSet ; schema:name "Candidacy result" .
 
 gs:election a rdf:Property ; schema:domainIncludes gs:Contest ; schema:rangeIncludes gs:Election ;
     rdfs:label "election" ; rdfs:comment "The election a contest belongs to." .
+
+gs:referencesIdentifier a rdf:Property ;
+    rdfs:label "references identifier" ;
+    rdfs:comment "CAP identifier of a superseded alert that is not present in this dataset. Alert feeds are windowed, so an update commonly supersedes an alert that has already expired out of the active feed. Without this, a publisher must downgrade the update to a plain alert, which turns 'this supersedes an earlier warning' into 'this is a new warning'." ;
+    schema:domainIncludes gs:Alert ;
+    schema:rangeIncludes schema:Text ;
+    rdfs:subPropertyOf schema:identifier .

@@ -984,6 +984,10 @@
     "validVotes": "gs:validVotes",
     "invalidVotes": "gs:invalidVotes",
     "totalVotes": "gs:totalVotes",
-    "prevailed": "gs:prevailed"
+    "prevailed": "gs:prevailed",
+    "referencesIdentifier": {
+      "@id": "gs:referencesIdentifier",
+      "@container": "@set"
+    }
   }
 }
