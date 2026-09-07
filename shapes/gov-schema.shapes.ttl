@@ -1,0 +1,282 @@
+@prefix sh:     <http://www.w3.org/ns/shacl#> .
+@prefix schema: <https://schema.org/> .
+@prefix gs:     <https://schema.govfresh.com/v1/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+##  The semantic tier promised by SPEC section 4.
+##
+##  JSON Schema validates the shape of a document and tools/validate.py checks that
+##  every reference resolves. Neither can check what a reference resolves TO. These
+##  shapes do: a reference whose target is the wrong kind of thing is structurally
+##  valid JSON, resolves fine, and is still wrong.
+##
+##  Class lists are enumerated explicitly rather than relying on subclass reasoning,
+##  because the data graph does not carry schema.org's class hierarchy. Explicit
+##  lists are also easier to audit than inference.
+
+#############################  Jurisdiction  #############################
+
+gs:JurisdictionShape a sh:NodeShape ;
+    sh:targetClass schema:AdministrativeArea, schema:Country, schema:State, schema:City ;
+
+    sh:property [
+        sh:path gs:governmentLevel ;
+        sh:minCount 1 ;
+        sh:message "A jurisdiction must declare its governmentLevel; without it the territorial hierarchy cannot be interpreted across countries." ] ;
+
+    sh:property [
+        sh:path schema:identifier ;
+        sh:minCount 1 ;
+        sh:message "A jurisdiction must carry at least one scheme-qualified identifier." ] ;
+
+    sh:property [
+        sh:path schema:containedInPlace ;
+        sh:or ( [ sh:class schema:AdministrativeArea ] [ sh:class schema:Country ]
+                [ sh:class schema:State ] [ sh:class schema:City ] ) ;
+        sh:message "containedInPlace must point at another jurisdiction, not at an organization or a facility." ] ;
+
+    sh:sparql [
+        sh:message "The jurisdiction hierarchy must not contain a cycle." ;
+        sh:prefixes schema: ;
+        sh:select """
+            SELECT $this WHERE {
+              $this <https://schema.org/containedInPlace>+ $this .
+            }
+        """ ] .
+
+#############################  Organization  #############################
+
+gs:GovernmentOrganizationShape a sh:NodeShape ;
+    sh:targetClass schema:GovernmentOrganization ;
+
+    # Not minCount 1: an organization referenced from another profile (a buyer in a
+    # procurement record) is legitimately known by identity without its territory being
+    # restated. Presence is enforced at Standard conformance instead. When it IS present
+    # it must point at a Jurisdiction.
+    sh:property [
+        sh:path schema:areaServed ;
+        sh:or ( [ sh:class schema:AdministrativeArea ] [ sh:class schema:Country ]
+                [ sh:class schema:State ] [ sh:class schema:City ] ) ;
+        sh:message "areaServed must point at a Jurisdiction, not at another organization (SPEC 1.1)." ] ;
+
+    sh:property [
+        sh:path schema:parentOrganization ;
+        sh:class schema:GovernmentOrganization ;
+        sh:message "parentOrganization must point at another government organization." ] ;
+
+    sh:property [
+        sh:path schema:location ;
+        sh:or ( [ sh:class schema:CityHall ] [ sh:class schema:GovernmentBuilding ]
+                [ sh:class schema:LegislativeBuilding ] [ sh:class schema:Courthouse ]
+                [ sh:class schema:CivicStructure ] [ sh:class schema:EventVenue ]
+                [ sh:class schema:Place ] ) ;
+        sh:message "location must point at a Facility (a Place), not at another organization." ] ;
+
+    # The central rule of the profile, checked directly.
+    sh:not [ sh:class schema:AdministrativeArea ] ;
+    sh:message "An entity must not be typed as both a GovernmentOrganization and a Jurisdiction. A territory and the body governing it are separate entities (SPEC 1.1)." .
+
+#############################  Roles and posts  #############################
+
+gs:RoleShape a sh:NodeShape ;
+    sh:targetClass schema:OrganizationRole, schema:EmployeeRole ;
+
+    sh:property [
+        sh:path schema:member ;
+        sh:minCount 1 ;
+        sh:class schema:Person ;
+        sh:message "A Role must point at the Person holding it. An organization cannot hold an office." ] ;
+
+    sh:property [
+        sh:path schema:roleName ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string ;
+        sh:message "A Role must name the office." ] ;
+
+    sh:property [
+        sh:path gs:post ;
+        sh:class gs:Post ;
+        sh:message "post must point at a Post." ] .
+
+gs:PostShape a sh:NodeShape ;
+    sh:targetClass gs:Post ;
+
+    sh:property [
+        sh:path schema:memberOf ;
+        sh:minCount 1 ;
+        sh:class schema:GovernmentOrganization ;
+        sh:message "A Post must sit in a government organization." ] ;
+
+    sh:property [
+        sh:path gs:representsJurisdiction ;
+        sh:or ( [ sh:class schema:AdministrativeArea ] [ sh:class schema:City ] ) ;
+        sh:message "representsJurisdiction must point at a Jurisdiction." ] .
+
+#############################  Legislation  #############################
+
+gs:LegislationShape a sh:NodeShape ;
+    sh:targetClass schema:Legislation ;
+
+    sh:property [
+        sh:path schema:isPartOf ;
+        sh:class schema:Legislation ;
+        sh:message "isPartOf must point at another piece of Legislation." ] ;
+
+    sh:property [
+        sh:path schema:legislationPassedBy ;
+        sh:class schema:GovernmentOrganization ;
+        sh:message "legislationPassedBy must point at the body that adopted it." ] ;
+
+    sh:property [
+        sh:path gs:enactedAt ;
+        sh:class gs:Meeting ;
+        sh:message "enactedAt must point at the Meeting where the legislation was adopted." ] ;
+
+    sh:sparql [
+        sh:message "Legislation must not be part of itself, directly or transitively." ;
+        sh:select """
+            SELECT $this WHERE {
+              $this <https://schema.org/isPartOf>+ $this .
+            }
+        """ ] .
+
+#############################  Meetings and votes  #############################
+
+gs:MeetingShape a sh:NodeShape ;
+    sh:targetClass gs:Meeting ;
+
+    sh:property [
+        sh:path schema:organizer ;
+        sh:minCount 1 ;
+        sh:class schema:GovernmentOrganization ;
+        sh:message "A meeting must be organized by a government body." ] ;
+
+    sh:property [
+        sh:path schema:location ;
+        sh:or ( [ sh:class schema:CityHall ] [ sh:class schema:GovernmentBuilding ]
+                [ sh:class schema:LegislativeBuilding ] [ sh:class schema:Courthouse ]
+                [ sh:class schema:CivicStructure ] [ sh:class schema:EventVenue ]
+                [ sh:class schema:Place ] ) ;
+        sh:message "A meeting's location must be a Facility." ] .
+
+gs:VoteShape a sh:NodeShape ;
+    sh:targetClass gs:Vote ;
+    sh:property [
+        sh:path gs:voter ;
+        sh:minCount 1 ;
+        sh:class schema:Person ;
+        sh:message "A vote must be cast by a Person." ] .
+
+#############################  Budget  #############################
+
+gs:BudgetLineShape a sh:NodeShape ;
+    sh:targetClass gs:BudgetLine ;
+
+    sh:property [
+        sh:path gs:budget ;
+        sh:minCount 1 ;
+        sh:class gs:Budget ;
+        sh:message "A budget line must belong to a Budget." ] ;
+
+    sh:property [
+        sh:path gs:administrativeClassification ;
+        sh:class schema:GovernmentOrganization ;
+        sh:message "administrativeClassification must point at the organization that spends the money, not carry a department name as text." ] ;
+
+    sh:property [
+        sh:path gs:isPartOf ;
+        sh:class gs:BudgetLine ;
+        sh:message "A budget line's parent must be another budget line." ] .
+
+#############################  Procurement  #############################
+
+gs:ContractingProcessShape a sh:NodeShape ;
+    sh:targetClass gs:ContractingProcess ;
+
+    sh:property [
+        sh:path schema:buyer ;
+        sh:minCount 1 ;
+        sh:class schema:GovernmentOrganization ;
+        sh:message "The buyer must be a government organization." ] ;
+
+    sh:property [
+        sh:path gs:budgetLine ;
+        sh:class gs:BudgetLine ;
+        sh:message "budgetLine must point at a BudgetLine in the budget profile." ] .
+
+gs:AwardShape a sh:NodeShape ;
+    sh:targetClass gs:Award ;
+    sh:property [
+        sh:path gs:supplier ;
+        sh:minCount 1 ;
+        sh:class schema:Organization ;
+        sh:message "A supplier must be a declared Party (a schema:Organization) carrying a scheme-qualified identifier." ] .
+
+#############################  Service requests  #############################
+
+gs:ServiceRequestShape a sh:NodeShape ;
+    sh:targetClass gs:ServiceRequest ;
+
+    sh:property [
+        sh:path gs:agencyResponsible ;
+        sh:class schema:GovernmentOrganization ;
+        sh:message "agencyResponsible must point at a government organization." ] ;
+
+    sh:property [
+        sh:path schema:jurisdiction ;
+        sh:or ( [ sh:class schema:AdministrativeArea ] [ sh:class schema:City ] ) ;
+        sh:message "A request's jurisdiction must be a Jurisdiction." ] .
+
+#############################  Alerts  #############################
+
+gs:AlertShape a sh:NodeShape ;
+    sh:targetClass gs:Alert ;
+
+    sh:property [
+        sh:path gs:sender ;
+        sh:minCount 1 ;
+        sh:class schema:GovernmentOrganization ;
+        sh:message "An alert must be sent by a government organization. An unattributed warning cannot be verified." ] ;
+
+    sh:property [
+        sh:path gs:alertInfo ;
+        sh:minCount 1 ;
+        sh:class gs:AlertInfo ;
+        sh:message "An alert must carry at least one info block." ] ;
+
+    sh:property [
+        sh:path gs:references ;
+        sh:class gs:Alert ;
+        sh:message "references must point at other Alerts." ] .
+
+gs:AlertAreaShape a sh:NodeShape ;
+    sh:targetClass gs:AlertArea ;
+    sh:property [
+        sh:path schema:jurisdiction ;
+        sh:or ( [ sh:class schema:AdministrativeArea ] [ sh:class schema:City ] ) ;
+        sh:message "An alert area's jurisdiction must be a Jurisdiction." ] .
+
+#############################  Catalog  #############################
+
+gs:PublisherManifestShape a sh:NodeShape ;
+    sh:targetClass gs:PublisherManifest ;
+    sh:property [
+        sh:path schema:publisher ;
+        sh:minCount 1 ;
+        sh:class schema:GovernmentOrganization ;
+        sh:message "A manifest must name the government organization publishing it." ] ;
+    sh:property [
+        sh:path gs:profileEndpoint ;
+        sh:minCount 1 ;
+        sh:message "A manifest with no profile endpoints routes nowhere." ] .
+
+gs:DatasetShape a sh:NodeShape ;
+    sh:targetClass schema:Dataset ;
+    sh:property [
+        sh:path schema:publisher ;
+        sh:minCount 1 ;
+        sh:message "A dataset must name its publisher." ] ;
+    sh:property [
+        sh:path schema:includedInDataCatalog ;
+        sh:class schema:DataCatalog ;
+        sh:message "includedInDataCatalog must point at a DataCatalog." ] .
