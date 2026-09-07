@@ -1,0 +1,2595 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/101046020",
+      "@type": "GovernmentPermit",
+      "permitNumber": "101046020",
+      "permitType": "sign",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "INSTALLATION OF A WALL SIGN ON THE FRONT ELEVATION",
+      "workType": "temporary",
+      "applicationDate": "2024-03-08",
+      "decisionDate": "2024-09-18",
+      "validFrom": "2024-09-18",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "7529 N CLARK ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 42.01863,
+          "longitude": -87.67584
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 5500.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 400.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/3-s-supply-company",
+        "name": "3 S SUPPLY COMPANY"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/101070548",
+      "@type": "GovernmentPermit",
+      "permitNumber": "101070548",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "SPR 2019 CBRC: NEW TWO STORY SINGLE FAMILY HOME WITH BASEMENT, FRONT STAIR AND DETACHED TWO CAR GARAGE ( OCCUPANCY R-5, CONTRUCTION TYPE 5A)",
+      "workType": "newBuild",
+      "applicationDate": "2025-07-02",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5330 S MASON AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.79531,
+          "longitude": -87.77107
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 300000.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 3679.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/101070073",
+      "@type": "GovernmentPermit",
+      "permitNumber": "101070073",
+      "permitType": "sign",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "SIGN 1 OF 23. ILLUMINATED CHANNEL LETTERS SIGN - SOUTHWEST ELEVATION :REMOVE AND DISPOSE OF EXISTING SIGN | INSTALL NEW CHANNEL LETTERS | CONNECT TO EXISTING ELECTRICAL |PATCH HOLES AND SPOT PAINT.",
+      "workType": "temporary",
+      "applicationDate": "2025-06-04",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2361 S STATE ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.84933,
+          "longitude": -87.62686
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 5000.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 240.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/kdn-signs-inc",
+        "name": "KDN SIGNS INC"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/101066506",
+      "@type": "GovernmentPermit",
+      "permitNumber": "101066506",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "SPR 2019 CBRC REVISION TO PERMIT 100916501 TO PROVIDE NEW ELECTRIC HEATER AND STEEL BEAM & COLUMNS AT BASEMENT AS PER PLANS",
+      "workType": "alteration",
+      "applicationDate": "2025-03-12",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "7216 S PERRY AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.76309,
+          "longitude": -87.62826
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 15000.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 885.75,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/brooks-investments-groip-llc",
+        "name": "BROOKS INVESTMENTS GROIP LLC"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/101021936",
+      "@type": "GovernmentPermit",
+      "permitNumber": "101021936",
+      "permitType": "sign",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "INSTALLING A NEW LED DIGITAL MESSAGE BOARD TO THE EXISTING POLE SIGN",
+      "workType": "temporary",
+      "applicationDate": "2023-06-26",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5341 S ARCHER AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.79877,
+          "longitude": -87.7415
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 15000.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 400.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/kec-power-controls-inc",
+        "name": "KEC POWER & CONTROLS, INC."
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/100270329",
+      "@type": "GovernmentPermit",
+      "permitNumber": "100270329",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "REMOVAL OF INTERIOR NON-LOAD BEARING PARTITIONS, CEILING TILES, SOFFITS, LIGHT FIXTURES, AND PLUMBING FIXTURES, FOR PROPOSED SUITES ON 400 LEVEL. INTERIOR DEMO ONLY.",
+      "workType": "alteration",
+      "applicationDate": "2009-01-13",
+      "decisionDate": "2009-03-04",
+      "validFrom": "2009-03-04",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1901 W MADISON ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.88124,
+          "longitude": -87.67428
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 10000.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 6958.8,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/united-center-joint-venture",
+        "name": "UNITED CENTER JOINT VENTURE"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/100913578",
+      "@type": "GovernmentPermit",
+      "permitNumber": "100913578",
+      "permitType": "sign",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "RED NEON CHANNEL LETTER SIGN",
+      "workType": "temporary",
+      "applicationDate": "2021-05-12",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1448 N MILWAUKEE AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.90813,
+          "longitude": -87.67417
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 2000.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 250.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/t-a-g-electric",
+        "name": "T.A.G. ELECTRIC"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/101067854",
+      "@type": "GovernmentPermit",
+      "permitNumber": "101067854",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "SPR 2019 CBRC - THE BUILD-OUT OF AN ADDITIONAL BASEMENT DWELLING UNIT WITHIN AN EXISTING 2-UNIT, 2-STORY + ATTIC BUILDING OF MASONRY & FRAME CONSTRUCTION.AS PER PLANS**CERTIFIED CORRECTIONS SUBJECT TO FIELD INSPECTIONS & AUDIT **",
+      "workType": "alteration",
+      "applicationDate": "2025-04-11",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1711 W HENDERSON ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.94228,
+          "longitude": -87.67165
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 75000.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 2661.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/101067468",
+      "@type": "GovernmentPermit",
+      "permitNumber": "101067468",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "DDS 2019 CBC: FOUNDATIONS ONLY FOR 4 NEW 3-STORY TOWNHOUSES (R-2) WITH PRIVATE GARAGES, FULLY SPRINKLERED, TYPE V-A CONSTRUCTION AS PER PLANS (PART OF PD 1127). CONSULTANT REVIEWER: V3 COMPANIES OF IL",
+      "workType": "newBuild",
+      "applicationDate": "2025-04-08",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2247 W OAKDALE AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.93483,
+          "longitude": -87.68494
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 235200.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 3625.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/zsd-oakdale-llc",
+        "name": "ZSD OAKDALE LLC"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/101070074",
+      "@type": "GovernmentPermit",
+      "permitNumber": "101070074",
+      "permitType": "sign",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "SIGN 2 OF 23.REFACE ILLUMINATED S/F WALL CABINET SIGN - SOUTHWEST ELEVATION :REMOVE AND DISPOSE OF EXISTING FACEINSTALL NEW FACE",
+      "workType": "temporary",
+      "applicationDate": "2025-06-04",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2361 S STATE ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.84933,
+          "longitude": -87.62686
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 1500.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 240.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/kdn-signs-inc",
+        "name": "KDN SIGNS INC"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/101062607",
+      "@type": "GovernmentPermit",
+      "permitNumber": "101062607",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "SELF-CERT 2019 CBC: PROPOSED 3 STORY/3 UNIT RESIDENCE, REAR 2ND/3RD FLOOR DECKS, NO ROOF DECK ABOVE THIRD FLOOR, 5' FRONT IRON/6' SIDE WOOD FENCES, AND REAR STORAGE SHED, PER PLANS. ADMINISTRATIVE ADJUSTMENT #25-128-2/2 TO REDUCE THE NUMBER OF REQUIRED PARKING SPACES TO 0 APPROVED 06.10.2025.",
+      "workType": "newBuild",
+      "applicationDate": "2024-12-11",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "3723 S LAKE PARK AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.82811,
+          "longitude": -87.60574
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 550000.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 6787.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/101070102",
+      "@type": "GovernmentPermit",
+      "permitNumber": "101070102",
+      "permitType": "sign",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "SIGN 6 OF 23. ILLUMINATED WALL CABINET SIGN - SOUTHWEST ELEVATION: INSTALL NEW SIGN",
+      "workType": "temporary",
+      "applicationDate": "2025-06-04",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2361 S STATE ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.84933,
+          "longitude": -87.62686
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 800.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 250.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/kdn-signs-inc",
+        "name": "KDN SIGNS INC"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b200439308",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B200439308",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "LINE VOLTAGE ELECTRICAL WORK. NEW PERMANENT 100 AMP SERVICE DISCONNECTING MEANS WITH 1 CIRCUITS. RECEPTACLE OUTLETS: 1 . LIGHTING OUTLETS: 0. 13.5 KWH LITHIUM ION ENERGY STORAGE SYSTEM. SPECIFIC LOCATION: EXTERIOR WALL.",
+      "workType": "alteration",
+      "applicationDate": "2025-08-22",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "13251 S EXCHANGE AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.654,
+          "longitude": -87.55185
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 5000.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/101071957",
+      "@type": "GovernmentPermit",
+      "permitNumber": "101071957",
+      "permitType": "sign",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "FACE CHANGE OF TRI-CLEAN SIGN",
+      "workType": "temporary",
+      "applicationDate": "2025-07-18",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "7560 S COTTAGE GROVE AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.75685,
+          "longitude": -87.60549
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 2500.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 300.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/3-s-supply-company",
+        "name": "3 S SUPPLY COMPANY"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b200438397",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B200438397",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "FOR PERMIT 101065675: REPLACEMENT ELECTRICAL CONTRACTOR. NEW CONTRACTOR(S) LISTED UNDER \"OTHER APPLICANTS AND CONTRACTORS\" ON PERMIT CERTIFICATE.",
+      "workType": "alteration",
+      "applicationDate": "2025-08-21",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "523 N LAWNDALE AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.89065,
+          "longitude": -87.71847
+        }
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 100.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/101072910",
+      "@type": "GovernmentPermit",
+      "permitNumber": "101072910",
+      "permitType": "sign",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "MEC KIDS: NON-ILLUMINATED WALL SIGN (S KIMBARK AVE / ALLEY ELEVATION) -2'-0\"H X 9'-0\"W (18 SQFT)",
+      "workType": "temporary",
+      "applicationDate": "2025-08-11",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1236 E 53RD ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.79958,
+          "longitude": -87.59511
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 3500.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 250.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/integrity-sign-company",
+        "name": "INTEGRITY SIGN COMPANY"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b200432922",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B200432922",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "APPROVAL OF NEW PLAN FOR STORMWATER MANAGEMENT. PROJECT TYPE: COMMERCIAL. PROJECT AREA: 4.9 ACRES. THIS APPROVAL DOES NOT AUTHORIZE ANY CONSTRUCTION WORK. CONSTRUCTION WORK MAY REQUIRE SEPARATE PERMIT(S).",
+      "workType": "alteration",
+      "applicationDate": "2025-08-22",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "11315 S CORLISS AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.68867,
+          "longitude": -87.60176
+        }
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 3000.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/shaan-pullman-llc",
+        "name": "SHAAN PULLMAN, LLC"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/101070811",
+      "@type": "GovernmentPermit",
+      "permitNumber": "101070811",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "SELF-CERT 2019 CBC: FULL BUILDING PERMIT FOR 3 STORY 2 D.U. BUILDING WITH BASEMENT, REAR DECK WITH STAIR AT 1ST/2ND/3RD STORY, ROOFTOP DECK, ROOFTOP STAIR ENCLOSURE, DETACHED 2 CAR GARAGE WITH ROOFTOP DECK AS PER PLAN (OCCUPANCY GROUP R-5, TYPE VA CONSTRUCTION).",
+      "workType": "newBuild",
+      "applicationDate": "2025-07-11",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1230 W DIVERSEY PKWY",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.93265,
+          "longitude": -87.65998
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 876157.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 5704.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/101072941",
+      "@type": "GovernmentPermit",
+      "permitNumber": "101072941",
+      "permitType": "sign",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "INSTALLING A NEW CHANNEL LETTER SIGN USING EXISTING WIRES FOR CONNECTION",
+      "workType": "temporary",
+      "applicationDate": "2025-08-12",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2525 W DEVON AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.99756,
+          "longitude": -87.69339
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 2500.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 300.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/synergy-services-inc",
+        "name": "SYNERGY SERVICES INC"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b200439201",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B200439201",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "LINE VOLTAGE ELECTRICAL WORK. NEW PERMANENT 100 AMP SERVICE DISCONNECTING MEANS WITH 1 CIRCUITS. RECEPTACLE OUTLETS: 1 . LIGHTING OUTLETS: 0. SPECIFIC LOCATION: BASEMENT.",
+      "workType": "alteration",
+      "applicationDate": "2025-08-21",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "10008 S WALLACE ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.71213,
+          "longitude": -87.63826
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 1500.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b200436436",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B200436436",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "REPAIR OR IN-KIND REPLACEMENT OF 2 PLUMBING FIXTURES AS DESCRIBED IN PERMIT APPLICATION. LOCATIONS: 2 RESIDENTIAL UNIT(S), 0 NON-RESIDENTIAL UNIT(S), BATHROOM REPLACE TOILET AND SINK.",
+      "workType": "alteration",
+      "applicationDate": "2025-08-01",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2431 W TAYLOR ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.86922,
+          "longitude": -87.68736
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 15000.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 175.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/c-o-audelio-garcia-geo-property-management-llc",
+        "name": "C/O AUDELIO GARCIA GEO PROPERTY MANAGEMENT LLC"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/101071167",
+      "@type": "GovernmentPermit",
+      "permitNumber": "101071167",
+      "permitType": "sign",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "EAST: ILLUMINATED \"MOBILE ORDER CURBSIDE PICK UP\" SIGN ( 2 OF 2)",
+      "workType": "temporary",
+      "applicationDate": "2025-06-30",
+      "decisionDate": "2025-07-15",
+      "validFrom": "2025-07-15",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "3867 S ARCHER AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.82316,
+          "longitude": -87.68924
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 2300.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 250.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/identity-services-llc",
+        "name": "IDENTITY SERVICES LLC"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100959285",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100959285",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "**FIRE ALARM PERMIT**TENANT BUILDOUT OF EXISTING CHICAGO APPROVED FIRE ALARM & VOIVE EVACUATION SYSTEM. ADDITIONAL NOTIFICATION APPLIANCES TO ACCOMMODATE NEW TENANT.",
+      "workType": "alteration",
+      "applicationDate": "2022-02-17",
+      "decisionDate": "2022-03-28",
+      "validFrom": "2022-03-28",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "311 N GREEN ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 9185.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 675.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/esscoe-llc",
+        "name": "ESSCOE LLC"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100959636",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100959636",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "T MOBILE - 130-61269-04 - LOW VOLTAGE PERMIT FOR LOW VOLTAGE BURGLAR ALARM AND CCTV (CAMERA) INSTALLATION",
+      "workType": "alteration",
+      "applicationDate": "2022-02-22",
+      "decisionDate": "2022-03-08",
+      "validFrom": "2022-03-08",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5521 S KEDZIE AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 39197.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/johnson-controls-security",
+        "name": "JOHNSON CONTROLS SECURITY"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100959646",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100959646",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "LOW VOLTAGE WIRING",
+      "workType": "alteration",
+      "applicationDate": "2022-02-22",
+      "decisionDate": "2022-02-22",
+      "validFrom": "2022-02-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1509 N NORTH PARK AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 7000.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/rise-electric-llc",
+        "name": "RISE ELECTRIC LLC"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100959863",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100959863",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "**FIRE ALARM PERMIT****FIRE ALARM PERMIT** **2018 CHICAGO BUILDING CODE** INSTALLATION OF A NEW HIGH RISE FIRE ALARM SYSTEM FOR LEVELS 1 THROUGH 43, ROOF, AND MECH ROOM IN A NEW HIGH RISE RESIDENTIAL BUILDING.",
+      "workType": "alteration",
+      "applicationDate": "2022-02-24",
+      "decisionDate": "2022-03-23",
+      "validFrom": "2022-03-23",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "164 N PEORIA ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 438000.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 750.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/map-strategies-llc",
+        "name": "MAP STRATEGIES, LLC"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100959976",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100959976",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "CHANGE OF ELECTRICAL CONTRACTOR ORIGINAL PERMIT #100954179",
+      "workType": "alteration",
+      "applicationDate": "2022-02-24",
+      "decisionDate": "2022-02-28",
+      "validFrom": "2022-02-28",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "3649 N CLARK ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 150.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/gurtz-interiors-llc-d-b-a-gurtz-interiors-group",
+        "name": "GURTZ INTERIORS, LLC D/B/A GURTZ INTERIORS GROUP"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100961122",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100961122",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "INSTALLATION OF LOW VOLTAGE BURGLAR ALARM INTERIOR WORK ONLY # 403919711 JOB # 110476937",
+      "workType": "alteration",
+      "applicationDate": "2022-03-04",
+      "decisionDate": "2022-03-08",
+      "validFrom": "2022-03-08",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2119 W BARRY AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 284.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/adt-llc",
+        "name": "ADT,LLC"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100961215",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100961215",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "MARCH 2022 MONTHLY MAINTENANCE PERMIT",
+      "workType": "alteration",
+      "applicationDate": "2022-03-05",
+      "decisionDate": "2022-03-07",
+      "validFrom": "2022-03-07",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2718 W ROSCOE ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 1000.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/rex-elect-technologies-llc",
+        "name": "REX ELECT. & TECHNOLOGIES LLC"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100962036",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100962036",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "CHANGE ELECTRICAL CONTRACTOR FOR 4945 N CLAREMONT. ORIGINAL PERMIT NR IS 100938777. NEW ELECTRICAL CONTRACTOR ON THIS PROJECT WILL BE JCZE ELECTRIC.",
+      "workType": "alteration",
+      "applicationDate": "2022-03-10",
+      "decisionDate": "2022-03-10",
+      "validFrom": "2022-03-10",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "4945 N CLAREMONT AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/jcze-electric-inc",
+        "name": "JCZE ELECTRIC,INC."
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100962467",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100962467",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "CHANGE OF CONTRACTOR FOR PERMIT #100921948",
+      "workType": "alteration",
+      "applicationDate": "2022-03-15",
+      "decisionDate": "2022-03-30",
+      "validFrom": "2022-03-30",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "3720 W 16TH ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/spurlock-son",
+        "name": "SPURLOCK & SON"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100962501",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100962501",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "INSTALLATION OF ELECTRICAL TIMER SWITCH",
+      "workType": "alteration",
+      "applicationDate": "2022-03-15",
+      "decisionDate": "2022-10-19",
+      "validFrom": "2022-10-19",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5903 N SAUGANASH LN",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 450.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/enertouch-inc",
+        "name": "ENERTOUCH, INC."
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100962932",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100962932",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "**FIRE ALARM PERMIT****FIRE ALARM** - INSTALLATION OF CITY OF CHICAGO APPROVED FIRE ALARM SYSTEM WITH FULL SMOKE COVERAGE, CO DETECTION IN CLASSROOMS & AUDIO/VISUAL ALARMS IN A NFPA 13 FULLY SPRINKLERED SINGLE STORY DAYCARE FACILITY (I-4 / C3 TYPE III OCCUPANCY) WITH AN APPROXIMATE FLOOR AREA OF 4,052 SQFT. · NOTIFICATION CIRCUIT TO BE CLASS B · SLC BRANCH CIRCUITS TO BE CLASS B · ISOLATOR MODULE LOOP TO BE CLASS A",
+      "workType": "alteration",
+      "applicationDate": "2022-04-05",
+      "decisionDate": "2022-09-19",
+      "validFrom": "2022-09-19",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "59 E 46TH ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 10000.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 675.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/i-cubed-enterprises-inc",
+        "name": "I CUBED ENTERPRISES INC"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100962947",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100962947",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "TEMPERATURE CONTROL INSTALL",
+      "workType": "alteration",
+      "applicationDate": "2022-03-17",
+      "decisionDate": "2022-04-06",
+      "validFrom": "2022-04-06",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2937 S DR MARTIN LUTHER KING JR DR",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 26500.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 150.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/connelly-electric-co",
+        "name": "CONNELLY ELECTRIC CO."
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100963608",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100963608",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "CHANGE ELECTRICAL CONTRACTOR FOR PROJECT ADDRESS 4941 N CLAREMONT AVE . ORIGINAL PERMIT NR IS 100938483. THE NEW ELECTRICAL CONTRACTOR WILL BE. JCZE ELECTRIC.",
+      "workType": "alteration",
+      "applicationDate": "2022-03-23",
+      "decisionDate": "2022-03-23",
+      "validFrom": "2022-03-23",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "4941 N CLAREMONT AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/jcze-electric-inc",
+        "name": "JCZE ELECTRIC,INC."
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/101059821",
+      "@type": "GovernmentPermit",
+      "permitNumber": "101059821",
+      "permitType": "sign",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "ILLUMINATED PROJECTING BLADE WALL SIGN; NORTH ELEVATION; E/W FACING TEXT; 19 SQ/FT WITH 7 SQ/FT OF TEXT",
+      "workType": "temporary",
+      "applicationDate": "2024-09-12",
+      "decisionDate": "2024-09-18",
+      "validFrom": "2024-09-18",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1525 W HOMER ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 3500.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 300.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/parvin-clauss-sign-company",
+        "name": "PARVIN-CLAUSS SIGN COMPANY"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100963662",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100963662",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "INDUSTRIAL COUNCIL OF NW CHICAGO - 332-66947-03 - LOW VOLTAGE PERMIT FOR LOW VOLTAGE NON REQUIRED FIRE ALARM INSTALLATION",
+      "workType": "alteration",
+      "applicationDate": "2022-03-23",
+      "decisionDate": "2022-04-04",
+      "validFrom": "2022-04-04",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2034 W FULTON ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 6792.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/johnson-controls-security",
+        "name": "JOHNSON CONTROLS SECURITY"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100964519",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100964519",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "CHANGE OF ELECTRICAL CONTRACTOR TO DEXTER ELECTRIC GROUP FOR PERMIT NUMBER 100956312.",
+      "workType": "alteration",
+      "applicationDate": "2022-03-29",
+      "decisionDate": "2022-03-29",
+      "validFrom": "2022-03-29",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2718 W ROSCOE ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/dexter-electric-group-llc",
+        "name": "DEXTER ELECTRIC GROUP LLC"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100964595",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100964595",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "ELECTRICAL VIOLATIONS CORRECTION.",
+      "workType": "alteration",
+      "applicationDate": "2022-03-29",
+      "decisionDate": "2022-03-29",
+      "validFrom": "2022-03-29",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "3827 W LAKE ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 800.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/mk-electric-services",
+        "name": "MK ELECTRIC SERVICES"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100964704",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100964704",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "REMOVE/REPLACE CAT5E CABLING, INSTALL/CONFIGURE DISPLAYS, PRINTERS, CASH DRAWERS, ETC FOR THE T-MOBILE",
+      "workType": "alteration",
+      "applicationDate": "2022-03-30",
+      "decisionDate": "2022-03-30",
+      "validFrom": "2022-03-30",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5521 S KEDZIE AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 21550.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/wachter-inc",
+        "name": "WACHTER INC"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100964768",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100964768",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "REVISION TO PERMIT #100958536 TO CHANGE ELECTRICAL CONTRACTOR TO GURTZ ELECTRIC",
+      "workType": "alteration",
+      "applicationDate": "2022-03-30",
+      "decisionDate": "2022-03-30",
+      "validFrom": "2022-03-30",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "333 N GREEN ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/mccormick-compliance-consultin",
+        "name": "MCCORMICK COMPLIANCE CONSULTIN"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100964946",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100964946",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "CHANGE OF ELECTRICAL CONTRACTOR FOR ORIGINAL PERMIT #100954871",
+      "workType": "alteration",
+      "applicationDate": "2022-03-31",
+      "decisionDate": "2022-03-31",
+      "validFrom": "2022-03-31",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "508 N STATE ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/aes-inc",
+        "name": "AES, INC."
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100964999",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100964999",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "ADDING POWER AND LIGHTING CIRCUITS",
+      "workType": "alteration",
+      "applicationDate": "2022-03-31",
+      "decisionDate": "2022-03-31",
+      "validFrom": "2022-03-31",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "118 N CANAL ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 1500.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 225.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/palos-electric-company-inc",
+        "name": "PALOS ELECTRIC COMPANY, INC."
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100965441",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100965441",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "AT&T ANTENNA UPGRADE- CHANGE ELECTRICAL CONTRACTOR",
+      "workType": "alteration",
+      "applicationDate": "2022-04-04",
+      "decisionDate": "2022-04-04",
+      "validFrom": "2022-04-04",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "4001 N RAVENSWOOD AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 150.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/mastec-network-solution-llc",
+        "name": "MASTEC NETWORK SOLUTION LLC"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100966370",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100966370",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "INSTALL CONDUIT FOR FIBER OPTICS TO CELL TOWER",
+      "workType": "alteration",
+      "applicationDate": "2022-04-14",
+      "decisionDate": "2022-04-14",
+      "validFrom": "2022-04-14",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2816 N CALIFORNIA AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 5600.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100966760",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100966760",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "INSTALLATION OF LOW VOLTAGE BURGLAR ALARM.",
+      "workType": "alteration",
+      "applicationDate": "2022-04-12",
+      "decisionDate": "2022-04-13",
+      "validFrom": "2022-04-13",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "3950 N ELSTON AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 524.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/alarm-detection-systems-of-ill",
+        "name": "ALARM DETECTION SYSTEMS OF ILL"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100967717",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100967717",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "CHANGE ELECTRICAL CONTRACTOR #100929997",
+      "workType": "alteration",
+      "applicationDate": "2022-04-19",
+      "decisionDate": "2022-04-19",
+      "validFrom": "2022-04-19",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "6320 N NORDICA AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/d-c-l-electric",
+        "name": "D.C.L. ELECTRIC"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b200439402",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B200439402",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "PURPOSE: NEW/REPLACEMENT INSTALLATION. WOOD FENCE - 6'-0' ' (HEIGHT) X 26'-5' ' (LENGTH). LOCATION: FRONT FACING YARD FENCE AND 2 YARD ENTRY GATES.",
+      "workType": "alteration",
+      "applicationDate": "2025-08-22",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5146 W AGATITE AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.96163,
+          "longitude": -87.75681
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 3975.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 150.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b200437090",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B200437090",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "LINE VOLTAGE ELECTRICAL WORK. ALTER EXISTING SYSTEM III EMERGENCY LIGHTING. RECEPTACLE OUTLETS: 0 . LIGHTING OUTLETS: 0. SPECIFIC LOCATION: APARTMENTS AND COMMOM HALLWAYS AND BASEMENT.",
+      "workType": "alteration",
+      "applicationDate": "2025-08-06",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "8359 S ABERDEEN ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.74152,
+          "longitude": -87.65092
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 1500.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 100.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b200439261",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B200439261",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "LINE VOLTAGE ELECTRICAL WORK. REPAIR OR ALTER DEVICES ON EXISTING CIRCUITS. RECEPTACLE OUTLETS: 2 . LIGHTING OUTLETS: 2. SPECIFIC LOCATION: 1ST, 2ND, 3RD LEVELS AND BASEMENT.",
+      "workType": "alteration",
+      "applicationDate": "2025-08-22",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "6330 N SHERIDAN RD",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.99726,
+          "longitude": -87.65575
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 2000.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 175.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b200439096",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B200439096",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "INSTALL SOLAR PANELS ON ROOF OF PRINCIPAL BUILDING. ROOF TYPE: STEEP (>5:12). INVERTER OUTPUT: 2.28 KW. ARRAY OUTPUT: 2.7 KW. LOCATION: ROOF - PRINCIPAL STRUCTURE. ICC DISTRIBUTED GENERATION INSTALLER CERT. #18-0735.",
+      "workType": "alteration",
+      "applicationDate": "2025-08-21",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2118 W BERWYN AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.97791,
+          "longitude": -87.68271
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 1000.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 300.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b200438449",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B200438449",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "LINE VOLTAGE ELECTRICAL WORK. NEW PERMANENT 400 AMP SERVICE DISCONNECTING MEANS WITH 50 CIRCUITS. RECEPTACLE OUTLETS: 10 . LIGHTING OUTLETS: 10. SPECIFIC LOCATION: NEW 400 AMP SERVICE 3 METER WITH 1 PUBLIC METER.",
+      "workType": "alteration",
+      "applicationDate": "2025-08-18",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "3408 N GREENVIEW AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.9437,
+          "longitude": -87.6665
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 8000.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 325.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b200438017",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B200438017",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "SCOPE: NONSTRUCTURAL INTERIOR ALTERATION TO DRYWALL, RECONFIGURATION TO PLUMBING AND MECHANICAL WITHIN EXISTING REGISTRATION AREA, MED PREP ROOM AND POC AT 4TH FLOOR. LOCATIONS: 0 RESIDENTIAL UNIT(S), 1 NON-RESIDENTIAL UNIT(S), 4TH FLOOR RECEPTION, MED PREP, AND POC.",
+      "workType": "alteration",
+      "applicationDate": "2025-08-14",
+      "decisionDate": "2025-08-22",
+      "validFrom": "2025-08-22",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "4822 S COTTAGE GROVE AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 130000.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 575.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100264031",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100264031",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "ACCESS CONTROL, FL 40, 50 & 51 (03-7776)",
+      "workType": "alteration",
+      "applicationDate": "2008-10-23",
+      "decisionDate": "2008-10-28",
+      "validFrom": "2008-10-28",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "300 N LA SALLE ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 51540.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 50.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/advent-systems-inc",
+        "name": "ADVENT SYSTEMS, INC."
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100967882",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100967882",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "CHANGE OF CONTRACTOR - PERMIT # 100947239",
+      "workType": "alteration",
+      "applicationDate": "2022-04-19",
+      "decisionDate": "2022-04-19",
+      "validFrom": "2022-04-19",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2644 W OGDEN AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/contrast-electrical-services",
+        "name": "CONTRAST ELECTRICAL SERVICES"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100968269",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100968269",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "**FIRE ALARM PERMIT**FIRE ALARM - FSS#15109-INSTALL OF FIRE ALARM DEVICES IN AN EXISTING FIRE ALARM SYSTEM. CONDUIT BY OTHERS",
+      "workType": "alteration",
+      "applicationDate": "2022-04-21",
+      "decisionDate": "2022-06-07",
+      "validFrom": "2022-06-07",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "3649 N CLARK ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 11800.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 675.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100968598",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100968598",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "CHANGE ELECTRICAL CONTRACTOR ON PERMIT # 100903761",
+      "workType": "alteration",
+      "applicationDate": "2022-04-23",
+      "decisionDate": "2022-04-23",
+      "validFrom": "2022-04-23",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "6428 S MARYLAND AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/current-flow-llc",
+        "name": "CURRENT FLOW LLC"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100970263",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100970263",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "LOW VOLTAGE A/V",
+      "workType": "alteration",
+      "applicationDate": "2022-05-04",
+      "decisionDate": "2023-01-25",
+      "validFrom": "2023-01-25",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "333 N GREEN ST",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 64667.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/interstate-electronics-co",
+        "name": "INTERSTATE ELECTRONICS CO."
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100970632",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100970632",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "REMOVE EXISTING COFFEE EQUIPMENT AND REPLACE WITH NEW EQUIPMENT AND RELOCATE TWO 30 AMP RECEPTACLES AND THREE 20 AMP RECEPTACLES",
+      "workType": "alteration",
+      "applicationDate": "2022-05-05",
+      "decisionDate": "2022-05-13",
+      "validFrom": "2022-05-13",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "3005 N PULASKI RD",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 2500.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 75.0,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/artis-electric-incorporated",
+        "name": "ARTIS ELECTRIC INCORPORATED"
+      }
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/permit/b100971125",
+      "@type": "GovernmentPermit",
+      "permitNumber": "B100971125",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://data.cityofchicago.org/id/organization/permitting",
+        "name": "Chicago permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      },
+      "description": "SECURITY SYSTEM WORK DETAILS: CXSO220506B - 56681 UOFC S DREXEL TAAC CAM 4PANIC BUTT",
+      "workType": "alteration",
+      "applicationDate": "2022-05-10",
+      "decisionDate": "2022-05-10",
+      "validFrom": "2022-05-10",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5607 S DREXEL AVE",
+          "addressLocality": "Chicago",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 19763.0,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 93.75,
+        "currency": "USD"
+      },
+      "applicant": {
+        "@id": "https://data.cityofchicago.org/id/party/advent-systems-llc-dba",
+        "name": "ADVENT SYSTEMS LLC DBA"
+      }
+    }
+  ]
+}

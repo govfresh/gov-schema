@@ -1,0 +1,2439 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081035-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081035-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "construct 1st floor bumpout and 2nd floor exterior deck with kitchen alterations reconfigured 2nd floor for bath and closet and install roof collar ties and add insulation and ventilation to single family residence per plans",
+      "workType": "alteration",
+      "applicationDate": "2005-12-27",
+      "decisionDate": "2005-12-27",
+      "completionDate": "2007-12-06",
+      "validUntil": "2007-06-27",
+      "validFrom": "2005-12-27",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5510 30TH AVE NE",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98105",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.66889,
+          "longitude": -122.29476
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 16450.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081071-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081071-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Closed as Incomplete - Expired Permit Construct a new concrete retaining wall in basement of building 'L' for exisitng storage room all per plan.",
+      "workType": "alteration",
+      "applicationDate": "2005-12-06",
+      "decisionDate": "2005-12-21",
+      "validUntil": "2007-06-21",
+      "validFrom": "2005-12-21",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "401 NE NORTHGATE WAY",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98125",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.70759,
+          "longitude": -122.32552
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 10000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081148-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081148-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "ADD GARAGE AND 2ND FLOOR ADU TO SINGLE FAMILY RESIDENCE AND ALTER BASEMENT AND 1ST FLOOR ALL PER PLANS",
+      "workType": "alteration",
+      "applicationDate": "2002-05-22",
+      "decisionDate": "2002-07-26",
+      "completionDate": "2013-05-29",
+      "validUntil": "2013-06-09",
+      "validFrom": "2002-07-26",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "751 N 66TH ST",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98103",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.67672,
+          "longitude": -122.34784
+        }
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081153-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081153-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Establish use as single family dwelling construct a new single family residence with attached garage all per plan",
+      "workType": "newBuild",
+      "applicationDate": "2006-02-13",
+      "decisionDate": "2006-07-10",
+      "completionDate": "2008-05-06",
+      "validUntil": "2008-01-10",
+      "validFrom": "2006-07-10",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "4702 SW FINDLAY ST",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98136",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.55251,
+          "longitude": -122.39258
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 384155.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081234-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081234-CN",
+      "permitType": "building",
+      "permitStatus": "withdrawn",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "establish use of a currently vacant retail store to be a grocery market.",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2503 BEACON AVE S",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98144",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.58076,
+          "longitude": -122.31391
+        }
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081320-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081320-CN",
+      "permitType": "building",
+      "permitStatus": "withdrawn",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Repair existing bulkhead by placing a new top course of rock and inserting beach access rock steps above OHWL",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "4949 NE LAURELCREST LN",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98105",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.65388,
+          "longitude": -122.27476
+        }
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081357-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081357-CN",
+      "permitType": "building",
+      "permitStatus": "expired",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Initial tenant improvement to change use from retail to administrative office for \"Gaspar's\" in space #2 and occupy per plan.",
+      "workType": "alteration",
+      "applicationDate": "2005-12-09",
+      "decisionDate": "2006-01-13",
+      "validUntil": "2007-07-13",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1400 E PINE ST",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98122",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.6156,
+          "longitude": -122.31389
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 40000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081397-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081397-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Construct roof top deck addition to existing condominium for common use by all owners per plan.",
+      "workType": "alteration",
+      "applicationDate": "2007-07-19",
+      "decisionDate": "2009-02-09",
+      "completionDate": "2009-04-01",
+      "validUntil": "2010-08-09",
+      "validFrom": "2009-02-09",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2700 4TH AVE",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98121",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.61804,
+          "longitude": -122.34803
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 12000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081442-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081442-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Construct 2-story single family residence per standard plan 751506.",
+      "workType": "newBuild",
+      "applicationDate": "2006-06-13",
+      "decisionDate": "2006-07-12",
+      "completionDate": "2007-04-06",
+      "validUntil": "2008-01-12",
+      "validFrom": "2006-07-12",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5912 20TH AVE S",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98108",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.54977,
+          "longitude": -122.30705
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 248818.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081445-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081445-CN",
+      "permitType": "building",
+      "permitStatus": "withdrawn",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Construct two vocational education bldgs",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "6770 EAST MARGINAL WAY S",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98108",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.5425,
+          "longitude": -122.32639
+        }
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081455-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081455-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Establish use for and construct new 2-story single family dwelling with attached garage per plan",
+      "workType": "newBuild",
+      "applicationDate": "2006-03-23",
+      "decisionDate": "2006-05-26",
+      "completionDate": "2007-08-01",
+      "validUntil": "2007-11-26",
+      "validFrom": "2006-05-26",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "4051 NE 57TH ST",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98105",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.67014,
+          "longitude": -122.28266
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 367030.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081472-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081472-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Establish use as townhouses and construct a townhouse with attached garages and occupy per plans",
+      "workType": "newBuild",
+      "applicationDate": "2005-12-08",
+      "decisionDate": "2006-10-23",
+      "completionDate": "2007-11-19",
+      "validUntil": "2008-04-23",
+      "validFrom": "2006-10-23",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1017 NE 125TH ST",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98125",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.71929,
+          "longitude": -122.31725
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 359028.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081504-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081504-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Construct 1st and 2nd floor additions to existing single family residence per plan.",
+      "workType": "alteration",
+      "applicationDate": "2005-12-20",
+      "decisionDate": "2006-01-09",
+      "completionDate": "2007-07-27",
+      "validUntil": "2007-07-09",
+      "validFrom": "2006-01-09",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "3518 W LAWTON ST",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98199",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.66367,
+          "longitude": -122.40322
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 130000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081522-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081522-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Construct multiple 6' tall retaining wall additions to existing multifamily property per plan.",
+      "workType": "alteration",
+      "applicationDate": "2006-01-19",
+      "decisionDate": "2006-07-05",
+      "completionDate": "2007-07-16",
+      "validUntil": "2008-01-05",
+      "validFrom": "2006-07-05",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "7322 RAINIER AVE S",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98118",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.53647,
+          "longitude": -122.26881
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 50000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081542-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081542-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Closed as Incomplete - Expired Permit construct bay window addition and alts to existing single family residence per plot plan & subject to field inspection (stfi)",
+      "workType": "alteration",
+      "applicationDate": "2005-12-08",
+      "decisionDate": "2005-12-08",
+      "validUntil": "2007-06-08",
+      "validFrom": "2005-12-08",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "10204 RICHWOOD AVE NW",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98177",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.70207,
+          "longitude": -122.38468
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 5000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081561-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081561-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Dormer additions to upper level of existing single family residence per plan",
+      "workType": "alteration",
+      "applicationDate": "2006-01-04",
+      "decisionDate": "2006-03-06",
+      "completionDate": "2006-10-05",
+      "validUntil": "2007-09-06",
+      "validFrom": "2006-03-06",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2703 W RAYE ST",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98199",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.64327,
+          "longitude": -122.39197
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 109990.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081625-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081625-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "CLOSED AS INCOMPLETE - EXPIRED PERMIT. Remove ground floor patio construct 1st and 2nd floor additions with a rooftop deck; alter 1st floor including increased ceiling height to existing single family residence per plan.",
+      "workType": "alteration",
+      "applicationDate": "2006-08-25",
+      "decisionDate": "2006-12-12",
+      "validUntil": "2011-06-12",
+      "validFrom": "2006-12-12",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1931 32ND AVE W",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98199",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.63691,
+          "longitude": -122.39928
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 215415.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081686-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081686-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "CLOSED AS INCOMPLETE - EXPIRED PERMIT. Remove and rebuild detached garage replace existing foundation construct basement and 1st floor additions and alterations to existing single family residence per plan.",
+      "workType": "alteration",
+      "applicationDate": "2006-03-03",
+      "decisionDate": "2006-04-13",
+      "validUntil": "2010-12-15",
+      "validFrom": "2006-04-13",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "4338 THACKERAY PL NE",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98105",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.6601,
+          "longitude": -122.32595
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 150000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081697-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081697-CN",
+      "permitType": "building",
+      "permitStatus": "withdrawn",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Establish temporary (less than 4 weeks) accessory parking gravel surface for existing hospital use (Providence) (grading is done) per plan",
+      "workType": "alteration",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "556 18TH AVE",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98122",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.60786,
+          "longitude": -122.30863
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 1000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081721-bk",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081721-BK",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Blanket Permit for interior non-structural alterations to the 32nd floor Bank of Scotland",
+      "workType": "alteration",
+      "applicationDate": "2005-12-09",
+      "decisionDate": "2006-01-05",
+      "completionDate": "2006-02-14",
+      "validUntil": "2007-07-05",
+      "validFrom": "2006-01-05",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1420 5TH AVE",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98101",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.61055,
+          "longitude": -122.33468
+        }
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081733-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081733-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Commercial T.I. for remove and replace (2) phone equipment cabinets in-kind in existing fenced equipment enclosure at existing minor communication utility per plot plan and subject to field inspection.",
+      "workType": "alteration",
+      "applicationDate": "2006-04-25",
+      "decisionDate": "2006-04-25",
+      "completionDate": "2006-09-29",
+      "validUntil": "2007-10-25",
+      "validFrom": "2006-04-25",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "404 N 105TH ST",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98133",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.70534,
+          "longitude": -122.35384
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 5000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081776-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081776-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Addition and interior/exterior alterations to existing single family residence and detached garage per plan.",
+      "workType": "alteration",
+      "applicationDate": "2008-01-22",
+      "decisionDate": "2008-05-13",
+      "completionDate": "2011-04-25",
+      "validUntil": "2011-05-13",
+      "validFrom": "2008-05-13",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "9202 27TH AVE NW",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98117",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.69629,
+          "longitude": -122.39161
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 150000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081784-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081784-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Non-structural tenant improvements to establish use as restaurant/gallery street level tenant bay A (1351) of existing mixed comm bldg and occupy per plan.",
+      "workType": "alteration",
+      "applicationDate": "2006-01-12",
+      "decisionDate": "2006-02-21",
+      "completionDate": "2007-01-09",
+      "validUntil": "2007-08-21",
+      "validFrom": "2006-02-21",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1351 E OLIVE WAY",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98122",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.61661,
+          "longitude": -122.32755
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 10000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081908-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081908-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "construct 156 room congregate care residence for seniors and 3 manager's apartments with suface parking (Mup 2500808) (1 bldg) and occupy per plan.",
+      "workType": "newBuild",
+      "applicationDate": "2006-02-14",
+      "decisionDate": "2006-12-11",
+      "completionDate": "2008-10-13",
+      "validUntil": "2009-12-11",
+      "validFrom": "2006-12-11",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "3204 SW MORGAN ST",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98126",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.54542,
+          "longitude": -122.37342
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 16507619.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081935-dm",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081935-DM",
+      "permitType": "demolition",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Demolish residence known as 5013 37th Avenue South subject to field inspection per abatement order 1006847.",
+      "applicationDate": "2005-12-13",
+      "decisionDate": "2005-12-13",
+      "completionDate": "2007-08-01",
+      "validUntil": "2007-06-13",
+      "validFrom": "2005-12-13",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5015 37TH AVE S",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98118",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.55663,
+          "longitude": -122.28663
+        }
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6081965-dm",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6081965-DM",
+      "permitType": "demolition",
+      "permitStatus": "withdrawn",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "DEMOLISH FOUR EXISTING BLDG STRUCTURES PER PLOT PLAN ALL PER SUBJECT TO FIELD INSPECTION STFI (ASSOC. W/ 2408113).",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2245 EASTLAKE AVE E",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98102",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.6396,
+          "longitude": -122.32619
+        }
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082004-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082004-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Construct new detached garage accessory to existing single family residence per plot plan and STFI.",
+      "workType": "newBuild",
+      "applicationDate": "2005-12-13",
+      "decisionDate": "2005-12-13",
+      "completionDate": "2006-01-31",
+      "validUntil": "2007-06-13",
+      "validFrom": "2005-12-13",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "14355 FREMONT AVE N",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98133",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.73395,
+          "longitude": -122.35089
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 19751.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082014-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082014-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Construct 2-unit townhouse per plan",
+      "workType": "newBuild",
+      "applicationDate": "2005-12-16",
+      "decisionDate": "2006-04-20",
+      "completionDate": "2008-05-23",
+      "validUntil": "2009-04-20",
+      "validFrom": "2006-04-20",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "6316 31ST AVE SW",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98126",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.54647,
+          "longitude": -122.37144
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 262125.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082020-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082020-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Phase 1 of 2 - Change of use from cargo terminal to general manufacturing; Construct new water related manufacturing facility on Pier 91 Port of Seattle (Foundation Only) and occupy per plan + MUP 3003133.",
+      "workType": "newBuild",
+      "applicationDate": "2006-02-08",
+      "decisionDate": "2006-06-23",
+      "completionDate": "2007-05-25",
+      "validUntil": "2007-12-23",
+      "validFrom": "2006-06-23",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2001 W GARFIELD ST",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98119",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.63101,
+          "longitude": -122.38283
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 750000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082033-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082033-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Closed as Incomplete - Expired Permit Construct new 2-story single family residence with detached garage per plan.",
+      "workType": "newBuild",
+      "applicationDate": "2006-01-12",
+      "decisionDate": "2006-02-08",
+      "validUntil": "2007-08-08",
+      "validFrom": "2006-02-08",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5440 40TH AVE SW",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98136",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.55263,
+          "longitude": -122.38261
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 270736.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082055-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082055-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Construct one family dwelling with basement garage and detached accessory structure (garage) per plan.",
+      "workType": "newBuild",
+      "applicationDate": "2006-01-09",
+      "decisionDate": "2006-03-17",
+      "completionDate": "2007-05-29",
+      "validUntil": "2007-09-17",
+      "validFrom": "2006-03-17",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2311 N 64TH ST",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98103",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.67503,
+          "longitude": -122.33019
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 342104.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082129-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082129-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "seismic retrofit for project impact per plan",
+      "workType": "alteration",
+      "applicationDate": "2005-12-14",
+      "decisionDate": "2005-12-14",
+      "completionDate": "2006-01-05",
+      "validUntil": "2007-06-14",
+      "validFrom": "2005-12-14",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "342 N 79TH ST",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98103",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.68641,
+          "longitude": -122.35344
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 3000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082133-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082133-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Tenant improvements plus storefront renovation to retail tenant #551 (Victoria Secret) including expansion into adjacent tenant space to the south at existing Northgate shopping mall per plan.",
+      "workType": "alteration",
+      "applicationDate": "2005-12-22",
+      "decisionDate": "2006-03-08",
+      "completionDate": "2006-08-03",
+      "validUntil": "2007-09-08",
+      "validFrom": "2006-03-08",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "401 NE NORTHGATE WAY",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98125",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.70759,
+          "longitude": -122.32552
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 327000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082194-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082194-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Closed as Incomplete - Expired Permit Construct single family residence w/acc'y detached garage per plan",
+      "workType": "newBuild",
+      "applicationDate": "2005-12-15",
+      "decisionDate": "2006-07-10",
+      "validUntil": "2008-01-10",
+      "validFrom": "2006-07-10",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5925 31ST AVE SW",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98126",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.54929,
+          "longitude": -122.37252
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 183919.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082199-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082199-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Construct single family residence w/acc'y detached garage per plan",
+      "workType": "newBuild",
+      "applicationDate": "2005-12-15",
+      "decisionDate": "2006-07-10",
+      "completionDate": "2008-02-29",
+      "validUntil": "2009-07-10",
+      "validFrom": "2006-07-10",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5925 31ST AVE SW",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98126",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.54929,
+          "longitude": -122.37252
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 183919.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082243-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082243-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Closed as Incomplete - Expired Permit Make interior non-structural alterations to office (3824 18th ave. w.) create two office spaces all per subject to field inspection. STFI",
+      "workType": "alteration",
+      "applicationDate": "2005-12-15",
+      "decisionDate": "2005-12-15",
+      "validUntil": "2007-06-15",
+      "validFrom": "2005-12-15",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2000 W EMERSON PL",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98119",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.65562,
+          "longitude": -122.38065
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 1000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082250-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082250-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Construct 2nd floor addition to existing sfr. Per plan.",
+      "workType": "alteration",
+      "applicationDate": "2006-02-23",
+      "decisionDate": "2006-03-07",
+      "completionDate": "2007-02-13",
+      "validUntil": "2007-09-07",
+      "validFrom": "2006-03-07",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5112 S ALASKA ST",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98118",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.5608,
+          "longitude": -122.26855
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 143108.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082264-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082264-CN",
+      "permitType": "building",
+      "permitStatus": "withdrawn",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Demo existing structures and construct new 50 unit condominium project.",
+      "workType": "newBuild",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "3210 NW 54TH ST",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98107",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.66779,
+          "longitude": -122.39902
+        }
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082283-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082283-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Interior alterations to all floors and seismic upgrade to structure replace exterior sheathing all per plans.",
+      "workType": "alteration",
+      "applicationDate": "2002-12-02",
+      "decisionDate": "2002-12-10",
+      "completionDate": "2011-12-02",
+      "validUntil": "2011-12-07",
+      "validFrom": "2002-12-10",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "743 N 72ND ST",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98103",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.68081,
+          "longitude": -122.34804
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 113000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082297-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082297-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Construct one new duplex with attached garages per plan.",
+      "workType": "newBuild",
+      "applicationDate": "2005-12-15",
+      "decisionDate": "2006-02-07",
+      "completionDate": "2007-01-08",
+      "validUntil": "2007-08-07",
+      "validFrom": "2006-02-07",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "4512 DAYTON AVE N",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98103",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.66189,
+          "longitude": -122.35253
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 148399.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082298-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082298-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Construct one new duplex with attached garages per plan.",
+      "workType": "newBuild",
+      "applicationDate": "2005-12-15",
+      "decisionDate": "2006-02-07",
+      "completionDate": "2007-01-08",
+      "validUntil": "2007-08-07",
+      "validFrom": "2006-02-07",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "4514 DAYTON AVE N",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98103",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.66189,
+          "longitude": -122.35249
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 148399.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082342-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082342-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Construct two story addition and attached garage to existing single family dwelling per plan",
+      "workType": "alteration",
+      "applicationDate": "2006-01-25",
+      "decisionDate": "2006-02-10",
+      "completionDate": "2006-12-01",
+      "validUntil": "2007-08-10",
+      "validFrom": "2006-02-10",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "101 NE 55TH ST",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98105",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.66847,
+          "longitude": -122.32803
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 210429.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082358-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082358-CN",
+      "permitType": "building",
+      "permitStatus": "withdrawn",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "office remodel on 7th & 8th floors",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "300 PINE ST",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98101",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.61131,
+          "longitude": -122.33845
+        }
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082387-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082387-CN",
+      "permitType": "building",
+      "permitStatus": "withdrawn",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Construct new fire station phase one shoring and excvavation per plan.",
+      "workType": "newBuild",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "105 5TH AVE S",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98104",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.60113,
+          "longitude": -122.32786
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 1500000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082388-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082388-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Phase II of III construction foundation and 3 basements for research Laboratory per plans.",
+      "workType": "alteration",
+      "applicationDate": "2006-04-10",
+      "decisionDate": "2006-07-28",
+      "completionDate": "2008-02-08",
+      "validUntil": "2008-01-28",
+      "validFrom": "2006-07-28",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "800 REPUBLICAN ST",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98109",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.62405,
+          "longitude": -122.34038
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 13200000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082408-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082408-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Establish use for single family residence construct new one family dwelling with attached garage per plan.",
+      "workType": "newBuild",
+      "applicationDate": "2006-04-25",
+      "decisionDate": "2006-06-06",
+      "completionDate": "2007-03-19",
+      "validUntil": "2007-12-06",
+      "validFrom": "2006-06-06",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "6764 F 28TH AVE S",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98108",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.54049,
+          "longitude": -122.29606
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 250194.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082415-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082415-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Closed as Incomplete - Expired Permit Voluntary Seismic Upgrade and remodel kitchen of existing single family residence per plan.",
+      "workType": "alteration",
+      "applicationDate": "2005-12-16",
+      "decisionDate": "2005-12-29",
+      "validUntil": "2007-06-29",
+      "validFrom": "2005-12-29",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "3251 12TH AVE W",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98119",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.65007,
+          "longitude": -122.37258
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 50000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082466-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082466-CN",
+      "permitType": "building",
+      "permitStatus": "withdrawn",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Cancel 8/8/08 - Phase I & II have been cancelled dclPhase III of III architectural core and shell for mixed use and residential buildings above common garage and occupy per plan",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1275 MERCER ST",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98109",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.62406,
+          "longitude": -122.33085
+        }
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082476-ex",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082476-EX",
+      "permitType": "environmental",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Exception/Exemption Request for: Shoreline exemption for future building permit.",
+      "workType": "alteration",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2822 BOYER AVE E",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98102",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.64637,
+          "longitude": -122.31573
+        }
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082526-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082526-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Construct deck addition and interior alterations to existing northwest portion of single family residence subject to field inspection",
+      "workType": "alteration",
+      "applicationDate": "2005-12-19",
+      "decisionDate": "2005-12-19",
+      "completionDate": "2006-06-13",
+      "validUntil": "2007-06-19",
+      "validFrom": "2005-12-19",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "4142 SW FRONTENAC ST",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98136",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.54074,
+          "longitude": -122.38623
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 85000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082561-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082561-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Construct new garage in rear yard of a single family residence all per plot plan and subject to field inspection. STFI",
+      "workType": "newBuild",
+      "applicationDate": "2005-12-20",
+      "decisionDate": "2005-12-20",
+      "completionDate": "2006-07-26",
+      "validUntil": "2007-06-20",
+      "validFrom": "2005-12-20",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "6002 47TH AVE SW",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98136",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.5484,
+          "longitude": -122.39225
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 15087.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082588-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082588-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Raise roof of garage to create attic storage space and to comply with Violation #1006468 per inspector approved plans",
+      "workType": "alteration",
+      "applicationDate": "2006-02-10",
+      "decisionDate": "2006-02-10",
+      "completionDate": "2009-02-11",
+      "validUntil": "2009-02-10",
+      "validFrom": "2006-02-10",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "8246 4TH AVE NE",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98115",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.68965,
+          "longitude": -122.32406
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 11608.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082605-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082605-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Construct new single family residence with attached garage per plan (reviews and processing under 6082600).",
+      "workType": "newBuild",
+      "applicationDate": "2005-12-19",
+      "decisionDate": "2006-08-25",
+      "completionDate": "2007-08-07",
+      "validUntil": "2008-02-25",
+      "validFrom": "2006-08-25",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5015 37TH AVE S",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98118",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.55663,
+          "longitude": -122.28663
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 122596.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082636-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082636-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "CLOSED AS INCOMPLETE - EXPIRED PERMIT. Add basement to existing single family residence per plan",
+      "workType": "alteration",
+      "applicationDate": "2006-01-09",
+      "decisionDate": "2006-02-03",
+      "validUntil": "2010-08-03",
+      "validFrom": "2006-02-03",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "13029 A 3RD AVE NE",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98125",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.72405,
+          "longitude": -122.32701
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 10000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082653-dm",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082653-DM",
+      "permitType": "demolition",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "DEMO. EXIST. COMMERCIAL BLDG. STFI",
+      "applicationDate": "2005-12-20",
+      "decisionDate": "2006-08-11",
+      "completionDate": "2006-08-24",
+      "validUntil": "2008-02-11",
+      "validFrom": "2006-08-11",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1435 E JOHN CT",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98112",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.61941,
+          "longitude": -122.31306
+        }
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082672-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082672-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Construct an addition to east side of a single family residence with new attached garage all per plan.",
+      "workType": "alteration",
+      "applicationDate": "2006-03-06",
+      "decisionDate": "2006-05-25",
+      "completionDate": "2008-05-06",
+      "validUntil": "2007-11-25",
+      "validFrom": "2006-05-25",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "109 NW 47TH ST",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98107",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.66309,
+          "longitude": -122.35837
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 200000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082688-dm",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082688-DM",
+      "permitType": "demolition",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Demolish garage in rear yard of a single family residence all per plot plan and subject to field inspection. STFI",
+      "applicationDate": "2005-12-20",
+      "decisionDate": "2005-12-20",
+      "completionDate": "2007-12-03",
+      "validUntil": "2007-06-20",
+      "validFrom": "2005-12-20",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "6002 47TH AVE SW",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98136",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.5484,
+          "longitude": -122.39225
+        }
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082690-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082690-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Construct detached garage in rear yard accessory to single family residence add concrete blocks at exisitng concrete driveway wall and renforce basement wall all per plan.",
+      "workType": "alteration",
+      "applicationDate": "2006-02-13",
+      "decisionDate": "2006-03-23",
+      "completionDate": "2006-06-13",
+      "validUntil": "2007-09-23",
+      "validFrom": "2006-03-23",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "9210 MARY AVE NW",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98117",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.69641,
+          "longitude": -122.37518
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 25494.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082745-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082745-CN",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Closed as Incomplete - Expired Permit Remove and reconstruct portions of existing single family residence w/ attached garage / interior alterations plus addition to footprint also included / all per plan.",
+      "workType": "alteration",
+      "applicationDate": "2008-12-03",
+      "decisionDate": "2010-03-17",
+      "completionDate": "2010-03-17",
+      "validFrom": "2010-03-17",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1107 36TH AVE",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98122",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.6119,
+          "longitude": -122.28748
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 291060.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://data.seattle.gov/id/permit/6082760-cn",
+      "@type": "GovernmentPermit",
+      "permitNumber": "6082760-CN",
+      "permitType": "building",
+      "permitStatus": "withdrawn",
+      "issuedBy": {
+        "@id": "https://data.seattle.gov/id/organization/permitting",
+        "name": "Seattle permitting authority"
+      },
+      "validIn": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "description": "Substantial Alterations to repair fire damage to existing commercial structure (repairs to be greater than 60% of building's value) per plans",
+      "workType": "alteration",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "29 DRAVUS ST",
+          "addressLocality": "SEATTLE",
+          "addressRegion": "WA",
+          "postalCode": "98109",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.64841,
+          "longitude": -122.35622
+        }
+      }
+    }
+  ]
+}

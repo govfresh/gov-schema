@@ -549,10 +549,20 @@ def main(argv):
         if valid_from and valid_until and valid_until < valid_from:
             errors.append(
                 f"permit expires before it becomes valid: {nid}")
-        if node.get("permitStatus") in ("issued", "completed") and not node.get("decisionDate"):
-            errors.append(
-                f"permit is {node.get('permitStatus')} but carries no decisionDate: {nid}\n"
-                f"    processing time cannot be derived without it")
+        if node.get("permitStatus") in ("issued", "completed") and not decided:
+            # Distinguish a record that asserts a completion while hiding when from one
+            # that asserts nothing. Real Seattle data carries a permit marked Completed
+            # with all four dates null - an undated historical record, not a claim that
+            # contradicts itself. Partial dating is the error; no dating is a warning.
+            if applied or completed:
+                errors.append(
+                    f"permit is {node.get('permitStatus')} but carries no decisionDate: {nid}\n"
+                    f"    it has other lifecycle dates, so the decision date is missing rather\n"
+                    f"    than unrecorded, and processing time cannot be derived")
+            else:
+                warnings.append(
+                    f"{nid}: permit is {node.get('permitStatus')} with no lifecycle dates at "
+                    f"all; processing time cannot be derived")
 
     # --- discovery manifest ---------------------------------------------------
     # The manifest is the routing table. A duplicate or misplaced entry makes a

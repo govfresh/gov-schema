@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://data.cityofchicago.org/id/organization/permitting",
+      "@type": "GovernmentOrganization",
+      "name": "Chicago permitting authority",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:socrata-host",
+          "value": "data.cityofchicago.org"
+        }
+      ],
+      "organizationClassification": "department",
+      "areaServed": {
+        "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+        "name": "Chicago"
+      }
+    }
+  ]
+}

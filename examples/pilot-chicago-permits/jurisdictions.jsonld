@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://data.cityofchicago.org/id/jurisdiction/chicago",
+      "@type": "City",
+      "name": "Chicago",
+      "governmentLevel": "municipal",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:socrata-host",
+          "value": "data.cityofchicago.org"
+        }
+      ]
+    }
+  ]
+}
