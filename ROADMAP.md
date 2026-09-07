@@ -353,6 +353,26 @@ Also confirmed: `statusHistory` has no source in Open311, which carries current 
 exactly why that gap was worth recording.
 See [examples/pilot-bloomington-311/README.md](examples/pilot-bloomington-311/README.md).
 
+## Socrata permits adapter — DONE
+
+`tools/adapters/permits-socrata.py` converts building permits from two live Socrata portals,
+chosen because they differ in exactly the way the profile's disclosure stance was written for:
+Seattle publishes no applicant at all, Chicago publishes named private individuals at their
+home addresses. Of 32 Chicago contacts typed OWNER, 17 are individual personal names published
+unmasked alongside a residential street address.
+
+**The optional-applicant decision is vindicated.** Had `applicant` been required, Seattle
+could not have been represented at all, and every Chicago import would have carried a private
+individual's name by default.
+
+Two checks needed calibrating and one caught a real error. A Seattle permit is recorded as
+issued 2010-03-17 and expiring 2008-10-24 - the check was right, and the adapter drops the
+contradiction rather than passing it through. The completed-without-decision-date check was
+too absolute: a record with all four dates null asserts nothing rather than asserting a
+completion while hiding when, so partial dating is now an error and no dating a warning.
+
+See [examples/pilot-seattle-permits/README.md](examples/pilot-seattle-permits/README.md).
+
 ## The honest risk
 
 Seven profiles with one fictional example city is a demo, not an adopted standard. Profiles

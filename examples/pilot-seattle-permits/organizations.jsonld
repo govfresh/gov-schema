@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://data.seattle.gov/id/organization/permitting",
+      "@type": "GovernmentOrganization",
+      "name": "Seattle permitting authority",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:socrata-host",
+          "value": "data.seattle.gov"
+        }
+      ],
+      "organizationClassification": "department",
+      "areaServed": {
+        "@id": "https://data.seattle.gov/id/jurisdiction/seattle",
+        "name": "Seattle"
+      }
+    }
+  ]
+}

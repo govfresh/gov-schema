@@ -1,0 +1,605 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://data.cityofchicago.org/id/party/3-s-supply-company",
+      "@type": "Organization",
+      "name": "3 S SUPPLY COMPANY",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "3-s-supply-company"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/kdn-signs-inc",
+      "@type": "Organization",
+      "name": "KDN SIGNS INC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "kdn-signs-inc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/brooks-investments-groip-llc",
+      "@type": "Organization",
+      "name": "BROOKS INVESTMENTS GROIP LLC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "brooks-investments-groip-llc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/kec-power-controls-inc",
+      "@type": "Organization",
+      "name": "KEC POWER & CONTROLS, INC.",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "kec-power-controls-inc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/united-center-joint-venture",
+      "@type": "Organization",
+      "name": "UNITED CENTER JOINT VENTURE",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "united-center-joint-venture"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/t-a-g-electric",
+      "@type": "Organization",
+      "name": "T.A.G. ELECTRIC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "t-a-g-electric"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/zsd-oakdale-llc",
+      "@type": "Organization",
+      "name": "ZSD OAKDALE LLC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "zsd-oakdale-llc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/integrity-sign-company",
+      "@type": "Organization",
+      "name": "INTEGRITY SIGN COMPANY",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "integrity-sign-company"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/shaan-pullman-llc",
+      "@type": "Organization",
+      "name": "SHAAN PULLMAN, LLC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "shaan-pullman-llc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/synergy-services-inc",
+      "@type": "Organization",
+      "name": "SYNERGY SERVICES INC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "synergy-services-inc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/c-o-audelio-garcia-geo-property-management-llc",
+      "@type": "Organization",
+      "name": "C/O AUDELIO GARCIA GEO PROPERTY MANAGEMENT LLC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "c-o-audelio-garcia-geo-property-management-llc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/identity-services-llc",
+      "@type": "Organization",
+      "name": "IDENTITY SERVICES LLC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "identity-services-llc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/esscoe-llc",
+      "@type": "Organization",
+      "name": "ESSCOE LLC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "esscoe-llc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/johnson-controls-security",
+      "@type": "Organization",
+      "name": "JOHNSON CONTROLS SECURITY",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "johnson-controls-security"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/rise-electric-llc",
+      "@type": "Organization",
+      "name": "RISE ELECTRIC LLC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "rise-electric-llc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/map-strategies-llc",
+      "@type": "Organization",
+      "name": "MAP STRATEGIES, LLC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "map-strategies-llc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/gurtz-interiors-llc-d-b-a-gurtz-interiors-group",
+      "@type": "Organization",
+      "name": "GURTZ INTERIORS, LLC D/B/A GURTZ INTERIORS GROUP",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "gurtz-interiors-llc-d-b-a-gurtz-interiors-group"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/adt-llc",
+      "@type": "Organization",
+      "name": "ADT,LLC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "adt-llc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/rex-elect-technologies-llc",
+      "@type": "Organization",
+      "name": "REX ELECT. & TECHNOLOGIES LLC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "rex-elect-technologies-llc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/jcze-electric-inc",
+      "@type": "Organization",
+      "name": "JCZE ELECTRIC,INC.",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "jcze-electric-inc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/spurlock-son",
+      "@type": "Organization",
+      "name": "SPURLOCK & SON",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "spurlock-son"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/enertouch-inc",
+      "@type": "Organization",
+      "name": "ENERTOUCH, INC.",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "enertouch-inc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/i-cubed-enterprises-inc",
+      "@type": "Organization",
+      "name": "I CUBED ENTERPRISES INC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "i-cubed-enterprises-inc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/connelly-electric-co",
+      "@type": "Organization",
+      "name": "CONNELLY ELECTRIC CO.",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "connelly-electric-co"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/parvin-clauss-sign-company",
+      "@type": "Organization",
+      "name": "PARVIN-CLAUSS SIGN COMPANY",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "parvin-clauss-sign-company"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/dexter-electric-group-llc",
+      "@type": "Organization",
+      "name": "DEXTER ELECTRIC GROUP LLC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "dexter-electric-group-llc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/mk-electric-services",
+      "@type": "Organization",
+      "name": "MK ELECTRIC SERVICES",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "mk-electric-services"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/wachter-inc",
+      "@type": "Organization",
+      "name": "WACHTER INC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "wachter-inc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/mccormick-compliance-consultin",
+      "@type": "Organization",
+      "name": "MCCORMICK COMPLIANCE CONSULTIN",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "mccormick-compliance-consultin"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/aes-inc",
+      "@type": "Organization",
+      "name": "AES, INC.",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "aes-inc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/palos-electric-company-inc",
+      "@type": "Organization",
+      "name": "PALOS ELECTRIC COMPANY, INC.",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "palos-electric-company-inc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/mastec-network-solution-llc",
+      "@type": "Organization",
+      "name": "MASTEC NETWORK SOLUTION LLC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "mastec-network-solution-llc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/alarm-detection-systems-of-ill",
+      "@type": "Organization",
+      "name": "ALARM DETECTION SYSTEMS OF ILL",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "alarm-detection-systems-of-ill"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/d-c-l-electric",
+      "@type": "Organization",
+      "name": "D.C.L. ELECTRIC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "d-c-l-electric"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/advent-systems-inc",
+      "@type": "Organization",
+      "name": "ADVENT SYSTEMS, INC.",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "advent-systems-inc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/contrast-electrical-services",
+      "@type": "Organization",
+      "name": "CONTRAST ELECTRICAL SERVICES",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "contrast-electrical-services"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/current-flow-llc",
+      "@type": "Organization",
+      "name": "CURRENT FLOW LLC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "current-flow-llc"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/interstate-electronics-co",
+      "@type": "Organization",
+      "name": "INTERSTATE ELECTRONICS CO.",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "interstate-electronics-co"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/artis-electric-incorporated",
+      "@type": "Organization",
+      "name": "ARTIS ELECTRIC INCORPORATED",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "artis-electric-incorporated"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://data.cityofchicago.org/id/party/advent-systems-llc-dba",
+      "@type": "Organization",
+      "name": "ADVENT SYSTEMS LLC DBA",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:permit-contact",
+          "value": "advent-systems-llc-dba"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    }
+  ]
+}
