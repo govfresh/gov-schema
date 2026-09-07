@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/procurement/award.schema.json",
+  "title": "Award",
+  "description": "The decision to give the contract to a supplier. Mirrors the OCDS award block. Suppliers are referenced, never named in free text: a supplier name as a string cannot be joined across contracts, and that is precisely how repeat awards to connected parties stay invisible.",
+  "type": "object",
+  "properties": {
+    "@type": {"const": "Award"},
+    "@id": {"type": "string", "format": "iri"},
+    "awardId": {"type": "string", "description": "Identifier for this award within the process. Contracts reference it."},
+    "title": {"type": "string"},
+    "description": {"type": "string"},
+    "status": {"type": "string", "enum": ["pending", "active", "cancelled", "unsuccessful"]},
+    "date": {"type": "string", "anyOf": [{"format": "date"}, {"format": "date-time"}]},
+    "value": {"$ref": "../budget/amount.schema.json"},
+    "supplier": {
+      "type": "array",
+      "items": {"$ref": "../_core/reference.schema.json"},
+      "description": "References to Party entities. Required."
+    },
+    "contractPeriodStart": {"type": "string", "format": "date"},
+    "contractPeriodEnd": {"type": "string", "format": "date"},
+    "document": {"type": "array", "items": {"type": "string", "format": "iri"}}
+  },
+  "required": ["@type", "awardId", "status", "supplier"],
+  "additionalProperties": true
+}
