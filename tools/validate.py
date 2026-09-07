@@ -28,6 +28,7 @@ SCHEMA_FOR = {
     "City": "jurisdiction.schema.json",
     "GovernmentOrganization": "organization.schema.json",
     "Person": "person.schema.json",
+    "Boundary": "boundary.schema.json",
     "GovernmentBuilding": "facility.schema.json",
     "CityHall": "facility.schema.json",
     "LegislativeBuilding": "facility.schema.json",
@@ -109,7 +110,7 @@ def main(argv):
         return 1
 
     entities, sources, dupes = load_graph(paths)
-    errors, notes = [], []
+    errors, warnings, notes = [], [], []
 
     for nid, first, second in dupes:
         errors.append(f"duplicate @id {nid}\n    declared in {first} and {second}")
@@ -347,6 +348,56 @@ def main(argv):
                 f"    set duplicateOf; a status note naming the other request cannot be followed"
             )
 
+    # --- boundaries and geometry -----------------------------------------------
+    INLINE_VERTEX_WARN = 500
+
+    def count_vertices(coords):
+        if not isinstance(coords, list):
+            return 0
+        if coords and all(isinstance(x, (int, float)) for x in coords):
+            return 1
+        return sum(count_vertices(c) for c in coords)
+
+    for nid, node in entities.items():
+        types_ = node.get("@type")
+        types_ = types_ if isinstance(types_, list) else [types_]
+        if "Boundary" not in types_:
+            continue
+
+        vf = parse_dt(node.get("validFrom"))
+        vu = parse_dt(node.get("validUntil"))
+        if vf and vu and vu < vf:
+            errors.append(
+                f"boundary ceases before it takes effect: {nid}\n"
+                f"    validFrom {node.get('validFrom')}, validUntil {node.get('validUntil')}")
+
+        sup = entities.get((node.get("supersedes") or {}).get("@id"))
+        if sup:
+            sup_from = parse_dt(sup.get("validFrom"))
+            if vf and sup_from and sup_from > vf:
+                errors.append(
+                    f"boundary supersedes one that took effect later: {nid}\n"
+                    f"    this from {node.get('validFrom')}, superseded from {sup.get('validFrom')}")
+            if (sup.get("boundaryOf") or {}).get("@id") != (node.get("boundaryOf") or {}).get("@id"):
+                errors.append(
+                    f"boundary supersedes the boundary of a different area: {nid}")
+
+        g = node.get("geometry") or {}
+        # A generalised rendering is not the legal boundary, so it must not also claim to
+        # be authoritative - that combination tells a consumer two contradictory things.
+        if g.get("simplified") and node.get("authoritative"):
+            errors.append(
+                f"boundary is both simplified and authoritative: {nid}\n"
+                f"    a generalised rendering is not the legal boundary; using one to decide\n"
+                f"    whether an address falls inside gives wrong answers at the edges")
+
+        # Inline size is a publishing judgement, not a correctness error, so it warns.
+        n = g.get("vertexCount") or count_vertices(g.get("coordinates"))
+        if g.get("coordinates") and n > INLINE_VERTEX_WARN:
+            warnings.append(
+                f"inline geometry has ~{n:,} vertices ({nid}); consider contentUrl above "
+                f"{INLINE_VERTEX_WARN:,}")
+
     # --- elections ---------------------------------------------------------------
     # Election returns that do not add up are the classic sign of a transcription
     # error, and every vote share published from them is wrong. This is arithmetic,
@@ -543,6 +594,10 @@ def main(argv):
         print(f"  note: conformance claimed ({len(claims)} declaration(s)): {shown}")
     for n in notes:
         print(f"  note: {n}")
+    if warnings:
+        print(f"\n{len(warnings)} warning(s):")
+        for w in warnings:
+            print(f"  - {w}")
     if errors:
         print(f"\n{len(errors)} error(s):")
         for e in errors:

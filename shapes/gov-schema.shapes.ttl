@@ -343,3 +343,18 @@ gs:CandidacyShape a sh:NodeShape ;
         sh:path gs:party ;
         sh:class schema:PoliticalParty ;
         sh:message "party must point at a PoliticalParty; absent means the candidate stood as an independent." ] .
+
+#############################  Boundaries  #############################
+
+gs:BoundaryShape a sh:NodeShape ;
+    sh:targetClass gs:Boundary ;
+    sh:property [
+        sh:path gs:boundaryOf ;
+        sh:minCount 1 ;
+        sh:or ( [ sh:class schema:AdministrativeArea ] [ sh:class schema:Country ]
+                [ sh:class schema:State ] [ sh:class schema:City ] ) ;
+        sh:message "boundaryOf must point at a Jurisdiction - a boundary is the extent of a governed area." ] ;
+    sh:property [
+        sh:path gs:supersedes ;
+        sh:class gs:Boundary ;
+        sh:message "A boundary supersedes another Boundary." ] .

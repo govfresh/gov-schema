@@ -235,9 +235,16 @@
             "description": "A Jurisdiction the alert covers."
           },
           "geometry": {
-            "type": "string",
-            "format": "iri",
-            "description": "URL of a GeoJSON polygon (RFC 7946, WGS84)."
+            "description": "Where the alert applies. A URL to a GeoJSON resource, or an inline Geometry for a small warning polygon. Inline is permitted because real CAP publishers embed the polygon in the alert itself - the NWS feed does - and a profile that only allowed references could not describe them.",
+            "oneOf": [
+              {
+                "type": "string",
+                "format": "iri"
+              },
+              {
+                "$ref": "../_core/geometry.schema.json"
+              }
+            ]
           },
           "geocode": {
             "type": "array",

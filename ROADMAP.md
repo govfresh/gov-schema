@@ -101,6 +101,10 @@ judgments), inspections (narrow, no international standard). Low reuse, high cos
 
 ## Open question — geospatial data
 
+**A design note with a recommendation is now written up in [GEOSPATIAL.md](GEOSPATIAL.md)**, covering the three decisions (inline vs referenced, CRS declaration, whether `_core` gains a boundary concept), the evidence from `catalog`, `alerts` and `_core`, and what implementing it would change. Three questions are left open for decision there; the substantive one is whether historical boundaries are repeated on a jurisdiction or held as separate citable entities.
+
+Summary of the section below, which records the original evidence:
+
 **What GIS/geo data should be included?** Not yet decided. What is known:
 
 **Today** every geo-bearing entity carries at most a point: `geo` → `GeoCoordinates` on

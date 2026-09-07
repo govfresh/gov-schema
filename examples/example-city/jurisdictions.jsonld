@@ -87,6 +87,11 @@
           "@id": "https://example-city.gov/id/organization/city-government",
           "name": "Example City Government"
         }
+      ],
+      "boundary": [
+        {
+          "@id": "https://example-city.gov/id/boundary/example-city/current"
+        }
       ]
     },
     {
@@ -104,7 +109,18 @@
       "containedInPlace": {
         "@id": "https://example-city.gov/id/jurisdiction/example-city",
         "name": "Example City"
-      }
+      },
+      "boundary": [
+        {
+          "@id": "https://example-city.gov/id/boundary/district-2/2012"
+        },
+        {
+          "@id": "https://example-city.gov/id/boundary/district-2/2023"
+        },
+        {
+          "@id": "https://example-city.gov/id/boundary/district-2/2023-display"
+        }
+      ]
     },
     {
       "@id": "https://example-city.gov/id/jurisdiction/example-city/district-1",
