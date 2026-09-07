@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/elections/political-party.schema.json",
+  "title": "PoliticalParty",
+  "description": "A political party. schema:PoliticalParty is a real type and is used unchanged. Kept out of _core because a party is not a government body: it has no jurisdiction it governs and no place in the organizational hierarchy, so the _core Organization requirements do not apply to it.",
+  "type": "object",
+  "properties": {
+    "@context": {},
+    "@id": {"type": "string", "format": "iri"},
+    "@type": {"const": "PoliticalParty"},
+    "name": {"type": "string"},
+    "alternateName": {"type": "array", "items": {"type": "string"}},
+    "description": {"type": "string"},
+    "url": {"type": "string", "format": "iri"},
+    "identifier": {"type": "array", "items": {"$ref": "../_core/identifier.schema.json"}},
+    "areaServed": {"$ref": "../_core/reference.schema.json"},
+    "foundingDate": {"type": "string", "format": "date"},
+    "dissolutionDate": {"type": "string", "format": "date"}
+  },
+  "required": ["@id", "@type", "name"],
+  "additionalProperties": true
+}

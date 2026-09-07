@@ -301,3 +301,45 @@ gs:PermitShape a sh:NodeShape ;
         sh:path gs:relatedLegislation ;
         sh:class schema:Legislation ;
         sh:message "relatedLegislation must point at Legislation - the provision the permit is granted under." ] .
+
+#############################  Elections  #############################
+
+gs:ElectionShape a sh:NodeShape ;
+    sh:targetClass gs:Election ;
+    sh:property [
+        sh:path schema:jurisdiction ;
+        sh:minCount 1 ;
+        sh:or ( [ sh:class schema:AdministrativeArea ] [ sh:class schema:City ] ) ;
+        sh:message "An election must name the Jurisdiction it is held in." ] ;
+    sh:property [
+        sh:path gs:administeredBy ;
+        sh:class schema:GovernmentOrganization ;
+        sh:message "administeredBy must point at the government body running the election." ] .
+
+gs:ContestShape a sh:NodeShape ;
+    sh:targetClass gs:Contest ;
+    sh:property [
+        sh:path gs:election ;
+        sh:minCount 1 ;
+        sh:class gs:Election ;
+        sh:message "A contest must belong to an Election." ] ;
+    sh:property [
+        sh:path gs:post ;
+        sh:class gs:Post ;
+        sh:message "post must point at a Post in the org profile - this is the join that connects an election to the office it filled." ] ;
+    sh:property [
+        sh:path gs:representsJurisdiction ;
+        sh:or ( [ sh:class schema:AdministrativeArea ] [ sh:class schema:City ] ) ;
+        sh:message "representsJurisdiction must point at a Jurisdiction." ] .
+
+gs:CandidacyShape a sh:NodeShape ;
+    sh:targetClass gs:Candidacy ;
+    sh:property [
+        sh:path gs:candidate ;
+        sh:minCount 1 ;
+        sh:class schema:Person ;
+        sh:message "A candidacy must name the Person standing." ] ;
+    sh:property [
+        sh:path gs:party ;
+        sh:class schema:PoliticalParty ;
+        sh:message "party must point at a PoliticalParty; absent means the candidate stood as an independent." ] .

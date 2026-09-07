@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@id": "https://schema.govfresh.com/v1/ElectionStatus",
+  "@type": "DefinedTermSet",
+  "name": "Election status",
+  "description": "Whether an election is upcoming, done, or did not happen as planned. Cancelled and postponed elections stay published: an election that was called and then did not take place is part of the record.",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:electstatus/scheduled",
+      "termCode": "scheduled",
+      "name": "Scheduled",
+      "description": "Called and not yet held."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:electstatus/completed",
+      "termCode": "completed",
+      "name": "Completed",
+      "description": "Held, with results reported."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:electstatus/cancelled",
+      "termCode": "cancelled",
+      "name": "Cancelled",
+      "description": "Called and then not held."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:electstatus/postponed",
+      "termCode": "postponed",
+      "name": "Postponed",
+      "description": "Deferred to a later date."
+    }
+  ]
+}

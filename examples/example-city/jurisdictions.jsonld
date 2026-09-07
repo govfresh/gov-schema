@@ -156,6 +156,23 @@
         "@id": "https://example-city.gov/id/jurisdiction/example-city",
         "name": "Example City"
       }
+    },
+    {
+      "@id": "https://example-city.gov/id/jurisdiction/example-city/district-5",
+      "@type": "AdministrativeArea",
+      "name": "District 5",
+      "governmentLevel": "submunicipal",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "district-5"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city",
+        "name": "Example City"
+      }
     }
   ]
 }

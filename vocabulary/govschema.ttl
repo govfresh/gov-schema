@@ -775,3 +775,83 @@ gs:relatedLegislation a rdf:Property ;
 gs:PermitType a schema:DefinedTermSet ; schema:name "Permit type" .
 gs:PermitStatus a schema:DefinedTermSet ; schema:name "Permit status" .
 gs:WorkType a schema:DefinedTermSet ; schema:name "Work type" .
+
+#################  elections profile  #################
+
+gs:Election a rdfs:Class ;
+    rdfs:label "Election" ;
+    rdfs:comment "An electoral event on a given date, containing one or more contests. schema.org has no Election, Candidate, Ballot or constituency of any kind; only schema:PoliticalParty is reusable." ;
+    rdfs:subClassOf schema:Event .
+
+gs:Contest a rdfs:Class ;
+    rdfs:label "Contest" ;
+    rdfs:comment "One race or question on the ballot - the unit at which results are actually reported." ;
+    rdfs:subClassOf schema:Intangible .
+
+gs:Candidacy a rdfs:Class ;
+    rdfs:label "Candidacy" ;
+    rdfs:comment "One person standing in one contest. A candidacy rather than a candidate: the same person may stand in several contests, and party affiliation and result belong to the standing rather than to the person." ;
+    rdfs:subClassOf schema:Intangible .
+
+gs:BallotOption a rdfs:Class ;
+    rdfs:label "Ballot option" ;
+    rdfs:comment "An option put to voters in a ballot measure, named with schema:name. Kept distinct from a candidacy because a proposition is not a person." ;
+    rdfs:subClassOf schema:Intangible .
+
+gs:electionDate a rdf:Property ; schema:domainIncludes gs:Election ; schema:rangeIncludes schema:Date ;
+    rdfs:label "election date" ; rdfs:comment "Polling day; where voting spans several days, the final day." .
+gs:electionType a rdf:Property ; schema:domainIncludes gs:Election ; schema:rangeIncludes schema:DefinedTerm ;
+    rdfs:label "election type" .
+gs:electionStatus a rdf:Property ; schema:domainIncludes gs:Election ; schema:rangeIncludes schema:DefinedTerm ;
+    rdfs:label "election status" .
+gs:administeredBy a rdf:Property ; schema:domainIncludes gs:Election ; schema:rangeIncludes schema:GovernmentOrganization ;
+    rdfs:label "administered by" ;
+    rdfs:comment "The body running the election, which is frequently not the body being elected." .
+gs:contest a rdf:Property ; schema:domainIncludes gs:Election ; schema:rangeIncludes gs:Contest ;
+    rdfs:label "contest" .
+gs:contestType a rdf:Property ; schema:domainIncludes gs:Contest ; schema:rangeIncludes schema:DefinedTerm ;
+    rdfs:label "contest type" .
+gs:electoralSystem a rdf:Property ; schema:domainIncludes gs:Contest ; schema:rangeIncludes schema:DefinedTerm ;
+    rdfs:label "electoral system" ;
+    rdfs:comment "How votes translate into outcomes. Required, because a result cannot be interpreted without it: 40% wins outright under first past the post, triggers a runoff under a two-round system, and yields a seat share under a party list." .
+gs:seatsToFill a rdf:Property ; schema:domainIncludes gs:Contest ; schema:rangeIncludes schema:Integer ;
+    rdfs:label "seats to fill" .
+gs:candidacy a rdf:Property ; schema:domainIncludes gs:Contest ; schema:rangeIncludes gs:Candidacy ;
+    rdfs:label "candidacy" .
+gs:ballotOption a rdf:Property ; schema:domainIncludes gs:Contest ; schema:rangeIncludes gs:BallotOption ;
+    rdfs:label "ballot option" .
+gs:candidate a rdf:Property ; schema:domainIncludes gs:Candidacy ; schema:rangeIncludes schema:Person ;
+    rdfs:label "candidate" ;
+    rdfs:comment "The person standing. A reference, so a candidate who takes office is the same entity as the officeholder in the org profile." .
+gs:party a rdf:Property ; schema:domainIncludes gs:Candidacy ; schema:rangeIncludes schema:PoliticalParty ;
+    rdfs:label "party" ; rdfs:comment "Absent means the candidate stood as an independent." .
+gs:ballotName a rdf:Property ; schema:domainIncludes gs:Candidacy ; schema:rangeIncludes schema:Text ;
+    rdfs:label "ballot name" ; rdfs:comment "The name as printed on the ballot, often not the person's full legal name." .
+gs:ballotOrder a rdf:Property ; schema:domainIncludes gs:Candidacy ; schema:rangeIncludes schema:Integer ;
+    rdfs:label "ballot order" .
+gs:voteCount a rdf:Property ; schema:domainIncludes gs:Candidacy, gs:BallotOption ; schema:rangeIncludes schema:Integer ;
+    rdfs:label "vote count" .
+gs:candidacyResult a rdf:Property ; schema:domainIncludes gs:Candidacy ; schema:rangeIncludes schema:DefinedTerm ;
+    rdfs:label "candidacy result" ;
+    rdfs:comment "Withdrawn and disqualified are distinguished from losing: a candidate who never faced the voters is not the same as one who did and lost." .
+gs:incumbent a rdf:Property ; schema:domainIncludes gs:Candidacy ; schema:rangeIncludes schema:Boolean ;
+    rdfs:label "incumbent" .
+gs:registeredVoters a rdf:Property ; schema:domainIncludes gs:Election ; schema:rangeIncludes schema:Integer ;
+    rdfs:label "registered voters" .
+gs:ballotsCast a rdf:Property ; schema:domainIncludes gs:Election ; schema:rangeIncludes schema:Integer ;
+    rdfs:label "ballots cast" ;
+    rdfs:comment "With registeredVoters this yields turnout. Publishing a derived percentage instead loses the ability to recompute it on a corrected register." .
+gs:validVotes a rdf:Property ; schema:domainIncludes gs:Contest ; schema:rangeIncludes schema:Integer ; rdfs:label "valid votes" .
+gs:invalidVotes a rdf:Property ; schema:domainIncludes gs:Contest ; schema:rangeIncludes schema:Integer ;
+    rdfs:label "invalid votes" ;
+    rdfs:comment "Spoiled and blank ballots, reported separately because they are a real signal and folding them into the total makes every share slightly wrong." .
+gs:totalVotes a rdf:Property ; schema:domainIncludes gs:Contest ; schema:rangeIncludes schema:Integer ; rdfs:label "total votes" .
+gs:prevailed a rdf:Property ; schema:domainIncludes gs:BallotOption ; schema:rangeIncludes schema:Boolean ; rdfs:label "prevailed" .
+
+gs:ElectoralSystem a schema:DefinedTermSet ; schema:name "Electoral system" .
+gs:ElectionType a schema:DefinedTermSet ; schema:name "Election type" .
+gs:ContestType a schema:DefinedTermSet ; schema:name "Contest type" .
+gs:CandidacyResult a schema:DefinedTermSet ; schema:name "Candidacy result" .
+
+gs:election a rdf:Property ; schema:domainIncludes gs:Contest ; schema:rangeIncludes gs:Election ;
+    rdfs:label "election" ; rdfs:comment "The election a contest belongs to." .

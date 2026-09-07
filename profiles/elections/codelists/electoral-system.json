@@ -1,0 +1,79 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@id": "https://schema.govfresh.com/v1/ElectoralSystem",
+  "@type": "DefinedTermSet",
+  "name": "Electoral system",
+  "description": "How votes translate into outcomes. Required on every contest, because a result cannot be interpreted without it: 40% of the vote wins outright under first-past-the-post, triggers a runoff under a two-round system, and yields a proportion of seats under a party list. This is the field that lets the profile travel - one that assumed a single system would only work in the country it was written in.",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:electsys/fptp",
+      "termCode": "fptp",
+      "name": "First past the post",
+      "description": "Single seat, most votes wins, no majority required."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:electsys/blockVote",
+      "termCode": "blockVote",
+      "name": "Block vote",
+      "description": "Several seats, voters cast as many votes as there are seats, highest totals win."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:electsys/twoRound",
+      "termCode": "twoRound",
+      "name": "Two-round",
+      "description": "A second round between leading candidates if no one reaches the threshold in the first."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:electsys/partyList",
+      "termCode": "partyList",
+      "name": "Party-list proportional",
+      "description": "Seats allocated to parties in proportion to their vote share."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:electsys/stv",
+      "termCode": "stv",
+      "name": "Single transferable vote",
+      "description": "Multi-seat, ranked, with surplus and eliminated votes transferred."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:electsys/mmp",
+      "termCode": "mmp",
+      "name": "Mixed-member proportional",
+      "description": "Constituency seats plus list seats allocated to make the total proportional."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:electsys/parallel",
+      "termCode": "parallel",
+      "name": "Parallel or mixed",
+      "description": "Constituency and list seats allocated independently, without compensation."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:electsys/rankedChoice",
+      "termCode": "rankedChoice",
+      "name": "Ranked choice (instant runoff)",
+      "description": "Single seat, ranked, lowest eliminated and transferred until a majority."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:electsys/approval",
+      "termCode": "approval",
+      "name": "Approval",
+      "description": "Voters approve any number of candidates; most approvals wins."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:electsys/indirect",
+      "termCode": "indirect",
+      "name": "Indirect",
+      "description": "Chosen by an electoral college or a sitting body rather than directly by voters."
+    }
+  ]
+}
