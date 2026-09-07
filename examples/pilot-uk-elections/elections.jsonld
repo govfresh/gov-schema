@@ -1,0 +1,5664 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/election/gla-a-2024-05-02",
+      "@type": "Election",
+      "name": "London Assembly elections (Additional)",
+      "electionDate": "2024-05-02",
+      "electionType": "general",
+      "electionStatus": "completed",
+      "administeredBy": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "jurisdiction": {
+        "@id": "https://candidates.democracyclub.org.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gla.a.2024-05-02"
+        }
+      ],
+      "contest": [
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-a-2024-05-02",
+          "name": "London Assembly — London Assembly elections (Additional)"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/election/gla-c-2024-05-02",
+      "@type": "Election",
+      "name": "London Assembly elections (Constituencies)",
+      "electionDate": "2024-05-02",
+      "electionType": "general",
+      "electionStatus": "completed",
+      "administeredBy": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "jurisdiction": {
+        "@id": "https://candidates.democracyclub.org.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gla.c.2024-05-02"
+        }
+      ],
+      "contest": [
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-barnet-and-camden-2024-05-02",
+          "name": "Barnet and Camden — London Assembly elections (Constituencies)"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-bexley-and-bromley-2024-05-02",
+          "name": "Bexley and Bromley — London Assembly elections (Constituencies)"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-brent-and-harrow-2024-05-02",
+          "name": "Brent and Harrow — London Assembly elections (Constituencies)"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-city-and-east-2024-05-02",
+          "name": "City and East — London Assembly elections (Constituencies)"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-croydon-and-sutton-2024-05-02",
+          "name": "Croydon and Sutton — London Assembly elections (Constituencies)"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-ealing-and-hillingdon-2024-05-02",
+          "name": "Ealing and Hillingdon — London Assembly elections (Constituencies)"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-enfield-and-haringey-2024-05-02",
+          "name": "Enfield and Haringey — London Assembly elections (Constituencies)"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-greenwich-and-lewisham-2024-05-02",
+          "name": "Greenwich and Lewisham — London Assembly elections (Constituencies)"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-havering-and-redbridge-2024-05-02",
+          "name": "Havering and Redbridge — London Assembly elections (Constituencies)"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-lambeth-and-southwark-2024-05-02",
+          "name": "Lambeth and Southwark — London Assembly elections (Constituencies)"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-merton-and-wandsworth-2024-05-02",
+          "name": "Merton and Wandsworth — London Assembly elections (Constituencies)"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-north-east-2024-05-02",
+          "name": "North East — London Assembly elections (Constituencies)"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-south-west-2024-05-02",
+          "name": "South West — London Assembly elections (Constituencies)"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-west-central-2024-05-02",
+          "name": "West Central — London Assembly elections (Constituencies)"
+        }
+      ],
+      "ballotsCast": 2493433
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/election/local-adur-2024-05-02",
+      "@type": "Election",
+      "name": "Adur local election",
+      "electionDate": "2024-05-02",
+      "electionType": "general",
+      "electionStatus": "completed",
+      "administeredBy": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "jurisdiction": {
+        "@id": "https://candidates.democracyclub.org.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.adur.2024-05-02"
+        }
+      ],
+      "contest": [
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-buckingham-2024-05-02",
+          "name": "Buckingham — Adur local election"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-churchill-2024-05-02",
+          "name": "Churchill — Adur local election"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-cokeham-2024-05-02",
+          "name": "Cokeham — Adur local election"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-eastbrook-2024-05-02",
+          "name": "Eastbrook — Adur local election"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-hillside-2024-05-02",
+          "name": "Hillside — Adur local election"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-manor-2024-05-02",
+          "name": "Manor — Adur local election"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-marine-2024-05-02",
+          "name": "Marine — Adur local election"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-mash-barn-2024-05-02",
+          "name": "Mash Barn — Adur local election"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-peverel-2024-05-02",
+          "name": "Peverel — Adur local election"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-southlands-2024-05-02",
+          "name": "Southlands — Adur local election"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-southwick-green-2024-05-02",
+          "name": "Southwick Green — Adur local election"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-st-marys-2024-05-02",
+          "name": "St Mary's — Adur local election"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-st-nicolas-2024-05-02",
+          "name": "St Nicolas — Adur local election"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-widewater-2024-05-02",
+          "name": "Widewater — Adur local election"
+        }
+      ],
+      "ballotsCast": 19486
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/election/local-amber-valley-2024-05-02",
+      "@type": "Election",
+      "name": "Amber Valley local election",
+      "electionDate": "2024-05-02",
+      "electionType": "general",
+      "electionStatus": "completed",
+      "administeredBy": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "jurisdiction": {
+        "@id": "https://candidates.democracyclub.org.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.amber-valley.2024-05-02"
+        }
+      ],
+      "contest": [
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-amber-valley-crich-south-wingfield-by-2024-05-02",
+          "name": "Crich & South Wingfield — Amber Valley local election"
+        }
+      ],
+      "ballotsCast": 1735
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/election/local-barnsley-2024-05-02",
+      "@type": "Election",
+      "name": "Barnsley local election",
+      "electionDate": "2024-05-02",
+      "electionType": "general",
+      "electionStatus": "completed",
+      "administeredBy": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "jurisdiction": {
+        "@id": "https://candidates.democracyclub.org.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.barnsley.2024-05-02"
+        }
+      ],
+      "contest": [
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-barnsley-central-2024-05-02",
+          "name": "Central — Barnsley local election"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-barnsley-cudworth-2024-05-02",
+          "name": "Cudworth — Barnsley local election"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-barnsley-darfield-2024-05-02",
+          "name": "Darfield — Barnsley local election"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-barnsley-darton-east-2024-05-02",
+          "name": "Darton East — Barnsley local election"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-barnsley-darton-west-2024-05-02",
+          "name": "Darton West — Barnsley local election"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-barnsley-dearne-north-2024-05-02",
+          "name": "Dearne North — Barnsley local election"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-barnsley-dearne-south-2024-05-02",
+          "name": "Dearne South — Barnsley local election"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-barnsley-dodworth-2024-05-02",
+          "name": "Dodworth — Barnsley local election"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-barnsley-hoyland-milton-2024-05-02",
+          "name": "Hoyland Milton — Barnsley local election"
+        },
+        {
+          "@id": "https://candidates.democracyclub.org.uk/id/contest/local-barnsley-kingstone-2024-05-02",
+          "name": "Kingstone — Barnsley local election"
+        }
+      ],
+      "ballotsCast": 20217
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-a-2024-05-02",
+      "@type": "Contest",
+      "name": "London Assembly — London Assembly elections (Additional)",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/gla-a-2024-05-02",
+        "name": "London Assembly elections (Additional)"
+      },
+      "contestType": "office",
+      "electoralSystem": "mmp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gla",
+        "name": "London Assembly"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gla.a.2024-05-02"
+        }
+      ],
+      "seatsToFill": 11,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/8000",
+            "name": "Susan Mary Hall"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "candidacyResult": "elected",
+          "ballotOrder": 1
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/1478",
+            "name": "Shaun Bailey"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "candidacyResult": "elected",
+          "ballotOrder": 2
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/38812",
+            "name": "Emma Best"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "candidacyResult": "elected",
+          "ballotOrder": 3
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/7998",
+            "name": "Andrew Boff"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "candidacyResult": "elected",
+          "ballotOrder": 4
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/43557",
+            "name": "Alessandro Georgiou"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "candidacyResult": "elected",
+          "ballotOrder": 5
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/34835",
+            "name": "Siân Berry"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "candidacyResult": "elected",
+          "ballotOrder": 1
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/4750",
+            "name": "Caroline Russell"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "candidacyResult": "elected",
+          "ballotOrder": 2
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/7505",
+            "name": "Zack Polanski"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "candidacyResult": "elected",
+          "ballotOrder": 3
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/72811",
+            "name": "Elly Baker"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "candidacyResult": "elected",
+          "ballotOrder": 1
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/47398",
+            "name": "Hina Bokhari"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "candidacyResult": "elected",
+          "ballotOrder": 1
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/45979",
+            "name": "Alex Wilson"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "candidacyResult": "elected",
+          "ballotOrder": 1
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/7400",
+            "name": "Vanessa Hudson"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp616",
+            "name": "Animal Welfare Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 1
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/94222",
+            "name": "Saffron Arezo Gloyne"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp616",
+            "name": "Animal Welfare Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 2
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/7959",
+            "name": "Alex Bourke"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp616",
+            "name": "Animal Welfare Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 3
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/72474",
+            "name": "Femy Amin"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp616",
+            "name": "Animal Welfare Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 4
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109374",
+            "name": "Bel Jacobs"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp616",
+            "name": "Animal Welfare Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 5
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/74740",
+            "name": "Mark Scott"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp616",
+            "name": "Animal Welfare Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 6
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/74741",
+            "name": "Julian Weisman"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp616",
+            "name": "Animal Welfare Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 7
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/90108",
+            "name": "Nick Scanlon"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp12823",
+            "name": "Britain First"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 1
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/7412",
+            "name": "Maureen Maud Martin"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp79",
+            "name": "Christian Peoples Alliance"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 1
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/90379",
+            "name": "Simeon Adewole Ademolake"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp79",
+            "name": "Christian Peoples Alliance"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 2
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/7988",
+            "name": "Helen Spiby-Vann"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp79",
+            "name": "Christian Peoples Alliance"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 3
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/92434",
+            "name": "Amelia Allao"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp79",
+            "name": "Christian Peoples Alliance"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 4
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/6332",
+            "name": "Ashley Dickenson"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp79",
+            "name": "Christian Peoples Alliance"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 5
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/72622",
+            "name": "Eunice Odesanmi"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp79",
+            "name": "Christian Peoples Alliance"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 6
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/6479",
+            "name": "Des Coke"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp79",
+            "name": "Christian Peoples Alliance"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 7
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/34807",
+            "name": "Katherine Susan Hortense"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp79",
+            "name": "Christian Peoples Alliance"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 8
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/72406",
+            "name": "Zion Amodu"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp79",
+            "name": "Christian Peoples Alliance"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 9
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/76811",
+            "name": "Lucy Baiye-Gaman"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp79",
+            "name": "Christian Peoples Alliance"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 10
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109379",
+            "name": "Ross Crawford"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp78",
+            "name": "Communist Party of Britain"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 1
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109380",
+            "name": "William James Dry"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp78",
+            "name": "Communist Party of Britain"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 2
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109381",
+            "name": "Nigel Andrew Bernard Green"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp78",
+            "name": "Communist Party of Britain"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 3
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/74751",
+            "name": "Anita Halpin"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp78",
+            "name": "Communist Party of Britain"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 4
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109382",
+            "name": "Arnes Ramic"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp78",
+            "name": "Communist Party of Britain"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 5
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109383",
+            "name": "Ross Leonard"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp78",
+            "name": "Communist Party of Britain"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 6
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109384",
+            "name": "Laura Billie Miller"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp78",
+            "name": "Communist Party of Britain"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 7
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109385",
+            "name": "Michael John Squires"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp78",
+            "name": "Communist Party of Britain"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 8
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/74744",
+            "name": "Robin Talbot"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp78",
+            "name": "Communist Party of Britain"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 9
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109386",
+            "name": "Paul Whitehouse"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp78",
+            "name": "Communist Party of Britain"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 10
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109387",
+            "name": "Ruth Styles Wilson"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp78",
+            "name": "Communist Party of Britain"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 11
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109388",
+            "name": "Benjamin Eric Woodward"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp78",
+            "name": "Communist Party of Britain"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 12
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/47300",
+            "name": "Nick McLean"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 6
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/40034",
+            "name": "Nick Vandyke"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 7
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/41791",
+            "name": "Laila Cunningham"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 8
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/48389",
+            "name": "Richard Mills"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 9
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/44343",
+            "name": "Kate Lymer"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 10
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/92767",
+            "name": "Will Jackson"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 11
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/84208",
+            "name": "Zoë Garbett"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 4
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/7778",
+            "name": "Benali Hamdache"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 5
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/37323",
+            "name": "Scott John Ainslie"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 6
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/77221",
+            "name": "Ria Patel"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 7
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/34433",
+            "name": "Nate Higgins"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 8
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/48361",
+            "name": "Claire Frances Sheppard"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 9
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/4870",
+            "name": "Shahrar Ali"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 10
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/37140",
+            "name": "Pete Elliott"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 11
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109375",
+            "name": "Maria Elena Candilo"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp12550",
+            "name": "Heritage Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 1
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109376",
+            "name": "David Peter Poulden"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp12550",
+            "name": "Heritage Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 2
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109377",
+            "name": "Michael Gerard Watson"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp12550",
+            "name": "Heritage Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 3
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/37145",
+            "name": "Dafydd Morriss"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp12550",
+            "name": "Heritage Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 4
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109378",
+            "name": "Henryk Mackiewicz"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp12550",
+            "name": "Heritage Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 5
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/72908",
+            "name": "Farah London"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/ynmp-party-2",
+            "name": "Independent"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 1
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/73776",
+            "name": "Laurence Fox"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/ynmp-party-2",
+            "name": "Independent"
+          },
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109365",
+            "name": "Gabe Romualdo"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/ynmp-party-2",
+            "name": "Independent"
+          },
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/44249",
+            "name": "Sakina Sheikh"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 2
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/48238",
+            "name": "John Howard"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 3
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/35574",
+            "name": "James Beckles"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 4
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/38705",
+            "name": "Bora Kwon"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 5
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/38619",
+            "name": "Jasbir Kaur Anand"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 6
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/7838",
+            "name": "Martin Whelton"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 7
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/88572",
+            "name": "Omid Miri"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 8
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/94259",
+            "name": "Devina Marylyn Paul"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 9
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/92143",
+            "name": "Sian Eiles"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 10
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/41693",
+            "name": "Patrick Eamon Lilley"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 11
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/7940",
+            "name": "Rob Blackie"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 2
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/36075",
+            "name": "Irina Stephanie Von Wiese"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 3
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/46209",
+            "name": "Gareth David Roberts"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 4
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/36984",
+            "name": "Chris Maines"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 5
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/35499",
+            "name": "John Nicholas Sweeney"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 6
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/36132",
+            "name": "William Houngbo"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 7
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/36110",
+            "name": "Michael Adewale Bukola"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 8
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/73033",
+            "name": "Chris Annous"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 9
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/45854",
+            "name": "Sue Wixley"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 10
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/36719",
+            "name": "Sarah Hoyle"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 11
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/108998",
+            "name": "Howard Cox"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 2
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/73969",
+            "name": "Mark Simpson"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 3
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/73967",
+            "name": "Ian Price"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 4
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109134",
+            "name": "Steve Chilcott"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 5
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/4937",
+            "name": "Roger Gravett"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 6
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109133",
+            "name": "Tony Glover"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 7
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109131",
+            "name": "Alan Cook"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 8
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/91974",
+            "name": "Raj Forhad"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 9
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109135",
+            "name": "Nicola Pateman"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 10
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/74721",
+            "name": "Anthony Goodwin"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 11
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109132",
+            "name": "Tania Marszalek"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 12
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/93886",
+            "name": "David Kenton Sandground"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 13
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/87040",
+            "name": "Marian Lynn Newton"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 14
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/45618",
+            "name": "Tony Sharp"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 14
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/74096",
+            "name": "Richard Hewison"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp11423",
+            "name": "Rejoin EU"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 1
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109389",
+            "name": "Alex Kerr"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp11423",
+            "name": "Rejoin EU"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 2
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/74788",
+            "name": "Charlotte Blake"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp11423",
+            "name": "Rejoin EU"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 3
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/69545",
+            "name": "Brendan Patrick Donnelly"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp11423",
+            "name": "Rejoin EU"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 4
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109390",
+            "name": "Alessandro Gallo"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp11423",
+            "name": "Rejoin EU"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 5
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109391",
+            "name": "Briony Kapoor"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp11423",
+            "name": "Rejoin EU"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 6
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109392",
+            "name": "Marianne Mandujano"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp11423",
+            "name": "Rejoin EU"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 7
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109393",
+            "name": "Drew Miles"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp11423",
+            "name": "Rejoin EU"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 8
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/88941",
+            "name": "Ben Rend"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp11423",
+            "name": "Rejoin EU"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 9
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/6615",
+            "name": "Laurence Williams"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp11423",
+            "name": "Rejoin EU"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 10
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109395",
+            "name": "Jaki Airey"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp11423",
+            "name": "Rejoin EU"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 11
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109396",
+            "name": "Simon Mark Bezer"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp11423",
+            "name": "Rejoin EU"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 12
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109397",
+            "name": "Jaz Alduk"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp11423",
+            "name": "Rejoin EU"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 13
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109055",
+            "name": "Amy Gallagher"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp243",
+            "name": "Social Democratic Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 1
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109366",
+            "name": "Hugo De Burgh"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp243",
+            "name": "Social Democratic Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 2
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109367",
+            "name": "Stephen Andrew Balogh"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp243",
+            "name": "Social Democratic Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 3
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/90191",
+            "name": "Jon Mabbutt"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp243",
+            "name": "Social Democratic Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 4
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109368",
+            "name": "Manny Lawal"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp243",
+            "name": "Social Democratic Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 5
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109369",
+            "name": "Jane Gibson"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp243",
+            "name": "Social Democratic Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 6
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/71431",
+            "name": "Steve Kelleher"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp243",
+            "name": "Social Democratic Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 7
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109370",
+            "name": "Alastair Mellon"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp243",
+            "name": "Social Democratic Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 8
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109371",
+            "name": "Laurenzo Mefsut"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp243",
+            "name": "Social Democratic Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 9
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109372",
+            "name": "Daniel Woodruffe"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp243",
+            "name": "Social Democratic Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 10
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/47834",
+            "name": "Jake Anthony Painter"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp243",
+            "name": "Social Democratic Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 11
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109373",
+            "name": "David Hargreaves"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp243",
+            "name": "Social Democratic Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 12
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/87373",
+            "name": "Les Beaumont"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp243",
+            "name": "Social Democratic Party"
+          },
+          "candidacyResult": "notElected",
+          "ballotOrder": 13
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-barnet-and-camden-2024-05-02",
+      "@type": "Contest",
+      "name": "Barnet and Camden — London Assembly elections (Constituencies)",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/gla-c-2024-05-02",
+        "name": "London Assembly elections (Constituencies)"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000001",
+        "name": "Barnet and Camden"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gla.c.barnet-and-camden.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/35955",
+            "name": "Anne Clarke"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/joint-party-53-119",
+            "name": "Labour and Co-operative Party"
+          },
+          "voteCount": 70749,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/88152",
+            "name": "Julie Redmond"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 51606,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109000",
+            "name": "Kate Marie Tokley"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 18405,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/36020",
+            "name": "Scott Emery"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 12335,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/91974",
+            "name": "Raj Forhad"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "voteCount": 7703,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/5689",
+            "name": "Bill Martin"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp110",
+            "name": "The Socialist Party of Great Britain"
+          },
+          "voteCount": 1639,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 1218,
+      "validVotes": 162437,
+      "totalVotes": 163655,
+      "registeredVoters": 413809
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-bexley-and-bromley-2024-05-02",
+      "@type": "Contest",
+      "name": "Bexley and Bromley — London Assembly elections (Constituencies)",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/gla-c-2024-05-02",
+        "name": "London Assembly elections (Constituencies)"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000002",
+        "name": "Bexley and Bromley"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gla.c.bexley-and-bromley.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/42755",
+            "name": "Thomas Turrell"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 90103,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/91833",
+            "name": "Kevin McKenna"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "voteCount": 50174,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109131",
+            "name": "Alan Cook"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "voteCount": 27603,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109227",
+            "name": "Gita Kanchan Bapat"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 18730,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/94931",
+            "name": "Marley Cornelia King"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 15813,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 1481,
+      "validVotes": 202423,
+      "totalVotes": 203904,
+      "registeredVoters": 421800
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-brent-and-harrow-2024-05-02",
+      "@type": "Contest",
+      "name": "Brent and Harrow — London Assembly elections (Constituencies)",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/gla-c-2024-05-02",
+        "name": "London Assembly elections (Constituencies)"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000003",
+        "name": "Brent and Harrow"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gla.c.brent-and-harrow.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/48370",
+            "name": "Krupesh Hirani"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/joint-party-53-119",
+            "name": "Labour and Co-operative Party"
+          },
+          "voteCount": 63867,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/72717",
+            "name": "Stefan Bucovineanul-Voloseniuc"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 55039,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/88553",
+            "name": "Nida Al-Fulaij"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 15167,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/92353",
+            "name": "Jonny Singh"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 12068,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/73967",
+            "name": "Ian Price"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "voteCount": 11243,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 1531,
+      "validVotes": 157384,
+      "totalVotes": 158915,
+      "registeredVoters": 428775
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-city-and-east-2024-05-02",
+      "@type": "Contest",
+      "name": "City and East — London Assembly elections (Constituencies)",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/gla-c-2024-05-02",
+        "name": "London Assembly elections (Constituencies)"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000004",
+        "name": "City and East"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gla.c.city-and-east.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/7591",
+            "name": "Unmesh Desai"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/joint-party-53-119",
+            "name": "Labour and Co-operative Party"
+          },
+          "voteCount": 99570,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/93629",
+            "name": "Freddie Downing"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 29083,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/93578",
+            "name": "Joe Hudson-Small"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 29073,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/93886",
+            "name": "David Kenton Sandground"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "voteCount": 14535,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/108761",
+            "name": "Patrick Thomas Stillman"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 11416,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109361",
+            "name": "AK Goodman"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/ynmp-party-2",
+            "name": "Independent"
+          },
+          "voteCount": 5310,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/6169",
+            "name": "Lois Austin"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp804",
+            "name": "Trade Unionist and Socialist Coalition"
+          },
+          "voteCount": 4710,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 2153,
+      "validVotes": 193697,
+      "totalVotes": 195850,
+      "registeredVoters": 628856
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-croydon-and-sutton-2024-05-02",
+      "@type": "Contest",
+      "name": "Croydon and Sutton — London Assembly elections (Constituencies)",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/gla-c-2024-05-02",
+        "name": "London Assembly elections (Constituencies)"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000005",
+        "name": "Croydon and Sutton"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gla.c.croydon-and-sutton.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/48788",
+            "name": "Neil Robert Garratt"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 64674,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/47091",
+            "name": "Maddie Henson"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/joint-party-53-119",
+            "name": "Labour and Co-operative Party"
+          },
+          "voteCount": 54380,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/48824",
+            "name": "Trish Fivey"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 29160,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/4616",
+            "name": "Peter Underwood"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 19434,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/87040",
+            "name": "Marian Lynn Newton"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "voteCount": 14375,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/6154",
+            "name": "April Jacqueline Ashley"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp804",
+            "name": "Trade Unionist and Socialist Coalition"
+          },
+          "voteCount": 2766,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 1332,
+      "validVotes": 184789,
+      "totalVotes": 186121,
+      "registeredVoters": 440715
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-ealing-and-hillingdon-2024-05-02",
+      "@type": "Contest",
+      "name": "Ealing and Hillingdon — London Assembly elections (Constituencies)",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/gla-c-2024-05-02",
+        "name": "London Assembly elections (Constituencies)"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000006",
+        "name": "Ealing and Hillingdon"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gla.c.ealing-and-hillingdon.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/1651",
+            "name": "Bassam Mahfouz"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "voteCount": 72356,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/47434",
+            "name": "Henry Gary Allan Higgins"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 67495,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/181",
+            "name": "Jess Lee"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 22984,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/91674",
+            "name": "Kuldev Sehra"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 15293,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/74721",
+            "name": "Anthony Goodwin"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "voteCount": 15247,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 1383,
+      "validVotes": 193375,
+      "totalVotes": 194758,
+      "registeredVoters": 453892
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-enfield-and-haringey-2024-05-02",
+      "@type": "Contest",
+      "name": "Enfield and Haringey — London Assembly elections (Constituencies)",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/gla-c-2024-05-02",
+        "name": "London Assembly elections (Constituencies)"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000007",
+        "name": "Enfield and Haringey"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gla.c.enfield-and-haringey.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/7725",
+            "name": "Joanne McCartney"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/joint-party-53-119",
+            "name": "Labour and Co-operative Party"
+          },
+          "voteCount": 78880,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/93114",
+            "name": "Calum Alexander McGillivray"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 32778,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109010",
+            "name": "Katie Knight"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 26956,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/40987",
+            "name": "Guy Russo"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 14284,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/4937",
+            "name": "Roger Gravett"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "voteCount": 10973,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 1336,
+      "validVotes": 163871,
+      "totalVotes": 165207,
+      "registeredVoters": 399677
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-greenwich-and-lewisham-2024-05-02",
+      "@type": "Contest",
+      "name": "Greenwich and Lewisham — London Assembly elections (Constituencies)",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/gla-c-2024-05-02",
+        "name": "London Assembly elections (Constituencies)"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000008",
+        "name": "Greenwich and Lewisham"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gla.c.greenwich-and-lewisham.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/7548",
+            "name": "Len Duvall"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/joint-party-53-119",
+            "name": "Labour and Co-operative Party"
+          },
+          "voteCount": 80101,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/90127",
+            "name": "Karin Tearle"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 28294,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/43579",
+            "name": "Kieran Terry"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 25960,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/73969",
+            "name": "Mark Simpson"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "voteCount": 13405,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/70658",
+            "name": "Josh Matthews"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 11975,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 1343,
+      "validVotes": 159735,
+      "totalVotes": 161078,
+      "registeredVoters": 399703
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-havering-and-redbridge-2024-05-02",
+      "@type": "Contest",
+      "name": "Havering and Redbridge — London Assembly elections (Constituencies)",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/gla-c-2024-05-02",
+        "name": "London Assembly elections (Constituencies)"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000009",
+        "name": "Havering and Redbridge"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gla.c.havering-and-redbridge.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/7830",
+            "name": "Keith Prince"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 65037,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/47695",
+            "name": "Guy Owen Mansfield Williams"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "voteCount": 49561,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/45979",
+            "name": "Alex Wilson"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "voteCount": 19696,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/41711",
+            "name": "Kim Arrowsmith"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 15010,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109362",
+            "name": "Mohammed Asif"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/ynmp-party-2",
+            "name": "Independent"
+          },
+          "voteCount": 11768,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/54153",
+            "name": "Fraser Coppin"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 8240,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/48242",
+            "name": "Andy Walker"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp804",
+            "name": "Trade Unionist and Socialist Coalition"
+          },
+          "voteCount": 2145,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 1274,
+      "validVotes": 171457,
+      "totalVotes": 172731,
+      "registeredVoters": 402497
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-lambeth-and-southwark-2024-05-02",
+      "@type": "Contest",
+      "name": "Lambeth and Southwark — London Assembly elections (Constituencies)",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/gla-c-2024-05-02",
+        "name": "London Assembly elections (Constituencies)"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000010",
+        "name": "Lambeth and Southwark"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gla.c.lambeth-and-southwark.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/5874",
+            "name": "Marina Masuma Ahmad"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/joint-party-53-119",
+            "name": "Labour and Co-operative Party"
+          },
+          "voteCount": 84768,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/48361",
+            "name": "Claire Frances Sheppard"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 35144,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/84398",
+            "name": "Chris French"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 22030,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/89046",
+            "name": "Christine Wallace"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 21121,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/45618",
+            "name": "Tony Sharp"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "voteCount": 8942,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/7841",
+            "name": "Adam Buick"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp110",
+            "name": "The Socialist Party of Great Britain"
+          },
+          "voteCount": 2082,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 1341,
+      "validVotes": 174087,
+      "totalVotes": 175428,
+      "registeredVoters": 448552
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-merton-and-wandsworth-2024-05-02",
+      "@type": "Contest",
+      "name": "Merton and Wandsworth — London Assembly elections (Constituencies)",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/gla-c-2024-05-02",
+        "name": "London Assembly elections (Constituencies)"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000011",
+        "name": "Merton and Wandsworth"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gla.c.merton-and-wandsworth.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/7834",
+            "name": "Leonie Alison Cooper"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/joint-party-53-119",
+            "name": "Labour and Co-operative Party"
+          },
+          "voteCount": 77235,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/92056",
+            "name": "Eleanor Anne Cox"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 49812,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/45854",
+            "name": "Sue Wixley"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 21418,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/48223",
+            "name": "Pippa Maslin"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 19124,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109132",
+            "name": "Tania Marszalek"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "voteCount": 8063,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 1171,
+      "validVotes": 175652,
+      "totalVotes": 176823,
+      "registeredVoters": 384678
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-north-east-2024-05-02",
+      "@type": "Contest",
+      "name": "North East — London Assembly elections (Constituencies)",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/gla-c-2024-05-02",
+        "name": "London Assembly elections (Constituencies)"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000012",
+        "name": "North East"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gla.c.north-east.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/19504",
+            "name": "Sem Moema"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/joint-party-53-119",
+            "name": "Labour and Co-operative Party"
+          },
+          "voteCount": 104088,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109001",
+            "name": "Antoinette Fernandez"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 44342,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/94344",
+            "name": "Pearce Branigan"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 27769,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/94996",
+            "name": "Rebecca Jones"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 12920,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109133",
+            "name": "Tony Glover"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "voteCount": 9086,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/1599",
+            "name": "Nancy Taaffe"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp804",
+            "name": "Trade Unionist and Socialist Coalition"
+          },
+          "voteCount": 5595,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/72228",
+            "name": "Tan Bui"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/ynmp-party-2",
+            "name": "Independent"
+          },
+          "voteCount": 1804,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 1891,
+      "validVotes": 205604,
+      "totalVotes": 207495,
+      "registeredVoters": 524885
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-south-west-2024-05-02",
+      "@type": "Contest",
+      "name": "South West — London Assembly elections (Constituencies)",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/gla-c-2024-05-02",
+        "name": "London Assembly elections (Constituencies)"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000013",
+        "name": "South West"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gla.c.south-west.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/46209",
+            "name": "Gareth David Roberts"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 66675,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/84899",
+            "name": "Marcela Benedetti"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/joint-party-53-119",
+            "name": "Labour and Co-operative Party"
+          },
+          "voteCount": 50656,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/35866",
+            "name": "Ron Mushiso"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 49981,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/75804",
+            "name": "Chas Warlow"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 17696,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109134",
+            "name": "Steve Chilcott"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "voteCount": 14450,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109360",
+            "name": "Abigail Dawn Hardy"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/ynmp-party-2",
+            "name": "Independent"
+          },
+          "voteCount": 5205,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 1281,
+      "validVotes": 204663,
+      "totalVotes": 205944,
+      "registeredVoters": 455381
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/gla-c-west-central-2024-05-02",
+      "@type": "Contest",
+      "name": "West Central — London Assembly elections (Constituencies)",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/gla-c-2024-05-02",
+        "name": "London Assembly elections (Constituencies)"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000014",
+        "name": "West Central"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gla.c.west-central.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/84358",
+            "name": "James Small-Edwards"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/joint-party-53-119",
+            "name": "Labour and Co-operative Party"
+          },
+          "voteCount": 46831,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/7842",
+            "name": "Tony Devenish"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 42578,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/91409",
+            "name": "Christophe Noblet"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 14505,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109011",
+            "name": "Rajiv Sinha"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 12427,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109135",
+            "name": "Nicola Pateman"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "voteCount": 8040,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 1143,
+      "validVotes": 124381,
+      "totalVotes": 125524,
+      "registeredVoters": 359208
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-buckingham-2024-05-02",
+      "@type": "Contest",
+      "name": "Buckingham — Adur local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-adur-2024-05-02",
+        "name": "Adur local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007562",
+        "name": "Buckingham"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.adur.buckingham.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/50188",
+            "name": "Nigel Jenner"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/joint-party-53-119",
+            "name": "Labour and Co-operative Party"
+          },
+          "voteCount": 681,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/9372",
+            "name": "Kevin Boram"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 424,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/76726",
+            "name": "Ian Jones"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 164,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/9375",
+            "name": "Leslie Christine Groves Williams"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 70,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 16,
+      "validVotes": 1339,
+      "totalVotes": 1355
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-churchill-2024-05-02",
+      "@type": "Contest",
+      "name": "Churchill — Adur local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-adur-2024-05-02",
+        "name": "Adur local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007563",
+        "name": "Churchill"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.adur.churchill.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/76734",
+            "name": "Nigel Robert Sweet"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/joint-party-53-119",
+            "name": "Labour and Co-operative Party"
+          },
+          "voteCount": 411,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/76723",
+            "name": "Mandy Buxton-Andrews"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 394,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/76733",
+            "name": "Peter Leslie Riley"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 107,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 13,
+      "validVotes": 912,
+      "totalVotes": 925
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-cokeham-2024-05-02",
+      "@type": "Contest",
+      "name": "Cokeham — Adur local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-adur-2024-05-02",
+        "name": "Adur local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007564",
+        "name": "Cokeham"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.adur.cokeham.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/111953",
+            "name": "Carolyn Theresa Fuhrmann"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "voteCount": 407,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/111955",
+            "name": "Daniel Guy"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 359,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/38265",
+            "name": "David John Bamber"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp12823",
+            "name": "Britain First"
+          },
+          "voteCount": 131,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/9381",
+            "name": "Helen Mears"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 79,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/111954",
+            "name": "Cheikh Amed Tidiane Gueye"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 70,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 8,
+      "validVotes": 1046,
+      "totalVotes": 1054
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-eastbrook-2024-05-02",
+      "@type": "Contest",
+      "name": "Eastbrook — Adur local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-adur-2024-05-02",
+        "name": "Adur local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007565",
+        "name": "Eastbrook"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.adur.eastbrook.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/111956",
+            "name": "Andrew Richard Harvey"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/joint-party-53-119",
+            "name": "Labour and Co-operative Party"
+          },
+          "voteCount": 596,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/76730",
+            "name": "Jill Lennon"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 338,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/111957",
+            "name": "Kristy Rebecca Rowe Lascelles"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 84,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 8,
+      "validVotes": 1018,
+      "totalVotes": 1026
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-hillside-2024-05-02",
+      "@type": "Contest",
+      "name": "Hillside — Adur local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-adur-2024-05-02",
+        "name": "Adur local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007566",
+        "name": "Hillside"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.adur.hillside.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/111961",
+            "name": "Nigel Charles Corston"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "voteCount": 623,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/111962",
+            "name": "Rick Matthews"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 451,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/76745",
+            "name": "Russell Lewis Whiting"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 74,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 8,
+      "validVotes": 1148,
+      "totalVotes": 1156
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-manor-2024-05-02",
+      "@type": "Contest",
+      "name": "Manor — Adur local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-adur-2024-05-02",
+        "name": "Adur local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007567",
+        "name": "Manor"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.adur.manor.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/9391",
+            "name": "Carson Albury"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 572,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/76712",
+            "name": "Cheryl Anne Giles"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "voteCount": 370,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/38273",
+            "name": "Maggie Rumble"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 98,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/111968",
+            "name": "David Thompson"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 54,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 14,
+      "validVotes": 1094,
+      "totalVotes": 1108
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-marine-2024-05-02",
+      "@type": "Contest",
+      "name": "Marine — Adur local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-adur-2024-05-02",
+        "name": "Adur local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007568",
+        "name": "Marine"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.adur.marine.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/9488",
+            "name": "Joss Loader"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/ynmp-party-2",
+            "name": "Independent"
+          },
+          "voteCount": 933,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/111973",
+            "name": "Kate Davis"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "voteCount": 283,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/111975",
+            "name": "Melodie Louise Tyrer"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 120,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/111974",
+            "name": "William Harpley"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 42,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 10,
+      "validVotes": 1378,
+      "totalVotes": 1388
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-mash-barn-2024-05-02",
+      "@type": "Contest",
+      "name": "Mash Barn — Adur local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-adur-2024-05-02",
+        "name": "Adur local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007569",
+        "name": "Mash Barn"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.adur.mash-barn.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/73457",
+            "name": "Sharon Louise Sluman"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "voteCount": 655,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/77007",
+            "name": "Mike Mendoza"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 296,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/111983",
+            "name": "Kevin Elliott"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 84,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 12,
+      "validVotes": 1035,
+      "totalVotes": 1047
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-peverel-2024-05-02",
+      "@type": "Contest",
+      "name": "Peverel — Adur local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-adur-2024-05-02",
+        "name": "Adur local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007570",
+        "name": "Peverel"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.adur.peverel.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/111989",
+            "name": "Saffa Jassim Jan"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/joint-party-53-119",
+            "name": "Labour and Co-operative Party"
+          },
+          "voteCount": 514,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/111991",
+            "name": "Tom Smith"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 462,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/111990",
+            "name": "Eileen Mary Riley"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 71,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 8,
+      "validVotes": 1047,
+      "totalVotes": 1055
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-southlands-2024-05-02",
+      "@type": "Contest",
+      "name": "Southlands — Adur local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-adur-2024-05-02",
+        "name": "Adur local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007573",
+        "name": "Southlands"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.adur.southlands.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/49134",
+            "name": "Deborah Ann Stainforth"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/joint-party-53-119",
+            "name": "Labour and Co-operative Party"
+          },
+          "voteCount": 540,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/111936",
+            "name": "Matt Fry"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 288,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/9380",
+            "name": "Keith Humphrey"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 71,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/111938",
+            "name": "Troy Wade"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 54,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 14,
+      "validVotes": 953,
+      "totalVotes": 967
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-southwick-green-2024-05-02",
+      "@type": "Contest",
+      "name": "Southwick Green — Adur local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-adur-2024-05-02",
+        "name": "Adur local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007574",
+        "name": "Southwick Green"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.adur.southwick-green.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/76989",
+            "name": "Robina Catherine-Jane Crowther Baine"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "voteCount": 780,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/111992",
+            "name": "Vicky Parkin"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 278,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/111993",
+            "name": "Samuel Welton"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 86,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/37589",
+            "name": "Jane Frances Mott"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 72,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 8,
+      "validVotes": 1216,
+      "totalVotes": 1224
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-st-marys-2024-05-02",
+      "@type": "Contest",
+      "name": "St Mary's — Adur local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-adur-2024-05-02",
+        "name": "Adur local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007571",
+        "name": "St Mary's"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.adur.st-marys.2024-05-02"
+        }
+      ],
+      "seatsToFill": 2,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/111999",
+            "name": "Becky Allinson"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/joint-party-53-119",
+            "name": "Labour and Co-operative Party"
+          },
+          "voteCount": 945,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/77006",
+            "name": "Jeremy Gardner"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/joint-party-53-119",
+            "name": "Labour and Co-operative Party"
+          },
+          "voteCount": 858,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/112003",
+            "name": "Vanessa Jayne Evans"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 314,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/112001",
+            "name": "Angie Buhl-Nielsen"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 255,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 11,
+      "validVotes": 2372,
+      "totalVotes": 2383
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-st-nicolas-2024-05-02",
+      "@type": "Contest",
+      "name": "St Nicolas — Adur local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-adur-2024-05-02",
+        "name": "Adur local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007572",
+        "name": "St Nicolas"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.adur.st-nicolas.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/112017",
+            "name": "Gerry Thompson"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 652,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/87609",
+            "name": "Bob Towner"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 447,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/112016",
+            "name": "Tim Higgins"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "voteCount": 401,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/2178",
+            "name": "Stuart Bower"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/ynmp-party-2",
+            "name": "Independent"
+          },
+          "voteCount": 77,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/112015",
+            "name": "James Burrage"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 47,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 11,
+      "validVotes": 1624,
+      "totalVotes": 1635
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-adur-widewater-2024-05-02",
+      "@type": "Contest",
+      "name": "Widewater — Adur local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-adur-2024-05-02",
+        "name": "Adur local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007575",
+        "name": "Widewater"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.adur.widewater.2024-05-02"
+        }
+      ],
+      "seatsToFill": 2,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/9489",
+            "name": "Adrienne Lowe"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/joint-party-53-119",
+            "name": "Labour and Co-operative Party"
+          },
+          "voteCount": 712,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/112013",
+            "name": "Pauline Higgins"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/joint-party-53-119",
+            "name": "Labour and Co-operative Party"
+          },
+          "voteCount": 604,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/38278",
+            "name": "Joe Pannell"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 463,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/112014",
+            "name": "Kirstie Victoria Pannell"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 415,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/9484",
+            "name": "Patrick George Ginnelly"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 346,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/87557",
+            "name": "Victoria Louise Benson"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 336,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/9517",
+            "name": "Ann Bridges"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/ynmp-party-2",
+            "name": "Independent"
+          },
+          "voteCount": 281,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 6,
+      "validVotes": 3157,
+      "totalVotes": 3163
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-amber-valley-crich-south-wingfield-by-2024-05-02",
+      "@type": "Contest",
+      "name": "Crich & South Wingfield — Amber Valley local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-amber-valley-2024-05-02",
+        "name": "Amber Valley local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05014696",
+        "name": "Crich & South Wingfield"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.amber-valley.crich-south-wingfield.by.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/81775",
+            "name": "Tony Harper"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 617,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/99985",
+            "name": "Marcus Johnson"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 434,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/109713",
+            "name": "Amy Trewick"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "voteCount": 428,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/99984",
+            "name": "Fiona Horton"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 240,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 16,
+      "validVotes": 1719,
+      "totalVotes": 1735,
+      "registeredVoters": 4222
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-barnsley-central-2024-05-02",
+      "@type": "Contest",
+      "name": "Central — Barnsley local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-barnsley-2024-05-02",
+        "name": "Barnsley local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05000976",
+        "name": "Central"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.barnsley.central.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/35470",
+            "name": "Nicola Sumner"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "voteCount": 1012,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/9557",
+            "name": "Christopher Michael Scarfe"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 291,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/47678",
+            "name": "Adrian Thompson"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 250,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/76233",
+            "name": "Catherine Rogerson"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 185,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 25,
+      "validVotes": 1738,
+      "totalVotes": 1763,
+      "registeredVoters": 8825
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-barnsley-cudworth-2024-05-02",
+      "@type": "Contest",
+      "name": "Cudworth — Barnsley local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-barnsley-2024-05-02",
+        "name": "Barnsley local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05000977",
+        "name": "Cudworth"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.barnsley.cudworth.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/9529",
+            "name": "Steve Houghton"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "voteCount": 1150,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/110236",
+            "name": "Mark J Brooke"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 184,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/42298",
+            "name": "Elizabeth Kate Waters"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 138,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/110237",
+            "name": "Kabir Nepal"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 106,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 15,
+      "validVotes": 1578,
+      "totalVotes": 1593,
+      "registeredVoters": 8040
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-barnsley-darfield-2024-05-02",
+      "@type": "Contest",
+      "name": "Darfield — Barnsley local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-barnsley-2024-05-02",
+        "name": "Barnsley local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05000978",
+        "name": "Darfield"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.barnsley.darfield.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/76281",
+            "name": "Kevin John Howard Osborne"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "voteCount": 1012,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/86701",
+            "name": "Scott McKenzie"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "voteCount": 564,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/110226",
+            "name": "Ian White"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 171,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/79628",
+            "name": "Simon Richard Hulme"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 127,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 15,
+      "validVotes": 1874,
+      "totalVotes": 1889
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-barnsley-darton-east-2024-05-02",
+      "@type": "Contest",
+      "name": "Darton East — Barnsley local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-barnsley-2024-05-02",
+        "name": "Barnsley local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05000979",
+        "name": "Darton East"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.barnsley.darton-east.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/110246",
+            "name": "Leyla Nayeri"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 1196,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/86686",
+            "name": "Teresa Wilcockson"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "voteCount": 951,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/110245",
+            "name": "Aiden Ian Benoit"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "voteCount": 258,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/9565",
+            "name": "Gill Millner"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 96,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/84271",
+            "name": "Simon David Watson Biltcliffe"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp2055",
+            "name": "Yorkshire Party"
+          },
+          "voteCount": 58,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 10,
+      "validVotes": 2559,
+      "totalVotes": 2569
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-barnsley-darton-west-2024-05-02",
+      "@type": "Contest",
+      "name": "Darton West — Barnsley local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-barnsley-2024-05-02",
+        "name": "Barnsley local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05000980",
+        "name": "Darton West"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.barnsley.darton-west.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/9537",
+            "name": "Alice Cave"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "voteCount": 1074,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/98823",
+            "name": "Trevor Anthony Mayne"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 495,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/110252",
+            "name": "Shaun Kenneth Turner"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "voteCount": 409,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/42850",
+            "name": "Kevin Bennett"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 203,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/98800",
+            "name": "Bee D'abeille Lokkit"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 200,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 8,
+      "validVotes": 2381,
+      "totalVotes": 2389,
+      "registeredVoters": 8898
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-barnsley-dearne-north-2024-05-02",
+      "@type": "Contest",
+      "name": "Dearne North — Barnsley local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-barnsley-2024-05-02",
+        "name": "Barnsley local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05000981",
+        "name": "Dearne North"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.barnsley.dearne-north.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/76282",
+            "name": "Wendy Cain"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "voteCount": 1025,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/508",
+            "name": "Maxine Spencer"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp17",
+            "name": "English Democrats"
+          },
+          "voteCount": 214,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/9600",
+            "name": "Mike Toon"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 138,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/86897",
+            "name": "Brian John Evans"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 94,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 12,
+      "validVotes": 1471,
+      "totalVotes": 1483
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-barnsley-dearne-south-2024-05-02",
+      "@type": "Contest",
+      "name": "Dearne South — Barnsley local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-barnsley-2024-05-02",
+        "name": "Barnsley local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05000982",
+        "name": "Dearne South"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.barnsley.dearne-south.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/110270",
+            "name": "Deborah Jane Pearson"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "voteCount": 1060,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/76259",
+            "name": "David Allan Jarvis"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp243",
+            "name": "Social Democratic Party"
+          },
+          "voteCount": 396,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/110271",
+            "name": "Elaine Weems"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 131,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/1528",
+            "name": "Janus Polenceusz"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp17",
+            "name": "English Democrats"
+          },
+          "voteCount": 99,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/79631",
+            "name": "Linda Fielding"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 77,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 14,
+      "validVotes": 1763,
+      "totalVotes": 1777,
+      "registeredVoters": 9302
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-barnsley-dodworth-2024-05-02",
+      "@type": "Contest",
+      "name": "Dodworth — Barnsley local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-barnsley-2024-05-02",
+        "name": "Barnsley local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05000983",
+        "name": "Dodworth"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.barnsley.dodworth.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/79635",
+            "name": "Chris Wray"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 1328,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/110272",
+            "name": "Ian Hague-Brown"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "voteCount": 896,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/9553",
+            "name": "Steven John Burkinshaw"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 361,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 26,
+      "validVotes": 2585,
+      "totalVotes": 2611,
+      "registeredVoters": 8373
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-barnsley-hoyland-milton-2024-05-02",
+      "@type": "Contest",
+      "name": "Hoyland Milton — Barnsley local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-barnsley-2024-05-02",
+        "name": "Barnsley local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05000984",
+        "name": "Hoyland Milton"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.barnsley.hoyland-milton.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/9551",
+            "name": "Mick Stowe"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "voteCount": 1092,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/44351",
+            "name": "Michael James Davies"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "voteCount": 697,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/52641",
+            "name": "Andrew Millner"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 191,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/45466",
+            "name": "Glenn Lawrence"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 175,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/46749",
+            "name": "Tom Heyes"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 162,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/73737",
+            "name": "Angela Ruth Waller"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp804",
+            "name": "Trade Unionist and Socialist Coalition"
+          },
+          "voteCount": 49,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 7,
+      "validVotes": 2366,
+      "totalVotes": 2373,
+      "registeredVoters": 9247
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/contest/local-barnsley-kingstone-2024-05-02",
+      "@type": "Contest",
+      "name": "Kingstone — Barnsley local election",
+      "election": {
+        "@id": "https://candidates.democracyclub.org.uk/id/election/local-barnsley-2024-05-02",
+        "name": "Barnsley local election"
+      },
+      "contestType": "office",
+      "electoralSystem": "fptp",
+      "post": {
+        "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05000985",
+        "name": "Kingstone"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "local.barnsley.kingstone.2024-05-02"
+        }
+      ],
+      "seatsToFill": 1,
+      "candidacy": [
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/110218",
+            "name": "Steve Bullcock"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+            "name": "Liberal Democrats"
+          },
+          "voteCount": 791,
+          "candidacyResult": "elected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/110220",
+            "name": "Simon John Jordan Williamson"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+            "name": "Labour Party"
+          },
+          "voteCount": 591,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/76248",
+            "name": "Liam Hardcastle"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+            "name": "Reform UK"
+          },
+          "voteCount": 169,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/54841",
+            "name": "Peter Gordon Giles"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+            "name": "Green Party"
+          },
+          "voteCount": 114,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/98813",
+            "name": "Roger Haw"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+            "name": "Conservative and Unionist Party"
+          },
+          "voteCount": 69,
+          "candidacyResult": "notElected"
+        },
+        {
+          "@type": "Candidacy",
+          "candidate": {
+            "@id": "https://candidates.democracyclub.org.uk/id/person/9555",
+            "name": "Tracey-Ann Holland"
+          },
+          "party": {
+            "@id": "https://candidates.democracyclub.org.uk/id/party/pp804",
+            "name": "Trade Unionist and Socialist Coalition"
+          },
+          "voteCount": 28,
+          "candidacyResult": "notElected"
+        }
+      ],
+      "invalidVotes": 8,
+      "validVotes": 1762,
+      "totalVotes": 1770,
+      "registeredVoters": 7877
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/party/pp52",
+      "@type": "PoliticalParty",
+      "name": "Conservative and Unionist Party",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:electoral-commission",
+          "value": "PP52"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/party/pp63",
+      "@type": "PoliticalParty",
+      "name": "Green Party",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:electoral-commission",
+          "value": "PP63"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/party/pp53",
+      "@type": "PoliticalParty",
+      "name": "Labour Party",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:electoral-commission",
+          "value": "PP53"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/party/pp90",
+      "@type": "PoliticalParty",
+      "name": "Liberal Democrats",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:electoral-commission",
+          "value": "PP90"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/party/pp7931",
+      "@type": "PoliticalParty",
+      "name": "Reform UK",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:electoral-commission",
+          "value": "PP7931"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/party/pp616",
+      "@type": "PoliticalParty",
+      "name": "Animal Welfare Party",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:electoral-commission",
+          "value": "PP616"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/party/pp12823",
+      "@type": "PoliticalParty",
+      "name": "Britain First",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:electoral-commission",
+          "value": "PP12823"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/party/pp79",
+      "@type": "PoliticalParty",
+      "name": "Christian Peoples Alliance",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:electoral-commission",
+          "value": "PP79"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/party/pp78",
+      "@type": "PoliticalParty",
+      "name": "Communist Party of Britain",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:electoral-commission",
+          "value": "PP78"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/party/pp12550",
+      "@type": "PoliticalParty",
+      "name": "Heritage Party",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:electoral-commission",
+          "value": "PP12550"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/party/ynmp-party-2",
+      "@type": "PoliticalParty",
+      "name": "Independent",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:electoral-commission",
+          "value": "ynmp-party:2"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/party/pp11423",
+      "@type": "PoliticalParty",
+      "name": "Rejoin EU",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:electoral-commission",
+          "value": "PP11423"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/party/pp243",
+      "@type": "PoliticalParty",
+      "name": "Social Democratic Party",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:electoral-commission",
+          "value": "PP243"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/party/joint-party-53-119",
+      "@type": "PoliticalParty",
+      "name": "Labour and Co-operative Party",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:electoral-commission",
+          "value": "joint-party:53-119"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/party/pp110",
+      "@type": "PoliticalParty",
+      "name": "The Socialist Party of Great Britain",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:electoral-commission",
+          "value": "PP110"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/party/pp804",
+      "@type": "PoliticalParty",
+      "name": "Trade Unionist and Socialist Coalition",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:electoral-commission",
+          "value": "PP804"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/party/pp2055",
+      "@type": "PoliticalParty",
+      "name": "Yorkshire Party",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:electoral-commission",
+          "value": "PP2055"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/party/pp17",
+      "@type": "PoliticalParty",
+      "name": "English Democrats",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:electoral-commission",
+          "value": "PP17"
+        }
+      ]
+    }
+  ]
+}

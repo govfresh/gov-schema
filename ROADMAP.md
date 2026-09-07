@@ -373,6 +373,26 @@ completion while hiding when, so partial dating is now an error and no dating a 
 
 See [examples/pilot-seattle-permits/README.md](examples/pilot-seattle-permits/README.md).
 
+## Democracy Club elections adapter — DONE
+
+`tools/adapters/elections-democracyclub.py` converts UK election results. 2 May 2024: 5
+elections, 40 contests, 292 candidates, 18 parties. Real results validated first time with no
+schema change, and AMS mapped cleanly to mmp alongside first-past-the-post contests in the
+same election.
+
+**Every profile has now been tested against a real publisher.**
+
+Two findings. A latent bug in six SHACL shapes, which listed the jurisdiction class as
+AdministrativeArea or City only and omitted Country and State - it would have failed for any
+national-level publisher, and surfaced here because this is the first pilot with a national
+jurisdiction. And a design decision nearly reversed for the wrong reason: turnout was thought
+unrepresentable because the electorate looked absent, but `total_electorate` is published and
+had been misread. The original stance - store the register, derive turnout - is demonstrably
+better, since Democracy Club rounds turnout to one decimal place and the register recovers the
+real figure.
+
+See [examples/pilot-uk-elections/README.md](examples/pilot-uk-elections/README.md).
+
 ## The honest risk
 
 Seven profiles with one fictional example city is a demo, not an adopted standard. Profiles

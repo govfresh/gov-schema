@@ -1,0 +1,685 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gla",
+      "@type": "Post",
+      "roleName": "London Assembly",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gla"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000001",
+      "@type": "Post",
+      "roleName": "Barnet and Camden",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E32000001"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000002",
+      "@type": "Post",
+      "roleName": "Bexley and Bromley",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E32000002"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000003",
+      "@type": "Post",
+      "roleName": "Brent and Harrow",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E32000003"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000004",
+      "@type": "Post",
+      "roleName": "City and East",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E32000004"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000005",
+      "@type": "Post",
+      "roleName": "Croydon and Sutton",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E32000005"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000006",
+      "@type": "Post",
+      "roleName": "Ealing and Hillingdon",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E32000006"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000007",
+      "@type": "Post",
+      "roleName": "Enfield and Haringey",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E32000007"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000008",
+      "@type": "Post",
+      "roleName": "Greenwich and Lewisham",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E32000008"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000009",
+      "@type": "Post",
+      "roleName": "Havering and Redbridge",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E32000009"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000010",
+      "@type": "Post",
+      "roleName": "Lambeth and Southwark",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E32000010"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000011",
+      "@type": "Post",
+      "roleName": "Merton and Wandsworth",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E32000011"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000012",
+      "@type": "Post",
+      "roleName": "North East",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E32000012"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000013",
+      "@type": "Post",
+      "roleName": "South West",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E32000013"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e32000014",
+      "@type": "Post",
+      "roleName": "West Central",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E32000014"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007562",
+      "@type": "Post",
+      "roleName": "Buckingham",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05007562"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007563",
+      "@type": "Post",
+      "roleName": "Churchill",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05007563"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007564",
+      "@type": "Post",
+      "roleName": "Cokeham",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05007564"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007565",
+      "@type": "Post",
+      "roleName": "Eastbrook",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05007565"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007566",
+      "@type": "Post",
+      "roleName": "Hillside",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05007566"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007567",
+      "@type": "Post",
+      "roleName": "Manor",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05007567"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007568",
+      "@type": "Post",
+      "roleName": "Marine",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05007568"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007569",
+      "@type": "Post",
+      "roleName": "Mash Barn",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05007569"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007570",
+      "@type": "Post",
+      "roleName": "Peverel",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05007570"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007573",
+      "@type": "Post",
+      "roleName": "Southlands",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05007573"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007574",
+      "@type": "Post",
+      "roleName": "Southwick Green",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05007574"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007571",
+      "@type": "Post",
+      "roleName": "St Mary's",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05007571"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007572",
+      "@type": "Post",
+      "roleName": "St Nicolas",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05007572"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05007575",
+      "@type": "Post",
+      "roleName": "Widewater",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05007575"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05014696",
+      "@type": "Post",
+      "roleName": "Crich & South Wingfield",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05014696"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05000976",
+      "@type": "Post",
+      "roleName": "Central",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05000976"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05000977",
+      "@type": "Post",
+      "roleName": "Cudworth",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05000977"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05000978",
+      "@type": "Post",
+      "roleName": "Darfield",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05000978"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05000979",
+      "@type": "Post",
+      "roleName": "Darton East",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05000979"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05000980",
+      "@type": "Post",
+      "roleName": "Darton West",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05000980"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05000981",
+      "@type": "Post",
+      "roleName": "Dearne North",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05000981"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05000982",
+      "@type": "Post",
+      "roleName": "Dearne South",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05000982"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05000983",
+      "@type": "Post",
+      "roleName": "Dodworth",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05000983"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05000984",
+      "@type": "Post",
+      "roleName": "Hoyland Milton",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05000984"
+        }
+      ]
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/post/gss-e05000985",
+      "@type": "Post",
+      "roleName": "Kingstone",
+      "memberOf": {
+        "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+        "name": "UK returning officers"
+      },
+      "roleClassification": "elected",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "gss:E05000985"
+        }
+      ]
+    }
+  ]
+}

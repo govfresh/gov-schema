@@ -113,6 +113,11 @@
     "sourceDataset": {
       "type": "string",
       "format": "iri"
+    },
+    "registeredVoters": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "The electorate for this contest. Held at contest level as well as election level because the register is drawn per constituency, and turnout is only meaningful against the electorate that could actually vote in that race."
     }
   },
   "required": [
