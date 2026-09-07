@@ -18,7 +18,7 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CORE = ROOT / "profiles" / "_core" / "schema"
-PROFILE_DIRS = [ROOT / "profiles" / d / "schema" for d in ("_core", "org", "code", "meetings", "requests", "budget", "procurement", "catalog", "alerts")]
+PROFILE_DIRS = [ROOT / "profiles" / d / "schema" for d in ("_core", "org", "code", "meetings", "requests", "budget", "procurement", "catalog", "alerts", "permits")]
 
 # @type -> schema file. Roles are validated where they are nested, not standalone.
 SCHEMA_FOR = {
@@ -51,6 +51,7 @@ SCHEMA_FOR = {
     "DataCatalog": "catalog.schema.json",
     "Dataset": "dataset.schema.json",
     "Alert": "alert.schema.json",
+    "GovernmentPermit": "permit.schema.json",
 }
 
 
@@ -339,6 +340,39 @@ def main(argv):
                 f"request marked duplicate without saying of what: {nid}\n"
                 f"    set duplicateOf; a status note naming the other request cannot be followed"
             )
+
+    # --- permits ---------------------------------------------------------------
+    # Permit dates are the basis of every processing-time statistic drawn from this
+    # data, so an impossible sequence is worth failing on rather than averaging over.
+    for nid, node in entities.items():
+        types_ = node.get("@type")
+        types_ = types_ if isinstance(types_, list) else [types_]
+        if "GovernmentPermit" not in types_:
+            continue
+
+        applied = parse_dt(node.get("applicationDate"))
+        decided = parse_dt(node.get("decisionDate"))
+        completed = parse_dt(node.get("completionDate"))
+        valid_from = parse_dt(node.get("validFrom"))
+        valid_until = parse_dt(node.get("validUntil"))
+
+        if applied and decided and decided < applied:
+            errors.append(
+                f"permit decided before it was applied for: {nid}\n"
+                f"    applied {node.get('applicationDate')}, "
+                f"decided {node.get('decisionDate')}")
+        if decided and completed and completed < decided:
+            errors.append(
+                f"permit completed before it was decided: {nid}\n"
+                f"    decided {node.get('decisionDate')}, "
+                f"completed {node.get('completionDate')}")
+        if valid_from and valid_until and valid_until < valid_from:
+            errors.append(
+                f"permit expires before it becomes valid: {nid}")
+        if node.get("permitStatus") in ("issued", "completed") and not node.get("decisionDate"):
+            errors.append(
+                f"permit is {node.get('permitStatus')} but carries no decisionDate: {nid}\n"
+                f"    processing time cannot be derived without it")
 
     # --- discovery manifest ---------------------------------------------------
     # The manifest is the routing table. A duplicate or misplaced entry makes a
