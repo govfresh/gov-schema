@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/_core/jurisdiction.schema.json",
+  "title": "Jurisdiction",
+  "description": "A governed territory: a country, region, municipality, or special-purpose area. A Jurisdiction is a Place. It has no employees, departments, or legislation - those belong to the Organization that governs it, which points here with areaServed. Keeping these two apart is the central rule of this profile.",
+  "type": "object",
+  "properties": {
+    "@context": {},
+    "@id": {"type": "string", "format": "iri"},
+    "@type": {
+      "description": "Use the most specific schema.org type that applies.",
+      "enum": ["AdministrativeArea", "Country", "State", "City"]
+    },
+    "name": {"type": "string"},
+    "alternateName": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Endonyms, historical names, and the local-language term for the tier (e.g. 'Comune di Bologna')."
+    },
+    "description": {"type": "string"},
+    "url": {"type": "string", "format": "iri"},
+    "identifier": {
+      "type": "array",
+      "items": {"$ref": "identifier.schema.json"},
+      "minItems": 1,
+      "description": "At least one. A Wikidata QID is strongly recommended as the cross-border join key."
+    },
+    "sameAs": {"type": "array", "items": {"type": "string", "format": "iri"}},
+    "governmentLevel": {
+      "type": "string",
+      "description": "termCode from the GovernmentLevel code list.",
+      "enum": ["supranational","national","regional","subregional","municipal","submunicipal","specialPurpose","indigenous"]
+    },
+    "containedInPlace": {
+      "$ref": "reference.schema.json",
+      "description": "The next jurisdiction up. Chaining these yields the full territorial hierarchy without any country-specific nesting rules."
+    },
+    "containsPlace": {"type": "array", "items": {"$ref": "reference.schema.json"}},
+    "geo": {"type": "object", "description": "schema.org GeoCoordinates or GeoShape."},
+    "population": {
+      "type": "object",
+      "description": "A QuantitativeValue, so the count keeps its observation date and source.",
+      "properties": {
+        "@type": {"const": "QuantitativeValue"},
+        "value": {"type": "number"},
+        "observationDate": {"type": "string", "format": "date"},
+        "sourceDataset": {"type": "string", "format": "iri"}
+      },
+      "required": ["@type", "value"]
+    },
+    "timeZone": {"type": "string", "description": "IANA time zone, e.g. 'Europe/Lisbon'."},
+    "jurisdictionOf": {
+      "type": "array",
+      "items": {"$ref": "reference.schema.json"},
+      "description": "Government organizations governing this area. Convenience inverse of Organization.areaServed."
+    }
+  },
+  "required": ["@id", "@type", "name", "identifier", "governmentLevel"],
+  "additionalProperties": true
+}
