@@ -927,3 +927,4 @@ gs:authoritative a rdf:Property ;
     rdfs:comment "Whether a Boundary is the legally definitive extent rather than a published rendering of it." ;
     schema:domainIncludes gs:Boundary ;
     schema:rangeIncludes schema:Boolean .
+

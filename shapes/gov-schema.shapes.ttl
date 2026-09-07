@@ -109,7 +109,8 @@ gs:PostShape a sh:NodeShape ;
 
     sh:property [
         sh:path gs:representsJurisdiction ;
-        sh:or ( [ sh:class schema:AdministrativeArea ] [ sh:class schema:City ] ) ;
+        sh:or ( [ sh:class schema:AdministrativeArea ] [ sh:class schema:Country ]
+                [ sh:class schema:State ] [ sh:class schema:City ] ) ;
         sh:message "representsJurisdiction must point at a Jurisdiction." ] .
 
 #############################  Legislation  #############################
@@ -224,7 +225,8 @@ gs:ServiceRequestShape a sh:NodeShape ;
 
     sh:property [
         sh:path schema:jurisdiction ;
-        sh:or ( [ sh:class schema:AdministrativeArea ] [ sh:class schema:City ] ) ;
+        sh:or ( [ sh:class schema:AdministrativeArea ] [ sh:class schema:Country ]
+                [ sh:class schema:State ] [ sh:class schema:City ] ) ;
         sh:message "A request's jurisdiction must be a Jurisdiction." ] .
 
 #############################  Alerts  #############################
@@ -253,7 +255,8 @@ gs:AlertAreaShape a sh:NodeShape ;
     sh:targetClass gs:AlertArea ;
     sh:property [
         sh:path schema:jurisdiction ;
-        sh:or ( [ sh:class schema:AdministrativeArea ] [ sh:class schema:City ] ) ;
+        sh:or ( [ sh:class schema:AdministrativeArea ] [ sh:class schema:Country ]
+                [ sh:class schema:State ] [ sh:class schema:City ] ) ;
         sh:message "An alert area's jurisdiction must be a Jurisdiction." ] .
 
 #############################  Catalog  #############################
@@ -294,7 +297,8 @@ gs:PermitShape a sh:NodeShape ;
 
     sh:property [
         sh:path schema:validIn ;
-        sh:or ( [ sh:class schema:AdministrativeArea ] [ sh:class schema:City ] ) ;
+        sh:or ( [ sh:class schema:AdministrativeArea ] [ sh:class schema:Country ]
+                [ sh:class schema:State ] [ sh:class schema:City ] ) ;
         sh:message "validIn must point at a Jurisdiction." ] ;
 
     sh:property [
@@ -309,7 +313,8 @@ gs:ElectionShape a sh:NodeShape ;
     sh:property [
         sh:path schema:jurisdiction ;
         sh:minCount 1 ;
-        sh:or ( [ sh:class schema:AdministrativeArea ] [ sh:class schema:City ] ) ;
+        sh:or ( [ sh:class schema:AdministrativeArea ] [ sh:class schema:Country ]
+                [ sh:class schema:State ] [ sh:class schema:City ] ) ;
         sh:message "An election must name the Jurisdiction it is held in." ] ;
     sh:property [
         sh:path gs:administeredBy ;
@@ -329,7 +334,8 @@ gs:ContestShape a sh:NodeShape ;
         sh:message "post must point at a Post in the org profile - this is the join that connects an election to the office it filled." ] ;
     sh:property [
         sh:path gs:representsJurisdiction ;
-        sh:or ( [ sh:class schema:AdministrativeArea ] [ sh:class schema:City ] ) ;
+        sh:or ( [ sh:class schema:AdministrativeArea ] [ sh:class schema:Country ]
+                [ sh:class schema:State ] [ sh:class schema:City ] ) ;
         sh:message "representsJurisdiction must point at a Jurisdiction." ] .
 
 gs:CandidacyShape a sh:NodeShape ;

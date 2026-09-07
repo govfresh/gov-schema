@@ -1,0 +1,1465 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/8000",
+      "@type": "Person",
+      "name": "Susan Mary Hall"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/1478",
+      "@type": "Person",
+      "name": "Shaun Bailey"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/38812",
+      "@type": "Person",
+      "name": "Emma Best"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/7998",
+      "@type": "Person",
+      "name": "Andrew Boff"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/43557",
+      "@type": "Person",
+      "name": "Alessandro Georgiou"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/34835",
+      "@type": "Person",
+      "name": "Siân Berry"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/4750",
+      "@type": "Person",
+      "name": "Caroline Russell"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/7505",
+      "@type": "Person",
+      "name": "Zack Polanski"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/72811",
+      "@type": "Person",
+      "name": "Elly Baker"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/47398",
+      "@type": "Person",
+      "name": "Hina Bokhari"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/45979",
+      "@type": "Person",
+      "name": "Alex Wilson"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/7400",
+      "@type": "Person",
+      "name": "Vanessa Hudson"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/94222",
+      "@type": "Person",
+      "name": "Saffron Arezo Gloyne"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/7959",
+      "@type": "Person",
+      "name": "Alex Bourke"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/72474",
+      "@type": "Person",
+      "name": "Femy Amin"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109374",
+      "@type": "Person",
+      "name": "Bel Jacobs"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/74740",
+      "@type": "Person",
+      "name": "Mark Scott"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/74741",
+      "@type": "Person",
+      "name": "Julian Weisman"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/90108",
+      "@type": "Person",
+      "name": "Nick Scanlon"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/7412",
+      "@type": "Person",
+      "name": "Maureen Maud Martin"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/90379",
+      "@type": "Person",
+      "name": "Simeon Adewole Ademolake"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/7988",
+      "@type": "Person",
+      "name": "Helen Spiby-Vann"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/92434",
+      "@type": "Person",
+      "name": "Amelia Allao"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/6332",
+      "@type": "Person",
+      "name": "Ashley Dickenson"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/72622",
+      "@type": "Person",
+      "name": "Eunice Odesanmi"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/6479",
+      "@type": "Person",
+      "name": "Des Coke"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/34807",
+      "@type": "Person",
+      "name": "Katherine Susan Hortense"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/72406",
+      "@type": "Person",
+      "name": "Zion Amodu"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/76811",
+      "@type": "Person",
+      "name": "Lucy Baiye-Gaman"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109379",
+      "@type": "Person",
+      "name": "Ross Crawford"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109380",
+      "@type": "Person",
+      "name": "William James Dry"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109381",
+      "@type": "Person",
+      "name": "Nigel Andrew Bernard Green"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/74751",
+      "@type": "Person",
+      "name": "Anita Halpin"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109382",
+      "@type": "Person",
+      "name": "Arnes Ramic"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109383",
+      "@type": "Person",
+      "name": "Ross Leonard"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109384",
+      "@type": "Person",
+      "name": "Laura Billie Miller"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109385",
+      "@type": "Person",
+      "name": "Michael John Squires"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/74744",
+      "@type": "Person",
+      "name": "Robin Talbot"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109386",
+      "@type": "Person",
+      "name": "Paul Whitehouse"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109387",
+      "@type": "Person",
+      "name": "Ruth Styles Wilson"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109388",
+      "@type": "Person",
+      "name": "Benjamin Eric Woodward"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/47300",
+      "@type": "Person",
+      "name": "Nick McLean"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/40034",
+      "@type": "Person",
+      "name": "Nick Vandyke"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/41791",
+      "@type": "Person",
+      "name": "Laila Cunningham"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/48389",
+      "@type": "Person",
+      "name": "Richard Mills"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/44343",
+      "@type": "Person",
+      "name": "Kate Lymer"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/92767",
+      "@type": "Person",
+      "name": "Will Jackson"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/84208",
+      "@type": "Person",
+      "name": "Zoë Garbett"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/7778",
+      "@type": "Person",
+      "name": "Benali Hamdache"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/37323",
+      "@type": "Person",
+      "name": "Scott John Ainslie"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/77221",
+      "@type": "Person",
+      "name": "Ria Patel"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/34433",
+      "@type": "Person",
+      "name": "Nate Higgins"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/48361",
+      "@type": "Person",
+      "name": "Claire Frances Sheppard"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/4870",
+      "@type": "Person",
+      "name": "Shahrar Ali"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/37140",
+      "@type": "Person",
+      "name": "Pete Elliott"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109375",
+      "@type": "Person",
+      "name": "Maria Elena Candilo"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109376",
+      "@type": "Person",
+      "name": "David Peter Poulden"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109377",
+      "@type": "Person",
+      "name": "Michael Gerard Watson"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/37145",
+      "@type": "Person",
+      "name": "Dafydd Morriss"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109378",
+      "@type": "Person",
+      "name": "Henryk Mackiewicz"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/72908",
+      "@type": "Person",
+      "name": "Farah London"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/73776",
+      "@type": "Person",
+      "name": "Laurence Fox"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109365",
+      "@type": "Person",
+      "name": "Gabe Romualdo"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/44249",
+      "@type": "Person",
+      "name": "Sakina Sheikh"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/48238",
+      "@type": "Person",
+      "name": "John Howard"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/35574",
+      "@type": "Person",
+      "name": "James Beckles"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/38705",
+      "@type": "Person",
+      "name": "Bora Kwon"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/38619",
+      "@type": "Person",
+      "name": "Jasbir Kaur Anand"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/7838",
+      "@type": "Person",
+      "name": "Martin Whelton"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/88572",
+      "@type": "Person",
+      "name": "Omid Miri"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/94259",
+      "@type": "Person",
+      "name": "Devina Marylyn Paul"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/92143",
+      "@type": "Person",
+      "name": "Sian Eiles"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/41693",
+      "@type": "Person",
+      "name": "Patrick Eamon Lilley"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/7940",
+      "@type": "Person",
+      "name": "Rob Blackie"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/36075",
+      "@type": "Person",
+      "name": "Irina Stephanie Von Wiese"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/46209",
+      "@type": "Person",
+      "name": "Gareth David Roberts"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/36984",
+      "@type": "Person",
+      "name": "Chris Maines"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/35499",
+      "@type": "Person",
+      "name": "John Nicholas Sweeney"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/36132",
+      "@type": "Person",
+      "name": "William Houngbo"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/36110",
+      "@type": "Person",
+      "name": "Michael Adewale Bukola"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/73033",
+      "@type": "Person",
+      "name": "Chris Annous"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/45854",
+      "@type": "Person",
+      "name": "Sue Wixley"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/36719",
+      "@type": "Person",
+      "name": "Sarah Hoyle"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/108998",
+      "@type": "Person",
+      "name": "Howard Cox"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/73969",
+      "@type": "Person",
+      "name": "Mark Simpson"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/73967",
+      "@type": "Person",
+      "name": "Ian Price"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109134",
+      "@type": "Person",
+      "name": "Steve Chilcott"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/4937",
+      "@type": "Person",
+      "name": "Roger Gravett"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109133",
+      "@type": "Person",
+      "name": "Tony Glover"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109131",
+      "@type": "Person",
+      "name": "Alan Cook"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/91974",
+      "@type": "Person",
+      "name": "Raj Forhad"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109135",
+      "@type": "Person",
+      "name": "Nicola Pateman"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/74721",
+      "@type": "Person",
+      "name": "Anthony Goodwin"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109132",
+      "@type": "Person",
+      "name": "Tania Marszalek"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/93886",
+      "@type": "Person",
+      "name": "David Kenton Sandground"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/87040",
+      "@type": "Person",
+      "name": "Marian Lynn Newton"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/45618",
+      "@type": "Person",
+      "name": "Tony Sharp"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/74096",
+      "@type": "Person",
+      "name": "Richard Hewison"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109389",
+      "@type": "Person",
+      "name": "Alex Kerr"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/74788",
+      "@type": "Person",
+      "name": "Charlotte Blake"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/69545",
+      "@type": "Person",
+      "name": "Brendan Patrick Donnelly"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109390",
+      "@type": "Person",
+      "name": "Alessandro Gallo"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109391",
+      "@type": "Person",
+      "name": "Briony Kapoor"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109392",
+      "@type": "Person",
+      "name": "Marianne Mandujano"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109393",
+      "@type": "Person",
+      "name": "Drew Miles"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/88941",
+      "@type": "Person",
+      "name": "Ben Rend"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/6615",
+      "@type": "Person",
+      "name": "Laurence Williams"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109395",
+      "@type": "Person",
+      "name": "Jaki Airey"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109396",
+      "@type": "Person",
+      "name": "Simon Mark Bezer"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109397",
+      "@type": "Person",
+      "name": "Jaz Alduk"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109055",
+      "@type": "Person",
+      "name": "Amy Gallagher"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109366",
+      "@type": "Person",
+      "name": "Hugo De Burgh"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109367",
+      "@type": "Person",
+      "name": "Stephen Andrew Balogh"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/90191",
+      "@type": "Person",
+      "name": "Jon Mabbutt"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109368",
+      "@type": "Person",
+      "name": "Manny Lawal"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109369",
+      "@type": "Person",
+      "name": "Jane Gibson"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/71431",
+      "@type": "Person",
+      "name": "Steve Kelleher"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109370",
+      "@type": "Person",
+      "name": "Alastair Mellon"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109371",
+      "@type": "Person",
+      "name": "Laurenzo Mefsut"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109372",
+      "@type": "Person",
+      "name": "Daniel Woodruffe"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/47834",
+      "@type": "Person",
+      "name": "Jake Anthony Painter"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109373",
+      "@type": "Person",
+      "name": "David Hargreaves"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/87373",
+      "@type": "Person",
+      "name": "Les Beaumont"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/35955",
+      "@type": "Person",
+      "name": "Anne Clarke"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/88152",
+      "@type": "Person",
+      "name": "Julie Redmond"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109000",
+      "@type": "Person",
+      "name": "Kate Marie Tokley"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/36020",
+      "@type": "Person",
+      "name": "Scott Emery"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/5689",
+      "@type": "Person",
+      "name": "Bill Martin"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/42755",
+      "@type": "Person",
+      "name": "Thomas Turrell"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/91833",
+      "@type": "Person",
+      "name": "Kevin McKenna"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109227",
+      "@type": "Person",
+      "name": "Gita Kanchan Bapat"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/94931",
+      "@type": "Person",
+      "name": "Marley Cornelia King"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/48370",
+      "@type": "Person",
+      "name": "Krupesh Hirani"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/72717",
+      "@type": "Person",
+      "name": "Stefan Bucovineanul-Voloseniuc"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/88553",
+      "@type": "Person",
+      "name": "Nida Al-Fulaij"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/92353",
+      "@type": "Person",
+      "name": "Jonny Singh"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/7591",
+      "@type": "Person",
+      "name": "Unmesh Desai"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/93629",
+      "@type": "Person",
+      "name": "Freddie Downing"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/93578",
+      "@type": "Person",
+      "name": "Joe Hudson-Small"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/108761",
+      "@type": "Person",
+      "name": "Patrick Thomas Stillman"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109361",
+      "@type": "Person",
+      "name": "AK Goodman"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/6169",
+      "@type": "Person",
+      "name": "Lois Austin"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/48788",
+      "@type": "Person",
+      "name": "Neil Robert Garratt"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/47091",
+      "@type": "Person",
+      "name": "Maddie Henson"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/48824",
+      "@type": "Person",
+      "name": "Trish Fivey"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/4616",
+      "@type": "Person",
+      "name": "Peter Underwood"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/6154",
+      "@type": "Person",
+      "name": "April Jacqueline Ashley"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/1651",
+      "@type": "Person",
+      "name": "Bassam Mahfouz"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/47434",
+      "@type": "Person",
+      "name": "Henry Gary Allan Higgins"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/181",
+      "@type": "Person",
+      "name": "Jess Lee"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/91674",
+      "@type": "Person",
+      "name": "Kuldev Sehra"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/7725",
+      "@type": "Person",
+      "name": "Joanne McCartney"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/93114",
+      "@type": "Person",
+      "name": "Calum Alexander McGillivray"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109010",
+      "@type": "Person",
+      "name": "Katie Knight"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/40987",
+      "@type": "Person",
+      "name": "Guy Russo"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/7548",
+      "@type": "Person",
+      "name": "Len Duvall"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/90127",
+      "@type": "Person",
+      "name": "Karin Tearle"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/43579",
+      "@type": "Person",
+      "name": "Kieran Terry"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/70658",
+      "@type": "Person",
+      "name": "Josh Matthews"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/7830",
+      "@type": "Person",
+      "name": "Keith Prince"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/47695",
+      "@type": "Person",
+      "name": "Guy Owen Mansfield Williams"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/41711",
+      "@type": "Person",
+      "name": "Kim Arrowsmith"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109362",
+      "@type": "Person",
+      "name": "Mohammed Asif"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/54153",
+      "@type": "Person",
+      "name": "Fraser Coppin"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/48242",
+      "@type": "Person",
+      "name": "Andy Walker"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/5874",
+      "@type": "Person",
+      "name": "Marina Masuma Ahmad"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/84398",
+      "@type": "Person",
+      "name": "Chris French"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/89046",
+      "@type": "Person",
+      "name": "Christine Wallace"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/7841",
+      "@type": "Person",
+      "name": "Adam Buick"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/7834",
+      "@type": "Person",
+      "name": "Leonie Alison Cooper"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/92056",
+      "@type": "Person",
+      "name": "Eleanor Anne Cox"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/48223",
+      "@type": "Person",
+      "name": "Pippa Maslin"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/19504",
+      "@type": "Person",
+      "name": "Sem Moema"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109001",
+      "@type": "Person",
+      "name": "Antoinette Fernandez"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/94344",
+      "@type": "Person",
+      "name": "Pearce Branigan"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/94996",
+      "@type": "Person",
+      "name": "Rebecca Jones"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/1599",
+      "@type": "Person",
+      "name": "Nancy Taaffe"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/72228",
+      "@type": "Person",
+      "name": "Tan Bui"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/84899",
+      "@type": "Person",
+      "name": "Marcela Benedetti"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/35866",
+      "@type": "Person",
+      "name": "Ron Mushiso"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/75804",
+      "@type": "Person",
+      "name": "Chas Warlow"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109360",
+      "@type": "Person",
+      "name": "Abigail Dawn Hardy"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/84358",
+      "@type": "Person",
+      "name": "James Small-Edwards"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/7842",
+      "@type": "Person",
+      "name": "Tony Devenish"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/91409",
+      "@type": "Person",
+      "name": "Christophe Noblet"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109011",
+      "@type": "Person",
+      "name": "Rajiv Sinha"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/50188",
+      "@type": "Person",
+      "name": "Nigel Jenner"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/9372",
+      "@type": "Person",
+      "name": "Kevin Boram"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/76726",
+      "@type": "Person",
+      "name": "Ian Jones"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/9375",
+      "@type": "Person",
+      "name": "Leslie Christine Groves Williams"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/76734",
+      "@type": "Person",
+      "name": "Nigel Robert Sweet"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/76723",
+      "@type": "Person",
+      "name": "Mandy Buxton-Andrews"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/76733",
+      "@type": "Person",
+      "name": "Peter Leslie Riley"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/111953",
+      "@type": "Person",
+      "name": "Carolyn Theresa Fuhrmann"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/111955",
+      "@type": "Person",
+      "name": "Daniel Guy"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/38265",
+      "@type": "Person",
+      "name": "David John Bamber"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/9381",
+      "@type": "Person",
+      "name": "Helen Mears"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/111954",
+      "@type": "Person",
+      "name": "Cheikh Amed Tidiane Gueye"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/111956",
+      "@type": "Person",
+      "name": "Andrew Richard Harvey"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/76730",
+      "@type": "Person",
+      "name": "Jill Lennon"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/111957",
+      "@type": "Person",
+      "name": "Kristy Rebecca Rowe Lascelles"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/111961",
+      "@type": "Person",
+      "name": "Nigel Charles Corston"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/111962",
+      "@type": "Person",
+      "name": "Rick Matthews"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/76745",
+      "@type": "Person",
+      "name": "Russell Lewis Whiting"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/9391",
+      "@type": "Person",
+      "name": "Carson Albury"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/76712",
+      "@type": "Person",
+      "name": "Cheryl Anne Giles"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/38273",
+      "@type": "Person",
+      "name": "Maggie Rumble"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/111968",
+      "@type": "Person",
+      "name": "David Thompson"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/9488",
+      "@type": "Person",
+      "name": "Joss Loader"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/111973",
+      "@type": "Person",
+      "name": "Kate Davis"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/111975",
+      "@type": "Person",
+      "name": "Melodie Louise Tyrer"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/111974",
+      "@type": "Person",
+      "name": "William Harpley"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/73457",
+      "@type": "Person",
+      "name": "Sharon Louise Sluman"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/77007",
+      "@type": "Person",
+      "name": "Mike Mendoza"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/111983",
+      "@type": "Person",
+      "name": "Kevin Elliott"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/111989",
+      "@type": "Person",
+      "name": "Saffa Jassim Jan"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/111991",
+      "@type": "Person",
+      "name": "Tom Smith"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/111990",
+      "@type": "Person",
+      "name": "Eileen Mary Riley"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/49134",
+      "@type": "Person",
+      "name": "Deborah Ann Stainforth"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/111936",
+      "@type": "Person",
+      "name": "Matt Fry"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/9380",
+      "@type": "Person",
+      "name": "Keith Humphrey"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/111938",
+      "@type": "Person",
+      "name": "Troy Wade"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/76989",
+      "@type": "Person",
+      "name": "Robina Catherine-Jane Crowther Baine"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/111992",
+      "@type": "Person",
+      "name": "Vicky Parkin"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/111993",
+      "@type": "Person",
+      "name": "Samuel Welton"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/37589",
+      "@type": "Person",
+      "name": "Jane Frances Mott"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/111999",
+      "@type": "Person",
+      "name": "Becky Allinson"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/77006",
+      "@type": "Person",
+      "name": "Jeremy Gardner"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/112003",
+      "@type": "Person",
+      "name": "Vanessa Jayne Evans"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/112001",
+      "@type": "Person",
+      "name": "Angie Buhl-Nielsen"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/112017",
+      "@type": "Person",
+      "name": "Gerry Thompson"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/87609",
+      "@type": "Person",
+      "name": "Bob Towner"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/112016",
+      "@type": "Person",
+      "name": "Tim Higgins"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/2178",
+      "@type": "Person",
+      "name": "Stuart Bower"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/112015",
+      "@type": "Person",
+      "name": "James Burrage"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/9489",
+      "@type": "Person",
+      "name": "Adrienne Lowe"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/112013",
+      "@type": "Person",
+      "name": "Pauline Higgins"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/38278",
+      "@type": "Person",
+      "name": "Joe Pannell"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/112014",
+      "@type": "Person",
+      "name": "Kirstie Victoria Pannell"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/9484",
+      "@type": "Person",
+      "name": "Patrick George Ginnelly"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/87557",
+      "@type": "Person",
+      "name": "Victoria Louise Benson"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/9517",
+      "@type": "Person",
+      "name": "Ann Bridges"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/81775",
+      "@type": "Person",
+      "name": "Tony Harper"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/99985",
+      "@type": "Person",
+      "name": "Marcus Johnson"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/109713",
+      "@type": "Person",
+      "name": "Amy Trewick"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/99984",
+      "@type": "Person",
+      "name": "Fiona Horton"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/35470",
+      "@type": "Person",
+      "name": "Nicola Sumner"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/9557",
+      "@type": "Person",
+      "name": "Christopher Michael Scarfe"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/47678",
+      "@type": "Person",
+      "name": "Adrian Thompson"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/76233",
+      "@type": "Person",
+      "name": "Catherine Rogerson"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/9529",
+      "@type": "Person",
+      "name": "Steve Houghton"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/110236",
+      "@type": "Person",
+      "name": "Mark J Brooke"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/42298",
+      "@type": "Person",
+      "name": "Elizabeth Kate Waters"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/110237",
+      "@type": "Person",
+      "name": "Kabir Nepal"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/76281",
+      "@type": "Person",
+      "name": "Kevin John Howard Osborne"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/86701",
+      "@type": "Person",
+      "name": "Scott McKenzie"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/110226",
+      "@type": "Person",
+      "name": "Ian White"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/79628",
+      "@type": "Person",
+      "name": "Simon Richard Hulme"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/110246",
+      "@type": "Person",
+      "name": "Leyla Nayeri"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/86686",
+      "@type": "Person",
+      "name": "Teresa Wilcockson"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/110245",
+      "@type": "Person",
+      "name": "Aiden Ian Benoit"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/9565",
+      "@type": "Person",
+      "name": "Gill Millner"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/84271",
+      "@type": "Person",
+      "name": "Simon David Watson Biltcliffe"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/9537",
+      "@type": "Person",
+      "name": "Alice Cave"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/98823",
+      "@type": "Person",
+      "name": "Trevor Anthony Mayne"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/110252",
+      "@type": "Person",
+      "name": "Shaun Kenneth Turner"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/42850",
+      "@type": "Person",
+      "name": "Kevin Bennett"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/98800",
+      "@type": "Person",
+      "name": "Bee D'abeille Lokkit"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/76282",
+      "@type": "Person",
+      "name": "Wendy Cain"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/508",
+      "@type": "Person",
+      "name": "Maxine Spencer"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/9600",
+      "@type": "Person",
+      "name": "Mike Toon"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/86897",
+      "@type": "Person",
+      "name": "Brian John Evans"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/110270",
+      "@type": "Person",
+      "name": "Deborah Jane Pearson"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/76259",
+      "@type": "Person",
+      "name": "David Allan Jarvis"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/110271",
+      "@type": "Person",
+      "name": "Elaine Weems"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/1528",
+      "@type": "Person",
+      "name": "Janus Polenceusz"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/79631",
+      "@type": "Person",
+      "name": "Linda Fielding"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/79635",
+      "@type": "Person",
+      "name": "Chris Wray"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/110272",
+      "@type": "Person",
+      "name": "Ian Hague-Brown"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/9553",
+      "@type": "Person",
+      "name": "Steven John Burkinshaw"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/9551",
+      "@type": "Person",
+      "name": "Mick Stowe"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/44351",
+      "@type": "Person",
+      "name": "Michael James Davies"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/52641",
+      "@type": "Person",
+      "name": "Andrew Millner"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/45466",
+      "@type": "Person",
+      "name": "Glenn Lawrence"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/46749",
+      "@type": "Person",
+      "name": "Tom Heyes"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/73737",
+      "@type": "Person",
+      "name": "Angela Ruth Waller"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/110218",
+      "@type": "Person",
+      "name": "Steve Bullcock"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/110220",
+      "@type": "Person",
+      "name": "Simon John Jordan Williamson"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/76248",
+      "@type": "Person",
+      "name": "Liam Hardcastle"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/54841",
+      "@type": "Person",
+      "name": "Peter Gordon Giles"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/98813",
+      "@type": "Person",
+      "name": "Roger Haw"
+    },
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/person/9555",
+      "@type": "Person",
+      "name": "Tracey-Ann Holland"
+    }
+  ]
+}

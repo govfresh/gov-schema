@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://candidates.democracyclub.org.uk/id/organization/returning-officers",
+      "@type": "GovernmentOrganization",
+      "name": "UK returning officers",
+      "description": "Elections in the UK are administered locally by returning officers; Democracy Club aggregates their declarations without naming a single administering body.",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:democracyclub",
+          "value": "returning-officers"
+        }
+      ],
+      "organizationClassification": "agency",
+      "areaServed": {
+        "@id": "https://candidates.democracyclub.org.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      }
+    }
+  ]
+}

@@ -6,34 +6,90 @@
   "type": "object",
   "properties": {
     "@context": {},
-    "@id": {"type": "string", "format": "iri"},
-    "@type": {"const": "Election"},
-    "name": {"type": "string"},
-    "description": {"type": "string"},
-    "url": {"type": "string", "format": "iri"},
-    "identifier": {"type": "array", "items": {"$ref": "../_core/identifier.schema.json"}},
-    "electionDate": {"type": "string", "format": "date", "description": "Polling day. Where voting spans several days, the final day."},
+    "@id": {
+      "type": "string",
+      "format": "iri"
+    },
+    "@type": {
+      "const": "Election"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "format": "iri"
+    },
+    "identifier": {
+      "type": "array",
+      "items": {
+        "$ref": "../_core/identifier.schema.json"
+      }
+    },
+    "electionDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Polling day. Where voting spans several days, the final day."
+    },
     "electionType": {
       "type": "string",
-      "enum": ["general", "primary", "runoff", "special", "byElection", "referendum", "recall", "indirect"]
+      "enum": [
+        "general",
+        "primary",
+        "runoff",
+        "special",
+        "byElection",
+        "referendum",
+        "recall",
+        "indirect"
+      ]
     },
     "electionStatus": {
       "type": "string",
-      "enum": ["scheduled", "completed", "cancelled", "postponed"]
+      "enum": [
+        "scheduled",
+        "completed",
+        "cancelled",
+        "postponed"
+      ]
     },
     "administeredBy": {
       "$ref": "../_core/reference.schema.json",
       "description": "The GovernmentOrganization running the election, which is frequently not the body being elected."
     },
-    "jurisdiction": {"$ref": "../_core/reference.schema.json"},
-    "contest": {"type": "array", "items": {"$ref": "../_core/reference.schema.json"}},
-    "registeredVoters": {"type": "integer", "minimum": 0},
+    "jurisdiction": {
+      "$ref": "../_core/reference.schema.json"
+    },
+    "contest": {
+      "type": "array",
+      "items": {
+        "$ref": "../_core/reference.schema.json"
+      }
+    },
+    "registeredVoters": {
+      "type": "integer",
+      "minimum": 0
+    },
     "ballotsCast": {
-      "type": "integer", "minimum": 0,
+      "type": "integer",
+      "minimum": 0,
       "description": "Ballots cast across the election. With registeredVoters this yields turnout; publishing turnout as a derived percentage instead loses the ability to recompute it on a corrected register."
     },
-    "sourceDataset": {"type": "string", "format": "iri"}
+    "sourceDataset": {
+      "type": "string",
+      "format": "iri"
+    }
   },
-  "required": ["@id", "@type", "name", "electionDate", "electionType", "jurisdiction"],
+  "required": [
+    "@id",
+    "@type",
+    "name",
+    "electionDate",
+    "electionType",
+    "jurisdiction"
+  ],
   "additionalProperties": true
 }
