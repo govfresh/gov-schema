@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/requests/service.schema.json",
+  "title": "Service",
+  "description": "One service a resident can request, and the questions asked when requesting it. Combines the Open311 Service List and Service Definition into a single entity. This is the half of 311 that schema.org does cover: GovernmentService is a real type, ServiceChannel describes how to reach it, and PropertyValueSpecification describes a form field - so the request attributes need no minted vocabulary.",
+  "type": "object",
+  "properties": {
+    "@context": {},
+    "@id": {"type": "string", "format": "iri"},
+    "@type": {"const": "GovernmentService"},
+    "name": {"type": "string"},
+    "description": {"type": "string"},
+    "url": {"type": "string", "format": "iri"},
+    "serviceCode": {"type": "string", "description": "Open311 service_code. Stable; requests reference it."},
+    "serviceType": {"type": "string", "description": "Open311 group, e.g. 'Streets', 'Sanitation'."},
+    "keywords": {"type": "array", "items": {"type": "string"}},
+    "provider": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The GovernmentOrganization providing it."
+    },
+    "areaServed": {"$ref": "../_core/reference.schema.json", "description": "The Jurisdiction it covers."},
+    "availableChannel": {
+      "type": "array",
+      "description": "schema.org ServiceChannel: how a resident actually reports this. processingTime carries the service-level expectation.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "@type": {"const": "ServiceChannel"},
+          "serviceUrl": {"type": "string", "format": "iri"},
+          "servicePhone": {"type": "object"},
+          "serviceSmsNumber": {"type": "object"},
+          "serviceLocation": {"$ref": "../_core/reference.schema.json"},
+          "processingTime": {"type": "string", "description": "ISO 8601 duration, e.g. P3D."},
+          "availableLanguage": {"type": "array", "items": {"type": "string"}}
+        },
+        "required": ["@type"]
+      }
+    },
+    "requestAttribute": {
+      "type": "array",
+      "description": "The questions asked when submitting. Open311 Service Definition attributes, as schema.org PropertyValueSpecification.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "@type": {"const": "PropertyValueSpecification"},
+          "valueName": {"type": "string", "description": "The attribute key. Open311 code."},
+          "name": {"type": "string", "description": "The question shown to the resident. Open311 description."},
+          "valueRequired": {"type": "boolean"},
+          "multipleValues": {"type": "boolean", "description": "True for Open311 multivaluelist."},
+          "defaultValue": {"type": "string"},
+          "valueMinLength": {"type": "number"},
+          "valueMaxLength": {"type": "number"},
+          "valuePattern": {"type": "string"},
+          "minValue": {"type": "number"},
+          "maxValue": {"type": "number"},
+          "position": {"type": "integer", "description": "Open311 order."},
+          "valueOption": {
+            "type": "array",
+            "description": "Permitted values for a list attribute. Open311 values[].",
+            "items": {
+              "type": "object",
+              "properties": {
+                "@type": {"const": "DefinedTerm"},
+                "termCode": {"type": "string"},
+                "name": {"type": "string"}
+              },
+              "required": ["@type", "termCode"]
+            }
+          }
+        },
+        "required": ["@type", "valueName"]
+      }
+    },
+    "isRealtime": {
+      "type": "boolean",
+      "description": "Whether a request against this service returns an id immediately. Open311 type: realtime versus batch or blackbox."
+    },
+    "sourceDataset": {"type": "string", "format": "iri"}
+  },
+  "required": ["@id", "@type", "name", "serviceCode", "provider"],
+  "additionalProperties": true
+}
