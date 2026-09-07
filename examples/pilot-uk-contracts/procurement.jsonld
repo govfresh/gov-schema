@@ -1,0 +1,2910 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-275899ba-a9ec-4131-86df-b08050987de4",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-275899ba-a9ec-4131-86df-b08050987de4",
+      "name": "Supply, fit and repair of glass and associated products and services",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-srs-sid4gov-cabinetoffice-gov-uk-3nzz9cbv",
+        "name": "HAMPSHIRE AND ISLE OF WIGHT CONSTABULARY"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-05683242",
+          "name": "NATIONWIDE WINDSCREEN SERVICES LTD"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "HIOWC0033-3",
+        "title": "Supply, fit and repair of glass and associated products and services",
+        "description": "Supply, fit and repair of glass and associated products and services.\r\n\r\nDirect Award from CCS RM6353 Tyres, Glass and Telematics Framework, Lot 3.",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 1300000,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "50112120",
+            "name": "Windscreen replacement services"
+          }
+        ],
+        "tenderPeriodEnd": "2026-03-16T17:00:00Z"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-275899ba-a9ec-4131-86df-b08050987de4-1",
+          "status": "active",
+          "date": "2026-03-31T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 1300000,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-05683242",
+              "name": "NATIONWIDE WINDSCREEN SERVICES LTD"
+            }
+          ],
+          "contractPeriodStart": "2026-04-01",
+          "contractPeriodEnd": "2031-03-31"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-a1d33dab-4404-4054-89bc-81b15110ed96",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-a1d33dab-4404-4054-89bc-81b15110ed96",
+      "name": "QWE170 1000 2026-09-03 Rattlesden - Suffolk New College, Suffolk Rural, Otley (4-seater) - AWARD",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-154927",
+        "name": "Suffolk County Council Passenger Transport"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-301348",
+          "name": "Cabs 4 U"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "IT-368-20935-QWE170 - AWARD",
+        "title": "QWE170 1000 2026-09-03 Rattlesden - Suffolk New College, Suffolk Rural, Otley (4-seater) - AWARD",
+        "description": "Suffolk County Council is seeking a mini competition against the following Dynamic Purchasing System: `The supply of Passenger Transport Services`, OJEU Notice Id: 2018/S 031-067685.\r\n      \r\n      QWE170 1000 2026-09-03 Rattlesden - Suffolk New College, Suffolk Rural, Otley (4-seater)\r\n      \r\n      Further details can be found in the 'Tenders / My Tenders' area of this website, by selecting the 'View Details' button for this project.\r\n      \r\n      The deadline for returned submissions is 1000 2026-09-03. Please note late returns will NOT be permitted.\r\n      \r\n      The deadline for clarification questions is 1000 2026-09-02 which must be generated via the correspondence option on the website.\r\n      \r\n      The council reserves the right to extend this contract up until 31st July 2028.",
+        "status": "complete",
+        "procurementMethodDetails": "Not specified",
+        "mainProcurementCategory": "services",
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "60000000",
+            "name": "Transport services (excl. Waste transport)"
+          }
+        ],
+        "tenderPeriodEnd": "2026-09-03T10:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-a1d33dab-4404-4054-89bc-81b15110ed96-1",
+          "status": "active",
+          "date": "2026-09-04T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 0,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-301348",
+              "name": "Cabs 4 U"
+            }
+          ],
+          "contractPeriodStart": "2026-09-08",
+          "contractPeriodEnd": "2027-08-31"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-e52945a8-18d2-44ef-9aa5-f99cca01228b",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-e52945a8-18d2-44ef-9aa5-f99cca01228b",
+      "name": "NCC2035 Winter Weather Forecasting Service",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-srs-sid4gov-cabinetoffice-gov-uk-by5b2fn2",
+        "name": "Northumberland County Council"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-03288270",
+          "name": "DTN Europe UK Ltd"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "NCC2035 (NEPO230 Weather Forecasting Services)",
+        "title": "NCC2035 Winter Weather Forecasting Service",
+        "description": "Direct award via NEPO230 Weather Forecasting Services for provision of detailed, location-specific weather and road condition information to support winter service decisions in Northumberland and Newcastle City. The system combines current observations, weather forecasts and road surface information, including air and pavement temperatures, precipitation, wind, frost and potential ice conditions. It can also provide information from Road Weather Information Systems, allowing actual road conditions to be monitored alongside forecast data.",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 50913.72,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "71351600",
+            "name": "Weather-forecasting services"
+          }
+        ],
+        "tenderPeriodEnd": "2026-09-04T12:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-e52945a8-18d2-44ef-9aa5-f99cca01228b-1",
+          "status": "active",
+          "date": "2026-09-04T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 50913.72,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-03288270",
+              "name": "DTN Europe UK Ltd"
+            }
+          ],
+          "contractPeriodStart": "2026-10-01",
+          "contractPeriodEnd": "2030-09-30"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-8530055f-de97-493a-b8df-7252d7b7cf3a",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-8530055f-de97-493a-b8df-7252d7b7cf3a",
+      "name": "Income Analytics and Automated Customer Engagement Services",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-srs-sid4gov-cabinetoffice-gov-uk-v3sg8j4a",
+        "name": "THIRTEEN HOUSING GROUP LIMITED"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-06649394",
+          "name": "VOICESCAPE LIMITED"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "THIR 26 431",
+        "title": "Income Analytics and Automated Customer Engagement Services",
+        "description": "48 month renewal for Voicescape Modules",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 1180800,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "48100000",
+            "name": "Industry specific software package"
+          }
+        ],
+        "tenderPeriodEnd": "2026-08-03T17:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-8530055f-de97-493a-b8df-7252d7b7cf3a-1",
+          "status": "active",
+          "date": "2026-08-03T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 1180800,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-06649394",
+              "name": "VOICESCAPE LIMITED"
+            }
+          ],
+          "contractPeriodStart": "2027-04-01",
+          "contractPeriodEnd": "2031-03-31"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-f817959c-e56a-409b-915c-f7f70887f6f6",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-f817959c-e56a-409b-915c-f7f70887f6f6",
+      "name": "ITEP1058 - ORT0191 - Operational Technology Standards and Specifications (Work Package 2 - Standards review)",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-333650",
+        "name": "National Highways Limited"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-01312453",
+          "name": "Ove Arup & Partners Limited"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "tender_506267/1608137",
+        "title": "ITEP1058 - ORT0191 - Operational Technology Standards and Specifications (Work Package 2 - Standards review)",
+        "description": "The aim of this proposal is to bring in highly experienced technical expertise, with skills, knowledge and experience of Intelligent Transport Systems (ITS) engineering best practice to help the Safety, Engineering and Standards (SES) directorate deliver its 'standards' and 'assurance' services to the business under areas of the SES service model.",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 145000,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "72212310",
+            "name": "Document creation software development services"
+          }
+        ],
+        "tenderPeriodEnd": "2026-09-01T12:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-f817959c-e56a-409b-915c-f7f70887f6f6-1",
+          "status": "active",
+          "date": "2026-09-01T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 145000,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-01312453",
+              "name": "Ove Arup & Partners Limited"
+            }
+          ],
+          "contractPeriodStart": "2026-09-02",
+          "contractPeriodEnd": "2028-09-01"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-b1ab67c4-c5c1-483d-a422-85bd9adc91fe",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-b1ab67c4-c5c1-483d-a422-85bd9adc91fe",
+      "name": "TEL Lot1 DA Apr27 Redditch Borough Council - Awarded",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-srs-sid4gov-cabinetoffice-gov-uk-rzms3g9n",
+        "name": "NORTHERN HOUSING CONSORTIUM LIMITED"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-115834",
+          "name": "Legrand Electric Ltd"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "TEL Lot1 DA Apr27 Redditch Borough Council -",
+        "title": "TEL Lot1 DA Apr27 Redditch Borough Council - Awarded",
+        "description": "This contract award notice is to notify the market that Redditch Borough Council based in Birmingham, UK have appointed Legrand  Electric Ltd as their Technology Enabled Lives provider for a period of 4 years. This appointment has been made under the Northern Housing Consortium's Technology Enabled Lives framework. (Contract Award Notice 2024/S 000-000849)",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "goods",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 600000,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "50421000",
+            "name": "Repair and maintenance services of medical equipment"
+          }
+        ],
+        "tenderPeriodEnd": "2026-09-02T00:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-b1ab67c4-c5c1-483d-a422-85bd9adc91fe-1",
+          "status": "active",
+          "date": "2026-09-02T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 600000,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-115834",
+              "name": "Legrand Electric Ltd"
+            }
+          ],
+          "contractPeriodStart": "2027-04-01",
+          "contractPeriodEnd": "2031-03-31"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-79eabdbc-f685-4b93-b094-a8aab6998f88",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-79eabdbc-f685-4b93-b094-a8aab6998f88",
+      "name": "291 Harrow Road Planning Monitor",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-290904",
+        "name": "Westminster City Council"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-02235387",
+          "name": "Turley Associates"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "tender_515189/1608161",
+        "title": "291 Harrow Road Planning Monitor",
+        "description": "The appointment of a planning consultant as part of the Compliance Monitoring Team for 291 Harrow Road development from RIBA Stage 4 and throughout construction, providing an ongoing monitoring and quality assurance role for the Employer.",
+        "status": "complete",
+        "procurementMethod": "limited",
+        "procurementMethodDetails": "Competitive quotation (below threshold)",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 111000,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "71240000",
+            "name": "Architectural, engineering and planning services"
+          }
+        ],
+        "tenderPeriodEnd": "2026-02-13T12:00:00Z"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-79eabdbc-f685-4b93-b094-a8aab6998f88-1",
+          "status": "active",
+          "date": "2026-04-28T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 111000,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-02235387",
+              "name": "Turley Associates"
+            }
+          ],
+          "contractPeriodStart": "2026-07-20",
+          "contractPeriodEnd": "2031-06-30"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-b8709273-e629-451e-ad3b-c93c0cd18725",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-b8709273-e629-451e-ad3b-c93c0cd18725",
+      "name": "PAN3588 - New Parks South 20",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-49436",
+        "name": "Leicester City Council"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338102",
+          "name": "Bridge Construction Ltd"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "LEICSCITY02-DN828450-94649685",
+        "title": "PAN3588 - New Parks South 20",
+        "description": "Supply and install 10 x 1.7m wide, 2.0 m long, 75 mm high speed cushions. 34 x 1.9m wide, 2.0 m long, 75 mm high speed cushion. 14 x 1.9m wide, 2.0 m long, 75 mm high speed cushion",
+        "status": "complete",
+        "procurementMethodDetails": "Other - ",
+        "mainProcurementCategory": "works",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 114871.41,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "45000000",
+            "name": "Construction work"
+          }
+        ],
+        "tenderPeriodEnd": "2026-06-26T23:59:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-b8709273-e629-451e-ad3b-c93c0cd18725-1",
+          "status": "active",
+          "date": "2026-06-30T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 114871.41,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338102",
+              "name": "Bridge Construction Ltd"
+            }
+          ],
+          "contractPeriodStart": "2026-07-03",
+          "contractPeriodEnd": "2027-07-31"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-332f0808-8411-4df8-8e3a-da85d1f9a647",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-332f0808-8411-4df8-8e3a-da85d1f9a647",
+      "name": "LDC-234 - CRM, CMS Software Provider",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-121477",
+        "name": "Lichfield District Council"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-257002",
+          "name": "Jadu Limited"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "LITCH001-DN687760-12449585",
+        "title": "LDC-234 - CRM, CMS Software Provider",
+        "description": "Software for the Council's core website, integrations, online forms and customer relationship management system.",
+        "status": "complete",
+        "procurementMethod": "direct",
+        "procurementMethodDetails": "Direct award",
+        "mainProcurementCategory": "goods",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 241930,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "48000000",
+            "name": "Software package and information systems"
+          }
+        ],
+        "tenderPeriodEnd": "2023-08-31T12:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-332f0808-8411-4df8-8e3a-da85d1f9a647-2",
+          "status": "active",
+          "date": "2023-08-31T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 241930,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-257002",
+              "name": "Jadu Limited"
+            }
+          ],
+          "contractPeriodStart": "2023-09-01",
+          "contractPeriodEnd": "2027-08-31"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-c5edbda3-b58b-4741-b60b-aca4949ec109",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-c5edbda3-b58b-4741-b60b-aca4949ec109",
+      "name": "Provision of Catering Services",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-338103",
+        "name": "NHS Blood and Transplant"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338104",
+          "name": "GATHER & GATHER LIMITED"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "CF-3675100D0O000000rwimUAA",
+        "title": "Provision of Catering Services",
+        "description": "Provide NHSBT catering service provision",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 2478322,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "55500000",
+            "name": "Canteen and catering services"
+          }
+        ],
+        "tenderPeriodEnd": "2026-02-25T12:00:00Z"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-c5edbda3-b58b-4741-b60b-aca4949ec109-1",
+          "status": "active",
+          "date": "2026-08-28T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 2478322,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338104",
+              "name": "GATHER & GATHER LIMITED"
+            }
+          ],
+          "contractPeriodStart": "2026-04-01",
+          "contractPeriodEnd": "2028-09-30"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-5f04c234-8ad0-4cb6-82a9-43f590bd89d2",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-5f04c234-8ad0-4cb6-82a9-43f590bd89d2",
+      "name": "THRE0048 Professional Correspondence Writers",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-163473",
+        "name": "DfTc - Department for Transport"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-11246293",
+          "name": "Additae Artes Limited"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "tender_458827/1424064",
+        "title": "THRE0048 Professional Correspondence Writers",
+        "description": "Professional Correspondence Writers",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 300000,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "72224000",
+            "name": "Project management consultancy services"
+          }
+        ],
+        "tenderPeriodEnd": "2024-09-30T12:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-5f04c234-8ad0-4cb6-82a9-43f590bd89d2-1",
+          "status": "active",
+          "date": "2024-11-08T00:00:00Z",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 300000,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-11246293",
+              "name": "Additae Artes Limited"
+            }
+          ],
+          "contractPeriodStart": "2024-11-08",
+          "contractPeriodEnd": "2027-11-04"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-6ff11c58-d874-49bb-a5cd-7ecbc9e92598",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-6ff11c58-d874-49bb-a5cd-7ecbc9e92598",
+      "name": "PAN3618 - Highways Work on Home Farm Close",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-333862",
+        "name": "Leicester City Council"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338105",
+          "name": "Holcim UK Ltd"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "LEICSCITY02-DN828368-62112471",
+        "title": "PAN3618 - Highways Work on Home Farm Close",
+        "description": "The project comprises carriageway and footway resurfacing/patching works at Home Farm Close, including associated traffic management, surface preparation, ironwork adjustments, and the installation of new bituminous surfacing materials.",
+        "status": "complete",
+        "procurementMethod": "direct",
+        "procurementMethodDetails": "Direct award",
+        "mainProcurementCategory": "works",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 68349.31,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "45000000",
+            "name": "Construction work"
+          }
+        ],
+        "tenderPeriodEnd": "2026-08-26T12:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-6ff11c58-d874-49bb-a5cd-7ecbc9e92598-1",
+          "status": "active",
+          "date": "2026-08-26T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 68349.31,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338105",
+              "name": "Holcim UK Ltd"
+            }
+          ],
+          "contractPeriodStart": "2026-10-17",
+          "contractPeriodEnd": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-f09fdb39-dbd2-4c4c-859b-0521295ea9df",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-f09fdb39-dbd2-4c4c-859b-0521295ea9df",
+      "name": "Media Monitoring Services",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-258040",
+        "name": "The Pensions Regulator"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338106",
+          "name": "Access Intelligence Media and Communications Limited (T/a Vuelio"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "tender_530178/1608182",
+        "title": "Media Monitoring Services",
+        "description": "Provision of Media Monitoring Services to The Pensions Regulator for an initial period of 13-months (including implementation period).\r\n\r\nThis contract has 3 x 12-month optional extensions available, if all 3 are invoked the contract value (including the initial 13-month term) will be approximately £144,000 (inc VAT)",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 36000,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "48000000",
+            "name": "Software package and information systems"
+          }
+        ],
+        "tenderPeriodEnd": "2026-06-12T12:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-f09fdb39-dbd2-4c4c-859b-0521295ea9df-1",
+          "status": "active",
+          "date": "2026-07-16T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 36000,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338106",
+              "name": "Access Intelligence Media and Communications Limited (T/a Vuelio"
+            }
+          ],
+          "contractPeriodStart": "2026-09-03",
+          "contractPeriodEnd": "2027-10-08"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-beb4f98f-aa48-40f1-b42c-2a278dbc19b6",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-beb4f98f-aa48-40f1-b42c-2a278dbc19b6",
+      "name": "PS26210 - RAF 011/2627 -Understanding compliance and supporting sustainable enforcement of PRS domestic and non-domestic MEES",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-294830",
+        "name": "DESNZ"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-334728",
+          "name": "Verian Group UK Ltd"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "tender_540907/1608189",
+        "title": "PS26210 - RAF 011/2627 -Understanding compliance and supporting sustainable enforcement of PRS domestic and non-domestic MEES",
+        "description": "***** THIS IS AN AWARD NOTICE, NOT A CALL FOR COMPETITION *****\r\n\r\nThis procurement is being concluded following a mini competition under the GCA RM6126 Research & Insights DPS\r\n\r\nBrief Description of Requirement\r\nThis research will examine compliance with, and enforcement of, minimum energy efficiency standards (MEES) in the private rented sector (PRS) across local authorities in England and Wales. It will identify current enforcement activity, key barriers and enablers, and the types of support that could help improve consistency, confidence and effectiveness in local authority practice",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a dynamic purchasing system",
+        "mainProcurementCategory": "services",
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "73000000",
+            "name": "Research and development services and related consultancy services"
+          }
+        ],
+        "tenderPeriodEnd": "2026-08-18T12:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-beb4f98f-aa48-40f1-b42c-2a278dbc19b6-1",
+          "status": "active",
+          "date": "2026-09-02T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 213347.25,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-334728",
+              "name": "Verian Group UK Ltd"
+            }
+          ],
+          "contractPeriodStart": "2026-09-02",
+          "contractPeriodEnd": "2027-03-31"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-d632ffb5-9d32-48cb-aac1-b8af527a8903",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-d632ffb5-9d32-48cb-aac1-b8af527a8903",
+      "name": "Digital Consent and Sharing Decision Making Solution",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-327395",
+        "name": "South Tees Hospitals NHS Foundation Trust"
+      },
+      "dateModified": "2026-09-04",
+      "party": [],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "CF-3675200D0O000000rwimUAA",
+        "title": "Digital Consent and Sharing Decision Making Solution",
+        "description": "The provision of a Digital Consent and Sharing Decision Making Solution. \r\nThe contract commencement date is expected to be January 2027. The contract duration is 36 months (with the option of 2 x 12 month extension periods)\r\n\r\nAdditional information: \r\nTo express interest and participate in the tender, please register and apply via Atamis e-sourcing portal https://health-family.force.com/s/Welcome.\r\n\r\nShould Tenderers have any queries, or having problems using the portal, they should contact Helpdesk at:\r\n\r\nPhone: 0800 9956035\r\n\r\nE-mail: support-health@atamis.co.uk",
+        "status": "active",
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (above threshold)",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 135018,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "48180000",
+            "name": "Medical software package"
+          }
+        ],
+        "tenderPeriodEnd": "2026-09-29T12:00:00+01:00"
+      }
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-0ee5b399-81ef-44b7-adb4-d116d2cd70cf",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-0ee5b399-81ef-44b7-adb4-d116d2cd70cf",
+      "name": "Service desk 2022-25",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-srs-sid4gov-cabinetoffice-gov-uk-sbn45ywb",
+        "name": "National Audit Office"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-230113",
+          "name": "XMA Ltd"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "C-2678",
+        "title": "Service desk 2022-25",
+        "description": "The National Audit Office (NAO) awarded a contract to XMA Ltd through Lots 3a, 3b, 3c and 3d of Crown Commercial Service's Technology Services 3 Framework (RM6100). The supplier provides an off-site service desk facility together with on-site staff based at the NAO's London and Newcastle offices.\r\n\r\nThe contract commenced on 1 November 2022 and included a six-month implementation and transition period. The service went live in April 2023.\r\n\r\nThe contract was awarded for an initial term of three years, expiring on 31 October 2025, with options to extend for up to two further periods of 12 months each, to a maximum end date of 31 October 2027.\r\n\r\nUpdate July 2024: Details of the available extension options and the framework used to award the contract were added.\r\n\r\nUpdate September 2025: The contract was extended. It was also clarified that, although the contract was signed in September 2022 and commenced on 1 November 2022, it included a six-month implementation period prior to the service going live in March 2023.\r\nThe contract value was also varied by 50% of the original contract value of £960,000 (including VAT).",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 2880000,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "72222300",
+            "name": "Information technology services"
+          }
+        ],
+        "tenderPeriodEnd": "2022-10-01T17:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-0ee5b399-81ef-44b7-adb4-d116d2cd70cf-1",
+          "status": "active",
+          "date": "2022-10-13T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 2880000,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-230113",
+              "name": "XMA Ltd"
+            }
+          ],
+          "contractPeriodStart": "2023-04-01",
+          "contractPeriodEnd": "2028-03-31"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-05080373-6900-4393-aeb2-c5820ae53166",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-05080373-6900-4393-aeb2-c5820ae53166",
+      "name": "Corbet Close footpath works",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-srs-sid4gov-cabinetoffice-gov-uk-p8fe7utp",
+        "name": "Bristol City Council"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-06566309",
+          "name": "Conner Construction (South West) Ltd"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "DN791451 - Corbet Close footpath works",
+        "title": "Corbet Close footpath works",
+        "description": "Corbet Close footpath surfacing Award via Lot DN791451 of BCC Highways Asset Management and Civils Framework.",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "works",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 25426.43,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "45233000",
+            "name": "Construction, foundation and surface works for highways, roads"
+          }
+        ],
+        "tenderPeriodEnd": "2026-07-06T17:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-05080373-6900-4393-aeb2-c5820ae53166-1",
+          "status": "active",
+          "date": "2026-07-06T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 25426.43,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-06566309",
+              "name": "Conner Construction (South West) Ltd"
+            }
+          ],
+          "contractPeriodStart": "2026-07-20",
+          "contractPeriodEnd": "2026-09-08"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-c5c9b4e0-e37d-4a5c-a02b-2de90577d4ce",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-c5c9b4e0-e37d-4a5c-a02b-2de90577d4ce",
+      "name": "Call off Contract Under Prison Education Dynamic Purchasing System for Traffic Marshall Courses for Prisoners at HMP Highpoint",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-135448",
+        "name": "Ministry of Justice"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338107",
+          "name": "Karen Mackey Consultants"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "tender_523485/1608171",
+        "title": "Call off Contract Under Prison Education Dynamic Purchasing System for Traffic Marshall Courses for Prisoners at HMP Highpoint",
+        "description": "Call off Contract Under Prison Education Dynamic Purchasing System for Traffic Marshall Courses for Prisoners HMP Highpoint.  The Supplier will deliver accredited industry standard banksman/traffic marshal course (CLOCS), to foster employment upon release.",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a dynamic purchasing system",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 14400,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "80000000",
+            "name": "Education and training services"
+          }
+        ],
+        "tenderPeriodEnd": "2026-04-08T15:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-c5c9b4e0-e37d-4a5c-a02b-2de90577d4ce-1",
+          "status": "active",
+          "date": "2026-09-04T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 14400,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338107",
+              "name": "Karen Mackey Consultants"
+            }
+          ],
+          "contractPeriodStart": "2026-09-07",
+          "contractPeriodEnd": "2027-08-06"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-1bb7783f-1199-4eb3-836a-1055dc9bea46",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-1bb7783f-1199-4eb3-836a-1055dc9bea46",
+      "name": "Provision of Local Bus Services LC9_93A Grantham - Bottesford - Bingham",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-58010",
+        "name": "Leicestershire County Council"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338108",
+          "name": "Centrebus"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "LEICSCC001-DN818838-37957216",
+        "title": "Provision of Local Bus Services LC9_93A Grantham - Bottesford - Bingham",
+        "description": "Provision of Local Bus Services LC9_93A Grantham - Bottesford - Bingham",
+        "status": "complete",
+        "procurementMethodDetails": "Other - ",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 485190,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "60172000",
+            "name": "Hire of buses and coaches with driver"
+          }
+        ],
+        "tenderPeriodEnd": "2026-06-17T12:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-1bb7783f-1199-4eb3-836a-1055dc9bea46-1",
+          "status": "active",
+          "date": "2026-06-22T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 485190,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338108",
+              "name": "Centrebus"
+            }
+          ],
+          "contractPeriodStart": "2026-08-03",
+          "contractPeriodEnd": "2029-08-04"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-99663350-f24a-4c51-aa93-bee74dfe2fb1",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-99663350-f24a-4c51-aa93-bee74dfe2fb1",
+      "name": "2026-09-02 0900 QOC948  Lowestoft to Access Creative College, Norwich (4 seater vehicle - no passenger assistant required) - AWARD",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-154927",
+        "name": "Suffolk County Council Passenger Transport"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-258271",
+          "name": "SPRY Management"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "IT-368-20926-QOC948 - AWARD",
+        "title": "2026-09-02 0900 QOC948  Lowestoft to Access Creative College, Norwich (4 seater vehicle - no passenger assistant required) - AWARD",
+        "description": "Suffolk County Council is seeking a mini competition against the following Dynamic Purchasing System: `The supply of Passenger Transport Services`, OJEU Notice Id: 2018/S 031-067685.\r\n      \r\n      QOC948  Lowestoft to Access Creative College, Norwich (4 seater vehicle - no passenger assistant required).\r\n      \r\n      Further details can be found in the 'Tenders / My Tenders' area of this website, by selecting the 'View Details' button for this project.\r\n      \r\n      The deadline for returned submissions is 9am on Wednesday 2nd August 2026. Please note late returns will NOT be permitted.\r\n      \r\n      The deadline for clarification questions is 9am on Tuesday 1st August 2026 which must be generated via the correspondence option on the website.\r\n      \r\n      The council reserves the right to extend this contract up until 31st July 2029.",
+        "status": "complete",
+        "procurementMethodDetails": "Not specified",
+        "mainProcurementCategory": "services",
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "60000000",
+            "name": "Transport services (excl. Waste transport)"
+          }
+        ],
+        "tenderPeriodEnd": "2026-09-02T09:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-99663350-f24a-4c51-aa93-bee74dfe2fb1-1",
+          "status": "active",
+          "date": "2026-09-04T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 86640,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-258271",
+              "name": "SPRY Management"
+            }
+          ],
+          "contractPeriodStart": "2026-09-07",
+          "contractPeriodEnd": "2028-07-31"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-46aa666e-27b6-4c70-a1e4-8281035e5c13",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-46aa666e-27b6-4c70-a1e4-8281035e5c13",
+      "name": "Call off Contract Under Prison Education Dynamic Purchasing System for Tattooing Courses for Prisoners at HMP Belmarsh",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-135448",
+        "name": "Ministry of Justice"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338109",
+          "name": "Elever Training Limited"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "tender_535629/1608193",
+        "title": "Call off Contract Under Prison Education Dynamic Purchasing System for Tattooing Courses for Prisoners at HMP Belmarsh",
+        "description": "Call off Contract Under Prison Education Dynamic Purchasing System for Tattooing Courses for Residents of HMP Belmarsh. The Supplier will introduce the art and skill of tattooing (simulated) with the aim to opening viable employment pathways in the tattooing industry on release from custody.",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a dynamic purchasing system",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 38400,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "80000000",
+            "name": "Education and training services"
+          }
+        ],
+        "tenderPeriodEnd": "2026-07-10T15:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-46aa666e-27b6-4c70-a1e4-8281035e5c13-1",
+          "status": "active",
+          "date": "2026-09-04T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 38400,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338109",
+              "name": "Elever Training Limited"
+            }
+          ],
+          "contractPeriodStart": "2026-09-08",
+          "contractPeriodEnd": "2027-09-07"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-d2b4b82d-1910-449d-a871-14333a84496b",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-d2b4b82d-1910-449d-a871-14333a84496b",
+      "name": "Siemens Somatom X.ceed CT Scanner",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-338110",
+        "name": "Northumbria Healthcare NHS Foundation Trust"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338111",
+          "name": "SIEMENS HEALTHCARE LTD"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "CF-3675300D0O000000rwimUAA",
+        "title": "Siemens Somatom X.ceed CT Scanner",
+        "description": "Siemens Somatom X.ceed CT Scanner\r\nSOMATOM X.ceed inc accessories\r\nDirect Award to Siemens Healthcare Limited via NHS Supply Chain Framework Agreement for CT Scanners 2022\r\nContract Reference Number: 2021/S 000-007768\r\nUnique Reference Number: CPQ 18093 CTS 26",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "goods",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 716000,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "33115100",
+            "name": "CT scanners"
+          }
+        ],
+        "tenderPeriodEnd": "2026-05-21T18:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-d2b4b82d-1910-449d-a871-14333a84496b-1",
+          "status": "active",
+          "date": "2026-05-22T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 716000,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338111",
+              "name": "SIEMENS HEALTHCARE LTD"
+            }
+          ],
+          "contractPeriodStart": "2026-05-22",
+          "contractPeriodEnd": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-ed3c47f6-b6ce-4619-aa6d-cab73ba50dfc",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-ed3c47f6-b6ce-4619-aa6d-cab73ba50dfc",
+      "name": "Linford Wood Furniture",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-srs-sid4gov-cabinetoffice-gov-uk-d9p84see",
+        "name": "Milton Keynes Council"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-00242437",
+          "name": "Morleys (Bicester) Limited trading as Principal Furniture"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "2026-224",
+        "title": "Linford Wood Furniture",
+        "description": "To supply furniture for new linford wood place",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "goods",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 49896.81,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "39100000",
+            "name": "Furniture"
+          }
+        ],
+        "tenderPeriodEnd": "2026-08-07T00:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-ed3c47f6-b6ce-4619-aa6d-cab73ba50dfc-1",
+          "status": "active",
+          "date": "2026-08-19T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 49896.81,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-00242437",
+              "name": "Morleys (Bicester) Limited trading as Principal Furniture"
+            }
+          ],
+          "contractPeriodStart": "2026-08-24",
+          "contractPeriodEnd": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-f4987ef7-1add-4fb5-8f5c-69b098c07870",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-f4987ef7-1add-4fb5-8f5c-69b098c07870",
+      "name": "Specialist Support Service For People Bereaved By Suicide",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-327930",
+        "name": "Kent County Council"
+      },
+      "dateModified": "2026-09-04",
+      "party": [],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "BIP1063226791",
+        "title": "Specialist Support Service For People Bereaved By Suicide",
+        "description": "Kent County Council, on behalf of the Kent and Medway Suicide Prevention Programme and in partnership with the Kent and Medway Integrated Care Board, is seeking market engagement to inform the future procurement of a Specialist Bereavement Support Service for people affected by suicide across Kent and Medway. The service will provide timely, accessible and trauma-informed emotional and practical support to individuals impacted by suicide, including family members, friends, colleagues, witnesses and professionals. The future provider will be expected to deliver a flexible countywide service through a combination of face-to-face, telephone and virtual support, working closely with health, community and voluntary sector partners. The contract is anticipated to commence on 1 April 2027 for an initial period of three years, with the option to extend for up to two further years. Kent County Council welcomes engagement from organisations interested in helping to shape the future service and deliver innovative, high-quality support for residents affected by suicide bereavement.",
+        "status": "active",
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 650000,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "85323000",
+            "name": "Community health services"
+          }
+        ],
+        "tenderPeriodEnd": "2026-10-05T12:00:00+01:00"
+      }
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-0d8a64f7-a97e-4450-9796-54b75dbdf71f",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-0d8a64f7-a97e-4450-9796-54b75dbdf71f",
+      "name": "Provision of Methodological Research Services",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-gor-d303",
+        "name": "Office for National Statistics"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-02937576",
+          "name": "Economic Research Services Ltd t/a Fortia Insight"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "CS-27-001",
+        "title": "Provision of Methodological Research Services",
+        "description": "The key objective of this Contract is to strengthen the capacity of the Contracting Authority by exploiting the best statistical methods for official statistics and to improve the integrity of statistical outputs and the skills of its staff.   \r\n\r\nThe Supplier must be able to: \r\n\r\nProvide high-quality advice and training on statistical methods and analysis. \r\n\r\nTake part in joint methodological research projects, reviews and quality assessments. \r\n\r\nFill the gaps in statistical knowledge and experience within the Contracting Authority and to promote the transfer of knowledge.  \r\n\r\nUndertake commissioned statistical work and provide written technical reports and code as agreed.",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 2000000,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "73110000",
+            "name": "Research services"
+          }
+        ],
+        "tenderPeriodEnd": "2026-07-23T12:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-0d8a64f7-a97e-4450-9796-54b75dbdf71f-1",
+          "status": "active",
+          "date": "2026-08-13T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 2000000,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-02937576",
+              "name": "Economic Research Services Ltd t/a Fortia Insight"
+            }
+          ],
+          "contractPeriodStart": "2026-10-01",
+          "contractPeriodEnd": "2028-03-31"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-772e054f-7cc9-4b21-b639-e17d9ee91d4b",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-772e054f-7cc9-4b21-b639-e17d9ee91d4b",
+      "name": "Call off Contract Under Prison Education Dynamic Purchasing System for CSCS Courses for Prisoners at HMP Leyhill",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-135448",
+        "name": "Ministry of Justice"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-13191793",
+          "name": "TWA Certifications Ltd"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "tender_538913/1608202",
+        "title": "Call off Contract Under Prison Education Dynamic Purchasing System for CSCS Courses for Prisoners at HMP Leyhill",
+        "description": "Call off Contract Under Prison Education Dynamic Purchasing System for CSCS Courses for Prisoners at HMP Leyhill. he supplier shall provide a classroom-based CITB Level 1 Award in Health and Safety in a Construction Environment and be recognised by the Construction Industry Training Board (CITB). The training shall prepare learners for the CSCS test, leading to the achievement of a CSCS green labourer card, together with employment brokerage and ongoing support.",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a dynamic purchasing system",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 15532.5,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "80000000",
+            "name": "Education and training services"
+          }
+        ],
+        "tenderPeriodEnd": "2026-07-24T15:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-772e054f-7cc9-4b21-b639-e17d9ee91d4b-1",
+          "status": "active",
+          "date": "2026-09-04T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 15532.5,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-13191793",
+              "name": "TWA Certifications Ltd"
+            }
+          ],
+          "contractPeriodStart": "2026-09-07",
+          "contractPeriodEnd": "2027-05-06"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-81dd2e57-5574-4268-917c-1976308545d2",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-81dd2e57-5574-4268-917c-1976308545d2",
+      "name": "WSFT - Corporate - E-rostering (IT)",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-269098",
+        "name": "West Suffolk NHS Foundation Trust"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-188219",
+          "name": "Allocate Software Limited"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "CF-3675400D0O000000rwimUAA",
+        "title": "WSFT - Corporate - E-rostering (IT)",
+        "description": "Provision of a medical e-rostering system used by the Trust to manage the scheduling, deployment and availability of doctors and clinicians. The system supports the Trust in creating and maintaining staff rotas, managing leave and on-call arrangements, monitoring workforce capacity and supporting safe staffing requirements across clinical services. The solution helps improve workforce planning, operational efficiency and compliance with working time and staffing requirements.",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 578648,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "48517000",
+            "name": "IT software package"
+          }
+        ],
+        "tenderPeriodEnd": "2026-02-01T12:00:00Z"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-81dd2e57-5574-4268-917c-1976308545d2-1",
+          "status": "active",
+          "date": "2026-04-29T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 578648,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-188219",
+              "name": "Allocate Software Limited"
+            }
+          ],
+          "contractPeriodStart": "2026-04-30",
+          "contractPeriodEnd": "2029-04-29"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-fffa34b1-76f4-49d8-8673-d90e9fe92f69",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-fffa34b1-76f4-49d8-8673-d90e9fe92f69",
+      "name": "DNWP0032/LOT1B/ Lot 1B - Management (Core Team) FY 26/27",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-235372",
+        "name": "Sellafield Ltd"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-328181",
+          "name": "AtkinsAltrad"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "CF-0297700D4L000000iAvzUAE",
+        "title": "DNWP0032/LOT1B/ Lot 1B - Management (Core Team) FY 26/27",
+        "description": "DNWP0032/LOT1B/ Lot 1B - Management (Core Team) FY 26/27",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "works",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 3150939.04,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "98391000",
+            "name": "Decommissioning services"
+          }
+        ],
+        "tenderPeriodEnd": "2026-04-14T12:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-fffa34b1-76f4-49d8-8673-d90e9fe92f69-1",
+          "status": "active",
+          "date": "2026-09-04T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 3150939.04,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-328181",
+              "name": "AtkinsAltrad"
+            }
+          ],
+          "contractPeriodStart": "2026-09-07",
+          "contractPeriodEnd": "2027-03-31"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-af1cb71b-f07c-4aaf-b4e0-bd778e6e30a7",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-af1cb71b-f07c-4aaf-b4e0-bd778e6e30a7",
+      "name": "Consultancy re. Replacement of Roof and Solar Panels at Cranleigh Health Centre",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-srs-sid4gov-cabinetoffice-gov-uk-73rfyxjw",
+        "name": "NHS PROPERTY SERVICES LIMITED"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-sc115530",
+          "name": "RSK Environment Limited"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "C470134",
+        "title": "Consultancy re. Replacement of Roof and Solar Panels at Cranleigh Health Centre",
+        "description": "Consultancy re. Replacement of Roof and Solar Panels at Cranleigh Health Centre \r\nSBS10190 Healthcare Planning, Construction Consultancy and Ancillary Services (HPCCAS) Lot 7",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "works",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 98415.04,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "45210000",
+            "name": "Building construction work"
+          }
+        ],
+        "tenderPeriodEnd": "2026-08-01T12:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-af1cb71b-f07c-4aaf-b4e0-bd778e6e30a7-1",
+          "status": "active",
+          "date": "2026-08-01T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 98415.04,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-sc115530",
+              "name": "RSK Environment Limited"
+            }
+          ],
+          "contractPeriodStart": "2026-08-28",
+          "contractPeriodEnd": "2027-08-28"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-bb64a6a8-0630-4570-8bb3-c62e7a2e53b1",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-bb64a6a8-0630-4570-8bb3-c62e7a2e53b1",
+      "name": "Project and Portfolio management",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-srs-sid4gov-cabinetoffice-gov-uk-dxgp288m",
+        "name": "UK SHARED BUSINESS SERVICES LIMITED"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-02174990",
+          "name": "Softcat PLC"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "DDaT25254",
+        "title": "Project and Portfolio management",
+        "description": "***This is an award notice, not a call for competition*** \r\n\r\nUK Research and Innovation (UKRI) - had a requirement for the provision of project and portfolio management software.\r\n\r\nThis procurement has been concluded via the G Cloud 14 framework with reference number RM1557.14.\r\n\r\nContract has been varied to add additional licences at a value of £11,574.80 exc VAT.\r\n\r\nContract Variation 002 has been conducted to add additional licenses at a value of £4,834.90 exc VAT",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "goods",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 629520,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "48000000",
+            "name": "Software package and information systems"
+          }
+        ],
+        "tenderPeriodEnd": "2025-09-30T00:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-bb64a6a8-0630-4570-8bb3-c62e7a2e53b1-1",
+          "status": "active",
+          "date": "2025-10-01T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 645929.7,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-02174990",
+              "name": "Softcat PLC"
+            }
+          ],
+          "contractPeriodStart": "2025-10-01",
+          "contractPeriodEnd": "2027-09-28"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-63f33616-b046-4c1a-9f84-7ec788c81089",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-63f33616-b046-4c1a-9f84-7ec788c81089",
+      "name": "WSFT - IT - Trac Recruitment System",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-269098",
+        "name": "West Suffolk NHS Foundation Trust"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-268664",
+          "name": "CIVICA UK LIMITED"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "CF-3675600D0O000000rwimUAA",
+        "title": "WSFT - IT - Trac Recruitment System",
+        "description": "E-recruitment applicant tracking system",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 82350,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "48000000",
+            "name": "Software package and information systems"
+          }
+        ],
+        "tenderPeriodEnd": "2026-08-01T12:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-63f33616-b046-4c1a-9f84-7ec788c81089-1",
+          "status": "active",
+          "date": "2026-08-17T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 82350,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-268664",
+              "name": "CIVICA UK LIMITED"
+            }
+          ],
+          "contractPeriodStart": "2026-10-10",
+          "contractPeriodEnd": "2029-10-09"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-378cc902-0457-4315-bf87-805445f99a01",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-378cc902-0457-4315-bf87-805445f99a01",
+      "name": "Provision of Non Emergency Secure Patient Transport Services",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-338112",
+        "name": "South West Yorkshire Partnership Teaching NHS Foundation Trust"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338113",
+          "name": "365 Group Ltd"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "CF-3675500D0O000000rwimUAA",
+        "title": "Provision of Non Emergency Secure Patient Transport Services",
+        "description": "Provision of Non Emergency Secure Patient Transport Services.",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 585998,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "60000000",
+            "name": "Transport services (excl. Waste transport)"
+          }
+        ],
+        "tenderPeriodEnd": "2025-05-16T12:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-378cc902-0457-4315-bf87-805445f99a01-1",
+          "status": "active",
+          "date": "2026-04-01T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 585998,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338113",
+              "name": "365 Group Ltd"
+            }
+          ],
+          "contractPeriodStart": "2026-04-01",
+          "contractPeriodEnd": "2029-03-31"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-52f5b8e9-2195-4699-800c-262b846350b1",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-52f5b8e9-2195-4699-800c-262b846350b1",
+      "name": "PS26228 - Consultancy Support to support programme stocktake",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-srs-sid4gov-cabinetoffice-gov-uk-dxgp288m",
+        "name": "UK SHARED BUSINESS SERVICES LIMITED"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-09422707",
+          "name": "METRO DYNAMICS LIMITED"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "PS26228",
+        "title": "PS26228 - Consultancy Support to support programme stocktake",
+        "description": "***** THIS IS AN AWARD NOTICE, NOT A CALL FOR COMPETITION ***** Award notice for the supply of Consultancy Support to support programme stocktake for UKRI - Innovate \r\nThis procurement is being concluded as a direct award under the Management Consultancy Framework Four (MCF4) - GCA - RM6309",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 97350,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "79400000",
+            "name": "Business and management consultancy and related services"
+          }
+        ],
+        "tenderPeriodEnd": "2026-08-12T00:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-52f5b8e9-2195-4699-800c-262b846350b1-1",
+          "status": "active",
+          "date": "2026-08-13T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 97350,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-09422707",
+              "name": "METRO DYNAMICS LIMITED"
+            }
+          ],
+          "contractPeriodStart": "2026-08-13",
+          "contractPeriodEnd": "2026-12-03"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-90ab1301-17a0-433e-bb6c-d86ab9ea86fb",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-90ab1301-17a0-433e-bb6c-d86ab9ea86fb",
+      "name": "eCase Management System",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-148108",
+        "name": "Home Office"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-5775733",
+          "name": "Fivium Ltd"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "tender_540469/1608236",
+        "title": "eCase Management System",
+        "description": "eCase Management System",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "goods",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 1100000,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "48613000",
+            "name": "Electronic data management (EDM)"
+          }
+        ],
+        "tenderPeriodEnd": "2026-07-27T10:05:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-90ab1301-17a0-433e-bb6c-d86ab9ea86fb-1",
+          "status": "active",
+          "date": "2026-08-16T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 1100000,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-5775733",
+              "name": "Fivium Ltd"
+            }
+          ],
+          "contractPeriodStart": "2026-08-17",
+          "contractPeriodEnd": "2029-08-16"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-476f4ed0-87a1-4af3-ba97-ffbe85a6dbe2",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-476f4ed0-87a1-4af3-ba97-ffbe85a6dbe2",
+      "name": "Call off Contract Under Prison Education Dynamic Purchasing System for Rowing Courses for Prisoners at HMP Spring Hill",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-135448",
+        "name": "Ministry of Justice"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338114",
+          "name": "Fulham Reach Boat Club"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "tender_538836/1608219",
+        "title": "Call off Contract Under Prison Education Dynamic Purchasing System for Rowing Courses for Prisoners at HMP Spring Hill",
+        "description": "Call off Contract Under Prison Education Dynamic Purchasing System for Rowing Courses for Prisoners at HMP Spring Hill. The supplier will deliver a that combines physical activity, skill development, and social support to help prisoners break the cycle of reoffending. By offering structured rowing programmes and post-release support, providing participants with confidence, education, and opportunities to help improve physical and mental health, build confidence, and directly contribute to reducing reoffending.",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a dynamic purchasing system",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 20322,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "80000000",
+            "name": "Education and training services"
+          }
+        ],
+        "tenderPeriodEnd": "2026-08-03T15:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-476f4ed0-87a1-4af3-ba97-ffbe85a6dbe2-1",
+          "status": "active",
+          "date": "2026-09-04T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 20322,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338114",
+              "name": "Fulham Reach Boat Club"
+            }
+          ],
+          "contractPeriodStart": "2026-10-01",
+          "contractPeriodEnd": "2028-09-30"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-61f360dd-9052-43e1-8fe1-58b91e26444b",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-61f360dd-9052-43e1-8fe1-58b91e26444b",
+      "name": "UKRI-6274 Atmospheric Science Public Dialogue",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-328178",
+        "name": "UKRI"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338115",
+          "name": "Hopkins Van Mil"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "CF-0012600DQH00000CdCC52AN",
+        "title": "UKRI-6274 Atmospheric Science Public Dialogue",
+        "description": "The purpose of this contract is for the supply of public dialogue services on the topic of Atmospheric Science. Please note this was awarded through CCS Framework RM6126.",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a dynamic purchasing system",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 197795.5,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "79315000",
+            "name": "Social research services"
+          }
+        ],
+        "tenderPeriodEnd": "2026-08-28T16:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-61f360dd-9052-43e1-8fe1-58b91e26444b-1",
+          "status": "active",
+          "date": "2026-09-04T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 197795.5,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338115",
+              "name": "Hopkins Van Mil"
+            }
+          ],
+          "contractPeriodStart": "2026-09-07",
+          "contractPeriodEnd": "2027-03-31"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-a003ea73-da88-4218-9efe-a93c235200d3",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-a003ea73-da88-4218-9efe-a93c235200d3",
+      "name": "Provision of Master Vendor Solution for Medics with the option of Direct Engagement",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-338112",
+        "name": "South West Yorkshire Partnership Teaching NHS Foundation Trust"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-301402",
+          "name": "Holt Doctors Limited"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "CF-3675700D0O000000rwimUAA",
+        "title": "Provision of Master Vendor Solution for Medics with the option of Direct Engagement",
+        "description": "Provision of Master Vendor Solution for Medics with the option of Direct Engagement",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 302407.32,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "79625000",
+            "name": "Supply services of medical personnel"
+          }
+        ],
+        "tenderPeriodEnd": "2025-07-11T12:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-a003ea73-da88-4218-9efe-a93c235200d3-1",
+          "status": "active",
+          "date": "2026-05-01T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 302407.32,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-301402",
+              "name": "Holt Doctors Limited"
+            }
+          ],
+          "contractPeriodStart": "2026-04-27",
+          "contractPeriodEnd": "2027-04-26"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-c39a9521-24fc-435c-ab44-0601ad163c4e",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-c39a9521-24fc-435c-ab44-0601ad163c4e",
+      "name": "Estates Capital Project- LittleBrook Anti-Ligature Doors and Associated Hardware",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-338116",
+        "name": "Kent and Medway Mental Health NHS Trust"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338117",
+          "name": "SAFEHINGE PRIMERA LIMITED"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "CF-3675800D0O000000rwimUAA",
+        "title": "Estates Capital Project- LittleBrook Anti-Ligature Doors and Associated Hardware",
+        "description": "Estates Capital Project - LittleBrook Supply of Anti-Ligature Doors and Associated Hardware",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "works",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 35370.71,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "44421500",
+            "name": "Armoured or reinforced doors"
+          }
+        ],
+        "tenderPeriodEnd": "2026-09-02T23:45:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-c39a9521-24fc-435c-ab44-0601ad163c4e-1",
+          "status": "active",
+          "date": "2026-09-03T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 35370.71,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338117",
+              "name": "SAFEHINGE PRIMERA LIMITED"
+            }
+          ],
+          "contractPeriodStart": "2026-09-03",
+          "contractPeriodEnd": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-afdf05a3-e713-43c0-a420-9daf006a6557",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-afdf05a3-e713-43c0-a420-9daf006a6557",
+      "name": "CST212 Supply of Support and Maintenance of Library Self-Service Equipment and Additional Services",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-131948",
+        "name": "Derbyshire County Council"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338118",
+          "name": "Bibliotheca Ltd"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "DERBSCC001-DN828472-77129047",
+        "title": "CST212 Supply of Support and Maintenance of Library Self-Service Equipment and Additional Services",
+        "description": "Purchase of Support and Maintenance provision for existing Library Self-Service kiosks and associated software\r\n\r\nCall-off (Direct Award) from ESPO Library Hardware Solutions (350_23), Lot 1 - Library RFID Solutions",
+        "status": "complete",
+        "procurementMethod": "direct",
+        "procurementMethodDetails": "Direct award",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 150000,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "72267000",
+            "name": "Software maintenance and repair services"
+          }
+        ],
+        "tenderPeriodEnd": "2026-06-29T23:59:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-afdf05a3-e713-43c0-a420-9daf006a6557-1",
+          "status": "active",
+          "date": "2026-08-17T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 150000,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-338118",
+              "name": "Bibliotheca Ltd"
+            }
+          ],
+          "contractPeriodStart": "2026-09-20",
+          "contractPeriodEnd": "2028-09-19"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-ca5109d5-0cf6-432b-9427-8343f18db8de",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-ca5109d5-0cf6-432b-9427-8343f18db8de",
+      "name": "Provision of Service Standard Contract: Contract for Insurance Advisory Services",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-230757",
+        "name": "Merseyside Waste Disposal Authority"
+      },
+      "dateModified": "2026-09-04",
+      "party": [],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "MT238081",
+        "title": "Provision of Service Standard Contract: Contract for Insurance Advisory Services",
+        "description": "The MWDA through this competition, is seeking to appoint insurance advisers to provide advice in respect of procurement of a new waste management service replacing the current contract, to be procured under two separate contracts as follows:\r\nContract 1:Materials Recovery Facility (MRF) contract.\r\nContract 2: Household Waste Centres, Waste Transfer Stations and Haulage (HWH).",
+        "status": "active",
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (below threshold)",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 100000,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "66519310",
+            "name": "Insurance consultancy services"
+          }
+        ],
+        "tenderPeriodEnd": "2026-10-05T12:00:00+01:00"
+      }
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-d472a6fd-6974-4ac9-93b3-3128ed385305",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-d472a6fd-6974-4ac9-93b3-3128ed385305",
+      "name": "Fencing in Public Park and Open Spaces within Taunton",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-334965",
+        "name": "Taunton Town Council"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-07425707",
+          "name": "Upton Specialised Tree Services Ltd"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "MT238086",
+        "title": "Fencing in Public Park and Open Spaces within Taunton",
+        "description": "As a preferred contractor you would be required to quote for and carry out fencing-related work on an as-needed basis. These works might include:\r\n- The installation, maintenance and removal of various types of fencing including but not limited to; knee rail, post & rail and V Mesh.\r\n- The installation and removals of pedestrian and farmers gates.\r\n- The installation and removal of posts and bollards.\r\nThe contractor would be responsible for sourcing any materials and tools required to complete works.",
+        "status": "complete",
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure",
+        "mainProcurementCategory": "works",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 57000,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "45340000",
+            "name": "Fencing, railing and safety equipment installation work"
+          }
+        ],
+        "tenderPeriodEnd": "2026-07-06T12:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-d472a6fd-6974-4ac9-93b3-3128ed385305-1",
+          "status": "active",
+          "date": "2026-09-04T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 57000,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-07425707",
+              "name": "Upton Specialised Tree Services Ltd"
+            }
+          ],
+          "contractPeriodStart": "2026-10-12",
+          "contractPeriodEnd": "2030-10-11"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-fdd2e27c-3c1c-4fef-956e-8db7930a9561",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-fdd2e27c-3c1c-4fef-956e-8db7930a9561",
+      "name": "AI assisted EHCP drafting tool",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-srs-sid4gov-cabinetoffice-gov-uk-jxfb36bw",
+        "name": "Southampton City Council"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-04136381",
+          "name": "Bramble Hub Limited"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "SCC-2026-0667",
+        "title": "AI assisted EHCP drafting tool",
+        "description": "Procurement of a secure, cloud based software as a service (SaaS) solution to support the drafting and quality assurance of Education, Health and Care Plans (EHCPs) within the SEND service.",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 114000,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "48000000",
+            "name": "Software package and information systems"
+          }
+        ],
+        "tenderPeriodEnd": "2026-04-21T12:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-fdd2e27c-3c1c-4fef-956e-8db7930a9561-1",
+          "status": "active",
+          "date": "2026-04-27T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 114000,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-04136381",
+              "name": "Bramble Hub Limited"
+            }
+          ],
+          "contractPeriodStart": "2026-05-01",
+          "contractPeriodEnd": "2028-08-30"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-119e9904-7cb0-4b2c-bdcc-1ebc371033c8",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-119e9904-7cb0-4b2c-bdcc-1ebc371033c8",
+      "name": "STH Learning Management System",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-338119",
+        "name": "Sheffield Teaching Hospitals NHS Foundation Trust"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-263637",
+          "name": "Think Learning"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "CF-3676000D0O000000rwimUAA",
+        "title": "STH Learning Management System",
+        "description": "Sheffield Teaching Hospitals education and training system delivered through a third party system.",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 163290,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "80420000",
+            "name": "E-learning services"
+          }
+        ],
+        "tenderPeriodEnd": "2026-07-01T12:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-119e9904-7cb0-4b2c-bdcc-1ebc371033c8-1",
+          "status": "active",
+          "date": "2026-07-31T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 163290,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-263637",
+              "name": "Think Learning"
+            }
+          ],
+          "contractPeriodStart": "2026-08-01",
+          "contractPeriodEnd": "2029-07-31"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-15f392dc-2c8c-4216-8b88-804f4b3853f8",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-15f392dc-2c8c-4216-8b88-804f4b3853f8",
+      "name": "Provide the Fit Out of 1st Floor of Waterdale, Doncaster DN1 3BU",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-236428",
+        "name": "Rotherham Doncaster and South Humber NHS Foundation Trust"
+      },
+      "dateModified": "2026-09-04",
+      "party": [],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "CF-3676200D0O000000rwimUAA",
+        "title": "Provide the Fit Out of 1st Floor of Waterdale, Doncaster DN1 3BU",
+        "description": "Provide the Fit Out of 1st Floor of Waterdale CYP Service, Health on the High Street, Doncaster, DN1 3BU for Rotherham Doncaster & South Humber NHS Foundation Trust.\r\n\r\nAdditional information: \r\nTo express interest and participate in the tender, please register and apply via Atamis e-sourcing portal https://health-family.force.com/s/Welcome.\r\n\r\nShould Tenderers have any queries, or having problems using the portal, they should contact Helpdesk at:\r\n\r\nPhone: 0800 9956035\r\n\r\nE-mail: support-health@atamis.co.uk",
+        "status": "active",
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (below threshold)",
+        "mainProcurementCategory": "works",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 2100000,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "44115000",
+            "name": "Building fittings"
+          }
+        ],
+        "tenderPeriodEnd": "2026-10-02T12:00:00+01:00"
+      }
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-67fcd688-9010-4f21-81ee-36209e1d89f8",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-67fcd688-9010-4f21-81ee-36209e1d89f8",
+      "name": "SEN20267-SEN-TAXI-Foxfields Academy",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-58010",
+        "name": "Leicestershire County Council"
+      },
+      "dateModified": "2026-09-04",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-335771",
+          "name": "BD Ride Ltd"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "LEICSCC001-DN828202-89783181",
+        "title": "SEN20267-SEN-TAXI-Foxfields Academy",
+        "description": "SEN20267-SEN-TAXI-Foxfields Academy",
+        "status": "complete",
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 29666,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "60000000",
+            "name": "Transport services (excl. Waste transport)"
+          }
+        ],
+        "tenderPeriodEnd": "2026-09-02T23:59:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-67fcd688-9010-4f21-81ee-36209e1d89f8-1",
+          "status": "active",
+          "date": "2026-09-04T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 29666,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-cfs-335771",
+              "name": "BD Ride Ltd"
+            }
+          ],
+          "contractPeriodStart": "2026-09-07",
+          "contractPeriodEnd": "2027-07-31"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-63f8a7e1-2c91-4e8e-a7e9-fb3b7b757186",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-63f8a7e1-2c91-4e8e-a7e9-fb3b7b757186",
+      "name": "Taxi and MPV (1-8 seats) Passenger Assistant - Taxi and MPV (1-8 seats) Passenger Assistant",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-334419",
+        "name": "East Sussex County Council"
+      },
+      "dateModified": "2026-09-05",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-11644418",
+          "name": "Taxi 4U"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "9181C1D9-F247-4A0E-8AD7-3DA9DAF2A5BC",
+        "title": "Taxi and MPV (1-8 seats) Passenger Assistant - Taxi and MPV (1-8 seats) Passenger Assistant",
+        "description": "Vehicle type: WAV\r\nPassenger Assistant Required:  Yes  PEG and Epilepsy trained PA \r\n\r\nProposed Taxi Route:\r\nFrom:  BN21 1LE\r\nTo: Summerdown, The Southfield Centre \r\n\r\nFrequency: Tuesday and Thursday \r\nDaily School Time:  09:00 - 15:00 \r\n\r\nComments for Operator:  \r\nPEG and Epilepsy trained PA.\r\nCrew will need to wear masks. \r\n This opportunity has been distributed on SProc.net",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Restricted procedure (above threshold)",
+        "mainProcurementCategory": "services",
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "60000000",
+            "name": "Transport services (excl. Waste transport)"
+          }
+        ],
+        "tenderPeriodEnd": "2026-09-04T14:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-63f8a7e1-2c91-4e8e-a7e9-fb3b7b757186-1",
+          "status": "active",
+          "date": "2026-09-04T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 120800,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-11644418",
+              "name": "Taxi 4U"
+            }
+          ],
+          "contractPeriodStart": "2026-09-08",
+          "contractPeriodEnd": "2029-07-31"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-4a336c05-e4fd-4530-86b6-b037c17f1acd",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-4a336c05-e4fd-4530-86b6-b037c17f1acd",
+      "name": "National Roads Telecommunications Service 3 (NRTS3) Independent Assurance Review",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-328372",
+        "name": "National Highways Limited"
+      },
+      "dateModified": "2026-09-05",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-12495519",
+          "name": "Turner & Townsend Infrastructure Limited"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "tender_541404/1607066",
+        "title": "National Roads Telecommunications Service 3 (NRTS3) Independent Assurance Review",
+        "description": "Independent assurance of models for the National Roads Telecommunications Service 3 (NRTS3) project. Call off contract from Lot 8 of the Government Commercial Agency&apos;s Management Consultancy Framework 4.",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 65000,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "79411000",
+            "name": "General management consultancy services"
+          }
+        ],
+        "tenderPeriodEnd": "2026-08-06T23:59:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-4a336c05-e4fd-4530-86b6-b037c17f1acd-1",
+          "status": "active",
+          "date": "2026-08-07T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 65000,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-12495519",
+              "name": "Turner & Townsend Infrastructure Limited"
+            }
+          ],
+          "contractPeriodStart": "2026-08-10",
+          "contractPeriodEnd": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-b94faf4e-06c9-470e-af64-acbf9a5af410",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-b94faf4e-06c9-470e-af64-acbf9a5af410",
+      "name": "Oracle Fusion Enterprise Software",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-gor-ea63",
+        "name": "DEPARTMENT OF HEALTH AND SOCIAL CARE"
+      },
+      "dateModified": "2026-09-06",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-01782505",
+          "name": "Oracle Corporation Uk Limited"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "C467172",
+        "title": "Oracle Fusion Enterprise Software",
+        "description": "Oracle Fusion Enterprise Software modules to continue Agency's ability to have operable ERP system.",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call-off from a framework agreement",
+        "mainProcurementCategory": "services",
+        "value": {
+          "@type": "MonetaryAmount",
+          "value": 1206670.12,
+          "currency": "GBP"
+        },
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "48451000",
+            "name": "Enterprise resource planning software package"
+          }
+        ],
+        "tenderPeriodEnd": "2026-08-15T14:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-b94faf4e-06c9-470e-af64-acbf9a5af410-1",
+          "status": "active",
+          "date": "2026-08-20T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 1206670.12,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-01782505",
+              "name": "Oracle Corporation Uk Limited"
+            }
+          ],
+          "contractPeriodStart": "2026-08-31",
+          "contractPeriodEnd": "2028-11-29"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.contractsfinder.service.gov.uk/id/contracting-process/ocds-b5fd17-c807205b-b095-4dad-80ed-5eb64a2885e7",
+      "@type": "ContractingProcess",
+      "ocid": "ocds-b5fd17-c807205b-b095-4dad-80ed-5eb64a2885e7",
+      "name": "Taxi and MPV (1-8 seats) Passenger Assistant - Taxi and MPV (1-8 seats) Passenger Assistant",
+      "buyer": {
+        "@id": "https://www.contractsfinder.service.gov.uk/id/organization/gb-cfs-334419",
+        "name": "East Sussex County Council"
+      },
+      "dateModified": "2026-09-06",
+      "party": [
+        {
+          "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-12897621",
+          "name": "Southern Travel Solutions Ltd"
+        }
+      ],
+      "tender": {
+        "@type": "Tender",
+        "tenderId": "5DD870A3-2EF4-4C20-8BCA-CBFF30B266F9",
+        "title": "Taxi and MPV (1-8 seats) Passenger Assistant - Taxi and MPV (1-8 seats) Passenger Assistant",
+        "description": "Vehicle type: Saloon\r\nPassenger Assistant Required: PA required\r\n\r\nProposed Taxi Route: \r\nFrom: TN5 7FE\r\nTo: Ticehurst and Flimwell, TN5 7DH\r\n\r\nFrequency: Monday to Friday\r\nDaily School Time: Mon-Fri - 08:50-15:15\r\n\r\nComments for Operator: PA required\r\n\r\n This opportunity has been distributed on SProc.net",
+        "status": "complete",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Restricted procedure (above threshold)",
+        "mainProcurementCategory": "services",
+        "classification": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "cpv",
+            "value": "60000000",
+            "name": "Transport services (excl. Waste transport)"
+          }
+        ],
+        "tenderPeriodEnd": "2026-09-04T11:00:00+01:00"
+      },
+      "award": [
+        {
+          "@type": "Award",
+          "awardId": "ocds-b5fd17-c807205b-b095-4dad-80ed-5eb64a2885e7-1",
+          "status": "active",
+          "date": "2026-09-04T00:00:00+01:00",
+          "value": {
+            "@type": "MonetaryAmount",
+            "value": 125179,
+            "currency": "GBP"
+          },
+          "supplier": [
+            {
+              "@id": "https://www.contractsfinder.service.gov.uk/id/party/gb-coh-12897621",
+              "name": "Southern Travel Solutions Ltd"
+            }
+          ],
+          "contractPeriodStart": "2026-09-07",
+          "contractPeriodEnd": "2029-07-31"
+        }
+      ]
+    }
+  ]
+}
