@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/code/legislation-object.schema.json",
+  "title": "LegislationObject",
+  "description": "One file of a piece of legislation. schema.org types LegislationObject as both Legislation and MediaObject, which is the FRBR work/expression split that ELI and Akoma Ntoso both rely on: the Legislation is the law, a LegislationObject is a particular rendering of it. The same law may have an authoritative signed PDF, an Akoma Ntoso XML marked up for machines, and an unofficial HTML reading copy - legislationLegalValue is what says which is which.",
+  "type": "object",
+  "properties": {
+    "@id": {"type": "string", "format": "iri"},
+    "@type": {"const": "LegislationObject"},
+    "contentUrl": {"type": "string", "format": "iri", "description": "Where the file actually is."},
+    "encodingFormat": {
+      "type": "string",
+      "description": "IANA media type. Use application/akn+xml for Akoma Ntoso."
+    },
+    "legislationLegalValue": {
+      "type": "string",
+      "description": "Real schema.org LegalValueLevel enumeration. Consumers use this to pick the citable text rather than guessing from the file extension.",
+      "enum": ["AuthoritativeLegalValue", "DefinitiveLegalValue", "OfficialLegalValue", "UnofficialLegalValue"]
+    },
+    "inLanguage": {"type": "string"},
+    "contentSize": {"type": "string"},
+    "dateModified": {"type": "string", "format": "date"},
+    "conformsTo": {
+      "type": "string", "format": "iri",
+      "description": "The document standard this file follows, e.g. the Akoma Ntoso namespace URI."
+    }
+  },
+  "required": ["@type", "contentUrl", "encodingFormat", "legislationLegalValue"],
+  "additionalProperties": true
+}

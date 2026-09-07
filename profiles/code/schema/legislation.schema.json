@@ -1,0 +1,190 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/code/legislation.schema.json",
+  "title": "Legislation",
+  "description": "A law, ordinance, resolution, or a numbered part of a code. This is the abstract work, not a file of it - the text itself lives in one or more LegislationObjects. schema.org's legislation vocabulary derives from the European Legislation Identifier, so almost everything needed here already exists and this profile mints only a codification level. Structural markup inside the text (clauses, provisos, amendment instructions) is out of scope by design: that is what Akoma Ntoso is for, linked through encoding.",
+  "type": "object",
+  "properties": {
+    "@context": {},
+    "@id": {
+      "type": "string",
+      "format": "iri"
+    },
+    "@type": {
+      "const": "Legislation"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "format": "iri"
+    },
+    "identifier": {
+      "type": "array",
+      "items": {
+        "$ref": "../_core/identifier.schema.json"
+      }
+    },
+    "legislationIdentifier": {
+      "type": "string",
+      "description": "The citation as the jurisdiction writes it - 'Ordinance 2025-15', 'Chapter 17.40', an ELI or CELEX URI."
+    },
+    "legislationType": {
+      "type": "string",
+      "description": "termCode from the LegislationType code list."
+    },
+    "codificationLevel": {
+      "type": "string",
+      "description": "Which structural tier of a code this is. hasPart nests parts but never says what kind of part, which is the one gap in schema.org's legislation vocabulary.",
+      "enum": [
+        "code",
+        "title",
+        "book",
+        "part",
+        "chapter",
+        "article",
+        "division",
+        "section",
+        "subsection",
+        "paragraph",
+        "schedule",
+        "annex"
+      ]
+    },
+    "position": {
+      "type": "integer",
+      "description": "Ordering among siblings. Real schema.org CreativeWork property."
+    },
+    "legislationJurisdiction": {
+      "$ref": "../_core/reference.schema.json"
+    },
+    "legislationPassedBy": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The GovernmentOrganization that adopted it."
+    },
+    "legislationResponsible": {
+      "$ref": "../_core/reference.schema.json"
+    },
+    "enactedAt": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The Meeting at which it was adopted. This is the join to the meetings profile, and the reason the two are built together."
+    },
+    "legislationDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of adoption or signature."
+    },
+    "legislationDateOfApplicability": {
+      "type": "string",
+      "format": "date",
+      "description": "When it becomes applicable, which can differ from entry into force."
+    },
+    "legislationDateVersion": {
+      "type": "string",
+      "format": "date",
+      "description": "The point in time this description of the legislation is valid for. This is how consolidated codes express versioning, and the hardest part of publishing a municipal code correctly."
+    },
+    "legislationLegalForce": {
+      "type": "string",
+      "description": "Real schema.org property with a real enumeration. Do not invent a status field.",
+      "enum": [
+        "InForce",
+        "NotInForce",
+        "PartiallyInForce"
+      ]
+    },
+    "datePublished": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateModified": {
+      "type": "string",
+      "format": "date"
+    },
+    "temporalCoverage": {
+      "type": "string"
+    },
+    "inLanguage": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "isPartOf": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The parent tier: a section's chapter, a chapter's title."
+    },
+    "hasPart": {
+      "type": "array",
+      "items": {
+        "$ref": "../_core/reference.schema.json"
+      }
+    },
+    "legislationAmends": {
+      "type": "array",
+      "items": {
+        "$ref": "../_core/reference.schema.json"
+      }
+    },
+    "legislationRepeals": {
+      "type": "array",
+      "items": {
+        "$ref": "../_core/reference.schema.json"
+      }
+    },
+    "legislationChanges": {
+      "type": "array",
+      "items": {
+        "$ref": "../_core/reference.schema.json"
+      }
+    },
+    "legislationConsolidates": {
+      "type": "array",
+      "items": {
+        "$ref": "../_core/reference.schema.json"
+      }
+    },
+    "legislationCorrects": {
+      "type": "array",
+      "items": {
+        "$ref": "../_core/reference.schema.json"
+      }
+    },
+    "legislationCommences": {
+      "type": "array",
+      "items": {
+        "$ref": "../_core/reference.schema.json"
+      }
+    },
+    "encoding": {
+      "type": "array",
+      "items": {
+        "$ref": "legislation-object.schema.json"
+      },
+      "description": "The actual files. Attach the Akoma Ntoso XML here."
+    },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Subject keywords. Not schema:about, which ranges over Thing and is for references to entities - free-text strings there expand as relative IRIs."
+    },
+    "sourceDataset": {
+      "type": "string",
+      "format": "iri"
+    }
+  },
+  "required": [
+    "@id",
+    "@type",
+    "name",
+    "legislationType",
+    "legislationJurisdiction"
+  ],
+  "additionalProperties": true
+}
