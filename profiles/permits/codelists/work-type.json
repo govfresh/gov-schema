@@ -1,0 +1,58 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@id": "https://schema.govfresh.com/v1/WorkType",
+  "@type": "DefinedTermSet",
+  "name": "Work type",
+  "description": "The nature of construction works a permit covers. Distinguishing new build from alteration is what makes permit data usable as a housing-supply indicator rather than only as a compliance record.",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:worktype/newBuild",
+      "termCode": "newBuild",
+      "name": "New build",
+      "description": "Construction of a new structure."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:worktype/extension",
+      "termCode": "extension",
+      "name": "Extension",
+      "description": "Enlargement of an existing structure."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:worktype/alteration",
+      "termCode": "alteration",
+      "name": "Alteration",
+      "description": "Internal or external modification without enlargement."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:worktype/changeOfUse",
+      "termCode": "changeOfUse",
+      "name": "Change of use",
+      "description": "A change in how a structure is used, without physical works."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:worktype/demolition",
+      "termCode": "demolition",
+      "name": "Demolition",
+      "description": "Removal of a structure."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:worktype/repair",
+      "termCode": "repair",
+      "name": "Repair",
+      "description": "Restoration to previous condition."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:worktype/temporary",
+      "termCode": "temporary",
+      "name": "Temporary",
+      "description": "Works or structures with a limited permitted life."
+    }
+  ]
+}

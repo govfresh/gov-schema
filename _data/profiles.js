@@ -14,6 +14,7 @@ const IMPLEMENTED = [
   { dir: 'procurement', slug: 'procurement', name: 'Procurement and contracts', source: 'Open Contracting Data Standard' },
   { dir: 'catalog', slug: 'catalog', name: 'Discovery and data catalogue', source: 'DCAT / DCAT-AP' },
   { dir: 'alerts', slug: 'alerts', name: 'Public warnings and notices', source: 'Common Alerting Protocol (OASIS)' },
+  { dir: 'permits', slug: 'permits', name: 'Permits and licences', source: 'BLDS, national equivalents' },
 ]
 const PLANNED = []
 

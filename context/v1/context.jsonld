@@ -834,6 +834,77 @@
       "@context": {
         "@vocab": "https://schema.govfresh.com/v1/status/"
       }
+    },
+    "permitNumber": "gs:permitNumber",
+    "permitType": {
+      "@id": "gs:permitType",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/permittype/",
+        "event": "https://schema.govfresh.com/v1/permittype/event"
+      }
+    },
+    "permitStatus": {
+      "@id": "gs:permitStatus",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/permitstatus/"
+      }
+    },
+    "workType": {
+      "@id": "gs:workType",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/worktype/"
+      }
+    },
+    "applicationDate": {
+      "@id": "gs:applicationDate",
+      "@type": "schema:Date"
+    },
+    "decisionDate": {
+      "@id": "gs:decisionDate",
+      "@type": "schema:Date"
+    },
+    "completionDate": {
+      "@id": "gs:completionDate",
+      "@type": "schema:Date"
+    },
+    "premises": {
+      "@id": "gs:premises"
+    },
+    "parcelIdentifier": {
+      "@id": "gs:parcelIdentifier"
+    },
+    "applicant": {
+      "@id": "gs:applicant",
+      "@type": "@id"
+    },
+    "declaredValue": {
+      "@id": "gs:declaredValue"
+    },
+    "fee": {
+      "@id": "gs:fee"
+    },
+    "condition": {
+      "@id": "gs:condition",
+      "@container": "@set"
+    },
+    "relatedLegislation": {
+      "@id": "gs:relatedLegislation",
+      "@type": "@id"
+    },
+    "issuedBy": {
+      "@id": "schema:issuedBy",
+      "@type": "@id"
+    },
+    "validIn": {
+      "@id": "schema:validIn",
+      "@type": "@id"
+    },
+    "validUntil": {
+      "@id": "schema:validUntil",
+      "@type": "schema:Date"
     }
   }
 }

@@ -280,3 +280,24 @@ gs:DatasetShape a sh:NodeShape ;
         sh:path schema:includedInDataCatalog ;
         sh:class schema:DataCatalog ;
         sh:message "includedInDataCatalog must point at a DataCatalog." ] .
+
+#############################  Permits  #############################
+
+gs:PermitShape a sh:NodeShape ;
+    sh:targetClass schema:GovernmentPermit ;
+
+    sh:property [
+        sh:path schema:issuedBy ;
+        sh:minCount 1 ;
+        sh:class schema:GovernmentOrganization ;
+        sh:message "A permit must be issued by a government organization." ] ;
+
+    sh:property [
+        sh:path schema:validIn ;
+        sh:or ( [ sh:class schema:AdministrativeArea ] [ sh:class schema:City ] ) ;
+        sh:message "validIn must point at a Jurisdiction." ] ;
+
+    sh:property [
+        sh:path gs:relatedLegislation ;
+        sh:class schema:Legislation ;
+        sh:message "relatedLegislation must point at Legislation - the provision the permit is granted under." ] .

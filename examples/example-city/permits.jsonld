@@ -1,0 +1,198 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://example-city.gov/id/permit/BLD-2025-0417",
+      "@type": "GovernmentPermit",
+      "permitNumber": "BLD-2025-0417",
+      "name": "Ground-floor housing conversion, 118 Alder Street",
+      "description": "Change of use and internal alteration to create six residential units above ground-floor retail.",
+      "permitType": "building",
+      "permitStatus": "issued",
+      "workType": "changeOfUse",
+      "issuedBy": {
+        "@id": "https://example-city.gov/id/organization/public-works",
+        "name": "Public Works Department"
+      },
+      "validIn": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city",
+        "name": "Example City"
+      },
+      "applicationDate": "2025-07-14",
+      "decisionDate": "2025-09-02",
+      "validFrom": "2025-09-02",
+      "validUntil": "2027-09-02",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "118 Alder Street",
+          "addressLocality": "Example City",
+          "addressRegion": "CA",
+          "postalCode": "90210",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 34.0533,
+          "longitude": -118.2418
+        },
+        "parcelIdentifier": {
+          "@type": "PropertyValue",
+          "propertyID": "local:apn",
+          "value": "5412-019-007"
+        }
+      },
+      "applicant": {
+        "@id": "https://example-city.gov/id/party/alder-street-holdings",
+        "name": "Alder Street Holdings LLC"
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 1850000,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 14320,
+        "currency": "USD"
+      },
+      "condition": [
+        "Ground-floor retail frontage to be retained for the life of the permit.",
+        "Construction hours limited to 07:00-18:00 Monday to Saturday."
+      ],
+      "relatedLegislation": {
+        "@id": "https://example-city.gov/id/legislation/municipal-code/17.40",
+        "name": "Chapter 17.40 — Commercial Zones"
+      }
+    },
+    {
+      "@id": "https://example-city.gov/id/permit/PLN-2025-0092",
+      "@type": "GovernmentPermit",
+      "permitNumber": "PLN-2025-0092",
+      "name": "Rear extension, 44 Riverside Way",
+      "description": "Two-storey rear extension to a single-family dwelling.",
+      "permitType": "planning",
+      "permitStatus": "refused",
+      "workType": "extension",
+      "issuedBy": {
+        "@id": "https://example-city.gov/id/organization/planning-commission",
+        "name": "Planning Commission"
+      },
+      "validIn": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city"
+      },
+      "applicationDate": "2025-05-30",
+      "decisionDate": "2025-08-11",
+      "premises": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "44 Riverside Way",
+          "addressLocality": "Example City",
+          "addressRegion": "CA",
+          "addressCountry": "US"
+        },
+        "parcelIdentifier": {
+          "@type": "PropertyValue",
+          "propertyID": "local:apn",
+          "value": "5388-004-021"
+        }
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 890,
+        "currency": "USD"
+      },
+      "condition": [
+        "Refused: the proposed massing exceeds the rear envelope permitted under ECMC 17.20.060."
+      ],
+      "relatedLegislation": {
+        "@id": "https://example-city.gov/id/legislation/municipal-code/title-17",
+        "name": "Title 17 — Zoning"
+      }
+    },
+    {
+      "@id": "https://example-city.gov/id/permit/BUS-2025-1188",
+      "@type": "GovernmentPermit",
+      "permitNumber": "BUS-2025-1188",
+      "name": "Business licence — Northgate Paving LLC",
+      "permitType": "business",
+      "permitStatus": "issued",
+      "issuedBy": {
+        "@id": "https://example-city.gov/id/organization/city-government",
+        "name": "Example City Government"
+      },
+      "validIn": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city"
+      },
+      "applicationDate": "2025-01-08",
+      "decisionDate": "2025-01-15",
+      "validFrom": "2025-01-15",
+      "validUntil": "2026-01-14",
+      "applicant": {
+        "@id": "https://example-city.gov/id/party/northgate-paving",
+        "name": "Northgate Paving LLC"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 310,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://example-city.gov/id/permit/BLD-2025-0603",
+      "@type": "GovernmentPermit",
+      "permitNumber": "BLD-2025-0603",
+      "name": "Roof replacement, District 4",
+      "description": "Like-for-like roof replacement to a single-family dwelling. Applicant withheld: a private individual at a residential address.",
+      "permitType": "building",
+      "permitStatus": "completed",
+      "workType": "repair",
+      "issuedBy": {
+        "@id": "https://example-city.gov/id/organization/public-works"
+      },
+      "validIn": {
+        "@id": "https://example-city.gov/id/jurisdiction/example-city"
+      },
+      "applicationDate": "2025-03-02",
+      "decisionDate": "2025-03-19",
+      "completionDate": "2025-06-27",
+      "premises": {
+        "@type": "Place",
+        "name": "District 4",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Example City",
+          "addressRegion": "CA",
+          "addressCountry": "US"
+        }
+      },
+      "declaredValue": {
+        "@type": "MonetaryAmount",
+        "value": 28400,
+        "currency": "USD"
+      },
+      "fee": {
+        "@type": "MonetaryAmount",
+        "value": 465,
+        "currency": "USD"
+      }
+    },
+    {
+      "@id": "https://example-city.gov/id/party/alder-street-holdings",
+      "@type": "Organization",
+      "name": "Alder Street Holdings LLC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "org-id:US-EIN",
+          "value": "88-2213470"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    }
+  ]
+}

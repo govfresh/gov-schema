@@ -683,3 +683,95 @@ gs:totalAmount a rdf:Property ;
     schema:domainIncludes gs:Budget ;
     schema:rangeIncludes schema:MonetaryAmount ;
     rdfs:subPropertyOf schema:amount .
+
+#################  permits profile  #################
+
+gs:permitNumber a rdf:Property ;
+    rdfs:label "permit number" ;
+    rdfs:comment "The reference an authority uses publicly for a permit." ;
+    schema:domainIncludes schema:GovernmentPermit ;
+    schema:rangeIncludes schema:Text ;
+    rdfs:subPropertyOf schema:identifier .
+
+gs:permitType a rdf:Property ;
+    rdfs:label "permit type" ;
+    rdfs:comment "The kind of permission granted. Generic rather than national: the same permission is a building permit, planning permission, a permis de construire or a Baugenehmigung depending on the country." ;
+    schema:domainIncludes schema:GovernmentPermit ;
+    schema:rangeIncludes schema:DefinedTerm ;
+    rdfs:subPropertyOf schema:additionalType .
+
+gs:permitStatus a rdf:Property ;
+    rdfs:label "permit status" ;
+    rdfs:comment "Where an application has reached. A permit record with no status cannot be told apart from an application that was never decided." ;
+    schema:domainIncludes schema:GovernmentPermit ;
+    schema:rangeIncludes schema:DefinedTerm .
+
+gs:workType a rdf:Property ;
+    rdfs:label "work type" ;
+    rdfs:comment "The nature of construction works. Distinguishing new build from alteration is what makes permit data usable as a housing-supply indicator rather than only a compliance record." ;
+    schema:domainIncludes schema:GovernmentPermit ;
+    schema:rangeIncludes schema:DefinedTerm .
+
+gs:applicationDate a rdf:Property ;
+    rdfs:label "application date" ;
+    rdfs:comment "When an application was received. With decisionDate this makes processing time measurable, which is the question residents and developers actually ask." ;
+    schema:domainIncludes schema:GovernmentPermit ;
+    schema:rangeIncludes schema:Date .
+
+gs:decisionDate a rdf:Property ;
+    rdfs:label "decision date" ;
+    rdfs:comment "When a permit was granted or refused." ;
+    schema:domainIncludes schema:GovernmentPermit ;
+    schema:rangeIncludes schema:Date .
+
+gs:completionDate a rdf:Property ;
+    rdfs:label "completion date" ;
+    rdfs:comment "When permitted works were finished and signed off." ;
+    schema:domainIncludes schema:GovernmentPermit ;
+    schema:rangeIncludes schema:Date .
+
+gs:premises a rdf:Property ;
+    rdfs:label "premises" ;
+    rdfs:comment "The place a permit applies to. schema:location does not have Permit in its domain, and a permit's subject is a property rather than an event venue." ;
+    schema:domainIncludes schema:GovernmentPermit ;
+    schema:rangeIncludes schema:Place .
+
+gs:parcelIdentifier a rdf:Property ;
+    rdfs:label "parcel identifier" ;
+    rdfs:comment "Cadastral or tax-parcel reference for a property, scheme-qualified. Parcel numbering is national, so the scheme matters as much as the code." ;
+    schema:domainIncludes schema:Place ;
+    schema:rangeIncludes schema:PropertyValue .
+
+gs:applicant a rdf:Property ;
+    rdfs:label "applicant" ;
+    rdfs:comment "Who applied for a permit. Optional by design: where the applicant is a private individual rather than a business, publishing their name against their home address is a disclosure decision the authority must take deliberately, not one the schema forces." ;
+    schema:domainIncludes schema:GovernmentPermit ;
+    schema:rangeIncludes schema:Organization, schema:Person .
+
+gs:declaredValue a rdf:Property ;
+    rdfs:label "declared value" ;
+    rdfs:comment "Declared value of permitted works." ;
+    schema:domainIncludes schema:GovernmentPermit ;
+    schema:rangeIncludes schema:MonetaryAmount .
+
+gs:fee a rdf:Property ;
+    rdfs:label "fee" ;
+    rdfs:comment "Fee charged for a permit." ;
+    schema:domainIncludes schema:GovernmentPermit ;
+    schema:rangeIncludes schema:MonetaryAmount .
+
+gs:condition a rdf:Property ;
+    rdfs:label "condition" ;
+    rdfs:comment "A condition attached to a grant. A permit granted subject to conditions is not the same as one granted outright, and only this shows the difference." ;
+    schema:domainIncludes schema:GovernmentPermit ;
+    schema:rangeIncludes schema:Text .
+
+gs:relatedLegislation a rdf:Property ;
+    rdfs:label "related legislation" ;
+    rdfs:comment "The provision a permit is granted under. Joins the permits profile to the code profile." ;
+    schema:domainIncludes schema:GovernmentPermit ;
+    schema:rangeIncludes schema:Legislation .
+
+gs:PermitType a schema:DefinedTermSet ; schema:name "Permit type" .
+gs:PermitStatus a schema:DefinedTermSet ; schema:name "Permit status" .
+gs:WorkType a schema:DefinedTermSet ; schema:name "Work type" .
