@@ -1,0 +1,1703 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://www.gov.uk/id/service/sign-in-universal-credit",
+      "@type": "GovernmentService",
+      "name": "Sign in to your Universal Credit account",
+      "description": "Sign in to your Universal Credit account - report a change, add a note to your journal, see your payments and do other tasks ",
+      "url": "https://www.gov.uk/sign-in-universal-credit",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/sign-in-universal-credit"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/b548a09f-8b35-4104-89f4-f1a40bf3136d",
+        "name": "Department for Work and Pensions"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "benefits"
+      ],
+      "keywords": [
+        "Benefits entitlement",
+        "Universal Credit",
+        "Manage an existing benefit, payment or claim"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-04",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.universal-credit.service.gov.uk/sign-in"
+        }
+      ],
+      "applicationProcess": "Sign in to your Universal Credit account to: apply for an advance on your first payment see your statement report a change in circumstances see when your next payment will be see your claimant commitment check your to-do list (for example, if your work coach has booked an appointment with you) send messages to your case manager or work coach using your journal It might take a few days for your case manager or work coach to reply. You’ll usually get a text or email if your journal or to-do list is updated. Use the username and password you set up when you applied for Universal Credit. You can ask for a reminder if you’re not sure. This service is also available in Welsh (Cymraeg) ."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/check-mot-history",
+      "@type": "GovernmentService",
+      "name": "Check the MOT history of a vehicle",
+      "description": "Check the MOT history of a vehicle from 2005 onwards, including if it passed or failed, its mileage and why it failed, download MOT test certificate",
+      "url": "https://www.gov.uk/check-mot-history",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/check-mot-history"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/d39237a5-678b-4bb5-a372-eb2cb036933d",
+        "name": "Driver and Vehicle Standards Agency"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "vehicle",
+        "tax"
+      ],
+      "keywords": [
+        "Buying, selling, registering and scrapping a vehicle",
+        "Driver and vehicle record",
+        "Car, motorcycle and van MOT tests",
+        "HGV, bus and trailer MOT tests",
+        "Vehicle and driver data and information",
+        "Vehicle tax, MOT and insurance"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.check-mot.service.gov.uk/"
+        }
+      ],
+      "applicationProcess": "Check the past results of a vehicle’s MOT tests, including: if it passed or failed the mileage recorded when it was tested You can also: check when the next MOT is due download a copy of the current and previous MOT certificates If you got your test in England, Scotland or Wales You’ll also be able to see: where each test was done - you’ll need the 11-digit number from the vehicle’s log book (V5C) what parts failed at each test, and if any parts had minor problems Your MOT history may also tell you if your vehicle has been recalled for a safety reason, depending on the manufacturer. You can also check if a vehicle model, part or accessory has been recalled . Which test results you can get For cars, motorcycles and vans you can only get results for tests done since 2005. For HGVs, trailers, buses and coaches you can only get results for tests done since 2018. If you got your test in Northern Ireland You can only get results for tests done since 2017. Check a vehicle’s MOT history You’ll"
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/vehicle-tax",
+      "@type": "GovernmentService",
+      "name": "Tax your vehicle",
+      "description": "Renew or tax your vehicle for the first time using a reminder letter, your log book or the green 'new keeper' slip - and how to tax if you do not have any documents",
+      "url": "https://www.gov.uk/vehicle-tax",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/vehicle-tax"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/70580624-93b5-4aed-823b-76042486c769",
+        "name": "Driver and Vehicle Licensing Agency"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "vehicle",
+        "tax"
+      ],
+      "keywords": [
+        "Vehicle tax",
+        "Vehicle tax, MOT and insurance"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://vehicletax.service.gov.uk/"
+        }
+      ],
+      "applicationProcess": "Use this service to tax your car, motorcycle or other vehicle using a reference number from: a recent vehicle tax reminder or ‘last chance’ warning letter from DVLA your vehicle log book (V5C) - it must be in your name the green ‘new keeper’ slip from a log book if you’ve just bought it If you do not have any of these documents, you’ll need to apply for a new log book . You can tax your vehicle at the same time. You can pay vehicle tax by Direct Debit , or debit or credit card. You must tax your vehicle even if you do not have to pay anything because it’s exempt from vehicle tax . You’ll need to meet all the legal obligations for drivers before you can drive. This service is also available in Welsh (Cymraeg) ."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/check-vehicle-tax",
+      "@type": "GovernmentService",
+      "name": "Check if a vehicle is taxed",
+      "description": "Check and report if a vehicle has up-to-date vehicle tax or is 'off road' (SORN)",
+      "url": "https://www.gov.uk/check-vehicle-tax",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/check-vehicle-tax"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/70580624-93b5-4aed-823b-76042486c769",
+        "name": "Driver and Vehicle Licensing Agency"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "vehicle",
+        "tax"
+      ],
+      "keywords": [
+        "Vehicle tax",
+        "Vehicle tax, MOT and insurance"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://vehicleenquiry.service.gov.uk/",
+          "name": "Continues on the vehicle enquiry service"
+        }
+      ],
+      "applicationProcess": "Find out if a vehicle has up-to-date vehicle tax or has been registered as off the road ( SORN ). If you’ve applied for vehicle tax or a SORN , it can take up to 2 working days for the records to update once your application has been approved. You’ll need the vehicle’s registration number (number plate). This service is also available in Welsh (Cymraeg) ."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/student-finance-register-login",
+      "@type": "GovernmentService",
+      "name": "Student finance login",
+      "description": "Your student finance online account - check payment dates, track an application, change details, reset password, find customer reference numbers. ",
+      "url": "https://www.gov.uk/student-finance-register-login",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/student-finance-register-login"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/9a9111aa-1db8-4025-8dd2-e08ec3175e72",
+        "name": "Student Loans Company"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "education"
+      ],
+      "keywords": [
+        "Student grants, bursaries and scholarships",
+        "Student loans",
+        "Student finance"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://logon.slc.co.uk/cas/login",
+          "name": "Continues on the Student Finance England website"
+        }
+      ],
+      "applicationProcess": "Use your student finance account to: view statements and letters from Student Finance England ( SFE ) track an existing application check when your payments are due update some of your personal or application details reset your password or find your customer reference number apply for finance as a new or continuing student You can also use this service if you’re supporting a student finance application and SFE has asked for details of your household income."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/get-information-about-a-company",
+      "@type": "GovernmentService",
+      "name": "Get information about a company",
+      "description": "Get company information including registered address, previous company names, directors' details, accounts, annual returns and company reports, if it's been dissolved ",
+      "url": "https://www.gov.uk/get-information-about-a-company",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/get-information-about-a-company"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/c36bd301-d0c5-4492-86ad-ee7843b8383b",
+        "name": "Companies House"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "business"
+      ],
+      "keywords": [
+        "Business debt and bankruptcy",
+        "Start your business"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-07",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://find-and-update.company-information.service.gov.uk/"
+        }
+      ],
+      "applicationProcess": "You can get some details about a company for free, including: company information, for example registered address and date of incorporation current and resigned officers document images mortgage charge data previous company names insolvency information You can also set up free email alerts to tell you when a company updates its details (for example, a change of director or address)."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/check-mot-status",
+      "@type": "GovernmentService",
+      "name": "Check the MOT status of a vehicle",
+      "description": "Find out the MOT test status of a vehicle - check the date of the MOT test and the expiry date of an MOT test pass. \r\n",
+      "url": "https://www.gov.uk/check-mot-status",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/check-mot-status"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/d39237a5-678b-4bb5-a372-eb2cb036933d",
+        "name": "Driver and Vehicle Standards Agency"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "vehicle",
+        "tax"
+      ],
+      "keywords": [
+        "Car, motorcycle and van MOT tests",
+        "Vehicle tax, MOT and insurance"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://vehicleenquiry.service.gov.uk/",
+          "name": "Continues on the vehicle enquiry service"
+        }
+      ],
+      "applicationProcess": "Find out if a vehicle has an MOT certificate and when it runs out. You’ll need the vehicle’s registration number (number plate). If your vehicle is new, you must get an MOT test by the third anniversary of its registration. This service is also available in Welsh (Cymraeg) ."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/book-driving-test",
+      "@type": "GovernmentService",
+      "name": "Book your driving test",
+      "description": "Book your official DVSA practical driving test for cars from £62, or other types of practical driving tests, including motorcycle and driving instructor tests.\r\n",
+      "url": "https://www.gov.uk/book-driving-test",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/book-driving-test"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/d39237a5-678b-4bb5-a372-eb2cb036933d",
+        "name": "Driver and Vehicle Standards Agency"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "vehicle"
+      ],
+      "keywords": [
+        "Car driving tests",
+        "Driving, motorcycle and LGV instructor qualification process",
+        "Lorry, bus, coach and specialist vehicle driving tests",
+        "Motorcycle and moped tests",
+        "Driving tests and learning to drive or ride",
+        "HGV, bus and coach drivers"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://driverpracticaltest.dvsa.gov.uk/application",
+          "name": "Continues on  the driving test booking service"
+        }
+      ],
+      "applicationProcess": "Book your practical driving test for: cars motorcycles lorries, buses and coaches approved driving instructor ( ADI ) part 2 and 3 tests This page is also available in Welsh (Cymraeg) . Who can book a car driving test You must book your driving test yourself. If you need to change, swap or cancel it, you’ll also need to do this yourself. Your driving instructor is not allowed to do this for you. It’s against the law to book a car driving test for someone else. Book a test online You’ll be put in a queue when you start booking your driving test - you’ll be told how long you’ll need to wait once you begin. New driving test appointments are added 24 weeks in advance. These appointments are released at 6am every Monday. If you need a test sooner, earlier driving tests (sometimes called ‘cancellation appointments’) are added whenever another learner changes or cancels their test. This can be at any time during the week. There is no waiting list or cancellation list. This service is availabl"
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/view-driving-licence",
+      "@type": "GovernmentService",
+      "name": "View or share your driving licence information",
+      "description": "Find out what information DVLA holds about your driving licence or create a check code to share your driving record, for example to hire a car ",
+      "url": "https://www.gov.uk/view-driving-licence",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/view-driving-licence"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/70580624-93b5-4aed-823b-76042486c769",
+        "name": "Driver and Vehicle Licensing Agency"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "vehicle"
+      ],
+      "keywords": [
+        "Personal driving licence information",
+        "Driving in the UK and abroad",
+        "Driving licences",
+        "Driving tests and learning to drive or ride"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.viewdrivingrecord.service.gov.uk/driving-record/licence-number"
+        }
+      ],
+      "applicationProcess": "You can view or share your driving licence information if your licence was issued in England, Wales or Scotland. It’s a criminal offence to obtain someone else’s personal information without their permission. Use this service to: view your driving record, for example vehicles you can drive check your penalty points or disqualifications create a licence ‘check code’ to share your driving record with someone, for example a car hire company The check code will be valid for 21 days. Before you start You’ll need: your driving licence number your National Insurance number - find your National Insurance number if you’ve lost it the postcode on your driving licence This service is also available in Welsh (Cymraeg) ."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/get-vehicle-information-from-dvla",
+      "@type": "GovernmentService",
+      "name": "Get vehicle information from DVLA",
+      "description": "Check a vehicle's details, tax and SORN status and expiry dates on the Driver Vehicle and Licensing Agency (DVLA) database - online and telephone enquiries",
+      "url": "https://www.gov.uk/get-vehicle-information-from-dvla",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/get-vehicle-information-from-dvla"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/70580624-93b5-4aed-823b-76042486c769",
+        "name": "Driver and Vehicle Licensing Agency"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "vehicle"
+      ],
+      "keywords": [
+        "Buying, selling, registering and scrapping a vehicle",
+        "Driver and vehicle record",
+        "Vehicle and driver data and information",
+        "Number plates, vehicle registration and log books"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://vehicleenquiry.service.gov.uk/",
+          "name": "Continues on the vehicle enquiry service"
+        }
+      ],
+      "applicationProcess": "Check online to find out what information the Driver and Vehicle Licensing Agency ( DVLA ) holds about a vehicle. You’ll need the vehicle’s registration number (number plate). This service is also available in Welsh (Cymraeg) ."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/change-driving-test",
+      "@type": "GovernmentService",
+      "name": "Change your driving test appointment",
+      "description": "Find an earlier practical driving test, move it to a later date, or change the test centre you take it at.\r\n",
+      "url": "https://www.gov.uk/change-driving-test",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/change-driving-test"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/d39237a5-678b-4bb5-a372-eb2cb036933d",
+        "name": "Driver and Vehicle Standards Agency"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "vehicle"
+      ],
+      "keywords": [
+        "Driving, motorcycle and LGV instructor qualification process",
+        "Car driving tests",
+        "Driving tests and learning to drive or ride",
+        "Teaching people to drive"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://driverpracticaltest.dvsa.gov.uk/login",
+          "name": "Continues on the driving test booking service"
+        }
+      ],
+      "applicationProcess": "You can change your driving test appointment: 2 times if you’re changing a car driving test 6 times if you’re changing any other type of test What you can change When you change your appointment, you can: find an earlier driving test (sometimes called a ‘cancellation appointment’) move your driving test to a later date change which test centre you take your test at You can change more than one thing at the same time. Example If you change your test from Northampton on 4 June to Kettering on 12 May, this counts as one change. You can change your test up to the time your test starts. You must give notice to change or cancel a test, or you’ll have to pay again. When you’ll have to pay again You’ll have to pay again if you give less than: 10 full working days’ notice for car driving tests 3 full working days’ notice for all other tests Monday to Saturday count as working days but Sundays and public holidays do not. If you cannot change your driving test appointment, cancel your test . What"
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/check-eta",
+      "@type": "GovernmentService",
+      "name": "Check your electronic travel authorisation (ETA)",
+      "description": "Check when your electronic travel authorisation (ETA) expires and what to do if you’ve changed your passport or need a new ETA to visit the UK.",
+      "url": "https://www.gov.uk/check-eta",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/check-eta"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/06056197-bc69-4147-aa28-070bca132178",
+        "name": "Home Office"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "other"
+      ],
+      "keywords": [
+        "Visit the UK"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://check-your-travel-permission.homeoffice.gov.uk"
+        }
+      ],
+      "applicationProcess": "Use this service to check: if you have an electronic travel authorisation (ETA) to visit the UK when your ETA expires An ETA lasts for 2 years and is linked to your passport. If your passport has expired or changed, you’ll need to apply for a new ETA . Check your ETA online You’ll need the passport you used when you applied for your ETA."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/find-energy-certificate",
+      "@type": "GovernmentService",
+      "name": "Find an energy certificate",
+      "description": "Find a property's energy certificate including an energy performance certificate (EPC), display energy certificate (DEC) or air conditioning inspection certificate. ",
+      "url": "https://www.gov.uk/find-energy-certificate",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/find-energy-certificate"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/1390d07f-12b3-4f55-9dd5-fec5fd9e3649",
+        "name": "Ministry of Housing, Communities and Local Government"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "housing",
+        "environment"
+      ],
+      "keywords": [
+        "Being a landlord and renting out a room",
+        "Household energy",
+        "Planning permission and building regulations "
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://find-energy-certificate.service.gov.uk/find-a-certificate/type-of-property"
+        }
+      ],
+      "applicationProcess": "Find an energy certificate for a property in England, Wales or Northern Ireland. This includes homes, business properties and public buildings. This service is also available in Welsh (Cymraeg) . There’s a different service to find an energy certificate for properties in Scotland . You can use this service to find an existing: energy performance certificate (EPC) display energy certificate (DEC) for a public building air conditioning inspection certificate and report If your property does not have an energy certificate or it has expired, you can get a new energy certificate . You can search for a certificate by postcode, street name and town, or certificate number."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/book-theory-test",
+      "@type": "GovernmentService",
+      "name": "Book your theory test",
+      "description": "Book your official DVSA car or motorcycle theory test for £23, or other lorry, bus and Driver CPC theory tests.",
+      "url": "https://www.gov.uk/book-theory-test",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/book-theory-test"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/d39237a5-678b-4bb5-a372-eb2cb036933d",
+        "name": "Driver and Vehicle Standards Agency"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "vehicle"
+      ],
+      "keywords": [
+        "Theory tests",
+        "Driving tests and learning to drive or ride",
+        "HGV, bus and coach drivers"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.book-theory-test.service.gov.uk?target=gb&lang=gb",
+          "name": "Continues on the theory test booking service"
+        }
+      ],
+      "applicationProcess": "Book your driving theory test for: cars motorcycles lorries, buses and coaches, including the Driver Certificate of Professional Competence ( CPC ) part 1a and 1b (theory) and part 2 (case studies) This page is also available in Welsh (Cymraeg) . Book a test online You need your: UK driving licence number email address credit or debit card"
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/register-to-vote",
+      "@type": "GovernmentService",
+      "name": "Register to vote",
+      "description": "Register to vote to take part in elections in the UK. Includes how to get on the electoral register and how to update your address on the register.",
+      "url": "https://www.gov.uk/register-to-vote",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/register-to-vote"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/1390d07f-12b3-4f55-9dd5-fec5fd9e3649",
+        "name": "Ministry of Housing, Communities and Local Government"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "other"
+      ],
+      "keywords": [
+        "Voting",
+        "Voting"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.registertovote.service.gov.uk/register-to-vote/start"
+        }
+      ],
+      "applicationProcess": "You can use this service to: get on the electoral register so you can vote in elections and referendums in the UK opt out of the ‘open’ register - the version of the electoral register that’s available for anyone to buy (if you live in the UK) update your name, address or nationality by registering again with your new details (if you live in the UK) There’s a different process to register anonymously , for example if you’re concerned about your safety or the safety of someone in your household. You can check if you’re already registered to vote by contacting your electoral registration office . This service is also available in Welsh (Cymraeg) . Register online You normally only need to register once - not for every election. You’ll need to register again if you’ve changed your name, address or nationality. It usually takes about 5 minutes."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/apply-renew-passport",
+      "@type": "GovernmentService",
+      "name": "Apply online for a UK passport",
+      "description": "You can apply for, update, renew or replace a passport online.",
+      "url": "https://www.gov.uk/apply-renew-passport",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/apply-renew-passport"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/3a96a1e0-21e3-4aae-8e84-f90860ed3dbf",
+        "name": "HM Passport Office"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "immigration"
+      ],
+      "keywords": [
+        "Passports",
+        "Passports"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.passport.service.gov.uk/filter"
+        }
+      ],
+      "applicationProcess": "Use this service to apply for, renew, replace or update your passport and pay for it online. This service is also available in Welsh (Cymraeg) . If your passport is burgundy or has ‘European Union’ on the cover, you can continue to use it until it expires. How long it takes Check how long it will take to get a passport before you apply. If you need a passport urgently, you can find out more about the Online Premium or 1 week Fast Track services . Do not book travel until you have a valid passport - your new passport will not have the same number as your old one. Before you start You’ll need a debit or credit card to use this service. It’s £13.50 cheaper to apply for a passport online than by post. You can get help making an online passport application with the digital Check and Send service at a Post Office. Apply online"
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/check-immigration-status",
+      "@type": "GovernmentService",
+      "name": "Check someone's immigration status: use their share code",
+      "description": "Check someone's immigration status, and that they can access services like the NHS and benefits in the UK",
+      "url": "https://www.gov.uk/check-immigration-status",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/check-immigration-status"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/06056197-bc69-4147-aa28-070bca132178",
+        "name": "Home Office"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "immigration"
+      ],
+      "keywords": [
+        "What you need to do"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-03",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://view-immigration-status.service.gov.uk/view/checker-details"
+        }
+      ],
+      "applicationProcess": "Use this service to check someone’s immigration status if you have their ‘share code’. The share code will have been emailed to you or given to you by the person whose status you’re checking. It expires after 90 days. You will also need the person’s date of birth. The service will show if they have the right to live in the UK, and any restrictions on their rights or access to benefits and services. Use a different service to check someone’s right to work or to check their right to rent ."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/make-a-sorn",
+      "@type": "GovernmentService",
+      "name": "Register your vehicle as off the road (SORN)",
+      "description": "Register your vehicle as off the road - you will not need to pay vehicle tax until you put it on the road again",
+      "url": "https://www.gov.uk/make-a-sorn",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/make-a-sorn"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/70580624-93b5-4aed-823b-76042486c769",
+        "name": "Driver and Vehicle Licensing Agency"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "vehicle",
+        "tax"
+      ],
+      "keywords": [
+        "Buying, selling, registering and scrapping a vehicle",
+        "Buy, sell or scrap a vehicle",
+        "Build or adapt a vehicle",
+        "Number plates, vehicle registration and log books",
+        "Vehicle tax, MOT and insurance"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.sorn.service.gov.uk"
+        }
+      ],
+      "applicationProcess": "Tell DVLA you’re taking your vehicle off the road, for example if you’re keeping it in a garage. This is sometimes called a ‘Statutory Off Road Notification’ ( SORN ). This page is also available in Welsh (Cymraeg) . You’ll get a refund for any full months of remaining tax. You cannot use the vehicle on the road until you tax it again . You do not need to make a SORN for a vehicle you’ve already sold. Tell DVLA you’ve sold a vehicle instead. Apply to take your vehicle off the road Your SORN will start immediately if either: your vehicle tax has expired you’re not applying in the month your vehicle tax is due to expire Your SORN will start on the first day of the next month if you apply in the month your vehicle tax is due to expire. Apply online You can apply online if the vehicle is registered in your name. Start when you’re ready to take your vehicle off the road. You can apply using the: 11-digit number in your vehicle log book (V5C) 16-digit reference number on your vehicle tax rem"
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/sign-in-to-manage-your-student-loan-balance",
+      "@type": "GovernmentService",
+      "name": "Manage your student loan balance",
+      "description": "Sign in to your student loan repayment account - check your balance, make regular or one-off repayments, or let SLC know if your details have changed. ",
+      "url": "https://www.gov.uk/sign-in-to-manage-your-student-loan-balance",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/sign-in-to-manage-your-student-loan-balance"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/9a9111aa-1db8-4025-8dd2-e08ec3175e72",
+        "name": "Student Loans Company"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "education"
+      ],
+      "keywords": [
+        "Student finance"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.manage-student-loan-balance.service.gov.uk/ors"
+        }
+      ],
+      "applicationProcess": "Sign in to your student loan repayment account to: check your balance see how much you’ve repaid towards your loan see how much interest has been applied to your loan so far make a one-off repayment ask for a refund if your annual income was below the threshold for the previous tax year set up and amend Direct Debits check which repayment plan you’re on check and update your bank details print proof of your repayment plan if you need to show it to your employer tell the Student Loans Company ( SLC ) if you’ve changed your contact details view letters and emails SLC has sent you repay in your local currency if you’re living overseas – this includes recurring card payments This service is also available in Welsh (Cymraeg) . You can also make one-off repayments towards your student loan, or towards someone else’s loan, without signing in. There’s a different service to update your employment details , for example if you’re leaving the UK for more than 3 months."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/check-state-pension",
+      "@type": "GovernmentService",
+      "name": "Check your State Pension forecast",
+      "description": "Find out how much State Pension you could get (your forecast), when you could get it and how you could increase it",
+      "url": "https://www.gov.uk/check-state-pension",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/check-state-pension"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/b548a09f-8b35-4104-89f4-f1a40bf3136d",
+        "name": "Department for Work and Pensions"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "retirement"
+      ],
+      "keywords": [
+        "State Pension",
+        "State Pension"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-04",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.tax.service.gov.uk/gg/sign-in?continue=/check-your-state-pension/account&accountType=individual&origin=nisp-frontend"
+        }
+      ],
+      "applicationProcess": "Use this service to find out: how much State Pension you could get when you can get it if you can increase it how you could increase it (for example, by paying to fill gaps) This page is also available in Welsh (Cymraeg) . The State Pension age is regularly reviewed, so the results of this tool may change in the future. You can read about the launch of the latest review of the State Pension age . You cannot use this service if you’re already getting your State Pension or if you’ve delayed (‘deferred’) claiming it. You’ll need to sign in to use this service. If you do not already have sign in details, you’ll be able to create them. You’ll be told when you sign in if you need to prove your identity. This is to keep your details safe and normally involves using photo ID like a passport or driving licence."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/view-right-to-work",
+      "@type": "GovernmentService",
+      "name": "Check a job applicant's right to work: use their share code",
+      "description": "Use a job applicant's share code to check they're eligible to work in the UK if they’re from outside the UK and Ireland.\r\n",
+      "url": "https://www.gov.uk/view-right-to-work",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/view-right-to-work"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/04148522-b0c1-4137-b687-5f3c3bdd561a",
+        "name": "UK Visas and Immigration"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "employment"
+      ],
+      "keywords": [
+        "Recruiting and hiring",
+        "What you need to do",
+        "Work in the UK"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://right-to-work.service.gov.uk/rtw-view",
+          "name": "Continues on the right to work service"
+        }
+      ],
+      "applicationProcess": "Check details of a job applicant’s right to work in the UK, including: the types of work they’re allowed to do how long they can work in the UK for, if there’s a time limit You’ll need the job applicant’s: date of birth right to work share code You can also check someone’s original documents instead - for example if you do not have a share code. British and Irish citizens cannot get a share code. You can check their physical documents yourself or use an online identity service provider (IDSP) to check them."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/search-property-information-land-registry",
+      "@type": "GovernmentService",
+      "name": "Search for land and property information",
+      "description": "Find a property and get its title plan, title register and see who owns it",
+      "url": "https://www.gov.uk/search-property-information-land-registry",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/search-property-information-land-registry"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/5c54ae52-341b-499e-a6dd-67f04633b8cf",
+        "name": "HM Land Registry"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "housing"
+      ],
+      "keywords": [
+        "Land registration searches, fees and forms",
+        "Owning and renting a property",
+        "Planning permission and building regulations "
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://search-property-information.service.gov.uk/?_ga=2.227252893.1011285419.1624257816-2123334908.1623227908"
+        }
+      ],
+      "applicationProcess": "Find information about a property in England or Wales, even if you do not own it. You’ll need to search different registers if the property is in Scotland or the property is in Northern Ireland . This service is also available in Welsh (Cymraeg) . What you can get You can download copies of the property summary, title plan and title register for a property in the service. Get a property summary The property summary includes: the property’s address - the address held by Royal Mail the property description the ‘tenure type’ - the type of ownership the property has whether there are any ‘restrictive covenants’ - promises not to do certain things with the land, like not building on a particular area whether there are any ‘easements’ - the rights of one piece of land over another, like a right of way To get details of any ‘restrictive covenants’ or ‘easements’, you’ll need to buy the title register. Get a title register Title registers are sometimes known as ‘title deeds’ because they conta"
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/find-a-job",
+      "@type": "GovernmentService",
+      "name": "Find a job",
+      "description": "Search and apply for jobs in Great Britain using ‘Find a job’. ",
+      "url": "https://www.gov.uk/find-a-job",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/find-a-job"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/b548a09f-8b35-4104-89f4-f1a40bf3136d",
+        "name": "Department for Work and Pensions"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "employment",
+        "benefits"
+      ],
+      "keywords": [
+        "Finding a job",
+        "Getting financial support during COVID-19",
+        "Universal Credit",
+        "Benefits and financial support if you're looking for work",
+        "Finding a job"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-04",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.jobs.service.gov.uk/jobs"
+        }
+      ],
+      "applicationProcess": "Find and apply for full or part-time jobs in England, Scotland and Wales. This page is also available in Welsh (Cymraeg) . There is a different service to search for jobs in Northern Ireland ."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/estimate-income-tax",
+      "@type": "GovernmentService",
+      "name": "Estimate your Income Tax for the current year",
+      "description": "Estimate how much Income Tax and National Insurance you can expect to pay for the current tax year (6 April 2026 to 5 April 2027).",
+      "url": "https://www.gov.uk/estimate-income-tax",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/estimate-income-tax"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/6667cce2-e809-4e21-ae09-cb0bdc1ddda3",
+        "name": "HM Revenue & Customs"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "tax"
+      ],
+      "keywords": [
+        "Income Tax",
+        "Income Tax"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.tax.service.gov.uk/estimate-paye-take-home-pay"
+        }
+      ],
+      "applicationProcess": "Use this service to estimate how much Income Tax and National Insurance you should pay for the current tax year (6 April 2026 to 5 April 2027). This guide is also available in Welsh (Cymraeg) . This service is for employees who pay tax and National Insurance each month through their employer. It tells you what your take-home pay will be after: paying tax making any pension contributions making any student loan repayments If you’re registered for Self Assessment, the Self Assessment tax calculator can help you estimate your tax bill. You may be able to claim a refund if you’ve paid too much tax."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/apply-blue-badge",
+      "@type": "GovernmentService",
+      "name": "Apply for or renew a Blue Badge",
+      "description": "Check if you're eligible for a Blue Badge and apply or renew",
+      "url": "https://www.gov.uk/apply-blue-badge",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/apply-blue-badge"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/4c717efc-f47b-478e-a76d-ce1ae0af1946",
+        "name": "Department for Transport"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "health",
+        "disability",
+        "vehicle"
+      ],
+      "keywords": [
+        "Disability equipment and transport",
+        "Blue badges",
+        "Disability equipment and transport",
+        "Driving with medical conditions, Blue Badges and transport for disabled people",
+        "Parking and public transport"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://apply-blue-badge.service.gov.uk/applicant"
+        }
+      ],
+      "applicationProcess": "Check your eligibility and apply for a Blue Badge. You can also use this service to reapply for a Blue Badge. You can apply for yourself, someone else or an organisation. There’s a different way to apply if you’re in Northern Ireland . A Blue Badge costs up to £10 in England and £20 in Scotland. It’s free in Wales. They usually last up to 3 years. You must reapply for a Blue Badge before your current one expires. If you’re replacing a lost, stolen or damaged blue badge, and it is not expiring in the next 3 months, you need to use a different service . Apply or renew online You’ll need a recent digital photo showing your head and shoulders. You’ll also need a photo or scan of your: proof of identity (such as a birth certificate, passport or driving licence) proof of address (such as a Council Tax bill or government letter) proof of benefits (if you get any) You’ll also need to know: your National Insurance number (if you have one) the details of your current Blue Badge (if you’re reappl"
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/council-tax-bands",
+      "@type": "GovernmentService",
+      "name": "Check your Council Tax band",
+      "description": "Find out the Council Tax band for a property, register any changes to the property or challenge the band in England or Wales by looking up the property's address or postcode online",
+      "url": "https://www.gov.uk/council-tax-bands",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/council-tax-bands"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/6667cce2-e809-4e21-ae09-cb0bdc1ddda3",
+        "name": "HM Revenue & Customs"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "housing",
+        "tax"
+      ],
+      "keywords": [
+        "Council Tax bands",
+        "Council Tax",
+        "Council Tax"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.tax.service.gov.uk/check-council-tax-band/search",
+          "name": "Continues on the Council Tax valuation list"
+        }
+      ],
+      "applicationProcess": "Find out the Council Tax band for a home in England or Wales by looking up its address or postcode. For homes in Scotland, search on the Scottish Assessors website. You can also use this service to challenge your Council Tax band if you think it’s wrong. You’ll need to provide evidence for your challenge . This service is also available in Welsh (Cymraeg) ."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/clean-air-zones",
+      "@type": "GovernmentService",
+      "name": "Drive in a clean air zone",
+      "description": "Find out if you need to pay to drive in a clean air zone and check your vehicle meets emission standards.",
+      "url": "https://www.gov.uk/clean-air-zones",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/clean-air-zones"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/de4e9dc6-cca4-43af-a594-682023b84d6c",
+        "name": "Department for Environment, Food & Rural Affairs"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "vehicle"
+      ],
+      "keywords": [
+        "Clean air zones, emissions and electric vehicles",
+        "Parking and public transport"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://multiple-vehiclecheck.drive-clean-air-zone.service.gov.uk/what_would_you_like_to_do"
+        }
+      ],
+      "applicationProcess": "Use this service if you’re planning to drive through clean air zones in: Bath Birmingham Bradford Bristol Portsmouth Sheffield Tyneside - Newcastle and Gateshead There’s a different way to check your vehicle if you want to drive in London’s low or ultra low emission zones or a low emission zone in Scotland . You might need to pay to drive in a clean air zone if your vehicle does not meet emissions standards. Use this service to: find out if you need to pay for your vehicle pay the daily charge view maps of clean air zones This service cannot check vehicles that are registered outside the UK."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/mot-testing-service",
+      "@type": "GovernmentService",
+      "name": "Record MOT test results",
+      "description": "Use the MOT testing service to record MOT test results, update your examiner details, and check and buy MOT slots.",
+      "url": "https://www.gov.uk/mot-testing-service",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/mot-testing-service"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/d39237a5-678b-4bb5-a372-eb2cb036933d",
+        "name": "Driver and Vehicle Standards Agency"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "business",
+        "vehicle"
+      ],
+      "keywords": [
+        "Car, motorcycle and van MOT tests",
+        "Transport and driving businesses"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.mot-testing.service.gov.uk/"
+        }
+      ],
+      "applicationProcess": "Use this service if you’re an MOT tester and you need to: record results of MOTs you carry out print MOT certificates buy test slots and check your test station’s balance"
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/file-your-confirmation-statement-with-companies-house",
+      "@type": "GovernmentService",
+      "name": "File your confirmation statement (annual return) with Companies House",
+      "description": "How to file company information - including directors, registered office and shareholders in your confirmation statement (previously AR01 annual return) \r\n",
+      "url": "https://www.gov.uk/file-your-confirmation-statement-with-companies-house",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/file-your-confirmation-statement-with-companies-house"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/c36bd301-d0c5-4492-86ad-ee7843b8383b",
+        "name": "Companies House"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "business"
+      ],
+      "keywords": [
+        "Running a business",
+        "Keep your business running"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://idam-ui.company-information.service.gov.uk/",
+          "name": "Continues on the Companies House WebFiling service"
+        }
+      ],
+      "applicationProcess": "Use this service to: file your confirmation statement (previously annual return) sign up for email alerts to let you know when your confirmation statement is due This page is also available in Welsh (Cymraeg) ."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/check-driving-information",
+      "@type": "GovernmentService",
+      "name": "Check someone's driving licence information",
+      "description": "Check someone's driving record - vehicles they can drive, penalty points and disqualifications",
+      "url": "https://www.gov.uk/check-driving-information",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/check-driving-information"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/70580624-93b5-4aed-823b-76042486c769",
+        "name": "Driver and Vehicle Licensing Agency"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "employment",
+        "business",
+        "vehicle"
+      ],
+      "keywords": [
+        "Driver and vehicle record",
+        "Employing drivers",
+        "Driving licences",
+        "Transport and driving businesses",
+        "Vehicle and driver data and information"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.viewdrivingrecord.service.gov.uk/lang/en/driving-record/validate"
+        }
+      ],
+      "applicationProcess": "You can use this service to check someone’s driving licence information, for example, vehicles they can drive or any penalty points or disqualifications . This service is also available in Welsh (Cymraeg) . Check someone’s driving licence online You need: the last 8 characters of their driving licence number a check code from the driver You must use the code within 21 days. You can only use the code once - you have to get another code to do another check. Use a different service if you want to view your own driving record or generate a check code ."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/proof-benefits-state-pension",
+      "@type": "GovernmentService",
+      "name": "Get proof of your benefits and State Pension ",
+      "description": "Request a letter to prove your State Pension and benefits, including Attendance Allowance, DLA, ESA, Income Support, JSA, Pension Credit and PIP. ",
+      "url": "https://www.gov.uk/proof-benefits-state-pension",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/proof-benefits-state-pension"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/b548a09f-8b35-4104-89f4-f1a40bf3136d",
+        "name": "Department for Work and Pensions"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "retirement",
+        "benefits"
+      ],
+      "keywords": [
+        "Manage an existing benefit, payment or claim"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-04",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.manage-your-benefits-state-pension.service.gov.uk/start-proof-benefits-state-pension/before-identity-check"
+        }
+      ],
+      "applicationProcess": "Use this service to get proof of: Attendance Allowance Disability Living Allowance (DLA) for adults Employment and Support Allowance (ESA) - all types Income Support Jobseeker’s Allowance (JSA) - all types Pension Credit Personal Independence Payment (PIP) State Pension This service is also available in Welsh (Cymraeg) . You can get proof of your benefits or State Pension: digitally - by downloading the file to your device by post - this can take up to one week to arrive To get proof of Universal Credit, sign in to your Universal Credit account . To get proof of any other benefit, contact the benefit team directly."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/request-copy-criminal-record",
+      "@type": "GovernmentService",
+      "name": "Request a basic DBS check",
+      "description": "How to apply for a basic DBS check to get a copy of your criminal record, and what you must provide. It costs £21.50.",
+      "url": "https://www.gov.uk/request-copy-criminal-record",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/request-copy-criminal-record"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/77311cfc-4947-4a94-8b96-5412b1a359ab",
+        "name": "Disclosure and Barring Service"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "other"
+      ],
+      "keywords": [
+        "Finding a job",
+        "Finding a job"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-07",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.apply-basic-criminal-record-check.service.gov.uk"
+        }
+      ],
+      "applicationProcess": "Apply for a basic Disclosure and Barring Service ( DBS ) check to get a copy of your criminal record. This is called ‘basic disclosure’. It’s available for people working in England and Wales. It costs £21.50. This guide is also available in Welsh (Cymraeg) . You can also get a basic DBS check if you live in Northern Ireland or Scotland but the job you’re applying for is in England or Wales. There’s a different way to apply if you’re applying for a job in Northern Ireland or applying for a job in Scotland . The check will only show convictions that are not ‘spent’, for example some types of caution will disappear after 3 months. It usually takes up to 3 days for your application to be processed. A paper certificate will then be posted to you. You must be 16 or over to apply. What you’ll need To use this service, you’ll need to prove your identity using GOV.UK One Login. You’ll be able to create a GOV.UK One Login if you do not already have one. You’ll need to provide addresses for the "
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/renew-driving-licence-at-70",
+      "@type": "GovernmentService",
+      "name": "Renew your driving licence if you're 70 or over",
+      "description": "Renew your driving licence online if you're 70 or over. Use form D46P to apply by post.",
+      "url": "https://www.gov.uk/renew-driving-licence-at-70",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/renew-driving-licence-at-70"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/70580624-93b5-4aed-823b-76042486c769",
+        "name": "Driver and Vehicle Licensing Agency"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "vehicle"
+      ],
+      "keywords": [
+        "Driving licence applications and renewals",
+        "Driving licences"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://apply-for-driving-licence.service.gov.uk/service-start?start=REN70&locale=en"
+        }
+      ],
+      "applicationProcess": "Renew your driving licence online with DVLA for free if you’re 70 or over - or will be 70 in the next 90 days. This page is also available in Welsh (Cymraeg) . Renew online You’ll need to sign in to use this service. If you do not already have sign in details, you’ll be able to create them. You’ll be told when you sign in if you need to prove your identity. This is to keep your details safe and usually involves using photo ID like a passport or driving licence."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/check-national-insurance-record",
+      "@type": "GovernmentService",
+      "name": "Check your National Insurance record",
+      "description": "Find out if you've paid enough National Insurance to qualify for the full State Pension - check gaps, contributions and credits, get a National Insurance statement, call the helpline.",
+      "url": "https://www.gov.uk/check-national-insurance-record",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/check-national-insurance-record"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/b548a09f-8b35-4104-89f4-f1a40bf3136d",
+        "name": "Department for Work and Pensions"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "other"
+      ],
+      "keywords": [
+        "National Insurance numbers",
+        "National Insurance",
+        "National Insurance"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-04",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.tax.service.gov.uk/gg/sign-in?continue=/personal-account/national-insurance-summary&accountType=individual&origin=PTA-nationalinsurance"
+        }
+      ],
+      "applicationProcess": "You can check your National Insurance record online to see: what you’ve paid, up to the start of the current tax year (6 April 2026) any National Insurance credits you’ve received if gaps in contributions or credits mean some years do not count towards your State Pension (they are not ‘qualifying years’) if you’ll benefit from paying voluntary contributions to fill any gaps how your State Pension forecast will change if you decide to pay voluntary contributions if you can pay voluntary contributions online and how much this will cost This service is also available in Welsh (Cymraeg) ."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/find-pension-contact-details",
+      "@type": "GovernmentService",
+      "name": "Find pension contact details",
+      "description": "Find the contact details for a pension provider by using the Pension Tracing Service",
+      "url": "https://www.gov.uk/find-pension-contact-details",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/find-pension-contact-details"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/b548a09f-8b35-4104-89f4-f1a40bf3136d",
+        "name": "Department for Work and Pensions"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "employment",
+        "retirement"
+      ],
+      "keywords": [
+        "Workplace and personal pensions",
+        "Pension scheme administration",
+        "Workplace and personal pensions"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-04",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.findpensioncontacts.service.gov.uk/find-frontend/"
+        }
+      ],
+      "applicationProcess": "Use this service to find contact details to search for a lost pension. You can find contact details for: your own workplace or personal pension scheme someone else’s scheme if you have their permission This service will not tell you whether you have a pension, or what its value is. You need the name of an employer or a pension provider to use this service. The online service is also available in Welsh (Cymraeg) ."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/apply-postal-vote",
+      "@type": "GovernmentService",
+      "name": "Apply for a postal vote",
+      "description": "Use this service to apply to vote by post so you can take part in elections in the UK. You must be registered to vote in the UK before you can apply.",
+      "url": "https://www.gov.uk/apply-postal-vote",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/apply-postal-vote"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/1390d07f-12b3-4f55-9dd5-fec5fd9e3649",
+        "name": "Ministry of Housing, Communities and Local Government"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "other"
+      ],
+      "keywords": [
+        "Voting",
+        "Voting"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://postal-vote.service.gov.uk/start"
+        }
+      ],
+      "applicationProcess": "Use this service to apply for a postal vote in: general elections and other UK Parliamentary elections in England, Scotland or Wales local elections in England (including mayors) Police and Crime Commissioner elections in England and Wales national referendums if you live in England, Scotland or Wales MP recall petitions in England, Scotland or Wales If you’re registered to vote anonymously (this means your name and address do not appear on the electoral register), apply for your postal vote through your electoral registration office . This service is also available in Welsh (Cymraeg) . Voting in Northern Ireland, Scotland or Wales The rules are different if you want to apply for a postal vote in Northern Ireland for all elections. There’s a different way to apply for a postal vote for the Senedd Cymru (Welsh Parliament), Scottish Parliament and local elections in Scotland and Wales using a paper form. Apply for a postal vote online"
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/check-visa-processing-time",
+      "@type": "GovernmentService",
+      "name": "Check your visa processing time",
+      "description": "Use this service to check when you can expect a decision on your visa application. For example, if you've applied for a visa to study, visit as a tourist or attend a business event.",
+      "url": "https://www.gov.uk/check-visa-processing-time",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/check-visa-processing-time"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/06056197-bc69-4147-aa28-070bca132178",
+        "name": "Home Office"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "immigration"
+      ],
+      "keywords": [
+        "What you need to do"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.check-your-visa-processing-time.homeoffice.gov.uk/location"
+        }
+      ],
+      "applicationProcess": "Use this service to check when you can expect a decision on your visa application. Who can use this service You can use this service if you applied for a visa to: study visit as a tourist or see family and friends work or attend a business event get married or enter into a civil partnership have medical treatment travel through (‘transit’) on the way to another country You can also use this service if you applied for a visa as a British National Overseas (BNO) with connections to Hong Kong. Before you start You’ll need the date you verified your identity by either: using the ‘UK Immigration: ID Check’ phone app visiting a visa application centre – for example, VFS Global You can estimate the date if you’re not sure."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/send-prisoner-money",
+      "@type": "GovernmentService",
+      "name": "Send money to someone in prison",
+      "description": "Send money to a prisoner in England and Wales by debit card for free\r\n",
+      "url": "https://www.gov.uk/send-prisoner-money",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/send-prisoner-money"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/05b3ff92-52c9-4577-b08e-7514b40c98ff",
+        "name": "HM Prison Service"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "justice"
+      ],
+      "keywords": [
+        "Prisons and probation",
+        "Prisons and probation"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "http://send-money-to-prisoner.service.gov.uk"
+        }
+      ],
+      "applicationProcess": "You can use this service to make a payment by Visa, Mastercard or Maestro debit card. Money usually takes less than 3 working days to reach a prisoner’s account, but it may take longer. This service is free, secure and available in all prisons in England and Wales. You can no longer send money by bank transfer, cheque, postal order or send cash by post to any prison. You’ll need to use a debit card instead."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/calculate-child-maintenance",
+      "@type": "GovernmentService",
+      "name": "Calculate your child maintenance ",
+      "description": "Use this calculator to work out an amount of child maintenance for your children.",
+      "url": "https://www.gov.uk/calculate-child-maintenance",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/calculate-child-maintenance"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/b548a09f-8b35-4104-89f4-f1a40bf3136d",
+        "name": "Department for Work and Pensions"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "birth",
+        "housing",
+        "marriage"
+      ],
+      "keywords": [
+        "Having a child, parenting and adoption",
+        "Divorce, separation and legal issues"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-04",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://child-maintenance.dwp.gov.uk/calculate/"
+        }
+      ],
+      "applicationProcess": "You can use this calculator to work out an amount of child maintenance for your children. It will not send your details to the Department for Work and Pensions ( DWP ). This service is also available in Welsh (Cymraeg) . The calculator: gives you an amount to discuss if you’re arranging child maintenance with the other parent - you do not have to use it shows you what the government is likely to work out for you This calculator only estimates your child maintenance payments - it cannot tell you exactly what you’ll get. If you use the Child Maintenance Service the actual payments could be higher or lower. You will not have anything to pay through the Child Maintenance Service if you are: sharing care equally with the other parent a full-time student with no income in prison You can find out more about making an arrangement with the other parent ."
+    },
+    {
+      "@id": "https://www.gov.uk/id/service/change-theory-test",
+      "@type": "GovernmentService",
+      "name": "Change your theory test appointment",
+      "description": "Find an earlier driving theory test, move it to a later date, or change the test centre you take it at.",
+      "url": "https://www.gov.uk/change-theory-test",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:govuk-path",
+          "value": "/change-theory-test"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.gov.uk/id/organization/d39237a5-678b-4bb5-a372-eb2cb036933d",
+        "name": "Driver and Vehicle Standards Agency"
+      },
+      "areaServed": {
+        "@id": "https://www.gov.uk/id/jurisdiction/gb",
+        "name": "United Kingdom"
+      },
+      "serviceStatus": "active",
+      "lifeEvent": [
+        "vehicle"
+      ],
+      "keywords": [
+        "Theory tests",
+        "Driving tests and learning to drive or ride"
+      ],
+      "availableLanguage": [
+        "en-GB"
+      ],
+      "dateModified": "2026-09-02",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.book-theory-test.service.gov.uk/change?target=gb&lang=gb&context=candidate",
+          "name": "Continues on the theory test booking service"
+        }
+      ],
+      "applicationProcess": "Use this service to: find an earlier driving theory test move your theory test to a later date change which test centre you take your test at You must give at least 3 full working days’ notice to change your test or you’ll have to pay again. Monday to Saturday count as working days but Sundays and public holidays do not. If you change your test at short notice If you change your test within 3 full working days of the test date, you’ll have to pay again. Get a refund after you’ve changed your test You can get a refund if you have: an illness or injury that means you cannot take your test suffered a bereavement to take an exam at a school or college had your driving licence stolen Email the Driver and Vehicles Standard Agency ( DVSA ) with the subject title ‘Unavoidable short notice cancellation’. Attach proof of the reason you’ve had to change your appointment. This can be: a letter from your school or college confirming you have an exam at the same time as your appointment a crime numb"
+    }
+  ]
+}
