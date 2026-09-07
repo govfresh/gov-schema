@@ -1,0 +1,89 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+      "@type": "Person",
+      "name": "Alexis Mercedes Rinck",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "810"
+        }
+      ]
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/person/dionne-foster",
+      "@type": "Person",
+      "name": "Dionne Foster",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "844"
+        }
+      ]
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+      "@type": "Person",
+      "name": "Joy Hollingsworth",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "764"
+        }
+      ]
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/person/rob-saka",
+      "@type": "Person",
+      "name": "Rob Saka",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "763"
+        }
+      ]
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+      "@type": "Person",
+      "name": "Robert Kettle",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "767"
+        }
+      ]
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+      "@type": "Person",
+      "name": "Eddie Lin",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "842"
+        }
+      ]
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+      "@type": "Person",
+      "name": "Maritza Rivera",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "765"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2596 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://seattle.legistar.com/id/meeting/6864",
+      "@type": "Meeting",
+      "name": "Human Services, Labor, and Economic Development Committee, 2026-08-21",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "6864"
+        }
+      ],
+      "organizer": {
+        "@id": "https://seattle.legistar.com/id/organization/human-services-labor-and-economic-development-committee",
+        "name": "Human Services, Labor, and Economic Development Committee"
+      },
+      "eventStatus": "EventScheduled",
+      "startDate": "2026-08-21T09:30:00-07:00",
+      "description": "Public Hearing",
+      "url": "https://seattle.legistar.com/MeetingDetail.aspx?LEGID=6864&GID=393&G=FFE3B678-CEF6-4197-84AC-5204EA4CFC0C",
+      "agendaDocument": "https://legistar2.granicus.com/seattle/meetings/2026/8/6864_A_Human_Services%2C_Labor%2C_and_Economic_Development_Committee_26-08-21_Committee_Agenda.pdf",
+      "minutes": "https://legistar2.granicus.com/seattle/meetings/2026/8/6864_M_Human_Services%2C_Labor%2C_and_Economic_Development_Committee_26-08-21_Committee_Minutes.pdf",
+      "agendaItem": [
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6864/item/125324",
+          "name": "This meeting also constitutes a meeting of the City Council, provided that the meeting shall be conducted as a committee meeting under the Council Rules and Procedures, and Council action shall be limited to committee business. ",
+          "position": 1
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6864/item/125325",
+          "name": "Please Note: Times listed are estimated",
+          "position": 2
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6864/item/125326",
+          "name": "Call To Order",
+          "position": "A."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6864/item/125327",
+          "name": "Approval of the Agenda",
+          "position": "B."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6864/item/125328",
+          "name": "Public Comment",
+          "position": "C."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6864/item/125329",
+          "name": "Items of Business",
+          "position": "D."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6864/item/125330",
+          "name": "An ordinance relating to domestic worker labor standards in Seattle; amending Sections 14.23.010, 14.23.020, and 14.23.095 of the Seattle Municipal Code, and adding new Sections 14.23.025, 14.23.127, and 14.23.128 to the Seattle Municipal Code, to: establish written agreement requirement; establish ",
+          "position": "3.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17310",
+              "name": "CB 121266"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6864/item/125330/vote",
+              "name": "Vote on An ordinance relating to domestic worker labor standards in Seattle; amending Se",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/human-services-labor-and-economic-development-committee"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 4
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/dionne-foster",
+                    "name": "Dionne Foster"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/rob-saka",
+                    "name": "Rob Saka"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17310",
+                  "name": "CB 121266"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6864/item/125331",
+          "name": "An ordinance relating to prohibiting algorithmic-based price discrimination; requiring covered retailer disclosures to consumers; requiring that covered retailers retain certain records; and adding a new Chapter 7.35 to the Seattle Municipal Code.",
+          "position": "4.",
+          "result": "received",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17368",
+              "name": "CB 121267"
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6864/item/125332",
+          "name": "An ordinance relating to the Ballard Business Improvement Area; amending Section 6 of Ordinance 126911 to clarify provisions on assessment escalations.",
+          "position": "1.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17342",
+              "name": "CB 121270"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6864/item/125332/vote",
+              "name": "Vote on An ordinance relating to the Ballard Business Improvement Area; amending Section",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/human-services-labor-and-economic-development-committee"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "absent",
+                  "value": 1
+                },
+                {
+                  "option": "yes",
+                  "value": 3
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/dionne-foster",
+                    "name": "Dionne Foster"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "absent"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/rob-saka",
+                    "name": "Rob Saka"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17342",
+                  "name": "CB 121270"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6864/item/125333",
+          "name": "An ordinance relating to the Capitol Hill Business Improvement Area; modifying the boundaries; amending Ordinance 113029, as previously amended by Ordinances 115998, 120303, and 124514; modifying the assessment structure for the Capitol Hill Business Improvement Area; and ratifying and confirming ce",
+          "position": "2.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17398",
+              "name": "CB 121272"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6864/item/125333/vote",
+              "name": "Vote on An ordinance relating to the Capitol Hill Business Improvement Area; modifying t",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/human-services-labor-and-economic-development-committee"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 4
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/dionne-foster",
+                    "name": "Dionne Foster"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/rob-saka",
+                    "name": "Rob Saka"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17398",
+                  "name": "CB 121272"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6864/item/125334",
+          "name": "An ordinance relating to commercial tenancies; establishing lessor requirements to provide transparency regarding access to the lease agreement, previous certificate of occupancy for the space, the existing conditions of the space, and triple net expenses; and amending Sections 6.104.020, 6.104.030,",
+          "position": "5.",
+          "result": "received",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17395",
+              "name": "CB 121275"
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6864/item/125335",
+          "name": "Adjournment",
+          "position": "E."
+        }
+      ]
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/meeting/6859",
+      "@type": "Meeting",
+      "name": "Transportation, Waterfront, and Seattle Center Committee, 2026-08-20",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "6859"
+        }
+      ],
+      "organizer": {
+        "@id": "https://seattle.legistar.com/id/organization/transportation-waterfront-and-seattle-center-committee",
+        "name": "Transportation, Waterfront, and Seattle Center Committee"
+      },
+      "eventStatus": "EventScheduled",
+      "startDate": "2026-08-20T09:30:00-07:00",
+      "url": "https://seattle.legistar.com/MeetingDetail.aspx?LEGID=6859&GID=393&G=FFE3B678-CEF6-4197-84AC-5204EA4CFC0C",
+      "agendaDocument": "https://legistar2.granicus.com/seattle/meetings/2026/8/6859_A_Transportation%2C_Waterfront%2C_and_Seattle_Center_Committee_26-08-20_Committee_Agenda.pdf",
+      "minutes": "https://legistar2.granicus.com/seattle/meetings/2026/8/6859_M_Transportation%2C_Waterfront%2C_and_Seattle_Center_Committee_26-08-20_Committee_Minutes.pdf",
+      "agendaItem": [
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6859/item/125282",
+          "name": "Please Note: Times listed are estimated",
+          "position": 1
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6859/item/125283",
+          "name": "Call To Order",
+          "position": "A."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6859/item/125284",
+          "name": "Approval of the Agenda",
+          "position": "B."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6859/item/125285",
+          "name": "Public Comment",
+          "position": "C."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6859/item/125286",
+          "name": "Items of Business",
+          "position": "D."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6859/item/125289",
+          "name": "A resolution appointing the members of the Transportation Funding Task Force.",
+          "position": "2.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17407",
+              "name": "Res 32215"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6859/item/125289/vote",
+              "name": "Vote on A resolution appointing the members of the Transportation Funding Task Force.",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/transportation-waterfront-and-seattle-center-committee"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 4
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/rob-saka",
+                    "name": "Rob Saka"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/dionne-foster",
+                    "name": "Dionne Foster"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17407",
+                  "name": "Res 32215"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6859/item/125290",
+          "name": "Adjournment",
+          "position": "E."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6859/item/125291",
+          "name": "Seattle Street Improvement Program (SIP)",
+          "position": "3.",
+          "result": "received",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17455",
+              "name": "Inf 2944"
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6859/item/125292",
+          "name": "Seattle SAFER (Safe Accountable Flexible Equitable Responsive) Streets Act - Draft Review of Traffic Safety Legislation",
+          "position": "1.",
+          "result": "received",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17454",
+              "name": "Inf 2943"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/meeting/6842",
+      "@type": "Meeting",
+      "name": "Parks and City Light Committee, 2026-08-19",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "6842"
+        }
+      ],
+      "organizer": {
+        "@id": "https://seattle.legistar.com/id/organization/parks-and-city-light-committee",
+        "name": "Parks and City Light Committee"
+      },
+      "eventStatus": "EventCancelled",
+      "startDate": "2026-08-19T14:00:00-07:00",
+      "description": "Cancellation Notice",
+      "url": "https://seattle.legistar.com/MeetingDetail.aspx?LEGID=6842&GID=393&G=FFE3B678-CEF6-4197-84AC-5204EA4CFC0C",
+      "agendaDocument": "https://legistar2.granicus.com/seattle/meetings/2026/8/6842_A_Parks_and_City_Light_Committee_26-08-19_Committee_Agenda.pdf",
+      "agendaItem": [
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6842/item/124897",
+          "name": "The Parks and City Light Committee meeting scheduled for August 19, 2026, has been cancelled.",
+          "position": 1
+        }
+      ]
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/meeting/6866",
+      "@type": "Meeting",
+      "name": "Land Use and Sustainability Committee, 2026-08-19",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "6866"
+        }
+      ],
+      "organizer": {
+        "@id": "https://seattle.legistar.com/id/organization/land-use-and-sustainability-committee",
+        "name": "Land Use and Sustainability Committee"
+      },
+      "eventStatus": "EventScheduled",
+      "startDate": "2026-08-19T09:30:00-07:00",
+      "url": "https://seattle.legistar.com/MeetingDetail.aspx?LEGID=6866&GID=393&G=FFE3B678-CEF6-4197-84AC-5204EA4CFC0C",
+      "agendaDocument": "https://legistar2.granicus.com/seattle/meetings/2026/8/6866_A_Land_Use_and_Sustainability_Committee_26-08-19_Committee_Agenda.pdf",
+      "minutes": "https://legistar2.granicus.com/seattle/meetings/2026/8/6866_M_Land_Use_and_Sustainability_Committee_26-08-19_Committee_Minutes.pdf",
+      "agendaItem": [
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6866/item/125428",
+          "name": "This meeting also constitutes a meeting of the City Council, provided that the meeting shall be conducted as a committee meeting under the Council Rules and Procedures, and Council action shall be limited to committee business. ",
+          "position": 1
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6866/item/125429",
+          "name": "Please Note: Times listed are estimated",
+          "position": 2
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6866/item/125430",
+          "name": "Call To Order",
+          "position": "A."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6866/item/125431",
+          "name": "Approval of the Agenda",
+          "position": "B."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6866/item/125432",
+          "name": "Public Comment",
+          "position": "C."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6866/item/125433",
+          "name": "Items of Business",
+          "position": "D."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6866/item/125435",
+          "name": "Adjournment",
+          "position": "E."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6866/item/125436",
+          "name": "An ordinance relating to land use and zoning; amending Sections 23.45.506, 23.45.570, and 23.51.A.004 of the Seattle Municipal Code to modify development standards for institutions in multifamily zones.",
+          "position": "1.",
+          "result": "received",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17402",
+              "name": "CB 121276"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/meeting/6771",
+      "@type": "Meeting",
+      "name": "Finance, Native Communities, and Tribal Governments Committee, 2026-08-18",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "6771"
+        }
+      ],
+      "organizer": {
+        "@id": "https://seattle.legistar.com/id/organization/finance-native-communities-and-tribal-governments-committee",
+        "name": "Finance, Native Communities, and Tribal Governments Committee"
+      },
+      "eventStatus": "EventCancelled",
+      "startDate": "2026-08-18T09:30:00-07:00",
+      "description": "Cancellation Notice",
+      "url": "https://seattle.legistar.com/MeetingDetail.aspx?LEGID=6771&GID=393&G=FFE3B678-CEF6-4197-84AC-5204EA4CFC0C",
+      "agendaDocument": "https://legistar2.granicus.com/seattle/meetings/2026/8/6771_A_Finance%2C_Native_Communities%2C_and_Tribal_Governments_Committee_26-08-18_Committee_Agenda.pdf",
+      "agendaItem": [
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6771/item/125336",
+          "name": "The Finance, Native Communities, and Tribal Governments Committee meeting scheduled for August 18, 2026, has been cancelled.",
+          "position": 1
+        }
+      ]
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/meeting/6865",
+      "@type": "Meeting",
+      "name": "City Council, 2026-08-18",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "6865"
+        }
+      ],
+      "organizer": {
+        "@id": "https://seattle.legistar.com/id/organization/city-council",
+        "name": "City Council"
+      },
+      "eventStatus": "EventScheduled",
+      "startDate": "2026-08-18T14:00:00-07:00",
+      "url": "https://seattle.legistar.com/MeetingDetail.aspx?LEGID=6865&GID=393&G=FFE3B678-CEF6-4197-84AC-5204EA4CFC0C",
+      "agendaDocument": "https://legistar2.granicus.com/seattle/meetings/2026/8/6865_A_City_Council_26-08-18_Full_Council_Meeting_Agenda.pdf",
+      "agendaItem": [
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125357",
+          "name": " ",
+          "position": 1
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125358",
+          "name": "CALL TO ORDER",
+          "position": "A."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125359",
+          "name": "ROLL CALL",
+          "position": "B."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125360",
+          "name": "PRESENTATIONS",
+          "position": "C."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125361",
+          "name": "PUBLIC COMMENT ",
+          "position": "D."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125362",
+          "name": "ADOPTION OF INTRODUCTION AND REFERRAL CALENDAR:",
+          "position": "E."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125363",
+          "name": "APPROVAL OF THE AGENDA",
+          "position": "F."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125364",
+          "name": "APPROVAL OF CONSENT CALENDAR",
+          "position": "G."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125365",
+          "name": "Journal:",
+          "position": 9
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125366",
+          "name": "Bills:",
+          "position": 10
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125368",
+          "name": "Appointments:",
+          "position": 11
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125369",
+          "name": "LIBRARIES, EDUCATION, AND NEIGHBORHOODS COMMITTEE:",
+          "position": 12
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125370",
+          "name": "Appointment of Lakeya Afolalu as member, Families, Education, Preschool, and Promise Levy Oversight Committee, for a term to December 31, 2027.",
+          "position": "3.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17379",
+              "name": "Appt 03577"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125370/vote",
+              "name": "Vote on Appointment of Lakeya Afolalu as member, Families, Education, Preschool, and Pro",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17379",
+                  "name": "Appt 03577"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125371",
+          "name": "Appointment of Leon Garnett as member, Families, Education, Preschool, and Promise Levy Oversight Committee, for a term to December 31, 2027.",
+          "position": "4.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17386",
+              "name": "Appt 03578"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125371/vote",
+              "name": "Vote on Appointment of Leon Garnett as member, Families, Education, Preschool, and Promi",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17386",
+                  "name": "Appt 03578"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125372",
+          "name": "Appointment of Amruta Mane as member, Families, Education, Preschool, and Promise Levy Oversight Committee, for a term to December 31, 2027.",
+          "position": "5.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17390",
+              "name": "Appt 03579"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125372/vote",
+              "name": "Vote on Appointment of Amruta Mane as member, Families, Education, Preschool, and Promis",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17390",
+                  "name": "Appt 03579"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125373",
+          "name": "Appointment of Sofia Michelakis as member, Families, Education, Preschool, and Promise Levy Oversight Committee, for a term to December 31, 2027.",
+          "position": "6.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17389",
+              "name": "Appt 03580"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125373/vote",
+              "name": "Vote on Appointment of Sofia Michelakis as member, Families, Education, Preschool, and P",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17389",
+                  "name": "Appt 03580"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125374",
+          "name": "Appointment of Girard Montejo-Thompson as member, Families, Education, Preschool, and Promise Levy Oversight Committee, for a term to December 31, 2027.",
+          "position": "7.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17384",
+              "name": "Appt 03581"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125374/vote",
+              "name": "Vote on Appointment of Girard Montejo-Thompson as member, Families, Education, Preschool",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17384",
+                  "name": "Appt 03581"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125375",
+          "name": "Appointment of Jessica Tollenaar Cafferty as member, Families, Education, Preschool, and Promise Levy Oversight Committee, for a term to December 31, 2028.",
+          "position": "8.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17380",
+              "name": "Appt 03582"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125375/vote",
+              "name": "Vote on Appointment of Jessica Tollenaar Cafferty as member, Families, Education, Presch",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17380",
+                  "name": "Appt 03582"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125376",
+          "name": "Appointment of Gabriel de los Angeles as member, Families, Education, Preschool, and Promise Levy Oversight Committee, for a term to December 31, 2028.",
+          "position": "9.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17388",
+              "name": "Appt 03583"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125376/vote",
+              "name": "Vote on Appointment of Gabriel de los Angeles as member, Families, Education, Preschool,",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17388",
+                  "name": "Appt 03583"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125377",
+          "name": "Appointment of Fathima Garcia as member, Families, Education, Preschool, and Promise Levy Oversight Committee, for a term to December 31, 2028.",
+          "position": "10.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17385",
+              "name": "Appt 03584"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125377/vote",
+              "name": "Vote on Appointment of Fathima Garcia as member, Families, Education, Preschool, and Pro",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17385",
+                  "name": "Appt 03584"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125378",
+          "name": "Appointment of Lizbet Huizar as member, Families, Education, Preschool, and Promise Levy Oversight Committee, for a term to December 31, 2028.",
+          "position": "11.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17381",
+              "name": "Appt 03585"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125378/vote",
+              "name": "Vote on Appointment of Lizbet Huizar as member, Families, Education, Preschool, and Prom",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17381",
+                  "name": "Appt 03585"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125379",
+          "name": "Appointment of Erica K. Johnson as member, Families, Education, Preschool, and Promise Levy Oversight Committee, for a term to December 31, 2028.",
+          "position": "12.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17387",
+              "name": "Appt 03586"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125379/vote",
+              "name": "Vote on Appointment of Erica K. Johnson as member, Families, Education, Preschool, and P",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17387",
+                  "name": "Appt 03586"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125380",
+          "name": "Appointment of Zamzam Mohamed as member, Families, Education, Preschool, and Promise Levy Oversight Committee, for a term to December 31, 2028.",
+          "position": "13.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17382",
+              "name": "Appt 03587"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125380/vote",
+              "name": "Vote on Appointment of Zamzam Mohamed as member, Families, Education, Preschool, and Pro",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17382",
+                  "name": "Appt 03587"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125381",
+          "name": "Appointment of James Williams as member, Families, Education, Preschool, and Promise Levy Oversight Committee, for a term to December 31, 2028.",
+          "position": "14.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17383",
+              "name": "Appt 03588"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125381/vote",
+              "name": "Vote on Appointment of James Williams as member, Families, Education, Preschool, and Pro",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17383",
+                  "name": "Appt 03588"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125382",
+          "name": "Reappointment of Joe Krentz as member, Ballard Avenue Landmark District Board, for a term to June 30, 2028.",
+          "position": "15.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17354",
+              "name": "Appt 03589"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125382/vote",
+              "name": "Vote on Reappointment of Joe Krentz as member, Ballard Avenue Landmark District Board, f",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17354",
+                  "name": "Appt 03589"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125383",
+          "name": "Appointment of Leslie Mehren as member, Ballard Avenue Landmark District Board, for a term to June 30, 2028.",
+          "position": "16.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17353",
+              "name": "Appt 03590"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125383/vote",
+              "name": "Vote on Appointment of Leslie Mehren as member, Ballard Avenue Landmark District Board, ",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17353",
+                  "name": "Appt 03590"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125384",
+          "name": "Appointment of Dan Sloat as member, Landmarks Preservation Board, for a term to August 14, 2028.",
+          "position": "17.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17161",
+              "name": "Appt 03591"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125384/vote",
+              "name": "Vote on Appointment of Dan Sloat as member, Landmarks Preservation Board, for a term to ",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17161",
+                  "name": "Appt 03591"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125385",
+          "name": "Appointment of Huy Pham as member, International Special Review District Board, for a term to December 31, 2027.",
+          "position": "18.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17214",
+              "name": "Appt 03592"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125385/vote",
+              "name": "Vote on Appointment of Huy Pham as member, International Special Review District Board, ",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17214",
+                  "name": "Appt 03592"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125386",
+          "name": "Reappointment of Rachelle C. Olden as member, Community Involvement Commission, for a term to May 31, 2028.",
+          "position": "19.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17393",
+              "name": "Appt 03593"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125386/vote",
+              "name": "Vote on Reappointment of Rachelle C. Olden as member, Community Involvement Commission, ",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17393",
+                  "name": "Appt 03593"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125387",
+          "name": "COMMITTEE REPORTS",
+          "position": "H."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125388",
+          "name": "CITY COUNCIL:",
+          "position": 31
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125389",
+          "name": "A resolution requesting the Code Reviser to reformat tables within the Seattle Municipal Code to comply with federal accessibility guidelines.",
+          "position": "1.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17349",
+              "name": "Res 32214"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125389/vote",
+              "name": "Vote on A resolution requesting the Code Reviser to reformat tables within the Seattle M",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17349",
+                  "name": "Res 32214"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125390",
+          "name": "LIBRARIES, EDUCATION, AND NEIGHBORHOODS COMMITTEE:",
+          "position": 33
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125408",
+          "name": "An ordinance relating to historic preservation; imposing controls upon the Wilde-Streatfield House, a landmark designated by the Landmarks Preservation Board under Chapter 25.12 of the Seattle Municipal Code, and adding it to the Table of Historical Landmarks contained in Chapter 25.32 of the Seattl",
+          "position": "2.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17037",
+              "name": "CB 121274"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125408/vote",
+              "name": "Vote on An ordinance relating to historic preservation; imposing controls upon the Wilde",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17037",
+                  "name": "CB 121274"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125409",
+          "name": "AN ORDINANCE relating to historic preservation; imposing controls upon the Burwell House, a landmark designated by the Landmarks Preservation Board under Chapter 25.12 of the Seattle Municipal Code, and adding it to the Table of Historical Landmarks contained in Chapter 25.32 of the Seattle Municipa",
+          "position": "3.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/16256",
+              "name": "CB 121273"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125409/vote",
+              "name": "Vote on AN ORDINANCE relating to historic preservation; imposing controls upon the Burwe",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/16256",
+                  "name": "CB 121273"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125410",
+          "name": "ITEMS REMOVED FROM CONSENT CALENDAR",
+          "position": "I."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125411",
+          "name": "ADOPTION OF OTHER RESOLUTIONS",
+          "position": "J."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125412",
+          "name": "OTHER BUSINESS",
+          "position": "K."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125413",
+          "name": "ADJOURNMENT",
+          "position": "L."
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125441",
+          "name": "August 11, 2026",
+          "position": "1.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17459",
+              "name": "Min 580"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125441/vote",
+              "name": "Vote on August 11, 2026",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17459",
+                  "name": "Min 580"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125442",
+          "name": "An ordinance appropriating money to pay certain claims for the week of August 3, 2026, through August 7, 2026, and ordering the payment thereof; and ratifying and confirming certain prior acts.",
+          "position": "2.",
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17422",
+              "name": "CB 121277"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125442/vote",
+              "name": "Vote on An ordinance appropriating money to pay certain claims for the week of August 3,",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17422",
+                  "name": "CB 121277"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125444",
+          "name": "August 18, 2026",
+          "position": 42,
+          "result": "adopted",
+          "about": [
+            {
+              "@id": "https://seattle.legistar.com/id/legislation/17458",
+              "name": "IRC 536"
+            }
+          ],
+          "voteEvent": [
+            {
+              "@type": "VoteEvent",
+              "@id": "https://seattle.legistar.com/id/meeting/6865/item/125444/vote",
+              "name": "Vote on August 18, 2026",
+              "organizer": {
+                "@id": "https://seattle.legistar.com/id/organization/city-council"
+              },
+              "result": "passed",
+              "count": [
+                {
+                  "option": "yes",
+                  "value": 5
+                }
+              ],
+              "vote": [
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/joy-hollingsworth",
+                    "name": "Joy Hollingsworth"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/robert-kettle",
+                    "name": "Robert Kettle"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/eddie-lin",
+                    "name": "Eddie Lin"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/alexis-mercedes-rinck",
+                    "name": "Alexis Mercedes Rinck"
+                  },
+                  "option": "yes"
+                },
+                {
+                  "@type": "Vote",
+                  "voter": {
+                    "@id": "https://seattle.legistar.com/id/person/maritza-rivera",
+                    "name": "Maritza Rivera"
+                  },
+                  "option": "yes"
+                }
+              ],
+              "about": [
+                {
+                  "@id": "https://seattle.legistar.com/id/legislation/17458",
+                  "name": "IRC 536"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6865/item/125487",
+          "name": " _____________________________________________________ Jodee Schwinn, Deputy City Clerk Signed by me in Open Session, upon approval of the Council, on September 15, 2026. _____________________________________________________ Joy Hollingsworth, Council President of the City Council ",
+          "position": 43
+        }
+      ]
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/meeting/6862",
+      "@type": "Meeting",
+      "name": "Council Briefing, 2026-08-17",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "6862"
+        }
+      ],
+      "organizer": {
+        "@id": "https://seattle.legistar.com/id/organization/council-briefing",
+        "name": "Council Briefing"
+      },
+      "eventStatus": "EventCancelled",
+      "startDate": "2026-08-17T14:00:00-07:00",
+      "description": "Cancellation Notice",
+      "url": "https://seattle.legistar.com/MeetingDetail.aspx?LEGID=6862&GID=393&G=FFE3B678-CEF6-4197-84AC-5204EA4CFC0C",
+      "agendaDocument": "https://legistar2.granicus.com/seattle/meetings/2026/8/6862_A_Council_Briefing_26-08-17_Council_Briefing.pdf",
+      "agendaItem": [
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6862/item/125315",
+          "name": "The Council Briefing meeting scheduled for August 17, 2026, has been cancelled.",
+          "position": 1
+        }
+      ]
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/meeting/6851",
+      "@type": "Meeting",
+      "name": "Governance and Utilities Committee, 2026-08-13",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "6851"
+        }
+      ],
+      "organizer": {
+        "@id": "https://seattle.legistar.com/id/organization/governance-and-utilities-committee",
+        "name": "Governance and Utilities Committee"
+      },
+      "eventStatus": "EventCancelled",
+      "startDate": "2026-08-13T09:30:00-07:00",
+      "description": "Cancellation Notice",
+      "url": "https://seattle.legistar.com/MeetingDetail.aspx?LEGID=6851&GID=393&G=FFE3B678-CEF6-4197-84AC-5204EA4CFC0C",
+      "agendaDocument": "https://legistar2.granicus.com/seattle/meetings/2026/8/6851_A_Governance_and_Utilities_Committee_26-08-13_Committee_Agenda.pdf",
+      "agendaItem": [
+        {
+          "@type": "AgendaItem",
+          "@id": "https://seattle.legistar.com/id/meeting/6851/item/125240",
+          "name": "The Governance and Utilities Committee meeting scheduled for August 13, 2026, has been cancelled.",
+          "position": 1
+        }
+      ]
+    }
+  ]
+}

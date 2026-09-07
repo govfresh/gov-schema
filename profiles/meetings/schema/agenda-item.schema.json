@@ -5,30 +5,76 @@
   "description": "One numbered piece of business at a meeting. Minted as a subclass of schema:ListItem, which already supplies ordering. An agenda item is the hinge between the meetings profile and the code profile: 'about' points at the Legislation under consideration, so a law's passage can be traced to the sitting that passed it and the vote that carried it.",
   "type": "object",
   "properties": {
-    "@id": {"type": "string", "format": "iri"},
-    "@type": {"const": "AgendaItem"},
-    "name": {"type": "string"},
-    "description": {"type": "string"},
-    "position": {"type": "integer", "description": "Order on the agenda. Real schema.org ListItem property."},
-    "identifier": {"type": "array", "items": {"$ref": "../_core/identifier.schema.json"}},
+    "@id": {
+      "type": "string",
+      "format": "iri"
+    },
+    "@type": {
+      "const": "AgendaItem"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "position": {
+      "type": [
+        "integer",
+        "string"
+      ],
+      "description": "Order on the agenda. schema:position ranges over Integer or Text, and real agenda numbering is frequently alphanumeric - '3.', 'A.', '2a.' - so a string is valid. Use the publisher's own agenda number where one exists; fall back to an ordinal only when it does not."
+    },
+    "identifier": {
+      "type": "array",
+      "items": {
+        "$ref": "../_core/identifier.schema.json"
+      }
+    },
     "about": {
       "type": "array",
-      "items": {"$ref": "../_core/reference.schema.json"},
+      "items": {
+        "$ref": "../_core/reference.schema.json"
+      },
       "description": "The Legislation under consideration, where the item concerns one. The join to the code profile."
     },
     "result": {
       "type": "string",
       "description": "What the body decided. Absent means not yet decided.",
-      "enum": ["adopted", "rejected", "deferred", "withdrawn", "referred", "amended", "noAction", "received"]
+      "enum": [
+        "adopted",
+        "rejected",
+        "deferred",
+        "withdrawn",
+        "referred",
+        "amended",
+        "noAction",
+        "received"
+      ]
     },
     "voteEvent": {
       "type": "array",
-      "items": {"$ref": "vote-event.schema.json"},
+      "items": {
+        "$ref": "vote-event.schema.json"
+      },
       "description": "Votes taken on this item. More than one is normal: an amendment, then the main motion."
     },
-    "attachment": {"type": "array", "items": {"type": "string", "format": "iri"}},
-    "isPartOf": {"$ref": "../_core/reference.schema.json", "description": "The Meeting, when the item is published standalone."}
+    "attachment": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "iri"
+      }
+    },
+    "isPartOf": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The Meeting, when the item is published standalone."
+    }
   },
-  "required": ["@type", "name", "position"],
+  "required": [
+    "@type",
+    "name",
+    "position"
+  ],
   "additionalProperties": true
 }

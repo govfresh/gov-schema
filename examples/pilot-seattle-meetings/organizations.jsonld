@@ -1,0 +1,141 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://seattle.legistar.com/id/organization/human-services-labor-and-economic-development-committee",
+      "@type": "GovernmentOrganization",
+      "name": "Human Services, Labor, and Economic Development Committee",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "279"
+        }
+      ],
+      "organizationClassification": "committee",
+      "areaServed": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/organization/transportation-waterfront-and-seattle-center-committee",
+      "@type": "GovernmentOrganization",
+      "name": "Transportation, Waterfront, and Seattle Center Committee",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "282"
+        }
+      ],
+      "organizationClassification": "committee",
+      "areaServed": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/organization/parks-and-city-light-committee",
+      "@type": "GovernmentOrganization",
+      "name": "Parks and City Light Committee",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "281"
+        }
+      ],
+      "organizationClassification": "committee",
+      "areaServed": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/organization/land-use-and-sustainability-committee",
+      "@type": "GovernmentOrganization",
+      "name": "Land Use and Sustainability Committee",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "280"
+        }
+      ],
+      "organizationClassification": "committee",
+      "areaServed": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/organization/finance-native-communities-and-tribal-governments-committee",
+      "@type": "GovernmentOrganization",
+      "name": "Finance, Native Communities, and Tribal Governments Committee",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "265"
+        }
+      ],
+      "organizationClassification": "committee",
+      "areaServed": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/organization/city-council",
+      "@type": "GovernmentOrganization",
+      "name": "City Council",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "138"
+        }
+      ],
+      "organizationClassification": "legislature",
+      "areaServed": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/organization/council-briefing",
+      "@type": "GovernmentOrganization",
+      "name": "Council Briefing",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "211"
+        }
+      ],
+      "organizationClassification": "legislature",
+      "areaServed": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/organization/governance-and-utilities-committee",
+      "@type": "GovernmentOrganization",
+      "name": "Governance and Utilities Committee",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "283"
+        }
+      ],
+      "organizationClassification": "committee",
+      "areaServed": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      }
+    }
+  ]
+}

@@ -1,0 +1,677 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17310",
+      "@type": "Legislation",
+      "name": "CB 121266",
+      "legislationIdentifier": "CB 121266",
+      "legislationType": "ordinance",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17310"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6864"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17368",
+      "@type": "Legislation",
+      "name": "CB 121267",
+      "legislationIdentifier": "CB 121267",
+      "legislationType": "ordinance",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17368"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6864"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17342",
+      "@type": "Legislation",
+      "name": "CB 121270",
+      "legislationIdentifier": "CB 121270",
+      "legislationType": "ordinance",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17342"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6864"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17398",
+      "@type": "Legislation",
+      "name": "CB 121272",
+      "legislationIdentifier": "CB 121272",
+      "legislationType": "ordinance",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17398"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6864"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17395",
+      "@type": "Legislation",
+      "name": "CB 121275",
+      "legislationIdentifier": "CB 121275",
+      "legislationType": "ordinance",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17395"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6864"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17407",
+      "@type": "Legislation",
+      "name": "Res 32215",
+      "legislationIdentifier": "Res 32215",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17407"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6859"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17455",
+      "@type": "Legislation",
+      "name": "Inf 2944",
+      "legislationIdentifier": "Inf 2944",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17455"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6859"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17454",
+      "@type": "Legislation",
+      "name": "Inf 2943",
+      "legislationIdentifier": "Inf 2943",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17454"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6859"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17402",
+      "@type": "Legislation",
+      "name": "CB 121276",
+      "legislationIdentifier": "CB 121276",
+      "legislationType": "ordinance",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17402"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6866"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17379",
+      "@type": "Legislation",
+      "name": "Appt 03577",
+      "legislationIdentifier": "Appt 03577",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17379"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17386",
+      "@type": "Legislation",
+      "name": "Appt 03578",
+      "legislationIdentifier": "Appt 03578",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17386"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17390",
+      "@type": "Legislation",
+      "name": "Appt 03579",
+      "legislationIdentifier": "Appt 03579",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17390"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17389",
+      "@type": "Legislation",
+      "name": "Appt 03580",
+      "legislationIdentifier": "Appt 03580",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17389"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17384",
+      "@type": "Legislation",
+      "name": "Appt 03581",
+      "legislationIdentifier": "Appt 03581",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17384"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17380",
+      "@type": "Legislation",
+      "name": "Appt 03582",
+      "legislationIdentifier": "Appt 03582",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17380"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17388",
+      "@type": "Legislation",
+      "name": "Appt 03583",
+      "legislationIdentifier": "Appt 03583",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17388"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17385",
+      "@type": "Legislation",
+      "name": "Appt 03584",
+      "legislationIdentifier": "Appt 03584",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17385"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17381",
+      "@type": "Legislation",
+      "name": "Appt 03585",
+      "legislationIdentifier": "Appt 03585",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17381"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17387",
+      "@type": "Legislation",
+      "name": "Appt 03586",
+      "legislationIdentifier": "Appt 03586",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17387"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17382",
+      "@type": "Legislation",
+      "name": "Appt 03587",
+      "legislationIdentifier": "Appt 03587",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17382"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17383",
+      "@type": "Legislation",
+      "name": "Appt 03588",
+      "legislationIdentifier": "Appt 03588",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17383"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17354",
+      "@type": "Legislation",
+      "name": "Appt 03589",
+      "legislationIdentifier": "Appt 03589",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17354"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17353",
+      "@type": "Legislation",
+      "name": "Appt 03590",
+      "legislationIdentifier": "Appt 03590",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17353"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17161",
+      "@type": "Legislation",
+      "name": "Appt 03591",
+      "legislationIdentifier": "Appt 03591",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17161"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17214",
+      "@type": "Legislation",
+      "name": "Appt 03592",
+      "legislationIdentifier": "Appt 03592",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17214"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17393",
+      "@type": "Legislation",
+      "name": "Appt 03593",
+      "legislationIdentifier": "Appt 03593",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17393"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17349",
+      "@type": "Legislation",
+      "name": "Res 32214",
+      "legislationIdentifier": "Res 32214",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17349"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17037",
+      "@type": "Legislation",
+      "name": "CB 121274",
+      "legislationIdentifier": "CB 121274",
+      "legislationType": "ordinance",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17037"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/16256",
+      "@type": "Legislation",
+      "name": "CB 121273",
+      "legislationIdentifier": "CB 121273",
+      "legislationType": "ordinance",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "16256"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17459",
+      "@type": "Legislation",
+      "name": "Min 580",
+      "legislationIdentifier": "Min 580",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17459"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17422",
+      "@type": "Legislation",
+      "name": "CB 121277",
+      "legislationIdentifier": "CB 121277",
+      "legislationType": "ordinance",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17422"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    },
+    {
+      "@id": "https://seattle.legistar.com/id/legislation/17458",
+      "@type": "Legislation",
+      "name": "IRC 536",
+      "legislationIdentifier": "IRC 536",
+      "legislationType": "resolution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar",
+          "value": "17458"
+        }
+      ],
+      "legislationJurisdiction": {
+        "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+        "name": "Seattle"
+      },
+      "enactedAt": {
+        "@id": "https://seattle.legistar.com/id/meeting/6865"
+      }
+    }
+  ]
+}

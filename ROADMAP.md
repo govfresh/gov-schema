@@ -55,6 +55,18 @@ the property concerned, fees, and conditions.
 BLDS is US-only, so this profile needs an international identifier approach of the kind
 `_core` established.
 
+### Legistar adapter — DONE
+
+`tools/adapters/legistar.py` converts the live Legistar Web API. Seattle: 8 meetings, 76
+agenda items, 27 votes. It found `position` typed integer-only when real agenda numbers are
+`"3."` and `"A."` and schema:position ranges over Integer or Text - which made every real
+agenda item unrepresentable.
+
+Three things Legistar does not publish are now recorded rather than assumed: no
+`requiredMajority` on any vote, no timezone on any meeting (date and time are separate
+untimezoned fields), and no resolvable location or jurisdiction. See
+[examples/pilot-seattle-meetings/README.md](examples/pilot-seattle-meetings/README.md).
+
 ### `elections`
 **Depends on:** `org` · **Standard:** NIST SP 1500-100, VIP
 

@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://seattle.legistar.com/id/jurisdiction/seattle",
+      "@type": "City",
+      "name": "Seattle",
+      "governmentLevel": "municipal",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:legistar-client",
+          "value": "seattle"
+        }
+      ]
+    }
+  ]
+}
