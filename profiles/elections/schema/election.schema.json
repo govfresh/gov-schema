@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/elections/election.schema.json",
+  "title": "Election",
+  "description": "An electoral event on a given date, containing one or more contests. schema.org has no Election, Candidate, Ballot or constituency of any kind - only PoliticalParty, which is used - so this profile is minted over NIST SP 1500-100 and VIP. Closes a loop left open by the org profile: org records that a Post is filled by election and how long a term runs, but nothing about the election that produced the officeholder.",
+  "type": "object",
+  "properties": {
+    "@context": {},
+    "@id": {"type": "string", "format": "iri"},
+    "@type": {"const": "Election"},
+    "name": {"type": "string"},
+    "description": {"type": "string"},
+    "url": {"type": "string", "format": "iri"},
+    "identifier": {"type": "array", "items": {"$ref": "../_core/identifier.schema.json"}},
+    "electionDate": {"type": "string", "format": "date", "description": "Polling day. Where voting spans several days, the final day."},
+    "electionType": {
+      "type": "string",
+      "enum": ["general", "primary", "runoff", "special", "byElection", "referendum", "recall", "indirect"]
+    },
+    "electionStatus": {
+      "type": "string",
+      "enum": ["scheduled", "completed", "cancelled", "postponed"]
+    },
+    "administeredBy": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The GovernmentOrganization running the election, which is frequently not the body being elected."
+    },
+    "jurisdiction": {"$ref": "../_core/reference.schema.json"},
+    "contest": {"type": "array", "items": {"$ref": "../_core/reference.schema.json"}},
+    "registeredVoters": {"type": "integer", "minimum": 0},
+    "ballotsCast": {
+      "type": "integer", "minimum": 0,
+      "description": "Ballots cast across the election. With registeredVoters this yields turnout; publishing turnout as a derived percentage instead loses the ability to recompute it on a corrected register."
+    },
+    "sourceDataset": {"type": "string", "format": "iri"}
+  },
+  "required": ["@id", "@type", "name", "electionDate", "electionType", "jurisdiction"],
+  "additionalProperties": true
+}

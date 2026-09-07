@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/elections/contest.schema.json",
+  "title": "Contest",
+  "description": "One race or question on the ballot: an office to fill, or a measure to decide. The unit at which results are actually reported. electoralSystem is required because a result cannot be interpreted without it - 40% of the vote wins outright under first-past-the-post, triggers a runoff under a two-round system, and means something different again under a party list. A profile that assumed one system would not travel outside the country it was written in.",
+  "type": "object",
+  "properties": {
+    "@context": {},
+    "@id": {
+      "type": "string",
+      "format": "iri"
+    },
+    "@type": {
+      "const": "Contest"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "identifier": {
+      "type": "array",
+      "items": {
+        "$ref": "../_core/identifier.schema.json"
+      }
+    },
+    "election": {
+      "$ref": "../_core/reference.schema.json"
+    },
+    "contestType": {
+      "type": "string",
+      "enum": [
+        "office",
+        "ballotMeasure"
+      ]
+    },
+    "electoralSystem": {
+      "type": "string",
+      "description": "How votes translate into outcomes. termCode from the ElectoralSystem code list.",
+      "enum": [
+        "fptp",
+        "blockVote",
+        "twoRound",
+        "partyList",
+        "stv",
+        "mmp",
+        "parallel",
+        "rankedChoice",
+        "approval",
+        "indirect"
+      ]
+    },
+    "post": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The Post being filled, from the org profile. This is the join that closes the loop: an election fills an office, and the winner's Role in that office begins."
+    },
+    "representsJurisdiction": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The district or ward the contest covers, where it is not the whole area."
+    },
+    "seatsToFill": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "More than one under block vote, party list and STV."
+    },
+    "candidacy": {
+      "type": "array",
+      "items": {
+        "$ref": "candidacy.schema.json"
+      }
+    },
+    "ballotOption": {
+      "type": "array",
+      "description": "For a ballot measure: the options put to voters. Kept separate from candidacy because a proposition is not a person.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "@type": {
+            "const": "BallotOption"
+          },
+          "name": {
+            "type": "string"
+          },
+          "voteCount": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "prevailed": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "@type",
+          "name"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "validVotes": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "invalidVotes": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Spoiled and blank ballots. Reported separately because they are a real signal, and folding them into the total makes every share slightly wrong."
+    },
+    "totalVotes": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "sourceDataset": {
+      "type": "string",
+      "format": "iri"
+    }
+  },
+  "required": [
+    "@id",
+    "@type",
+    "name",
+    "election",
+    "contestType",
+    "electoralSystem"
+  ],
+  "additionalProperties": true
+}

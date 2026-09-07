@@ -566,7 +566,7 @@
     },
     "party": {
       "@id": "gs:party",
-      "@container": "@set"
+      "@type": "@id"
     },
     "supplier": {
       "@id": "gs:supplier",
@@ -905,6 +905,85 @@
     "validUntil": {
       "@id": "schema:validUntil",
       "@type": "schema:Date"
-    }
+    },
+    "Election": "gs:Election",
+    "Contest": "gs:Contest",
+    "Candidacy": "gs:Candidacy",
+    "BallotOption": "gs:BallotOption",
+    "electionDate": {
+      "@id": "gs:electionDate",
+      "@type": "schema:Date"
+    },
+    "electionType": {
+      "@id": "gs:electionType",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/electtype/"
+      }
+    },
+    "electionStatus": {
+      "@id": "gs:electionStatus",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/electstatus/"
+      }
+    },
+    "electoralSystem": {
+      "@id": "gs:electoralSystem",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/electsys/"
+      }
+    },
+    "contestType": {
+      "@id": "gs:contestType",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/contesttype/"
+      }
+    },
+    "candidacyResult": {
+      "@id": "gs:candidacyResult",
+      "@type": "@vocab",
+      "@context": {
+        "@vocab": "https://schema.govfresh.com/v1/candresult/"
+      }
+    },
+    "administeredBy": {
+      "@id": "gs:administeredBy",
+      "@type": "@id"
+    },
+    "contest": {
+      "@id": "gs:contest",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "election": {
+      "@id": "gs:election",
+      "@type": "@id"
+    },
+    "seatsToFill": "gs:seatsToFill",
+    "candidacy": {
+      "@id": "gs:candidacy",
+      "@container": "@set"
+    },
+    "ballotOption": {
+      "@id": "gs:ballotOption",
+      "@container": "@set"
+    },
+    "candidate": {
+      "@id": "gs:candidate",
+      "@type": "@id"
+    },
+    "ballotName": "gs:ballotName",
+    "ballotOrder": "gs:ballotOrder",
+    "voteCount": "gs:voteCount",
+    "incumbent": "gs:incumbent",
+    "registeredVoters": "gs:registeredVoters",
+    "ballotsCast": "gs:ballotsCast",
+    "validVotes": "gs:validVotes",
+    "invalidVotes": "gs:invalidVotes",
+    "totalVotes": "gs:totalVotes",
+    "prevailed": "gs:prevailed"
   }
 }

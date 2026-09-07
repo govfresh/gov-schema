@@ -18,7 +18,7 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CORE = ROOT / "profiles" / "_core" / "schema"
-PROFILE_DIRS = [ROOT / "profiles" / d / "schema" for d in ("_core", "org", "code", "meetings", "requests", "budget", "procurement", "catalog", "alerts", "permits")]
+PROFILE_DIRS = [ROOT / "profiles" / d / "schema" for d in ("_core", "org", "code", "meetings", "requests", "budget", "procurement", "catalog", "alerts", "permits", "elections")]
 
 # @type -> schema file. Roles are validated where they are nested, not standalone.
 SCHEMA_FOR = {
@@ -52,6 +52,9 @@ SCHEMA_FOR = {
     "Dataset": "dataset.schema.json",
     "Alert": "alert.schema.json",
     "GovernmentPermit": "permit.schema.json",
+    "Election": "election.schema.json",
+    "Contest": "contest.schema.json",
+    "PoliticalParty": "political-party.schema.json",
 }
 
 
@@ -340,6 +343,56 @@ def main(argv):
                 f"request marked duplicate without saying of what: {nid}\n"
                 f"    set duplicateOf; a status note naming the other request cannot be followed"
             )
+
+    # --- elections ---------------------------------------------------------------
+    # Election returns that do not add up are the classic sign of a transcription
+    # error, and every vote share published from them is wrong. This is arithmetic,
+    # not interpretation.
+    for nid, node in entities.items():
+        types_ = node.get("@type")
+        types_ = types_ if isinstance(types_, list) else [types_]
+        if "Contest" not in types_:
+            continue
+
+        valid = node.get("validVotes")
+        invalid = node.get("invalidVotes")
+        total = node.get("totalVotes")
+
+        counted = [c.get("voteCount") for c in node.get("candidacy", [])
+                   if c.get("candidacyResult") not in ("withdrawn", "disqualified")]
+        counted += [o.get("voteCount") for o in node.get("ballotOption", [])]
+        counted = [v for v in counted if isinstance(v, int)]
+
+        if counted and valid is not None and sum(counted) != valid:
+            errors.append(
+                f"contest votes do not sum to validVotes: {nid}\n"
+                f"    entries total {sum(counted):,} but validVotes is {valid:,} "
+                f"(difference {valid - sum(counted):,})")
+
+        if valid is not None and invalid is not None and total is not None \
+                and valid + invalid != total:
+            errors.append(
+                f"valid + invalid does not equal totalVotes: {nid}\n"
+                f"    {valid:,} + {invalid:,} = {valid + invalid:,}, but totalVotes is {total:,}")
+
+        # A contest for an office must say which office.
+        if node.get("contestType") == "office" and not node.get("post"):
+            errors.append(
+                f"office contest does not say which post it fills: {nid}\n"
+                f"    set post; without it an election cannot be joined to the office it filled")
+
+        if node.get("contestType") == "ballotMeasure" and node.get("candidacy"):
+            errors.append(
+                f"ballot measure carries candidacies: {nid}\n"
+                f"    a proposition has ballotOption, not candidates")
+
+        elected = [c for c in node.get("candidacy", [])
+                   if c.get("candidacyResult") == "elected"]
+        seats = node.get("seatsToFill")
+        if seats and len(elected) > seats:
+            errors.append(
+                f"more candidates elected than seats available: {nid}\n"
+                f"    {len(elected)} elected for {seats} seat(s)")
 
     # --- permits ---------------------------------------------------------------
     # Permit dates are the basis of every processing-time statistic drawn from this
