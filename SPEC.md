@@ -6,8 +6,10 @@ schema.org with the domain standards that already won in each area, and it mints
 only where nothing suitable exists.
 
 The status of every term is explicit: a document that uses only schema.org vocabulary is
-readable by any schema.org consumer, and the `gs:` terms it adds are each declared as a
-subclass or subproperty of a schema.org term, so nothing is lost by ignoring them.
+readable by any schema.org consumer. The `gs:` terms it adds sit alongside schema.org: a class
+is a subclass of a schema.org class wherever one fits, and a property names the schema.org types
+it applies to and returns. A consumer that ignores the `gs:` terms still reads the rest of the
+document; it loses only the added detail.
 
 
 ## 1. Design rules
@@ -136,10 +138,11 @@ publishers in different countries.
 ## 3. Repository layout
 
 - `context/v1/context.jsonld` — the @context every instance imports; immutable once published
-- `vocabulary/schemagov.ttl` — gs: terms, each subClassOf/subPropertyOf a schema.org term
+- `vocabulary/schemagov.ttl` — gs: terms, each tied to schema.org by subclass or by the types it applies to
 - `profiles/_core/` — Jurisdiction · Organization · Person · Role · Identifier
-- `profiles/{org,code,meetings,requests,budget,procurement,catalog,alerts,permits,elections,services}/` — one directory per [domain profile](/profiles/)
+- `profiles/{org,code,meetings,requests,budget,procurement,catalog,alerts,permits,elections,services,projects}/` — one directory per [domain profile](/profiles/)
 - `examples/example-city/` — one coherent, cross-linked fixture set
+- `examples/_invalid/` — deliberately broken fixtures; `tools/check-invalid.py` fails unless each fault is caught
 - `crosswalks/` — mapping tables to the standards being profiled
 - `shapes/` — SHACL, for semantic validation
 - `tools/validate.py` — shape + reference-integrity checker
@@ -213,8 +216,9 @@ Every profile in the table above is specified, implemented, and validating.
 | `permits` | `GovernmentPermit` | [schema.org](/standards/schema-org/), [BLDS](/standards/blds/), national equivalents | <span class="badge text-bg-success">implemented</span> |
 | `elections` | `gs:Election`, `gs:Contest`, `gs:Candidacy`, `PoliticalParty` | [schema.org](/standards/schema-org/), [NIST SP 1500-100](/standards/nist-sp-1500-100/), VIP | <span class="badge text-bg-success">implemented</span> |
 | `services` | `GovernmentService` | [schema.org](/standards/schema-org/), [Open Referral / HSDS](/standards/open-referral-hsds/) | <span class="badge text-bg-success">implemented</span> |
+| `projects` | `gs:Project` (subclass of `Project`), `gs:Milestone`, `Article` | [schema.org](/standards/schema-org/), [OC4IDS](/standards/oc4ids/), [OCDS](/standards/ocds/), [GOV.UK Service Manual](/standards/gds-service-manual/) | <span class="badge text-bg-success">implemented</span> |
 
-All twelve profiles are implemented. `_core` is the shared dependency every other profile
+All thirteen profiles are implemented. `_core` is the shared dependency every other profile
 builds on; `code` and `meetings` are coupled (agenda items cite legislation, votes occur at
 meetings), and `procurement` cites `budget` lines. `requests` depends on no other profile,
 which is also why it tends to be the easiest first one for a publisher to adopt: most

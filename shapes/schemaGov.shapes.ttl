@@ -1,6 +1,7 @@
 @prefix sh:     <http://www.w3.org/ns/shacl#> .
 @prefix schema: <https://schema.org/> .
 @prefix gs:     <https://schema.govfresh.com/v1/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 
 ##  The semantic tier promised by SPEC section 4.
@@ -394,3 +395,67 @@ gs:ServiceAtLocationShape a sh:NodeShape ;
                 [ sh:class schema:CivicStructure ] [ sh:class schema:EventVenue ]
                 [ sh:class schema:Place ] ) ;
         sh:message "A service-at-location must point at a Facility." ] .
+
+#############################  Projects  #############################
+
+gs:ProjectShape a sh:NodeShape ;
+    sh:targetClass gs:Project ;
+
+    sh:property [
+        sh:path schema:parentOrganization ;
+        sh:maxCount 1 ;
+        sh:or ( [ sh:class schema:GovernmentOrganization ] [ sh:class schema:Organization ] ) ;
+        sh:message "The responsible organization must be an organization, not a place or a person." ] ;
+
+    sh:property [
+        sh:path schema:member ;
+        sh:or ( [ sh:class schema:GovernmentOrganization ] [ sh:class schema:Organization ] ) ;
+        sh:message "A participating organization must be an organization." ] ;
+
+    sh:property [
+        sh:path schema:funder ;
+        sh:or ( [ sh:class schema:GovernmentOrganization ] [ sh:class schema:Organization ] ) ;
+        sh:message "A funder must be an organization." ] ;
+
+    sh:property [
+        sh:path gs:projectPhase ;
+        sh:maxCount 1 ;
+        sh:class schema:DefinedTerm ;
+        sh:message "A project has at most one phase, and it must be a DefinedTerm. Phase is a term from a lifecycle scheme, not free text." ] ;
+
+    sh:property [
+        sh:path gs:produces ;
+        sh:node [ sh:property [ sh:path rdf:type ; sh:minCount 1 ] ] ;
+        sh:message "produces must point at something with a type (a service, dataset, application, facility or document)." ] ;
+
+    sh:sparql [
+        sh:message "A project's phase must belong to a lifecycle scheme: it needs inDefinedTermSet, or to be listed by a DefinedTermSet." ;
+        sh:prefixes schema: ;
+        sh:select """
+            SELECT $this WHERE {
+              $this <https://schema.govfresh.com/v1/projectPhase> ?phase .
+              FILTER NOT EXISTS { ?phase <https://schema.org/inDefinedTermSet> ?any }
+              FILTER NOT EXISTS { ?anyset <https://schema.org/hasDefinedTerm> ?phase }
+            }
+        """ ] ;
+
+    sh:sparql [
+        sh:message "A project's phase claims a lifecycle scheme that is not the one that lists the term." ;
+        sh:prefixes schema: ;
+        sh:select """
+            SELECT $this WHERE {
+              $this <https://schema.govfresh.com/v1/projectPhase> ?phase .
+              ?phase <https://schema.org/inDefinedTermSet> ?claimed .
+              ?set <https://schema.org/hasDefinedTerm> ?phase .
+              FILTER (?set != ?claimed)
+            }
+        """ ] .
+
+gs:MilestoneShape a sh:NodeShape ;
+    sh:targetClass gs:Milestone ;
+    sh:property [
+        sh:path schema:about ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class gs:Project ;
+        sh:message "A milestone must be about exactly one Project." ] .

@@ -516,6 +516,55 @@
       "@id": "gs:legislation",
       "@type": "@id"
     },
+    "Project": {
+      "@id": "gs:Project",
+      "@context": {
+        "status": {
+          "@id": "gs:projectStatus",
+          "@type": "@vocab",
+          "@context": {
+            "@vocab": "https://schema.govfresh.com/v1/projstatus/"
+          }
+        }
+      }
+    },
+    "Milestone": {
+      "@id": "gs:Milestone",
+      "@context": {
+        "status": {
+          "@id": "gs:milestoneStatus",
+          "@type": "@vocab",
+          "@context": {
+            "@vocab": "https://schema.govfresh.com/v1/milestonestatus/"
+          }
+        }
+      }
+    },
+    "phase": {
+      "@id": "gs:projectPhase",
+      "@type": "@id"
+    },
+    "expectedEndDate": {
+      "@id": "gs:expectedEndDate",
+      "@type": "schema:Date"
+    },
+    "dueDate": {
+      "@id": "gs:dueDate",
+      "@type": "schema:Date"
+    },
+    "dateMet": {
+      "@id": "gs:dateMet",
+      "@type": "schema:Date"
+    },
+    "produces": {
+      "@id": "gs:produces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "broader": {
+      "@id": "skos:broader",
+      "@type": "@id"
+    },
     "ContractingProcess": "gs:ContractingProcess",
     "Tender": {
       "@id": "gs:Tender",

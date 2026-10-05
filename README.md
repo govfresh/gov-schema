@@ -27,6 +27,7 @@ model and defines a schema.org projection for discovery.
 | Permits | `GovernmentPermit` | BLDS, national equivalents |
 | Elections | *projection only* | NIST SP 1500-100, VIP |
 | Services | `GovernmentService`, `PeopleAudience` | Open Referral / HSDS |
+| Projects | `gs:Project` (subclass of `Project`), `gs:Milestone`, `Article` | OC4IDS, OCDS, GOV.UK Service Manual |
 
 ## Two rules that shape everything
 

@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/projects/milestone.schema.json",
+  "title": "Milestone",
+  "description": "A dated point of progress in a project. Linked to its project with schema:about (schema:superEvent accepts only an Event). Status and dates follow the Open Contracting Data Standard milestone: dueDate is when it is scheduled, dateMet is when it was reached.",
+  "standards": [
+    "ocds"
+  ],
+  "type": "object",
+  "properties": {
+    "@context": {},
+    "@id": {
+      "type": "string",
+      "format": "iri",
+      "description": "This milestone's own dereferenceable identifier."
+    },
+    "@type": {
+      "const": "Milestone"
+    },
+    "name": {
+      "type": "string",
+      "description": "The milestone's title, e.g. 'Public beta'."
+    },
+    "description": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "format": "iri"
+    },
+    "about": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The `Project` this milestone belongs to."
+    },
+    "status": {
+      "type": "string",
+      "description": "termCode from the `MilestoneStatus` code list (OCDS). Not the project status vocabulary.",
+      "enum": [
+        "scheduled",
+        "met",
+        "notMet",
+        "partiallyMet"
+      ]
+    },
+    "dueDate": {
+      "type": "string",
+      "format": "date",
+      "description": "When the milestone is scheduled to be reached."
+    },
+    "dateMet": {
+      "type": "string",
+      "format": "date",
+      "description": "When the milestone was actually reached."
+    }
+  },
+  "required": [
+    "@id",
+    "@type",
+    "name",
+    "about"
+  ],
+  "additionalProperties": true
+}

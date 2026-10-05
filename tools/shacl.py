@@ -34,6 +34,14 @@ def build_graph(paths):
         doc = json.loads(p.read_text())
         doc["@context"] = ctx
         g.parse(data=json.dumps(doc), format="json-ld")
+
+    # Code lists are published terms, not instance data, so fixtures do not redeclare them.
+    # Loading them lets a shape check what a reference to a term resolves to - for
+    # instance that a project's phase is a term in a lifecycle scheme.
+    for p in sorted((ROOT / "profiles").glob("*/codelists/*.json")):
+        doc = json.loads(p.read_text())
+        doc["@context"] = ctx
+        g.parse(data=json.dumps(doc), format="json-ld")
     return g
 
 

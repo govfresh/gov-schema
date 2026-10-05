@@ -424,6 +424,46 @@ resolve to 15 real departments.
 
 See [examples/pilot-govuk-services/README.md](examples/pilot-govuk-services/README.md).
 
+## `projects` and the NYC capital projects adapter — DONE
+
+**Depends on:** `_core` · **Standards:** OC4IDS, OCDS milestones, GOV.UK Service Manual · **schema.org:** `Project`, `DefinedTerm`, `Article`
+
+`tools/adapters/projects-nyc-capital.py` converts NYC Open Data Capital Projects: 363 projects
+and 44 agencies, all passing every tier. Status and lifecycle phase are separate properties,
+and a project references a lifecycle scheme by identifier, so New York's own phases (Design,
+Construction Procurement, Construction) needed no change to the profile.
+
+Findings:
+
+- **The dataset is 24 quarterly snapshots, not a project list.** Reading the row count as a
+  project count gave 3,320; there are 363 projects in the latest snapshot. Converting every
+  row produced hundreds of duplicate `@id`s.
+- **The profile holds no history.** Project 101's forecast completion moved from 2018 to 2023
+  across snapshots, and there is nowhere to put the earlier values.
+- **The newest snapshot is 2023-01-01.** `status: active` is true only as of that date. Each
+  project now carries an optional `dateModified` so the age of a record is visible.
+- **The source mixes kind into phase.** `IT` appears in the phase column; the adapter omits it.
+- **The source has no status.** `active` comes from the dataset's definition, not from a row.
+
+The second pilot, `tools/adapters/projects-govuk-assessments.py`, converts the 492 GOV.UK Service
+Standard assessment reports into 389 services, each assessment a milestone and an update. It
+tested the `DigitalServicePhase` scheme: alpha, beta and live covered every assessed stage.
+Findings:
+
+- **The feed has no service identifier, status or owning department.** Services are recovered by
+  following "previous assessment" links, and the owner comes from the report's own table.
+- **Phase is where a service was, not where it is.** Of 205 services last assessed at alpha, 126
+  passed and probably moved on without a later report. `dateModified` carries the assessment date.
+- **An assessment has one date and a verdict.** The `dueDate` / `dateMet` pair was written for
+  planned milestones, so an assessment fills both with the same date.
+- **Provider names are free text** (`DWP`, `Department for Work and Pensions (DWP)`, ...).
+  Resolving them against GOV.UK's own organisations register merged 266 of 352 into 55 official
+  bodies, using the same `@id` as the services pilot. NYC has no such register, so its agency
+  codes stay codes. A register is a per-publisher resource, not something `_core` can supply.
+
+See [examples/pilot-nyc-capital/README.md](examples/pilot-nyc-capital/README.md) and
+[examples/pilot-govuk-assessments/README.md](examples/pilot-govuk-assessments/README.md).
+
 ## The honest risk
 
 A profile set with one fictional example city is a demo, not an adopted standard. Profiles

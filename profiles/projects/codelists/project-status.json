@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@id": "https://schema.govfresh.com/v1/ProjectStatus",
+  "@type": "DefinedTermSet",
+  "name": "Project status",
+  "description": "Whether work on a project is happening now. It is kept coarse on purpose. It does not say where the project is in its lifecycle (that is the phase) or how well it is going (health, not covered). A digital service in beta and a bridge under construction are both 'active'. Workflow states such as 'blocked' or 'awaiting approval' belong in the project tool, not here. The schema.org action status list is not used: it is made for actions and has no paused, cancelled or proposed. The Open Contracting for Infrastructure standard puts lifecycle stages and 'cancelled' in one list. Here only 'cancelled' is a status.",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:projstatus/proposed",
+      "termCode": "proposed",
+      "name": "Proposed",
+      "description": "Put forward, but not yet agreed or funded."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:projstatus/planned",
+      "termCode": "planned",
+      "name": "Planned",
+      "description": "Approved, but work has not started."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:projstatus/active",
+      "termCode": "active",
+      "name": "Active",
+      "description": "Work is under way."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:projstatus/paused",
+      "termCode": "paused",
+      "name": "Paused",
+      "description": "Started, then stopped. It is expected to start again."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:projstatus/completed",
+      "termCode": "completed",
+      "name": "Completed",
+      "description": "Finished. What it produced may still be in use."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:projstatus/cancelled",
+      "termCode": "cancelled",
+      "name": "Cancelled",
+      "description": "Stopped for good before it finished."
+    }
+  ]
+}

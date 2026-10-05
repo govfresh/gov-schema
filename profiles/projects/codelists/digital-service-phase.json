@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@id": "https://schema.govfresh.com/v1/DigitalServicePhase",
+  "@type": "DefinedTermSet",
+  "name": "Digital service phase",
+  "description": "The life of a digital government service, as the UK GOV.UK Service Manual describes it: discovery, alpha, beta, live and retirement. It is for digital services only. It is not a lifecycle for projects in general. Other kinds of work use other schemes, and a project points to its own scheme by identifier. 'Retired' names the state. The Service Manual's 'retirement' names the act. Private beta and public beta sit inside the beta phase in the Service Manual. Here they are narrower terms of beta. That is a local choice, not a separate GOV.UK phase. The position number gives the order, so an application can draw a timeline. A narrower term comes after the term it narrows.",
+  "url": "https://www.gov.uk/service-manual/agile-delivery",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:dsphase/discovery",
+      "termCode": "discovery",
+      "name": "Discovery",
+      "description": "Finding out what users need and whether the problem is worth solving.",
+      "position": 1
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:dsphase/alpha",
+      "termCode": "alpha",
+      "name": "Alpha",
+      "description": "Testing ways to solve the problem with prototypes.",
+      "position": 2
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:dsphase/beta",
+      "termCode": "beta",
+      "name": "Beta",
+      "description": "Building the service for real and testing it with users.",
+      "position": 3
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:dsphase/private-beta",
+      "termCode": "private-beta",
+      "name": "Private beta",
+      "description": "Beta with a small group of invited users. Narrower than beta.",
+      "position": 4,
+      "broader": "gs:dsphase/beta"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:dsphase/public-beta",
+      "termCode": "public-beta",
+      "name": "Public beta",
+      "description": "Beta open to anyone who needs the service. It starts after a beta assessment. Narrower than beta.",
+      "position": 5,
+      "broader": "gs:dsphase/beta"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:dsphase/live",
+      "termCode": "live",
+      "name": "Live",
+      "description": "Open to everyone and run as a normal service. It keeps improving.",
+      "position": 6
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:dsphase/retired",
+      "termCode": "retired",
+      "name": "Retired",
+      "description": "Withdrawn from use.",
+      "position": 7
+    }
+  ]
+}
