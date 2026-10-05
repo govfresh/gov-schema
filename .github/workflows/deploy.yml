@@ -58,6 +58,15 @@ jobs:
       - name: Validate examples (SHACL semantics)
         run: python3 tools/shacl.py examples/example-city
 
+      # Passing data proves nothing if a validator accepts everything. This runs a fixture
+      # that is wrong on purpose and fails unless every fault is flagged.
+      - name: Check validators reject invalid data
+        run: python3 tools/check-invalid.py
+
+      # Real publishers' data, converted by the adapters, validated by both tiers.
+      - name: Validate pilots (shape, references, SHACL)
+        run: npm run validate:pilot
+
       - uses: actions/upload-pages-artifact@v3
         if: github.ref == 'refs/heads/main'
         with:
