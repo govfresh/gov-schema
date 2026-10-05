@@ -142,6 +142,22 @@ export const STANDARDS = [
     url: 'https://openreferral.org/',
     description: 'The Human Services Data Specification, an open standard for describing health, human, and social services so referral directories can share listings.',
   },
+  {
+    slug: 'oc4ids',
+    name: 'Open Contracting for Infrastructure Data Standard',
+    aliases: ['OC4IDS'],
+    org: 'Open Contracting Partnership; CoST - the Infrastructure Transparency Initiative',
+    url: 'https://standard.open-contracting.org/infrastructure/latest/en/',
+    description: 'A standard for publishing data about infrastructure projects across their whole lifecycle, from identification through completion and maintenance.',
+  },
+  {
+    slug: 'gds-service-manual',
+    name: 'GOV.UK Service Manual',
+    aliases: ['GDS Service Manual'],
+    org: 'Government Digital Service (UK)',
+    url: 'https://www.gov.uk/service-manual',
+    description: 'Guidance for building government digital services, including the delivery phases of discovery, alpha, beta, live and retirement.',
+  },
 ]
 
 const escapeHtml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')

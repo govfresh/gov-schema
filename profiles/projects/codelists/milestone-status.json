@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@id": "https://schema.govfresh.com/v1/MilestoneStatus",
+  "@type": "DefinedTermSet",
+  "name": "Milestone status",
+  "description": "Whether a milestone has been reached. The values are those of the Open Contracting Data Standard. This is a separate list from project status, because 'paused' and 'cancelled' mean nothing for a single milestone.",
+  "url": "https://standard.open-contracting.org/latest/en/schema/codelists/",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:milestonestatus/scheduled",
+      "termCode": "scheduled",
+      "name": "Scheduled",
+      "description": "Expected on the due date. Not yet checked."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:milestonestatus/met",
+      "termCode": "met",
+      "name": "Met",
+      "description": "Reached. Record the date in dateMet."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:milestonestatus/notMet",
+      "termCode": "notMet",
+      "name": "Not met",
+      "description": "Checked and not reached."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "gs:milestonestatus/partiallyMet",
+      "termCode": "partiallyMet",
+      "name": "Partially met",
+      "description": "Checked and only partly reached."
+    }
+  ]
+}

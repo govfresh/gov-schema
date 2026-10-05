@@ -1,0 +1,144 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.govfresh.com/v1/projects/project.schema.json",
+  "title": "Project",
+  "description": "A government project or initiative. Subclass of schema:Project, so funder, member and parentOrganization are schema.org terms unchanged. Status (is work happening?) and phase (where in its lifecycle?) are separate: a digital service in beta and a bridge under construction are both 'active'. Only @id, @type and name are required, so a publisher with no project-management system can still publish a valid record. Project health, tasks and assignments are out of scope.",
+  "standards": [
+    "oc4ids",
+    "ocds",
+    "gds-service-manual"
+  ],
+  "type": "object",
+  "properties": {
+    "@context": {},
+    "@id": {
+      "type": "string",
+      "format": "iri",
+      "description": "This project's own dereferenceable identifier."
+    },
+    "@type": {
+      "const": "Project"
+    },
+    "name": {
+      "type": "string",
+      "description": "The project's title."
+    },
+    "description": {
+      "type": "string",
+      "description": "A plain-language summary of what the project is for."
+    },
+    "url": {
+      "type": "string",
+      "format": "iri",
+      "description": "Where this project's canonical human-readable page lives."
+    },
+    "identifier": {
+      "type": "array",
+      "description": "Scheme-qualified identifiers beyond @id, e.g. a capital-budget project number.",
+      "items": {
+        "$ref": "../_core/identifier.schema.json"
+      }
+    },
+    "status": {
+      "type": "string",
+      "description": "termCode from the `ProjectStatus` code list. Whether work is happening, not where in the lifecycle (see phase) or how well it is going (not modelled).",
+      "enum": [
+        "proposed",
+        "planned",
+        "active",
+        "paused",
+        "completed",
+        "cancelled"
+      ]
+    },
+    "phase": {
+      "type": "object",
+      "description": "A DefinedTerm from a lifecycle scheme. Any scheme may be used, so the term is referenced by @id rather than enumerated here. schemaGov publishes the `DigitalServicePhase` scheme; a publisher may reference its own. Whether the term belongs to the scheme it claims is checked by the SHACL shapes.",
+      "properties": {
+        "@id": {
+          "type": "string",
+          "format": "iri",
+          "description": "Absolute IRI of the phase term."
+        },
+        "@type": {
+          "const": "DefinedTerm"
+        },
+        "name": {
+          "type": "string"
+        },
+        "termCode": {
+          "type": "string"
+        },
+        "position": {
+          "type": "integer",
+          "description": "Order of the term within its scheme."
+        },
+        "inDefinedTermSet": {
+          "type": "string",
+          "format": "iri",
+          "description": "The lifecycle scheme this term belongs to."
+        }
+      },
+      "required": [
+        "@id"
+      ],
+      "additionalProperties": false
+    },
+    "startDate": {
+      "type": "string",
+      "format": "date",
+      "description": "When work began."
+    },
+    "expectedEndDate": {
+      "type": "string",
+      "format": "date",
+      "description": "When the project is currently planned to finish. endDate is the actual end."
+    },
+    "endDate": {
+      "type": "string",
+      "format": "date",
+      "description": "When the project actually ended."
+    },
+    "parentOrganization": {
+      "$ref": "../_core/reference.schema.json",
+      "description": "The organization responsible for the project."
+    },
+    "member": {
+      "type": "array",
+      "description": "Organizations taking part in the project.",
+      "items": {
+        "$ref": "../_core/reference.schema.json"
+      }
+    },
+    "funder": {
+      "type": "array",
+      "description": "Organizations funding the project. Amounts belong in the budget profile.",
+      "items": {
+        "$ref": "../_core/reference.schema.json"
+      }
+    },
+    "produces": {
+      "type": "array",
+      "description": "What the project delivers: a service, dataset, application, facility or document. Separate from the project, which can complete while its output stays in operation.",
+      "items": {
+        "$ref": "../_core/reference.schema.json"
+      }
+    },
+    "dateModified": {
+      "type": "string",
+      "format": "date",
+      "description": "The date this record was last reported or confirmed as accurate. A project's status, phase and forecast dates are true as of a date, and without one a consumer cannot tell a current record from a stale one. For a record converted from a dated snapshot, the snapshot date."
+    },
+    "sourceDataset": {
+      "type": "string",
+      "format": "iri",
+      "description": "The `Dataset` this record was published as part of."
+    }
+  },
+  "required": [
+    "@id",
+    "@type",
+    "name"
+  ],
+  "additionalProperties": true
+}

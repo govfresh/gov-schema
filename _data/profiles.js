@@ -22,6 +22,7 @@ const IMPLEMENTED = [
   { dir: 'permits', slug: 'permits', name: 'Permits and licences', source: 'schema.org, BLDS, national equivalents', description: 'How building and other permits are described, from application through approval or denial.' },
   { dir: 'elections', slug: 'elections', name: 'Elections and results', source: 'schema.org, NIST SP 1500-100, VIP', description: 'How elections, candidates, and results are described so outcomes can be reported consistently.' },
   { dir: 'services', slug: 'services', name: 'Service catalogue', source: 'schema.org, Open Referral / HSDS', description: 'How the services a government offers are described so residents can find and understand them.' },
+  { dir: 'projects', slug: 'projects', name: 'Projects and initiatives', source: 'schema.org, OC4IDS, OCDS, GOV.UK Service Manual', description: 'How government projects are described, from where they stand in their lifecycle to their milestones and what they deliver.' },
 ]
 const PLANNED = []
 
