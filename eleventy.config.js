@@ -30,6 +30,10 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginNavigation)
   eleventyConfig.addPlugin(IdAttributePlugin)
 
+  // lf-ui's shared includes are Jekyll-flavored Liquid ({% include x.html a=b %},
+  // include.a). The layout is Liquid so they render here unmodified.
+  eleventyConfig.setLiquidOptions({ jekyllInclude: true, dynamicPartials: false })
+
   // eleventy-plugin-syntaxhighlight only tokenizes {% highlight %} template
   // tags, not content loaded at build time from a variable (examples/
   // index.njk's f.raw, read from disk in _data/examples.js) — this filter
@@ -236,7 +240,7 @@ export default async function (eleventyConfig) {
 }
 
 export const config = {
-  templateFormats: ['md', 'njk', 'html'],
+  templateFormats: ['md', 'njk', 'html', 'liquid'],
   markdownTemplateEngine: 'njk',
   htmlTemplateEngine: 'njk',
   dir: {

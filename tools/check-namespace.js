@@ -9,7 +9,7 @@ import path from 'node:path'
 
 const ROOT = path.resolve(import.meta.dirname, '..')
 const SITE = path.join(ROOT, '_site')
-const BASE = JSON.parse(fs.readFileSync(path.join(ROOT, '_data/site.json'), 'utf8')).url
+const BASE = JSON.parse(fs.readFileSync(path.join(ROOT, '_lib/site.json'), 'utf8')).url
 
 const expected = new Set()
 
