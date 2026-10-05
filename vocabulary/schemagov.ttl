@@ -8,7 +8,7 @@
 
 gs: a owl:Ontology ;
     dcterms:title "schemaGov core vocabulary" ;
-    dcterms:description "Terms required to describe government entities that schema.org does not provide. Every term here is a subclass or subproperty of a schema.org term, so a consumer that understands only schema.org still reads a valid document." ;
+    dcterms:description "Terms required to describe government entities that schema.org does not provide. A class here is a subclass of a schema.org class wherever one fits, and a property names the schema.org types it applies to and returns, so a consumer that understands only schema.org still reads a valid document." ;
     dcterms:publisher <https://govfresh.com> ;
     owl:versionInfo "1.0.0-draft" .
 
@@ -21,6 +21,9 @@ gs: a owl:Ontology ;
 ##    legislation status         use schema:legislationLegalForce
 ##    legislation amendments     use schema:legislationAmends / Repeals / Consolidates / Changes
 ##    meeting recurrence         use schema:eventSchedule -> schema:Schedule
+##    project updates            use schema:Article / CreativeWork + schema:about -> gs:Project
+##    project organizations      use schema:parentOrganization / member / funder
+##    project lifecycle phase    use schema:DefinedTerm in a schema:DefinedTermSet
 
 #################  Properties  #################
 
@@ -1015,3 +1018,65 @@ gs:free a rdf:Property ; schema:domainIncludes gs:ServiceCost ; schema:rangeIncl
     rdfs:label "free" ; rdfs:comment "Whether the service is free. Stated explicitly, because an absent cost reads as unknown rather than as nil." .
 gs:optional a rdf:Property ; schema:domainIncludes gs:RequiredDocument ; schema:rangeIncludes schema:Boolean ;
     rdfs:label "optional" ; rdfs:comment "True where an alternative document is accepted." .
+
+
+#################  projects profile  #################
+
+gs:Project a rdfs:Class ;
+    rdfs:label "Project" ;
+    rdfs:comment "A government project or initiative: bounded work with a start, an intended end, and something it is meant to produce. Subclass of schema:Project, which sits under schema:Organization, so funder, member and parentOrganization are inherited unchanged. Minted so a consumer can tell a schemaGov project record from any other schema:Project. Status and lifecycle phase are separate properties: status says whether work is happening, phase says where in its lifecycle it is." ;
+    rdfs:subClassOf schema:Project .
+
+gs:Milestone a rdfs:Class ;
+    rdfs:label "Milestone" ;
+    rdfs:comment "A dated point of progress in a project. schema.org has no milestone type; schema:Event is the nearest base. Linked to its project with schema:about, because schema:superEvent accepts only an Event. Status and dates follow the Open Contracting Data Standard milestone." ;
+    rdfs:subClassOf schema:Event .
+
+gs:projectStatus a rdf:Property ;
+    rdfs:label "project status" ;
+    rdfs:comment "Whether work on the project is currently happening: proposed, planned, active, paused, completed or cancelled. schema:ActionStatusType is defined for Action and has no paused, cancelled or proposed, so a dedicated code list is used. Lifecycle phase is not a status; see gs:projectPhase. Health (on track, at risk) is deliberately not modelled." ;
+    schema:domainIncludes gs:Project ;
+    schema:rangeIncludes schema:DefinedTerm .
+
+gs:projectPhase a rdf:Property ;
+    rdfs:label "project phase" ;
+    rdfs:comment "Where the project is in its lifecycle, as a schema:DefinedTerm belonging to a schema:DefinedTermSet that names the lifecycle scheme. Schemes differ by kind of project (a digital service moves through discovery to live, a capital project through design to construction), so no single list is mandated and publishers may reference their own." ;
+    schema:domainIncludes gs:Project ;
+    schema:rangeIncludes schema:DefinedTerm .
+
+gs:expectedEndDate a rdf:Property ;
+    rdfs:label "expected end date" ;
+    rdfs:comment "When the project is currently planned to finish. schema:endDate on the same project is the actual end. OC4IDS period.endDate (planned) versus completion.endDate (actual)." ;
+    schema:domainIncludes gs:Project ;
+    schema:rangeIncludes schema:Date .
+
+gs:produces a rdf:Property ;
+    rdfs:label "produces" ;
+    rdfs:comment "Something the project delivers or is delivering: a service, dataset, application, facility or document. Kept apart from the project because the project can finish while its output stays in operation. schema:serviceOutput points from a Service to what it generates, which is the wrong direction, and schema:result applies only to Action. No schema.org superproperty exists." ;
+    schema:domainIncludes gs:Project ;
+    schema:rangeIncludes schema:Thing .
+
+gs:milestoneStatus a rdf:Property ;
+    rdfs:label "milestone status" ;
+    rdfs:comment "Whether a milestone has been reached: scheduled, met, notMet or partiallyMet. Values are those of the Open Contracting Data Standard milestone status." ;
+    schema:domainIncludes gs:Milestone ;
+    schema:rangeIncludes schema:DefinedTerm .
+
+gs:dueDate a rdf:Property ;
+    rdfs:label "due date" ;
+    rdfs:comment "When the milestone is scheduled to be reached. OCDS milestone.dueDate." ;
+    schema:domainIncludes gs:Milestone ;
+    schema:rangeIncludes schema:Date .
+
+gs:dateMet a rdf:Property ;
+    rdfs:label "date met" ;
+    rdfs:comment "When the milestone was actually reached. OCDS milestone.dateMet." ;
+    schema:domainIncludes gs:Milestone ;
+    schema:rangeIncludes schema:Date .
+
+gs:ProjectStatus a schema:DefinedTermSet ; schema:name "Project status" ;
+    rdfs:comment "Whether work on a project is happening now. Not the lifecycle phase, and not project health." .
+gs:MilestoneStatus a schema:DefinedTermSet ; schema:name "Milestone status" ;
+    rdfs:comment "Whether a milestone has been reached. The values are those of the Open Contracting Data Standard." .
+gs:DigitalServicePhase a schema:DefinedTermSet ; schema:name "Digital service phase" ;
+    rdfs:comment "The lifecycle of a digital government service, after the GOV.UK Service Manual. For digital services only." .
