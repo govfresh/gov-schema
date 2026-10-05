@@ -3,7 +3,8 @@
     "file": "/assets/img/brand/logo.svg",
     "width": 962,
     "height": 154,
-    "size": "short"
+    "size": "short",
+    "mobile_file": "/assets/img/favicon/favicon.svg"
   },
   "title": "schemaGov",
   "titleShort": "schemaGov",
@@ -23,7 +24,8 @@
   "feedback": {
     "text": "Help make schemaGov better:",
     "link": "https://github.com/govfresh/schemaGov/issues/new",
-    "link_text": "Open an issue"
+    "link_text": "Open an issue",
+    "icon": "fa-solid fa-lightbulb"
   },
   "cta_banner": {
     "links": [
