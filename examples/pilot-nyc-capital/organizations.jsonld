@@ -1,0 +1,839 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/dot",
+      "@type": "GovernmentOrganization",
+      "name": "Department of Transportation",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "DOT"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      },
+      "alternateName": [
+        "DOT"
+      ]
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/dep",
+      "@type": "GovernmentOrganization",
+      "name": "Department of Environmental Protection",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "DEP"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      },
+      "alternateName": [
+        "DEP"
+      ]
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/ddc",
+      "@type": "GovernmentOrganization",
+      "name": "Department of Design and Construction",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "DDC"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      },
+      "alternateName": [
+        "DDC"
+      ]
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/transportation",
+      "@type": "GovernmentOrganization",
+      "name": "Transportation",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "Transportation"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/trans-env-protection",
+      "@type": "GovernmentOrganization",
+      "name": "Trans. & Env. Protection",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "Trans. & Env. Protection"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/doitt",
+      "@type": "GovernmentOrganization",
+      "name": "Department of Information Technology and Telecommunications",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "DOITT"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      },
+      "alternateName": [
+        "DOITT"
+      ]
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/fdny",
+      "@type": "GovernmentOrganization",
+      "name": "Fire Department of the City of New York",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "FDNY"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      },
+      "alternateName": [
+        "FDNY"
+      ]
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/nypd",
+      "@type": "GovernmentOrganization",
+      "name": "New York City Police Department",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "NYPD"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      },
+      "alternateName": [
+        "NYPD"
+      ]
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/sanitation",
+      "@type": "GovernmentOrganization",
+      "name": "Sanitation",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "Sanitation"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/environmental-protection",
+      "@type": "GovernmentOrganization",
+      "name": "Environmental Protection",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "Environmental Protection"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/hhc",
+      "@type": "GovernmentOrganization",
+      "name": "HHC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "HHC"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/h-h",
+      "@type": "GovernmentOrganization",
+      "name": "H+H",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "H+H"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/edc",
+      "@type": "GovernmentOrganization",
+      "name": "New York City Economic Development Corporation",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "EDC"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      },
+      "alternateName": [
+        "EDC"
+      ]
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/dcla",
+      "@type": "GovernmentOrganization",
+      "name": "DCLA",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "DCLA"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/dcas",
+      "@type": "GovernmentOrganization",
+      "name": "Department of Citywide Administrative Services",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "DCAS"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      },
+      "alternateName": [
+        "DCAS"
+      ]
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/dpr",
+      "@type": "GovernmentOrganization",
+      "name": "Department of Parks and Recreation",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "DPR"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      },
+      "alternateName": [
+        "DPR"
+      ]
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/dsny",
+      "@type": "GovernmentOrganization",
+      "name": "Department of Sanitation",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "DSNY"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      },
+      "alternateName": [
+        "DSNY"
+      ]
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/mayor-s-office",
+      "@type": "GovernmentOrganization",
+      "name": "Mayor's Office",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "Mayor's Office"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/police",
+      "@type": "GovernmentOrganization",
+      "name": "Police",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "Police"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/bws",
+      "@type": "GovernmentOrganization",
+      "name": "BWS",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "BWS"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/orr",
+      "@type": "GovernmentOrganization",
+      "name": "ORR",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "ORR"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/libraries-qbpl",
+      "@type": "GovernmentOrganization",
+      "name": "Libraries-QBPL",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "Libraries-QBPL"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/health",
+      "@type": "GovernmentOrganization",
+      "name": "Health",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "Health"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/parks-recreation",
+      "@type": "GovernmentOrganization",
+      "name": "Parks & Recreation",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "Parks & Recreation"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/libraries-bpl",
+      "@type": "GovernmentOrganization",
+      "name": "Libraries-BPL",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "Libraries-BPL"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/sca",
+      "@type": "GovernmentOrganization",
+      "name": "School Construction Authority",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "SCA"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      },
+      "alternateName": [
+        "SCA"
+      ]
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/doe",
+      "@type": "GovernmentOrganization",
+      "name": "Department of Education",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "DOE"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      },
+      "alternateName": [
+        "DOE"
+      ]
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/cultural-affairs",
+      "@type": "GovernmentOrganization",
+      "name": "Cultural Affairs",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "Cultural Affairs"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/wwc",
+      "@type": "GovernmentOrganization",
+      "name": "WWC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "WWC"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/dohmh",
+      "@type": "GovernmentOrganization",
+      "name": "Department of Health and Mental Hygiene",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "DOHMH"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      },
+      "alternateName": [
+        "DOHMH"
+      ]
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/nypd-fdny",
+      "@type": "GovernmentOrganization",
+      "name": "NYPD & FDNY",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "NYPD & FDNY"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/nyc-parks",
+      "@type": "GovernmentOrganization",
+      "name": "NYC Parks",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "NYC Parks"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/libraries-nypl",
+      "@type": "GovernmentOrganization",
+      "name": "Libraries-NYPL",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "Libraries-NYPL"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/fire",
+      "@type": "GovernmentOrganization",
+      "name": "Fire",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "Fire"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/corrections",
+      "@type": "GovernmentOrganization",
+      "name": "Corrections",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "Corrections"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/health-hospitals-corporation-hhc",
+      "@type": "GovernmentOrganization",
+      "name": "Health & Hospitals Corporation (HHC)",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "Health & Hospitals Corporation (HHC)"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/mayors-office-of-resiliency-mor",
+      "@type": "GovernmentOrganization",
+      "name": "Mayors Office of Resiliency (MOR)",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "Mayors Office of Resiliency (MOR)"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/hpd",
+      "@type": "GovernmentOrganization",
+      "name": "Department of Housing Preservation and Development",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "HPD"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      },
+      "alternateName": [
+        "HPD"
+      ]
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/bwt",
+      "@type": "GovernmentOrganization",
+      "name": "BWT",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "BWT"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/city-hall",
+      "@type": "GovernmentOrganization",
+      "name": "City Hall",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "City Hall"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/human-services",
+      "@type": "GovernmentOrganization",
+      "name": "Human Services",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "Human Services"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/child-services",
+      "@type": "GovernmentOrganization",
+      "name": "Child Services",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "Child Services"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/homeless-services",
+      "@type": "GovernmentOrganization",
+      "name": "Homeless Services",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "Homeless Services"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    },
+    {
+      "@id": "https://data.cityofnewyork.us/id/organization/dcas-cts",
+      "@type": "GovernmentOrganization",
+      "name": "DCAS/CTS",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:nyc-agency-code",
+          "value": "DCAS/CTS"
+        }
+      ],
+      "organizationClassification": "department",
+      "governmentLevel": "municipal",
+      "areaServed": {
+        "@id": "https://data.cityofnewyork.us/id/jurisdiction/new-york-city",
+        "name": "New York City"
+      }
+    }
+  ]
+}
