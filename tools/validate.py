@@ -19,7 +19,7 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CORE = ROOT / "profiles" / "_core" / "schema"
-PROFILE_DIRS = [ROOT / "profiles" / d / "schema" for d in ("_core", "org", "code", "meetings", "requests", "budget", "procurement", "catalog", "alerts", "permits", "elections", "services")]
+PROFILE_DIRS = [ROOT / "profiles" / d / "schema" for d in ("_core", "org", "code", "meetings", "requests", "budget", "procurement", "catalog", "alerts", "permits", "elections", "services", "projects")]
 
 # @type -> schema file. Roles are validated where they are nested, not standalone.
 SCHEMA_FOR = {
@@ -59,6 +59,8 @@ SCHEMA_FOR = {
     "Election": "election.schema.json",
     "Contest": "contest.schema.json",
     "PoliticalParty": "political-party.schema.json",
+    "Project": "project.schema.json",
+    "Milestone": "milestone.schema.json",
 }
 
 
@@ -119,11 +121,21 @@ def main(argv):
         errors.append(f"duplicate @id {nid}\n    declared in {first} and {second}")
 
     # --- reference integrity -------------------------------------------------
+    # Terms in a published code list are declared once, in profiles/*/codelists, so a
+    # reference to one (a project's phase) is not dangling just because the fixture
+    # does not repeat it.
+    published_terms = set()
+    for cl in ROOT.glob("profiles/*/codelists/*.json"):
+        for term in json.loads(cl.read_text()).get("hasDefinedTerm", []):
+            tid = term.get("@id", "")
+            if tid.startswith("gs:"):
+                published_terms.add("https://schema.govfresh.com/v1/" + tid[3:])
+
     refs = []
     for nid, node in entities.items():
         collect_refs(node, nid, refs)
     for target, where in refs:
-        if target not in entities:
+        if target not in entities and target not in published_terms:
             errors.append(f"dangling reference -> {target}\n    from {where}")
 
     # --- reporter privacy ----------------------------------------------------
@@ -297,13 +309,35 @@ def main(argv):
                 resources.append((contents["$id"], Resource.from_contents(contents)))
         registry = Registry().with_resources(resources)
 
+        # An Organization with no `role` is not a contracting party. When a project lists it
+        # as a member or funder it is just a named organization, so it is not held to the
+        # procurement Party schema (which requires an identifier and a role).
+        project_orgs = set()
+        for node in entities.values():
+            ts = node.get("@type")
+            if "Project" in (ts if isinstance(ts, list) else [ts]):
+                for key in ("member", "funder", "parentOrganization"):
+                    val = node.get(key) or []
+                    for ref in (val if isinstance(val, list) else [val]):
+                        if isinstance(ref, dict) and ref.get("@id"):
+                            project_orgs.add(ref["@id"])
+
         checked = 0
         for nid, node in entities.items():
             types = node.get("@type")
             types = types if isinstance(types, list) else [types]
+            if types == ["Organization"] and nid in project_orgs and "role" not in node:
+                for req in ("@id", "name"):
+                    if not node.get(req):
+                        errors.append(f"{nid}\n    (root): '{req}' is a required property")
+                checked += 1
+                continue
             name = next((SCHEMA_FOR[t] for t in types if t in SCHEMA_FOR), None)
             if not name:
-                notes.append(f"no schema mapped for @type {types} ({nid})")
+                # Lifecycle schemes and updates are checked by the SHACL shapes, not by a
+                # JSON Schema, so they are not worth a note each.
+                if not set(types) <= {"DefinedTerm", "DefinedTermSet", "Article"}:
+                    notes.append(f"no schema mapped for @type {types} ({nid})")
                 continue
             # Two profiles define service.schema.json for the same type; the
             # services/ definition is canonical because it is the superset.
@@ -568,6 +602,37 @@ def main(argv):
                 warnings.append(
                     f"{nid}: permit is {node.get('permitStatus')} with no lifecycle dates at "
                     f"all; processing time cannot be derived")
+
+    # --- projects ----------------------------------------------------------------
+    # Dates drive the timelines applications derive from this data, so an impossible
+    # sequence fails. Missing optional data does not: a minimal project is valid.
+    for nid, node in entities.items():
+        types_ = node.get("@type")
+        types_ = types_ if isinstance(types_, list) else [types_]
+        if "Project" in types_:
+            start = parse_dt(node.get("startDate"))
+            expected = parse_dt(node.get("expectedEndDate"))
+            end = parse_dt(node.get("endDate"))
+            if start and end and end < start:
+                errors.append(
+                    f"project ended before it started: {nid}\n"
+                    f"    started {node.get('startDate')}, ended {node.get('endDate')}")
+            if start and expected and expected < start:
+                errors.append(
+                    f"project is expected to end before it started: {nid}\n"
+                    f"    started {node.get('startDate')}, "
+                    f"expected end {node.get('expectedEndDate')}")
+            if node.get("status") in ("completed", "cancelled") and not end:
+                warnings.append(
+                    f"{nid}: project is {node.get('status')} but has no endDate")
+        if "Milestone" in types_:
+            status = node.get("status")
+            if node.get("dateMet") and status in ("scheduled", "notMet"):
+                errors.append(
+                    f"milestone has dateMet but is {status}: {nid}\n"
+                    f"    a milestone with a date it was met is met or partiallyMet")
+            if status == "met" and not node.get("dateMet"):
+                warnings.append(f"{nid}: milestone is met but has no dateMet")
 
     # --- discovery manifest ---------------------------------------------------
     # The manifest is the routing table. A duplicate or misplaced entry makes a

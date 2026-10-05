@@ -1,0 +1,121 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://invalid.example/id/organization/o",
+      "@type": "Organization",
+      "name": "Org",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "o"
+        }
+      ],
+      "role": [
+        "supplier"
+      ]
+    },
+    {
+      "@id": "https://invalid.example/id/project/ok",
+      "@type": "Project",
+      "name": "A valid project to point at"
+    },
+    {
+      "@id": "https://invalid.example/id/project/bad-status",
+      "@type": "Project",
+      "name": "Unknown status",
+      "status": "blocked"
+    },
+    {
+      "@id": "https://invalid.example/id/project/bad-date",
+      "@type": "Project",
+      "name": "Malformed date",
+      "startDate": "15/01/2026"
+    },
+    {
+      "@id": "https://invalid.example/id/project/bad-phase-shape",
+      "@type": "Project",
+      "name": "Phase as free text",
+      "phase": "beta"
+    },
+    {
+      "@id": "https://invalid.example/id/project/ms-missing",
+      "@type": "Milestone"
+    },
+    {
+      "@id": "https://invalid.example/id/project/backwards",
+      "@type": "Project",
+      "name": "Ends before it starts",
+      "startDate": "2026-06-01",
+      "endDate": "2026-01-01"
+    },
+    {
+      "@id": "https://invalid.example/id/project/ms-scheduled-met",
+      "@type": "Milestone",
+      "name": "Scheduled but dated met",
+      "status": "scheduled",
+      "dueDate": "2026-08-01",
+      "dateMet": "2026-08-02",
+      "about": {
+        "@id": "https://invalid.example/id/project/ok"
+      }
+    },
+    {
+      "@id": "https://invalid.example/id/project/dangling",
+      "@type": "Project",
+      "name": "Unknown parent",
+      "parentOrganization": {
+        "@id": "https://invalid.example/id/organization/missing"
+      }
+    },
+    {
+      "@id": "https://invalid.example/id/project/phase-is-org",
+      "@type": "Project",
+      "name": "Phase points at an organization",
+      "phase": {
+        "@id": "https://invalid.example/id/organization/o"
+      }
+    },
+    {
+      "@id": "https://invalid.example/id/project/phase-no-scheme",
+      "@type": "Project",
+      "name": "Phase belongs to no scheme",
+      "phase": {
+        "@id": "https://invalid.example/id/term/orphan",
+        "@type": "DefinedTerm",
+        "name": "Orphan"
+      }
+    },
+    {
+      "@id": "https://invalid.example/id/project/phase-wrong-scheme",
+      "@type": "Project",
+      "name": "Phase claims the wrong scheme",
+      "phase": {
+        "@id": "https://schema.govfresh.com/v1/dsphase/beta",
+        "inDefinedTermSet": "https://invalid.example/id/scheme/other"
+      }
+    },
+    {
+      "@id": "https://invalid.example/id/project/owner-is-place",
+      "@type": "Project",
+      "name": "Responsible organization is a place",
+      "parentOrganization": {
+        "@id": "https://invalid.example/id/place/p"
+      }
+    },
+    {
+      "@id": "https://invalid.example/id/place/p",
+      "@type": "Place",
+      "name": "A place"
+    },
+    {
+      "@id": "https://invalid.example/id/project/ms-about-org",
+      "@type": "Milestone",
+      "name": "Milestone about an organization",
+      "about": {
+        "@id": "https://invalid.example/id/organization/o"
+      }
+    }
+  ]
+}

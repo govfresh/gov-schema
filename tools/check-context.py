@@ -31,6 +31,7 @@ FIXTURES = [
     "examples/example-city/organizations.jsonld",
     "examples/example-city/meetings.jsonld",
     "examples/example-city/budget.jsonld",
+    "examples/example-city/projects.jsonld",
     "examples/pilot-uk-contracts/procurement.jsonld",
     "examples/pilot-ie-datasets/catalog.jsonld",
 ]

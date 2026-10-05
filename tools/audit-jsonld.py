@@ -92,7 +92,9 @@ def main():
         return 0
 
     ctx = load_ctx()
-    fixtures = sorted(ROOT.glob("examples/**/*.jsonld"))
+    # _invalid is wrong on purpose (tools/check-invalid.py); auditing it would only report
+    # the faults it was built to contain.
+    fixtures = sorted(f for f in ROOT.glob("examples/**/*.jsonld") if "_invalid" not in f.parts)
     failures = []
     warnings = []
 
